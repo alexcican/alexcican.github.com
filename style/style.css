@@ -22,7 +22,7 @@ body {
 }
 
 /* when navigation is shown, don’t allow scrolling of content */
-.noScroll, .sliderRemoveScroll {
+.noScroll, .sliderRemoveScroll, .notFoundNoScroll {
   -ms-touch-action: none; /* no scroll for mobile IE 10 */
   overflow: hidden;
 }
