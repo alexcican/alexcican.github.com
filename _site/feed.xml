@@ -11,8 +11,8 @@
         <item>
           <title>How to code a Teehan+Lax navigation</title>
           <pubDate>2013-09-25T00:00:00+03:00</pubDate>
-          <link>http://alexcican.com/post/teehan-lax-navigation/</link>
-          <guid>http://alexcican.com/post/teehan-lax-navigation/</guid>
+          <link>http://localhost:4000//post/teehan-lax-navigation/</link>
+          <guid>http://localhost:4000//post/teehan-lax-navigation/</guid>
           <description>&lt;p&gt;This type of navigation was first seen on the &lt;a href=&quot;http://www.teehanlax.com&quot;&gt;Teehan+Lax&lt;/a&gt; website, then it became quite popular and got adopted by several other websites (&lt;a href=&quot;http://mailchimp.com&quot;&gt;MailChimp&lt;/a&gt;, &lt;a href=&quot;https://www.wunderlist.com/&quot;&gt;Wunderlist&lt;/a&gt;). The navigation bar works as follows: it’s being hidden once you start scrolling. As soon as you scroll up a few pixels it is shown. After that, when you scroll down again it gets hidden. When you have reached the bottom of the page the navigation bar reappears.&lt;/p&gt;
 
 &lt;!--more--&gt;
@@ -284,8 +284,8 @@ nav.expanded #navigation {
         <item>
           <title>Design for the future, not the past</title>
           <pubDate>2013-08-15T00:00:00+03:00</pubDate>
-          <link>http://alexcican.com/post/design-future-not-past/</link>
-          <guid>http://alexcican.com/post/design-future-not-past/</guid>
+          <link>http://localhost:4000//post/design-future-not-past/</link>
+          <guid>http://localhost:4000//post/design-future-not-past/</guid>
           <description>&lt;p&gt;In the summer of 2013 I visited my birthplace, Romania. I rented a 2012 Dacia Logan (Dacia cars are made by Romanians), because it was the cheapest car available. I hated it. There were hundreds of usability flaws, mainly with the positioning of the buttons. One that stuck out was the car’s horn which is not on the steering wheel but to the left of the steering wheel as a button, which you have to push in, located on the tip of the light switch barrel.&lt;/p&gt;
 
 &lt;!--more--&gt;
@@ -348,8 +348,8 @@ nav.expanded #navigation {
         <item>
           <title>Designing the experience</title>
           <pubDate>2013-07-02T00:00:00+03:00</pubDate>
-          <link>http://alexcican.com/post/designing-experience/</link>
-          <guid>http://alexcican.com/post/designing-experience/</guid>
+          <link>http://localhost:4000//post/designing-experience/</link>
+          <guid>http://localhost:4000//post/designing-experience/</guid>
           <description>&lt;p&gt;It doesn’t matter if you have a beautifully designed button in the wrong place—it will frustrate the user and curse your decision of placing the button there. It is important to think how the user will experience that button, interface, website, product, and in what context.&lt;/p&gt;
 
 &lt;!--more--&gt;
@@ -417,8 +417,8 @@ nav.expanded #navigation {
         <item>
           <title>Creative freedom</title>
           <pubDate>2013-06-25T00:00:00+03:00</pubDate>
-          <link>http://alexcican.com/post/creative-freedom/</link>
-          <guid>http://alexcican.com/post/creative-freedom/</guid>
+          <link>http://localhost:4000//post/creative-freedom/</link>
+          <guid>http://localhost:4000//post/creative-freedom/</guid>
           <description>&lt;p&gt;Designers are &lt;strong&gt;creative people&lt;/strong&gt;. We are messy. I’m not talking about your design process. You might have a factory-like process, be very organised, note everything in your Moleskine notebook, draw perfect wireframes, keep your layers organised, and stuff like that. This depends on the character of each person. But that’s not how ideas are formed.&lt;/p&gt;
 
 &lt;!--more--&gt;
@@ -450,8 +450,8 @@ nav.expanded #navigation {
         <item>
           <title>Burnout</title>
           <pubDate>2013-06-21T00:00:00+03:00</pubDate>
-          <link>http://alexcican.com/post/burnout/</link>
-          <guid>http://alexcican.com/post/burnout/</guid>
+          <link>http://localhost:4000//post/burnout/</link>
+          <guid>http://localhost:4000//post/burnout/</guid>
           <description>&lt;blockquote&gt;&lt;p&gt;All work and no play makes Jack a dull boy.&lt;/p&gt;&lt;/blockquote&gt;
 
 &lt;p&gt;You know that feeling when you’ve been working a long time on something and you get burned out. You don’t have the energy to keep going, and you need a break. Some say that as long as you work normal hours, and not push yourself you’ll be fine.&lt;/p&gt;
@@ -485,8 +485,8 @@ nav.expanded #navigation {
         <item>
           <title>Inspiration</title>
           <pubDate>2013-06-18T00:00:00+03:00</pubDate>
-          <link>http://alexcican.com/post/inspiration/</link>
-          <guid>http://alexcican.com/post/inspiration/</guid>
+          <link>http://localhost:4000//post/inspiration/</link>
+          <guid>http://localhost:4000//post/inspiration/</guid>
           <description>&lt;blockquote&gt;&lt;p&gt;“Inspiration is for amateurs—the rest of us just show up and get to work” - Chuck Close&lt;/p&gt;&lt;/blockquote&gt;
 
 &lt;!--more--&gt;
@@ -519,8 +519,8 @@ nav.expanded #navigation {
         <item>
           <title>Doing the work</title>
           <pubDate>2013-06-13T00:00:00+03:00</pubDate>
-          <link>http://alexcican.com/post/doing-work/</link>
-          <guid>http://alexcican.com/post/doing-work/</guid>
+          <link>http://localhost:4000//post/doing-work/</link>
+          <guid>http://localhost:4000//post/doing-work/</guid>
           <description>&lt;p&gt;Everything you’ve learned so far, won’t matter unless you pick up your pencil, your guitar, your mouse, and start doing the work. Period. You have to do the work because nobody else will do it for you.&lt;/p&gt;
 
 &lt;!--more--&gt;
@@ -568,8 +568,8 @@ write tutorial blog post
         <item>
           <title>The experience should justify design aesthetics</title>
           <pubDate>2013-06-11T00:00:00+03:00</pubDate>
-          <link>http://alexcican.com/post/experience-justifies-aesthetics/</link>
-          <guid>http://alexcican.com/post/experience-justifies-aesthetics/</guid>
+          <link>http://localhost:4000//post/experience-justifies-aesthetics/</link>
+          <guid>http://localhost:4000//post/experience-justifies-aesthetics/</guid>
           <description>&lt;p&gt;Whether you are an advocate of flat design or skeuomorphic design, you must acknowledge something: these are &lt;strong&gt;aesthetics&lt;/strong&gt;. They depict &lt;em&gt;how&lt;/em&gt; something looks. But design is more fundamental. It goes beyond flat vs skeuomorphic, golden ratios, “clean” UI, Pantone colour palette, 960 grids, and so on. Design is a form of problem solving. You can’t be following trends blindly, and adopting a certain aesthetic just because…&lt;/p&gt;
 
 &lt;!--more--&gt;
@@ -603,8 +603,8 @@ write tutorial blog post
         <item>
           <title>Standing out from the digital crowd</title>
           <pubDate>2013-03-29T00:00:00+02:00</pubDate>
-          <link>http://alexcican.com/post/standing-out/</link>
-          <guid>http://alexcican.com/post/standing-out/</guid>
+          <link>http://localhost:4000//post/standing-out/</link>
+          <guid>http://localhost:4000//post/standing-out/</guid>
           <description>&lt;p&gt;Have you noticed? The most popular websites nowadays be it Facebook, Twitter, YouTube, Instagram, revolve around a feed. A feed consisting of status updates, photos, videos, posts, what have you. Alongside that content you also find your name, and your avatar. That small square arrangement of pixels is crucial in identifying your post from the one above or below you. Fail to grab the attention of the reader, with your small avatar, and you’re lost in the background. What benefit does that new follower bring you, if they “can’t see” your post in their feed?&lt;/p&gt;
 
 &lt;!--more--&gt;
@@ -669,8 +669,8 @@ write tutorial blog post
         <item>
           <title>Must-have OS X apps for designers and developers</title>
           <pubDate>2013-03-27T00:00:00+02:00</pubDate>
-          <link>http://alexcican.com/post/osx-apps/</link>
-          <guid>http://alexcican.com/post/osx-apps/</guid>
+          <link>http://localhost:4000//post/osx-apps/</link>
+          <guid>http://localhost:4000//post/osx-apps/</guid>
           <description>&lt;p&gt;Yep, it’s the post every Mac user has to publish at least once in their lifetime. But hear me out now; If you’re a designer or developer, you might this list useful.&lt;/p&gt;
 
 &lt;!--more--&gt;
@@ -811,8 +811,8 @@ write tutorial blog post
         <item>
           <title>Design a pixel-perfect website</title>
           <pubDate>2013-03-26T00:00:00+02:00</pubDate>
-          <link>http://alexcican.com/post/pixel-perfect/</link>
-          <guid>http://alexcican.com/post/pixel-perfect/</guid>
+          <link>http://localhost:4000//post/pixel-perfect/</link>
+          <guid>http://localhost:4000//post/pixel-perfect/</guid>
           <description>&lt;p&gt;Pixel perfection. Every designer worth its salt strives to make its designs pixel perfect. Unless they’re designing for the web. The web is diverse, fluid, overwhelming, even chaotic. You can browse the web from a tablet, a mobile, on Apple iOS 4 or Android Ice Cream Sandwich, a retina device, an old monitor, using Google Chrome, or Internet Explorer, and so on.&lt;/p&gt;
 
 &lt;!--more--&gt;
@@ -917,8 +917,8 @@ write tutorial blog post
         <item>
           <title>Making your website look pretty on retina devices</title>
           <pubDate>2013-02-07T00:00:00+02:00</pubDate>
-          <link>http://alexcican.com/post/retina-website-tutorial/</link>
-          <guid>http://alexcican.com/post/retina-website-tutorial/</guid>
+          <link>http://localhost:4000//post/retina-website-tutorial/</link>
+          <guid>http://localhost:4000//post/retina-website-tutorial/</guid>
           <description>&lt;p&gt;I thought I’d mix it up a bit and instead of writing a tutorial, I decided to make a video screencast. In this video tutorial I’ll show you some modern practices on how to make your website look great on retina devices, such as an iPhone 5 or a retina MacBook Pro.&lt;/p&gt;
 
 &lt;!--more--&gt;
@@ -957,8 +957,8 @@ write tutorial blog post
         <item>
           <title>Displaying recent posts on Scriptogr.am</title>
           <pubDate>2013-01-09T00:00:00+02:00</pubDate>
-          <link>http://alexcican.com/post/recent-posts-scriptogram/</link>
-          <guid>http://alexcican.com/post/recent-posts-scriptogram/</guid>
+          <link>http://localhost:4000//post/recent-posts-scriptogram/</link>
+          <guid>http://localhost:4000//post/recent-posts-scriptogram/</guid>
           <description>&lt;p&gt;In the previous design of this blog I used to show a list with my latest three articles. There is no option to do that in Scriptogr.am. People kept asking me how I did it and if I could share with them the script that shows the latest articles. When I responded that I do it manually—there’s no script I just go and edit the theme file every time—they were disappointed. But it keeps coming up in my &lt;a href=&quot;https://twitter.com/sican&quot;&gt;Twitter feed&lt;/a&gt;. So I spent an hour last night writing a script that reads your blog’s &lt;code&gt;RSS&lt;/code&gt; feed and shows the latest three posts.&lt;/p&gt;
 
 &lt;!--more--&gt;
@@ -1037,8 +1037,8 @@ write tutorial blog post
         <item>
           <title>Landing a job during an economic crisis</title>
           <pubDate>2012-11-16T00:00:00+02:00</pubDate>
-          <link>http://alexcican.com/post/landing-job/</link>
-          <guid>http://alexcican.com/post/landing-job/</guid>
+          <link>http://localhost:4000//post/landing-job/</link>
+          <guid>http://localhost:4000//post/landing-job/</guid>
           <description>&lt;p&gt;It’s depressing to see almost all of my friends being unemployed. Some of them, even with a Master’s degree, they struggle to make ends meet. You could blame your education, your family, people not acknowledging your brilliance, the economic crisis, the country you live in, and so on. But let me be frank with you: you’re the only one responsible for the situation you’re in. Nobody will come up to you and say:&lt;/p&gt;
 
 &lt;!--more--&gt;
@@ -1166,8 +1166,8 @@ write tutorial blog post
         <item>
           <title>Life Lessons</title>
           <pubDate>2012-10-16T00:00:00+03:00</pubDate>
-          <link>http://alexcican.com/post/life-lessons/</link>
-          <guid>http://alexcican.com/post/life-lessons/</guid>
+          <link>http://localhost:4000//post/life-lessons/</link>
+          <guid>http://localhost:4000//post/life-lessons/</guid>
           <description>&lt;p&gt;&lt;em&gt;Note: The following article contains my own bullet-points and conclusions from the book “&lt;a href=&quot;http://amzn.com/1576754758&quot;&gt;Five Secrets you must discover before you die&lt;/a&gt;”. I recommend you read the book if you enjoyed this article.&lt;/em&gt;&lt;/p&gt;
 
 &lt;!--more--&gt;
@@ -1258,8 +1258,8 @@ write tutorial blog post
         <item>
           <title>How I moved my blog to Dropbox</title>
           <pubDate>2012-05-19T00:00:00+03:00</pubDate>
-          <link>http://alexcican.com/post/blog-dropbox-scriptogram/</link>
-          <guid>http://alexcican.com/post/blog-dropbox-scriptogram/</guid>
+          <link>http://localhost:4000//post/blog-dropbox-scriptogram/</link>
+          <guid>http://localhost:4000//post/blog-dropbox-scriptogram/</guid>
           <description>&lt;p&gt;A few months ago I cancelled my hosting accounts and moved all my &lt;a href=&quot;http://sicanstudios.com/post/guide-hosting-website-dropbox-github&quot;&gt;websites to Dropbox and GitHub&lt;/a&gt;. The only problem I was left with was where I should host the blog. I decided to use Tumblr. Regretting the decision after only two months, the solution was right in front of me the entire time: &lt;strong&gt;use Dropbox for the blog&lt;/strong&gt; as well. In this article I’ll show you how I did it.&lt;/p&gt;
 
 &lt;!--more--&gt;
@@ -1433,8 +1433,8 @@ Excerpt: A few months ago I cancelled my hosting accounts and moved all my [webs
         <item>
           <title>How I moved my websites to Dropbox and GitHub</title>
           <pubDate>2012-05-15T00:00:00+03:00</pubDate>
-          <link>http://alexcican.com/post/guide-hosting-website-dropbox-github/</link>
-          <guid>http://alexcican.com/post/guide-hosting-website-dropbox-github/</guid>
+          <link>http://localhost:4000//post/guide-hosting-website-dropbox-github/</link>
+          <guid>http://localhost:4000//post/guide-hosting-website-dropbox-github/</guid>
           <description>&lt;p&gt;A few months ago I cancelled my hosting and server accounts and moved all my websites to the cloud. I tried it &lt;strong&gt;as an experiment&lt;/strong&gt;; never for a second I thought it would work this well. I did the switch out of impulse: because I was pissed. Now I’m very glad I switched.&lt;/p&gt;
 
 &lt;!--more--&gt;
@@ -1572,8 +1572,8 @@ Excerpt: A few months ago I cancelled my hosting accounts and moved all my [webs
         <item>
           <title>The lost art of Pricing and Negotiating</title>
           <pubDate>2012-04-15T00:00:00+03:00</pubDate>
-          <link>http://alexcican.com/post/pricing-negotiating/</link>
-          <guid>http://alexcican.com/post/pricing-negotiating/</guid>
+          <link>http://localhost:4000//post/pricing-negotiating/</link>
+          <guid>http://localhost:4000//post/pricing-negotiating/</guid>
           <description>&lt;p&gt;&lt;em&gt;&lt;strong&gt;Disclaimer:&lt;/strong&gt; I am in no position to offer you financial advice. I am not a financial advisor. What I want to do, is share my personal experiences on freelancing for a living. This blog is tailored to suit freelancers, so if you’re in a different situation—applying for a full time job, for example—the techniques implemented should be different. That being said, it doesn’t mean that you can’t take away something from this article: useful techniques to tip the scale in your favour.&lt;/em&gt;&lt;/p&gt;
 
 &lt;!--more--&gt;
@@ -1746,8 +1746,8 @@ What usually goes through the mind of the designer/developer: “Oh oh, Here com
         <item>
           <title>iPad battery saving tips</title>
           <pubDate>2012-04-03T00:00:00+03:00</pubDate>
-          <link>http://alexcican.com/post/ipad-battery-tips/</link>
-          <guid>http://alexcican.com/post/ipad-battery-tips/</guid>
+          <link>http://localhost:4000//post/ipad-battery-tips/</link>
+          <guid>http://localhost:4000//post/ipad-battery-tips/</guid>
           <description>&lt;p&gt;In December 2011, I purchased the iPad 2 and integrated it deeply into my workflow. Since then I’ve saved energy by not turning on my main PC for most of my tasks, improved my posture—not sitting on the same chair for hours—thus reducing my chronic back pain, made my experience (browsing, reading, writing, watching) more interactive and fun, and I’ve spent less time on the Internet. A thing that I’ve been obsessing over is battery life. I want to discuss about the battery more.&lt;/p&gt;
 
 &lt;!--more--&gt;
@@ -1831,8 +1831,8 @@ What usually goes through the mind of the designer/developer: “Oh oh, Here com
         <item>
           <title>Different content or CSS depending on iOS version</title>
           <pubDate>2012-03-20T00:00:00+02:00</pubDate>
-          <link>http://alexcican.com/post/different-content-css-ios-version/</link>
-          <guid>http://alexcican.com/post/different-content-css-ios-version/</guid>
+          <link>http://localhost:4000//post/different-content-css-ios-version/</link>
+          <guid>http://localhost:4000//post/different-content-css-ios-version/</guid>
           <description>&lt;p&gt;&lt;del&gt;I’m currently caught in the process of developing my first web application&lt;/del&gt; It’s finished: &lt;a href=&quot;http://timewasted.co.uk&quot;&gt;TimeWasted&lt;/a&gt;. I’m optimising it to work and look great on the iPhone and iPad. Testing the app was done on my iPhone 3G running iOS 4.2 — the last supported iOS for this device.&lt;/p&gt;
 
 &lt;!--more--&gt;
@@ -1885,8 +1885,8 @@ if (chrome) {
         <item>
           <title>Ignore Details Early On</title>
           <pubDate>2012-03-15T00:00:00+02:00</pubDate>
-          <link>http://alexcican.com/post/ignore-details-early/</link>
-          <guid>http://alexcican.com/post/ignore-details-early/</guid>
+          <link>http://localhost:4000//post/ignore-details-early/</link>
+          <guid>http://localhost:4000//post/ignore-details-early/</guid>
           <description>&lt;p&gt;I was re-reading &lt;a href=&quot;http://gettingreal.37signals.com/&quot;&gt;“Getting Real”&lt;/a&gt; from 37 Signals and stumbled across a very important chapter, that resonated with me. Now that I think of it, that’s also one of the reasons why I &lt;a href=&quot;https://twitter.com/#!/sican/status/170287755891449856&quot;&gt;fired my first client&lt;/a&gt; (yes, I do that as well!). I share a small excerpt below, check it out.&lt;/p&gt;
 
 &lt;!--more--&gt;
@@ -1921,8 +1921,8 @@ $39/month vs. $49/month&lt;/p&gt;
         <item>
           <title>Portfolio vs Blog: A Mexican standoff</title>
           <pubDate>2012-03-04T00:00:00+02:00</pubDate>
-          <link>http://alexcican.com/post/portfolio-vs-blog/</link>
-          <guid>http://alexcican.com/post/portfolio-vs-blog/</guid>
+          <link>http://localhost:4000//post/portfolio-vs-blog/</link>
+          <guid>http://localhost:4000//post/portfolio-vs-blog/</guid>
           <description>&lt;p&gt;Today I want to talk about this website for a bit. I’ve been having some thoughts lately, on whether I should focus on: &lt;strong&gt;writing more often&lt;/strong&gt; for this blog, or &lt;strong&gt;improving my skills&lt;/strong&gt; and actively enhancing my portfolio with design pieces.&lt;/p&gt;
 
 &lt;!--more--&gt;
@@ -1971,8 +1971,8 @@ $39/month vs. $49/month&lt;/p&gt;
         <item>
           <title>How to set cookies with JavaScript</title>
           <pubDate>2012-03-03T00:00:00+02:00</pubDate>
-          <link>http://alexcican.com/post/set-cookies-javascript/</link>
-          <guid>http://alexcican.com/post/set-cookies-javascript/</guid>
+          <link>http://localhost:4000//post/set-cookies-javascript/</link>
+          <guid>http://localhost:4000//post/set-cookies-javascript/</guid>
           <description>&lt;p&gt;Cookies are an important part of modern browsers. Without them, we couldn’t browse websites that require authentication, such as social networks since we’d be asked for our password on every page we’d browse. We wouldn’t be able to write a simple e-mail, or purchase stuff online. Website usage would be limited to browsing only static websites. In this tutorial we’ll focus only on creating and editing cookies using jQuery.&lt;/p&gt;
 
 &lt;!--more--&gt;
@@ -2173,8 +2173,8 @@ if (cookie_mesage_clicked == 'clicked') {
         <item>
           <title>Hide and show a div</title>
           <pubDate>2012-02-28T00:00:00+02:00</pubDate>
-          <link>http://alexcican.com/post/hide-and-show-div/</link>
-          <guid>http://alexcican.com/post/hide-and-show-div/</guid>
+          <link>http://localhost:4000//post/hide-and-show-div/</link>
+          <guid>http://localhost:4000//post/hide-and-show-div/</guid>
           <description>&lt;p&gt;Hiding and showing a div in HTML is really simple. In this tutorial I will show you how to do that using only CSS. I will also show you another version of hiding and showing divs using jQuery. Furthermore, we will take the necessary precautions if Javascript is disabled. Let’s dive in!&lt;/p&gt;
 
 &lt;!--more--&gt;
@@ -2301,8 +2301,8 @@ if (cookie_mesage_clicked == 'clicked') {
         <item>
           <title>Top 5 reasons why you shouldn’t start creating websites</title>
           <pubDate>2012-02-24T00:00:00+02:00</pubDate>
-          <link>http://alexcican.com/post/creating-websites/</link>
-          <guid>http://alexcican.com/post/creating-websites/</guid>
+          <link>http://localhost:4000//post/creating-websites/</link>
+          <guid>http://localhost:4000//post/creating-websites/</guid>
           <description>&lt;p&gt;The Internet is becoming mainstream, and business opportunities are growing fast. More than ever, I see ads claiming to show you how to make shitloads of money by working from home, via the Internet. One way is by working as a &lt;strong&gt;freelance website designer/developer&lt;/strong&gt;. I wrote this post in order to expose the risks of this industry and what I’ve learned from working in the field.&lt;/p&gt;
 
 &lt;!--more--&gt;
@@ -2383,8 +2383,8 @@ if (cookie_mesage_clicked == 'clicked') {
         <item>
           <title>How to remove .php, .html, .htm extensions with .htaccess</title>
           <pubDate>2012-02-19T00:00:00+02:00</pubDate>
-          <link>http://alexcican.com/post/how-to-remove-php-html-htm-extensions-with-htaccess/</link>
-          <guid>http://alexcican.com/post/how-to-remove-php-html-htm-extensions-with-htaccess/</guid>
+          <link>http://localhost:4000//post/how-to-remove-php-html-htm-extensions-with-htaccess/</link>
+          <guid>http://localhost:4000//post/how-to-remove-php-html-htm-extensions-with-htaccess/</guid>
           <description>&lt;p&gt;I recently wanted to remove the extensions from my website, in order to make the URLs more user and search engine friendly. I stumbled across tutorials on how to remove the &lt;code&gt;.php&lt;/code&gt; extension from a PHP page. What about the &lt;code&gt;.html&lt;/code&gt;? I wanted to remove those as well! In this tutorial I’ll show you how to do that easily, by editing the &lt;code&gt;.htaccess&lt;/code&gt; file.&lt;/p&gt;
 
 &lt;!--more--&gt;

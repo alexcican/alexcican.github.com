@@ -10,19 +10,19 @@
   <meta name="description" content="{% if page.layout == 'default' %}{{ site.description }}{% else %}{% if page.cover %}{{ content | split:'<!--more-->' | first | strip_html }}{% endif %}{% endif %}" />
   <meta name="viewport" content="width=device-width" />
   <link rel="author" href="https://plus.google.com/116801469202683881648/" />
-  <link rel="shortcut icon" href="{{ relative }}images/favicon.ico" type="image/x-icon" />
-  <link rel="stylesheet" type="text/css" href="{% if page.url == '/404.html' %}http://alexcican.com/style/style.min.css{% else %}{{ relative }}style/style.min.css{% endif %}" />
+  <link rel="shortcut icon" href="{{ site.url }}images/favicon.ico" type="image/x-icon" />
+  <link rel="stylesheet" type="text/css" href="{{ site.url }}style/style.min.css" />
   <!--[if lt IE 10]>
-    <link rel="stylesheet" type="text/css" href="{% if page.url == '/404.html' %}http://alexcican.com/style/ie9.css{% else %}{{ relative }}style/ie9.css{% endif %}" />
+    <link rel="stylesheet" type="text/css" href="{{ site.url }}style/ie9.css" />
   <![endif]-->
   <link rel="alternate" type="application/rss+xml" title="Alex Cican – Product Designer" href="http://feeds.feedburner.com/sicanstudios/" />
   <link rel="canonical" href="{{ site.url }}{{ page.url }}" />
-  <link rel="apple-touch-icon-precomposed" href="{{ relative }}images/apple-touch-icon-57x57-precomposed.png" />
-  <link rel="apple-touch-icon-precomposed" href="{{ relative }}images/apple-touch-icon-72x72-precomposed.png" />
-  <link rel="apple-touch-icon-precomposed" href="{{ relative }}images/apple-touch-icon-114x114-precomposed.png" />
-  <link rel="apple-touch-icon-precomposed" href="{{ relative }}images/apple-touch-icon-144x144-precomposed.png" />
-  <link rel="apple-touch-icon-precomposed" href="{{ relative }}images/apple-touch-icon-152x152-precomposed.png" />
-  <meta property="og:image" content="{{ relative }}images/apple-touch-icon-152x152-precomposed.png" />
+  <link rel="apple-touch-icon-precomposed" href="{{ site.url }}images/apple-touch-icon-57x57-precomposed.png" />
+  <link rel="apple-touch-icon-precomposed" href="{{ site.url }}images/apple-touch-icon-72x72-precomposed.png" />
+  <link rel="apple-touch-icon-precomposed" href="{{ site.url }}images/apple-touch-icon-114x114-precomposed.png" />
+  <link rel="apple-touch-icon-precomposed" href="{{ site.url }}images/apple-touch-icon-144x144-precomposed.png" />
+  <link rel="apple-touch-icon-precomposed" href="{{ site.url }}images/apple-touch-icon-152x152-precomposed.png" />
+  <meta property="og:image" content="{{ site.url }}images/apple-touch-icon-152x152-precomposed.png" />
   <meta property="og:title" content="{{ page.title }}" />
   <meta property="og:description" content="{% if page.layout == 'default' %}{{ page.title }}{% else %}{% if page.cover %}{{ content | split:'<!--more-->' | first | strip_html }}{% endif %}{% endif %}" />
   <meta property="og:url" content="{{ site.url }}{{ page.url }}" />
@@ -32,7 +32,7 @@
   <meta name="twitter:site" content="@alexcican" />
   <meta name="twitter:creator" content="@alexcican" />
   <meta name="twitter:creator:id" content="Alex Cican" />
-  <script src="{{ relative }}javascript/turbolinks.min.js"></script>
+  <script src="{{ site.url }}javascript/turbolinks.min.js"></script>
 </head>
 <body {% if page.url == '/photos/'%}class="sliderRemoveScroll"{% endif %} {% if page.url == '/404.html'%}class="notFoundNoScroll"{% endif %}>
   <!--[if lt IE 9]>

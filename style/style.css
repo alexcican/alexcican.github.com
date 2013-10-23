@@ -391,7 +391,7 @@ strong, b {
 }
 
 /* blur the content */
-.blurred #intro, .blurred section, .blurred ul, .blurred .fadeWhiteGradient:before, .blurred h1, .blurred #content > *, .blurred .slideVisible img, .blurred #readMore {
+.blurred #intro, .blurred section, .blurred ul, .blurred .fadeWhiteGradient:before, .blurred h1, .blurred #content > *, .blurred .slideVisible img, .blurred #readMore, .blurred .notFound {
   -webkit-transform: translate3d(0,0,0); /* hardware acceleration */
   -moz-transform: translate3d(0,0,0);
   -o-transform: translate3d(0,0,0);

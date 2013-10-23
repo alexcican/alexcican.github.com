@@ -7,16 +7,16 @@
 
   {% if page.url == '/index.html'%}
     <!-- Load JS for home page -->
-    <script src="{{ relative }}javascript/skrollr.min.js"></script>
-    <script src="{{ relative }}javascript/cookie.min.js"></script>
+    <script src="{{ site.url }}javascript/skrollr.min.js"></script>
+    <script src="{{ site.url }}javascript/cookie.min.js"></script>
   {% endif %}
 
   <!-- Load main JS file -->
-  <script src="{% if page.url == '/404.html' %}http://alexcican.com/javascript/basic.min.js{% else %}{{ relative }}javascript/basic.min.js{% endif %}"></script>
+  <script src="{{ site.url }}javascript/basic.min.js"></script>
 
   {% if page.url == '/work/'%}
     <!-- Load JS for work page -->
-    <script src="{{ relative }}javascript/dribbble.min.js"></script>
+    <script src="{{ site.url }}javascript/dribbble.min.js"></script>
     <script>
       var cache = jribbble.getShotsByPlayerId('alexcican', function (playerShots) {
         var html = [];
@@ -29,7 +29,7 @@
 
   {% if page.url == '/photos/'%}
     <!-- Load JS for photos -->
-    <script src="{{ relative }}javascript/swipe.min.js"></script>
+    <script src="{{ site.url }}javascript/swipe.min.js"></script>
     <script>
       window.mySwipe = new Swipe(document.getElementById('slider'), {
         auto: 3000,
