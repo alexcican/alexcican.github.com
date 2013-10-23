@@ -1,0 +1,29 @@
+{% include header.html %}
+
+  <div id="post">
+    <section class="{{ page.bgcolour }}">
+      {% if page.cover %}
+        {{ page.cover }}
+      {% endif %}
+    </section>
+
+    <h1>{{ page.title }}</h1>
+
+    <div id="content">
+      {{ content }}
+
+      <a href="http://twitter.com/share?url={{ site.url }}{{ page.url }}&text={{ page.title }}:&via=alexcican" data-icon="t" class="icon twitter_button" title="Share this article on Twitter" target="_blank"><b></b></a>
+    </div>
+
+    {% if page.previous %}
+      {% if page.previous.designs == nil %}
+        <a href="{{ page.previous.url }}" id="readMore">
+          <span class="{{ page.previous.bgcolour }}">Read next</span>
+          <h2>{{ page.previous.title }}</h2>
+          <link rel="" href="{{ page.previous.url }}">
+        </a>
+      </div>
+      {% endif %}
+    {% endif %}
+
+{% include footer.html %}

@@ -1,0 +1,25 @@
+---
+layout: nil
+---
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0">
+  <channel>
+    <title>Blog of Alex Cican</title>
+    <link>http://alexcican.com/blog/</link>
+    <description>Blog feed of Alex Cican. All posts written by Alex Cican.</description>
+    <pubDate>2013</pubDate>
+
+    {% for post in site.posts %}
+      {% if post.designs == nil and published == nil %}
+        <item>
+          <title>{{ post.title }}</title>
+          <pubDate>{{ post.date | date_to_xmlschema }}</pubDate>
+          <link>{{ site.url }}{{ post.url }}</link>
+          <guid>{{ site.url }}{{ post.url }}</guid>
+          <description>{{ post.content | xml_escape }}</description>
+        </item>
+      {% endif %}
+    {% endfor %}
+
+  </channel>
+</rss>

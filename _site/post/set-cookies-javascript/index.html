@@ -1,0 +1,336 @@
+
+
+<!doctype html>
+<html lang="en-gb">
+
+<head>
+  <title>How to set cookies with JavaScript</title>
+  <meta charset="utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="description" content="Cookies are an important part of modern browsers. Without them, we couldn’t browse websites that require authentication, such as social networks since we’d be asked for our password on every page we’d browse. We wouldn’t be able to write a simple e-mail, or purchase stuff online. Website usage would be limited to browsing only static websites. In this tutorial we’ll focus only on creating and editing cookies using jQuery.
+
+" />
+  <meta name="viewport" content="width=device-width" />
+  <link rel="author" href="https://plus.google.com/116801469202683881648/" />
+  <link rel="shortcut icon" href="../../images/favicon.ico" type="image/x-icon" />
+  <link rel="stylesheet" type="text/css" href="../../style/style.css" />
+  <!--[if lt IE 10]>
+    <link rel="stylesheet" type="text/css" href="../../style/ie9.css" />
+  <![endif]-->
+  <link rel="alternate" type="application/rss+xml" title="Alex Cican – Product Designer" href="http://feeds.feedburner.com/sicanstudios/" />
+  <link rel="canonical" href="http://alexcican.com/post/set-cookies-javascript/" />
+  <link rel="apple-touch-icon-precomposed" href="../../images/apple-touch-icon-57x57-precomposed.png" />
+  <link rel="apple-touch-icon-precomposed" href="../../images/apple-touch-icon-72x72-precomposed.png" />
+  <link rel="apple-touch-icon-precomposed" href="../../images/apple-touch-icon-114x114-precomposed.png" />
+  <link rel="apple-touch-icon-precomposed" href="../../images/apple-touch-icon-144x144-precomposed.png" />
+  <link rel="apple-touch-icon-precomposed" href="../../images/apple-touch-icon-152x152-precomposed.png" />
+  <meta property="og:image" content="../../images/apple-touch-icon-152x152-precomposed.png" />
+  <meta property="og:title" content="How to set cookies with JavaScript" />
+  <meta property="og:description" content="Cookies are an important part of modern browsers. Without them, we couldn’t browse websites that require authentication, such as social networks since we’d be asked for our password on every page we’d browse. We wouldn’t be able to write a simple e-mail, or purchase stuff online. Website usage would be limited to browsing only static websites. In this tutorial we’ll focus only on creating and editing cookies using jQuery.
+
+" />
+  <meta property="og:url" content="http://alexcican.com/post/set-cookies-javascript/" />
+  <meta property="og:site_name" content="Alex Cican — Product Designer" />
+  <meta property="og:type" content="blog" />
+  <meta name="twitter:card" content="summary" />
+  <meta name="twitter:site" content="@alexcican" />
+  <meta name="twitter:creator" content="@alexcican" />
+  <meta name="twitter:creator:id" content="Alex Cican" />
+  <script src="../../javascript/turbolinks.min.js"></script>
+</head>
+<body >
+  <!--[if lt IE 9]>
+      <p class="chromeframe">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> or <a href="http://www.google.com/chromeframe/?redirect=true">activate Google Chrome Frame</a> to improve your experience.</p>
+  <![endif]-->
+
+  <nav id="mainNav">
+    <span class="menuIcon icon " title="Menu (Esc)" tabindex="0" data-icon="m"><span>Menu</span></span>
+
+    <div id="navigation">
+      <p><span class="heading">alex cican</span><br/><span class="subheading">Product Designer</span></p>
+      <p class="menu_label">Menu</p>
+
+      <section>
+        <ul>
+          <li><span>Site dishes</span></li>
+          <li><a href="http://alexcican.com" class="home " title="Learn about me (H)">Home</a></li>
+          <li><a href="http://alexcican.com/work/" class="work " title="Check out my work (W)">Work</a></li>
+          <li><a href="http://alexcican.com/lab/" class="lab " title="Visit my lab (L)">Lab</a></li>
+          <li><a href="http://alexcican.com/blog/" class="blog " title="Read my blog (B)">Blog</a></li>
+          <li><a href="http://alexcican.com/photos/" class="photos " title="View my photos (P)">Photos</a></li>
+        </ul>
+
+        <ul>
+          <li><span>Main contact</span></li>
+          <li><a href="mailto:&#097;&#108;&#101;&#120;&#064;&#097;&#108;&#101;&#120;&#099;&#105;&#099;&#097;&#110;&#046;&#099;&#111;&#109;" class="email" title="Email me (E)">Email</a></li>
+          <li><a href="skype:alex.cican?chat" class="skype" title="Skype me (S)">Skype</a></li>
+        </ul>
+
+        <ul>
+          <li><span>Desserts</span></li>
+          <li><a href="http://twitter.com/alexcican" title="Find me on Twitter" target="_blank">Twitter</a></li>
+          <li><a href="http://dribbble.com/alexcican" title="Find me on Dribbble" target="_blank">Dribbble</a></li>
+          <li><a href="http://facebook.com/alexcican" title="Find me on Facebook" target="_blank">Facebook</a></li>
+          <li><a href="http://github.com/alexcican" title="Find me on GitHub" target="_blank">GitHub</a></li>
+          <li><a href="http://flickr.com/sican" title="Find me on Flickr" target="_blank">Flickr</a></li>
+          <li><a href="http://vimeo.com/alexcican" title="Find me on Vimeo" target="_blank">Vimeo</a></li>
+          <li><a href="http://instagram.com/alexcican" title="Find me on Instagram" target="_blank">Instagram</a></li>
+          <li><a href="http://youtube.com/sican" title="Find me on YouTube" target="_blank">YouTube</a></li>
+          <li><a href="http://be.net/alexcican" title="Find me on Behance" target="_blank">Behance</a></li>
+        </ul>
+
+        <p>Some of our dishes may contain sarcasm and humour. <br/>Please don&rsquo;t inform our staff about any allergies you might have.</p>
+      </section>
+    </div>
+  </nav>
+
+  <div id="container">
+
+  <div id="post">
+    <section class="yellow">
+      
+        <img class="cover" src="data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0idXRmLTgiPz4NCjwhLS0gR2VuZXJhdG9yOiBBZG9iZSBJbGx1c3RyYXRvciAxNi4wLjAsIFNWRyBFeHBvcnQgUGx1Zy1JbiAuIFNWRyBWZXJzaW9uOiA2LjAwIEJ1aWxkIDApICAtLT4NCjwhRE9DVFlQRSBzdmcgUFVCTElDICItLy9XM0MvL0RURCBTVkcgMS4xLy9FTiIgImh0dHA6Ly93d3cudzMub3JnL0dyYXBoaWNzL1NWRy8xLjEvRFREL3N2ZzExLmR0ZCI+DQo8c3ZnIHZlcnNpb249IjEuMSIgaWQ9ImNvb2tpZV8xXyIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiB4bWxuczp4bGluaz0iaHR0cDovL3d3dy53My5vcmcvMTk5OS94bGluayIgeD0iMHB4IiB5PSIwcHgiDQoJIHdpZHRoPSI3MzZweCIgaGVpZ2h0PSI0MTZweCIgdmlld0JveD0iMCAwIDczNiA0MTYiIGVuYWJsZS1iYWNrZ3JvdW5kPSJuZXcgMCAwIDczNiA0MTYiIHhtbDpzcGFjZT0icHJlc2VydmUiPg0KPGcgaWQ9ImNvb2tpZSI+DQoJPGc+DQoJCTxwYXRoIGZpbGw9IiNGRkZGRkYiIGQ9Ik00MDEsMjI2bC02LjgzMywzLjMzM2wyLjUtNi4xNjZMMzg5LDIxOS44MzNsNC4xNjctNS42NjZMMzg3LjgzMywyMDhsNC41LTUuMTY3TDM4Ni41LDE5N2w1LjUtMw0KCQkJbC0xLjMzMy04LjY2N0wzOTgsMTg3LjVsMi40MjgtNy44MzRjLTguMDk2LTkuOTU3LTIwLjQzOC0xNi4zMjItMzQuMjcxLTE2LjMyMmMtMjQuMzg3LDAtNDQuMTU2LDE5Ljc3LTQ0LjE1Niw0NC4xNTYNCgkJCXMxOS43Nyw0NC4xNTYsNDQuMTU2LDQ0LjE1NmMxNi41MzMsMCwzMC45MzQtOS4wOTIsMzguNTAyLTIyLjU0M0w0MDEsMjI2eiBNMzc5LjQyMywxNzcuODYzbDIuNDExLDQuMzhsLTUuMjU3LDIuODk0bC0yLjQxMS00LjM4DQoJCQlMMzc5LjQyMywxNzcuODYzeiBNMzY4Ljc4NywxNjguNzY1bDAuNDA2LDQuOTgzbC01Ljk4LDAuNDg3bC0wLjQwNi00Ljk4M0wzNjguNzg3LDE2OC43NjV6IE0zMzQuMDM2LDIxMC44MzJsLTUuNjgxLTEuOTMNCgkJCWwxLjYwOC00LjczNGw1LjY4MSwxLjkzTDMzNC4wMzYsMjEwLjgzMnogTTMzMi4yMTMsMTk0LjIzNWwtMC40MDYtNC45ODNsNS45OC0wLjQ4N2wwLjQwNiw0Ljk4M0wzMzIuMjEzLDE5NC4yMzV6DQoJCQkgTTMzOC41NzksMjE5LjYxN2w1Ljg5MS0xLjE0M2wwLjk1MSw0LjkwOGwtNS44OTEsMS4xNDNMMzM4LjU3OSwyMTkuNjE3eiBNMzQ5LjY5NiwyMzguMDE4bC01LjQ2Mi0yLjQ4M2wyLjA2OS00LjU1Mmw1LjQ2MiwyLjQ4Mw0KCQkJTDM0OS42OTYsMjM4LjAxOHogTTM0Ny41NzcsMjA5LjEzN2wtMi40MTEtNC4zOGw1LjI1Ny0yLjg5NGwyLjQxMSw0LjM4TDM0Ny41NzcsMjA5LjEzN3ogTTM1Mi42MjYsMTg2LjM5MWwtNS45NDItMC44MjkNCgkJCWwwLjY5LTQuOTUybDUuOTQyLDAuODI5TDM1Mi42MjYsMTg2LjM5MXogTTM1OS45NjIsMTg3LjE2OWw1LjY4MywxLjkyOGwtMS42MDYsNC43MzRsLTUuNjgzLTEuOTI4TDM1OS45NjIsMTg3LjE2OXoNCgkJCSBNMzYwLjIzNCwyMTUuNTM0bDIuMDY5LTQuNTUybDUuNDYyLDIuNDgzbC0yLjA2OSw0LjU1MkwzNjAuMjM0LDIxNS41MzR6IE0zNjYuMjEzLDIzNC4yMzVsLTAuNDA2LTQuOTgzbDUuOTgtMC40ODdsMC40MDYsNC45ODMNCgkJCUwzNjYuMjEzLDIzNC4yMzV6IE0zNzMuMzU3LDE5OC42MjVsNS45NDcsMC43OTRsLTAuNjYyLDQuOTU2bC01Ljk0Ny0wLjc5NEwzNzMuMzU3LDE5OC42MjV6IE0zNzguMjEzLDIxOC4yMzVsLTAuNDA2LTQuOTgzDQoJCQlsNS45OC0wLjQ4N2wwLjQwNiw0Ljk4M0wzNzguMjEzLDIxOC4yMzV6Ii8+DQoJPC9nPg0KPC9nPg0KPC9zdmc+DQo=" alt="cookies svg" />
+      
+    </section>
+
+    <h1>How to set cookies with JavaScript</h1>
+
+    <div id="content">
+      <p>Cookies are an important part of modern browsers. Without them, we couldn’t browse websites that require authentication, such as social networks since we’d be asked for our password on every page we’d browse. We wouldn’t be able to write a simple e-mail, or purchase stuff online. Website usage would be limited to browsing only static websites. In this tutorial we’ll focus only on creating and editing cookies using jQuery.</p>
+
+<!--more-->
+
+
+<p><a href="http://lab.sicanstudios.com/set_cookies/" class="button" target="_blank">View the Demo &rarr;</a></p>
+
+<p>I’ll be using a cookie plugin created by Klaus Hartl. We do not need to edit anything in this file, just call it after jQuery. <a href="http://lab.sicanstudios.com/set_cookies/cookie.js">Download the script</a></p>
+
+<h2>Step 1 - HTML first</h2>
+
+<p>Based on the example above, we create a DIV and inside it we add two messages. One that will be displayed only once, when the page is loaded, and the other will be displayed after the first one was shown. I used heading tags to separate them from one another:</p>
+
+<pre><code>&lt;div class="message"&gt;
+    &lt;h1&gt;This message is displayed only the first time you visit this page. Refresh to hide it!&lt;/h1&gt;
+    &lt;h3&gt;This is shown only after the previous message was shown in the last visit. Even when you refresh the page, the browser remembers your option. In case JS is disabled, this message is more important and should be displayed!&lt;/h3&gt;
+&lt;/div&gt;
+</code></pre>
+
+<h2>Step 2 - CSS</h2>
+
+<p>I always take into account what happens when JavaScript is disabled. It’s good practice and makes your website more accessible and user friendly. In case JavaScript is disabled, we don’t want to confuse our visitor and have both messages shown at the same time. We need to hide the first message by default, in the CSS. We will display the message it in the JavaScript section:</p>
+
+<pre><code>h1 {
+    display: none;
+}
+</code></pre>
+
+<h2>Step 3 - Initialising</h2>
+
+<p>For faster loading times, add your JavaScript to the bottom of the page, before closing the <code>&lt;/body&gt;</code> tag. First, we need to call jQuery.</p>
+
+<pre><code>&lt;script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.6.4/jquery.min.js"&gt;&lt;/script&gt;
+</code></pre>
+
+<p>Next we call the cookie script. Make sure you add the correct URL pointing to the script.</p>
+
+<pre><code>&lt;script type="text/javascript" src="cookie.js"&gt;&lt;/script&gt;
+</code></pre>
+
+<p>Below it, we add an empty script tag and we can start coding:</p>
+
+<pre><code>&lt;script type="text/JavaScript"&gt;
+&lt;/script&gt;
+</code></pre>
+
+<h2>Step 4 - JavaScript</h2>
+
+<p>First, we will reverse what we did in our CSS file. Display the initial message <code>&lt;h1&gt;</code>, and hide the second message <code>&lt;h3&gt;</code>.</p>
+
+<pre><code>$(document).ready(function() {
+    $('.message h1').css("display", "block");
+    $('.message h3').css("display", "none");
+</code></pre>
+
+<p>Next we add the cookie code. There are two parts to this: one that checks if cookie exists, and the other part is the one that adds the cookie. First, we will check for the cookie (I’ll explain why later). If the ID of the cookie is set to hide, then hide the first message and display the second:</p>
+
+<pre><code>    var cookie_mesage = $.cookie('welcome');
+    if (cookie_mesage == 'hide') {
+        $('.message h1').css("display", "none");
+        $('.message h3').css("display", "block");
+    };
+</code></pre>
+
+<p>Before we close the script tag, we have to add the cookie that will hide the first message. We add it to the end, because if we were to add it before the code that checks (see above) the cookie, it would hide the first message from the start. Adding it at the end ensures that the message will be hidden the next time the page is loaded. It’s set to expire in 7 days.</p>
+
+<pre><code>    $.cookie('welcome', 'hide', {expires: 7 });
+});
+</code></pre>
+
+<p>The complete code for the first example:</p>
+
+<pre><code>&lt;script type="text/JavaScript"&gt;
+    $(document).ready(function() {
+        $('.message h1').css("display", "block");
+        $('.message h3').css("display", "none");
+
+        var cookie_mesage = $.cookie('welcome');
+
+        if (cookie_mesage == 'hide') {
+            $('.message h1').css("display", "none");
+            $('.message h3').css("display", "block");
+        };
+
+        $.cookie('welcome', 'hide', {expires: 7 });
+    });
+&lt;/script&gt;
+</code></pre>
+
+<h2>Step 5 - Add cookie on click</h2>
+
+<p>In the demo page, you saw that the second container would hide the text and show the other one, only after you clicked on the “X”. First we need to add an href tag to our HTML. I added it inside the first message, so that when it’s hidden, the button will be hidden as well:</p>
+
+<pre><code>&lt;h1&gt;This message is displayed only the first time you visit this page. Refresh to hide it!
+&lt;a href="#" title="Hide This Message"&gt;X&lt;/a&gt;&lt;/h1&gt;
+</code></pre>
+
+<p>Position the “X” to the top of the container using the relative/absolute trick in the CSS:</p>
+
+<pre><code>.message {
+    position: relative
+}
+
+.message a {
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+</code></pre>
+
+<p>Inside the script tag, we add the code to do something once the a href is clicked:</p>
+
+<pre><code>$('.message a').click(function() {
+    return false;
+});
+</code></pre>
+
+<p>Inside the function we will be using classes to identify when a user has clicked or not. First we check to see if we already have a class clicked assigned to the link. If yes, do nothing. If we don’t have a class, it means that the user hasn’t clicked on the link before. Fade out the first message and queue the second one, once it’s finished. Finally, add a cookie with the variable clicked.</p>
+
+<pre><code>var $this = $(this);
+
+if ($this.hasClass('clicked')) { }
+
+else {
+    $(this).addClass('clicked');
+    $('.message h1').delay(200).fadeOut(1300)
+
+    .queue(function(n) {
+        $('.message h3').css("display", "block");
+        n();
+    });
+
+    $.cookie('welcome', 'clicked', {expires: 7 });
+}
+</code></pre>
+
+<p>But wait, we are not done! We need to check if the cookie has the clicked variable attached to it:</p>
+
+<pre><code>var cookie_mesage_clicked = $.cookie('welcome');
+if (cookie_mesage_clicked == 'clicked') {
+    $('.message_click a').addClass('clicked');
+    $('.message_click h1').css("display", "none");
+    $('.message_click h3').css("display", "block");
+};
+</code></pre>
+
+<p>The complete code for the second example:</p>
+
+<pre><code>&lt;script type="text/JavaScript"&gt;
+    $(document).ready(function() {
+        $('.message h1').css("display", "block");
+        $('.message h3').css("display", "none");
+        $('.message a').click(function() {
+
+        var $this = $(this);
+
+        if ($this.hasClass('clicked')) { }
+
+        else {
+            $(this).addClass('clicked');
+            $('.message h1').delay(200).fadeOut(1300)
+
+            .queue(function(n) {
+                $('.message h3').css("display", "block");
+                n();
+            });
+
+            $.cookie('welcome', 'clicked', {expires: 7 }); }
+            return false;
+        });
+
+        var cookie_mesage_clicked = $.cookie('welcome');
+        if (cookie_mesage_clicked == 'clicked') {
+            $('.message_click h1').css("display", "none");
+            $('.message_click h3').css("display", "block");
+        };
+    });
+&lt;/script&gt;
+</code></pre>
+
+<h2>Step 6 - Accessibility</h2>
+
+<p>If you disable JavaScript and check the page, the first message will be completely hidden because we hid it in the CSS; that is good. But if you disable stylesheets both messages will be visible, thus creating confusion. Why would you want stylesheets disabled? Well for one: screen-readers; used by blind people, they read only what’s in the HTML code disregarding CSS. To fix this problem and make our website even more user friendly we have to add the first message in the <code>script</code> tag, so that it will be displayed only if the user has JavaScript enabled.</p>
+
+<p>To do that, we remove the first message from the HTML. Then we just append the message to the <code>.message</code> div inside jQuery. Note that this has to go before the JavaScript code where you hide the initial message <code>&lt;h1&gt;</code>.</p>
+
+<pre><code>$('.message').append('&lt;h1&gt;You can only hide this message, by pressing x at the top of this box &lt;a href="#" title="Hide This Message"&gt;X&lt;/a&gt;&lt;/h1&gt;');
+</code></pre>
+
+<h2>Conclusion</h2>
+
+<p>Cookies can be used in many ways. Now you know how to create your own <a href="http://www.hellobar.com/">Hellobar</a>. The next step after this is to authenticate users (remember login details) and saving sessions in the cookies.</p>
+
+
+      <a href="http://twitter.com/share?url=http://alexcican.com/post/set-cookies-javascript/&text=How to set cookies with JavaScript:&via=alexcican" data-icon="t" class="icon twitter_button" title="Share this article on Twitter" target="_blank"><b></b></a>
+    </div>
+
+    
+      
+        <a href="/post/hide-and-show-div/" id="readMore">
+          <span class="light_mauve">Read next</span>
+          <h2>Hide and show a div</h2>
+          <link rel="" href="/post/hide-and-show-div/">
+        </a>
+      </div>
+      
+    
+
+
+
+  </div>
+
+  <!-- Load jQuery script -->
+  <script src="http://ajax.googleapis.com/ajax/libs/jquery/2.0.3/jquery.min.js"></script>
+
+  
+
+  <!-- Load main JS file -->
+  <script src="../../javascript/basic.js"></script>
+
+  
+
+  
+
+  <!-- Load Analytics -->
+  <script type="text/javascript">
+  //   var _gaq = _gaq || [];
+  //   _gaq.push(['_setAccount', 'UA-6273751-7']);
+  //   _gaq.push(['_trackPageview']);
+
+  //   (function() {
+  //     var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+  //     ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+  //     var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  //   })();
+  // </script>
+</body>
+</html>

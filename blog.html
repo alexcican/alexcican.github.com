@@ -1,0 +1,21 @@
+---
+title: Blog of Alex Cican
+layout: default
+permalink: /blog/
+---
+<div id="fullWidthContainer" class="notScrolling animateOnFirstLoad">
+  {% for post in site.posts limit: 100 %}
+
+    {% if post.designs == nil and published == nil %}
+      <section class="{{ post.bgcolour }}">
+        <a href="{{ post.url }}">
+          <h2>{{ post.title }}</h2>
+          {% if post.cover %}
+            {{ post.cover }}
+          {% endif %}
+        </a>
+      </section>
+    {% endif %}
+
+  {% endfor %}
+</div>

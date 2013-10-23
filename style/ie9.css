@@ -1,0 +1,24 @@
+/* CSS animations don’t work in IE 9*/
+#intro h1, #intro h2 {
+  opacity: 1 !important;
+}
+
+/* more font weight for subheading */
+#intro h2 {
+  font-weight: 400;
+}
+
+/* hide navigation */
+#mainNav #navigation {
+  display: none;
+}
+
+/* show navigation */
+#mainNav.expanded #navigation {
+  display: block;
+}
+
+/* no blur, more dark bg */
+#mainNav.expanded {
+  background: rgba(0,0,0,.95);
+}

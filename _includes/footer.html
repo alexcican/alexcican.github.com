@@ -1,0 +1,62 @@
+{% capture lvl %}{{ page.url | append:'index.html' | split:'/' | size }}{% endcapture %}
+{% capture relative %}{% for i in (3..lvl) %}../{% endfor %}{% endcapture %}
+  </div>
+
+  <!-- Load jQuery script -->
+  <script src="http://ajax.googleapis.com/ajax/libs/jquery/2.0.3/jquery.min.js"></script>
+
+  {% if page.url == '/index.html'%}
+    <!-- Load JS for home page -->
+    <script src="{{ relative }}javascript/skrollr.min.js"></script>
+    <script src="{{ relative }}javascript/cookie.min.js"></script>
+  {% endif %}
+
+  <!-- Load main JS file -->
+  <script src="{{ relative }}javascript/basic.js"></script>
+
+  {% if page.url == '/work/'%}
+    <!-- Load JS for work page -->
+    <script src="{{ relative }}javascript/dribbble.min.js"></script>
+    <script>
+      var cache = jribbble.getShotsByPlayerId('alexcican', function (playerShots) {
+        var html = [];
+        $.each(playerShots.shots, function attach (i, shot) {
+          $('<li><a href="' + shot.url + '" target="_blank"><img src="' + shot.image_url + '" alt="' + shot.title + '"/></a></li>').hide().appendTo('#dribbble').delay(50 * i).fadeIn(50);
+        });
+      }, {page: 1, per_page: 20});
+    </script>
+  {% endif %}
+
+  {% if page.url == '/photos/'%}
+    <!-- Load JS for photos -->
+    <script src="{{ relative }}javascript/swipe.min.js"></script>
+    <script>
+      window.mySwipe = new Swipe(document.getElementById('slider'), {
+        auto: 3000,
+        disableScroll: true,
+        callback: function() {
+          $('.slideVisible').next().addClass('preload');
+          preloadImage();
+        },
+        transitionEnd: function(pos) {
+          $('.swipe-wrap div').removeClass('slideVisible');
+          $('.swipe-wrap div').eq(pos).addClass('slideVisible');
+        }
+      })
+    </script>
+  {% endif %}
+
+  <!-- Load Analytics -->
+  <script type="text/javascript">
+  //   var _gaq = _gaq || [];
+  //   _gaq.push(['_setAccount', 'UA-6273751-7']);
+  //   _gaq.push(['_trackPageview']);
+
+  //   (function() {
+  //     var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+  //     ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+  //     var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  //   })();
+  // </script>
+</body>
+</html>
