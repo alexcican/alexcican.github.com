@@ -11,7 +11,7 @@
   <meta name="viewport" content="width=device-width" />
   <link rel="author" href="https://plus.google.com/116801469202683881648/" />
   <link rel="shortcut icon" href="{{ relative }}images/favicon.ico" type="image/x-icon" />
-  <link rel="stylesheet" type="text/css" href="{% if page.url == '/404.html' %}http://alexcican.com/style/style.min.css{% else %}{{ relative }}style/style.css{% endif %}" />
+  <link rel="stylesheet" type="text/css" href="{% if page.url == '/404.html' %}http://alexcican.com/style/style.min.css{% else %}{{ relative }}style/style.min.css{% endif %}" />
   <!--[if lt IE 10]>
     <link rel="stylesheet" type="text/css" href="{% if page.url == '/404.html' %}http://alexcican.com/style/ie9.css{% else %}{{ relative }}style/ie9.css{% endif %}" />
   <![endif]-->
@@ -34,7 +34,7 @@
   <meta name="twitter:creator:id" content="Alex Cican" />
   <script src="{{ relative }}javascript/turbolinks.min.js"></script>
 </head>
-<body {% if page.url == '/photos/'%}class="sliderRemoveScroll"{% endif %}>
+<body {% if page.url == '/photos/'%}class="sliderRemoveScroll"{% endif %} {% if page.url == '/404.html'%}class="noScroll"{% endif %}>
   <!--[if lt IE 9]>
       <p class="chromeframe">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> or <a href="http://www.google.com/chromeframe/?redirect=true">activate Google Chrome Frame</a> to improve your experience.</p>
   <![endif]-->
