@@ -1,6 +1,6 @@
 var width = (window.innerWidth > 0) ? window.innerWidth : screen.width,
     touchDevice = false;
-
+//
 // on first load, call function to resize height of div to appropriate screen size
 adjustHeight();
 
