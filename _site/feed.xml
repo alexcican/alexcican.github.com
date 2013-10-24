@@ -1435,7 +1435,7 @@ Excerpt: A few months ago I cancelled my hosting accounts and moved all my [webs
           <pubDate>2012-05-15T00:00:00+03:00</pubDate>
           <link>http://alexcican.com/post/guide-hosting-website-dropbox-github/</link>
           <guid>http://alexcican.com/post/guide-hosting-website-dropbox-github/</guid>
-          <description>&lt;p&gt;A few months ago I cancelled my hosting and server accounts and moved all my websites to the cloud. I tried it &lt;strong&gt;as an experiment&lt;/strong&gt;; never for a second I thought it would work this well. I did the switch out of impulse: because I was pissed. Now I’m very glad I switched.&lt;/p&gt;
+          <description>&lt;p&gt;A few months ago I cancelled my hosting and server accounts and moved all my websites to the cloud. I tried it &lt;strong&gt;as an experiment&lt;/strong&gt;; never for a second I thought it would work this well. I did the switch out of impulse: I was pissed. I was pissed at the hosting companies charging so much, having such crappy support, and much downtime. I’m very glad I switched.&lt;/p&gt;
 
 &lt;!--more--&gt;
 
@@ -1444,9 +1444,9 @@ Excerpt: A few months ago I cancelled my hosting accounts and moved all my [webs
 
 &lt;p&gt;Prior to the cloud, I was hosting my websites on a &lt;strong&gt;VPS (Virtual Private Server) with a company called &lt;a href=&quot;http://linode.com&quot;&gt;Linode&lt;/a&gt;&lt;/strong&gt;. This company gives you a server &lt;em&gt;as is&lt;/em&gt; and you have to install the OS by yourself, maintain it, improve its performance, etc. I busted my chops trying to configure a fast server. After I was done, the server was running &lt;strong&gt;CentOS + nginx + PHP-fpm + MySQL&lt;/strong&gt;, hosting my websites and Wordpress blogs.&lt;/p&gt;
 
-&lt;p&gt;The drop that filled the glass came one day in February 2012 when all my websites (folders) &lt;strong&gt;were deleted&lt;/strong&gt; somehow. Because I considered paying $20 per month for simply hosting my files was enough, I didn’t enable the backup option (was $2 extra per month, if I remember correctly). So that day came, and I went straight to their support ticketing system. The dude that was assigned to me was not helpful at all and said there was nothing to be done. My last personal backup of the websites was in December 2011.&lt;/p&gt;
+&lt;p&gt;The drop that spilled the cup came one day of February 2012, when all my websites (folders) &lt;strong&gt;were deleted&lt;/strong&gt; somehow. Because I considered paying $20 per month for simply hosting my files was enough, I didn’t enable the backup option (it was an extra $2 per month, if I remember correctly). So that day came, and I went straight to their support ticketing system. The dude that was assigned to me was not helpful at all and said there was nothing to be done. My last backup of the websites was in December 2011.&lt;/p&gt;
 
-&lt;p&gt;Pissed off, I &lt;strong&gt;cancelled my account&lt;/strong&gt;, got my refund and didn’t think back (or forward). Having been left only with my domain names I had to do something (for &lt;em&gt;SicanStudios.com&lt;/em&gt; alone, I was averaging around 700 unique visitors per day). That’s when I made the decision to use the cloud.&lt;/p&gt;
+&lt;p&gt;Pissed off, I &lt;strong&gt;cancelled my account&lt;/strong&gt;, got my refund and didn’t think back (or forward). Having been left only with my domain names, I had to do something (for &lt;em&gt;SicanStudios.com&lt;/em&gt; alone, I was averaging around 700 unique visitors per day). That’s when I made the decision to use the cloud.&lt;/p&gt;
 
 &lt;h2&gt;Why I switched to Dropbox and GitHub&lt;/h2&gt;
 
@@ -1455,12 +1455,12 @@ Excerpt: A few months ago I cancelled my hosting accounts and moved all my [webs
 &lt;ol&gt;
 &lt;li&gt;&lt;p&gt;&lt;strong&gt;Free&lt;/strong&gt;. It’s free and your account is created immediately. Free 2GB space for Dropbox and unlimited public repos for GitHub.&lt;/p&gt;&lt;/li&gt;
 &lt;li&gt;&lt;p&gt;&lt;strong&gt;Easy to use&lt;/strong&gt;. Just drag-n-drop the file inside your Dropbox folder. The file is accessible anytime from anywhere (Dropbox website, desktop, laptop, mobile, tablet). Uploading to GitHub (known as &lt;em&gt;pushing&lt;/em&gt;), is very simple: &lt;code&gt;commit&lt;/code&gt;, add your message and &lt;code&gt;push&lt;/code&gt; the changes.&lt;/p&gt;&lt;/li&gt;
-&lt;li&gt;&lt;p&gt;&lt;strong&gt;Plenty of space&lt;/strong&gt;. I didn’t need 20GB for my websites. The free 2GB offered by Dropbox was more than enough.&lt;/p&gt;&lt;/li&gt;
-&lt;li&gt;&lt;p&gt;&lt;strong&gt;Backup&lt;/strong&gt;. Your files won’t get lost/deleted. The extra layer of pushing the files to GitHub as well, offered double the protection (like putting two condoms on).&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;&lt;strong&gt;Plenty of space&lt;/strong&gt;. I didn’t need 20GB for my websites. The free 2GB of space offered by Dropbox was more than enough.&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;&lt;strong&gt;Backup&lt;/strong&gt;. Your files won’t get lost/deleted. The extra layer of pushing the files to GitHub as well, offered double protection.&lt;/p&gt;&lt;/li&gt;
 &lt;li&gt;&lt;p&gt;&lt;strong&gt;Restore&lt;/strong&gt;. In case you screwed up something, you can restore the file (as well as previous versions of it) and revert the changes. At no extra cost.&lt;/p&gt;&lt;/li&gt;
-&lt;li&gt;&lt;p&gt;&lt;strong&gt;Uptime&lt;/strong&gt;. Previously, with my VPS, and going back even more with my shared hosting, the uptime was good but I would experience downtime. Switching to the cloud, made my websites online with an uptime of &lt;a href=&quot;http://37signals.com/svn/posts/3099-benchmarking-basecamps-uptime-against-five-other-web-apps&quot;&gt;99.991%&lt;/a&gt;.&lt;/p&gt;&lt;/li&gt;
-&lt;li&gt;&lt;p&gt;&lt;strong&gt;Speed&lt;/strong&gt;. My websites are blazing fast. Dropbox and GitHub servers are optimised ”out of the box“ to be fast and reliable (pages are compressed).&lt;/p&gt;&lt;/li&gt;
-&lt;li&gt;&lt;p&gt;&lt;strong&gt;Security&lt;/strong&gt;. In my efforts to improve the performance of my server, who knows what vulnerabilities I created, making my server hackable (that’s what happened on that day of February?). I don’t have to worry about that again. Both services come with SSL and free support included.&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;&lt;strong&gt;Uptime&lt;/strong&gt;. Previously, with my VPS, and going back even more, with my shared hosting, the uptime was good but I would experience downtime. Switching to the cloud, made my websites online with an uptime of &lt;a href=&quot;http://37signals.com/svn/posts/3099-benchmarking-basecamps-uptime-against-five-other-web-apps&quot;&gt;99.991%&lt;/a&gt;.&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;&lt;strong&gt;Speed&lt;/strong&gt;. My websites are blazing fast. Dropbox and GitHub servers are optimised ”out of the box“ to be fast and reliable (pages are compressed and deflated).&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;&lt;strong&gt;Security&lt;/strong&gt;. In my effort to improve the performance of my server, who knows what vulnerabilities I uncovered, making my server hackable (maybe that’s what happened on that day). I don’t have to worry about this again. Both services come with SSL and free support included.&lt;/p&gt;&lt;/li&gt;
 &lt;/ol&gt;
 
 
@@ -1468,7 +1468,7 @@ Excerpt: A few months ago I cancelled my hosting accounts and moved all my [webs
 
 &lt;h2&gt;The specifics of Dropbox&lt;/h2&gt;
 
-&lt;p&gt;If you want your files to be accessed by anyone, you have to move them into your “Public” folder. If you’re using absolute paths for your website, I suggest you change it to relative paths. So from this:&lt;/p&gt;
+&lt;p&gt;If you want your files to be accessible by anyone, you have to move them into your “Public” folder. If you’re using absolute paths for your website, I suggest you change it to relative paths. So from this:&lt;/p&gt;
 
 &lt;pre&gt;&lt;code&gt;&amp;lt;a href=&quot;http://sicanstudios.com/web/file.html&quot;&amp;gt;&amp;lt;/a&amp;gt;
 &lt;/code&gt;&lt;/pre&gt;
@@ -1486,13 +1486,13 @@ Excerpt: A few months ago I cancelled my hosting accounts and moved all my [webs
 
 &lt;p&gt;&lt;img src=&quot;http://sicanstudios.com/images/blog/assets/godaddy-forward-domain.jpg&quot; alt=&quot;godaddy forward domain&quot; /&gt;&lt;/p&gt;
 
-&lt;p&gt;Wait a for a few hours and you should be able to access the website hosted on Dropbox, via your domain name.&lt;/p&gt;
+&lt;p&gt;Wait a few hours and you should be able to access the website hosted on Dropbox via your domain name!&lt;/p&gt;
 
 &lt;h2&gt;Downsides of Dropbox&lt;/h2&gt;
 
-&lt;p&gt;The big downside of hosting your website on Dropbox is that you can only &lt;strong&gt;host static assets&lt;/strong&gt; (HTML, CSS, JS, images). No PHP. A solution for that was to use another service called &lt;a href=&quot;http://phpfog.com&quot;&gt;PHPFog&lt;/a&gt;. I won’t go into details in this tutorial about PHP.&lt;/p&gt;
+&lt;p&gt;The big downside of hosting your website on Dropbox is that you can only &lt;strong&gt;host static assets&lt;/strong&gt; (HTML, CSS, JS, images). No PHP. A solution to that was to use another service called &lt;a href=&quot;http://phpfog.com&quot;&gt;PHPFog&lt;/a&gt;. I won’t go into details in this tutorial about PHP.&lt;/p&gt;
 
-&lt;p&gt;The other downside I found was the &lt;strong&gt;URL system&lt;/strong&gt;. On Dropbox the URL of a file is something like:&lt;/p&gt;
+&lt;p&gt;The other downside I found was the &lt;strong&gt;URL system&lt;/strong&gt;. On Dropbox, the URL of a file is something like:&lt;/p&gt;
 
 &lt;pre&gt;&lt;code&gt;https://dl.dropbox.com/u/212143/public/website/file.html
 &lt;/code&gt;&lt;/pre&gt;
@@ -1502,7 +1502,7 @@ Excerpt: A few months ago I cancelled my hosting accounts and moved all my [webs
 &lt;pre&gt;&lt;code&gt;http://sicanstudios.com/file.html
 &lt;/code&gt;&lt;/pre&gt;
 
-&lt;p&gt;unless I did a URL masking from my DNS settings. This was not optimal because whatever page of the website I’d browse, it would show up only as:&lt;/p&gt;
+&lt;p&gt;unless I did a URL forwarding with masking from my DNS settings. This was not optimal because whichever page of the website I’d browse, it would show up only as:&lt;/p&gt;
 
 &lt;pre&gt;&lt;code&gt;sicanstudios.com
 &lt;/code&gt;&lt;/pre&gt;
@@ -1537,15 +1537,15 @@ Excerpt: A few months ago I cancelled my hosting accounts and moved all my [webs
 
 &lt;p&gt;The first downside is that you need &lt;strong&gt;special software&lt;/strong&gt; for interacting (gracefully) with your repositories. The best software to install if you’re on a Mac is &lt;strong&gt;&lt;a href=&quot;http://www.git-tower.com/&quot;&gt;Git Tower&lt;/a&gt;&lt;/strong&gt; and if you’re on Windows you shoud be using &lt;strong&gt;&lt;a href=&quot;http://www.syntevo.com/smartgit/index.html&quot;&gt;SmartGit&lt;/a&gt;&lt;/strong&gt;.&lt;/p&gt;
 
-&lt;p&gt;The other downside to GitHub is that unless you’re a software geek, it &lt;strong&gt;takes time&lt;/strong&gt; to &lt;em&gt;get it&lt;/em&gt;. It’s not intuitive and it’s not drag-n-drop. It takes time to go through the &lt;a href=&quot;http://help.github.com/&quot;&gt;help documents&lt;/a&gt; and learn how to setup stuff (repositories, branches, trees). But after that learing period, it’s very easy to use.&lt;/p&gt;
+&lt;p&gt;The other downside to GitHub is that unless you’re a software geek, it &lt;strong&gt;takes time&lt;/strong&gt; to &lt;em&gt;get it&lt;/em&gt;. It’s not intuitive and it’s not drag-n-drop. After you went through the &lt;a href=&quot;http://help.github.com/&quot;&gt;help documents&lt;/a&gt; and learned how to setup stuff (repositories, branches, trees), it’s very easy to use.&lt;/p&gt;
 
-&lt;p&gt;Lastly, the same as with Dropbox, GitHub only &lt;strong&gt;supports static assets&lt;/strong&gt; (HTML, CSS, JS, images).&lt;/p&gt;
+&lt;p&gt;Lastly, the same with Dropbox, GitHub only &lt;strong&gt;supports static assets&lt;/strong&gt; (HTML, CSS, JS, images).&lt;/p&gt;
 
 &lt;h2&gt;Liberation begins&lt;/h2&gt;
 
 &lt;blockquote&gt;&lt;p&gt;&lt;em&gt;“FTP-ing is so 1999”&lt;/em&gt; – everyone&lt;/p&gt;&lt;/blockquote&gt;
 
-&lt;p&gt;Have you found an error on the website but you’re on the move without your laptop? Edit the page that’s hosted on Dropbox from your iPhone/iPad, save it and you’re done. If you’re on GitHub, &lt;code&gt;commit&lt;/code&gt; the changes and &lt;code&gt;push&lt;/code&gt; them to the repository. Job done!&lt;/p&gt;
+&lt;p&gt;Found an error on the website but you’re on the move without your laptop? Edit the page that’s hosted on Dropbox from your iPhone/iPad, save it and you’re done. If you’re on GitHub, &lt;code&gt;commit&lt;/code&gt; the changes and &lt;code&gt;push&lt;/code&gt; them to the repository. Job done!&lt;/p&gt;
 
 &lt;p&gt;&lt;em&gt;“Hold your horses, Johnny”&lt;/em&gt;. There’s a catch: a Git version control app for the iPhone/iPad &lt;strong&gt;doesn’t exist yet&lt;/strong&gt;, so you can’t update your repository on those devices. &lt;a href=&quot;http://www.textasticapp.com/&quot;&gt;Textastic&lt;/a&gt; has it planned but I don’t see it being completed any time soon.&lt;/p&gt;
 
@@ -1557,13 +1557,13 @@ Excerpt: A few months ago I cancelled my hosting accounts and moved all my [webs
 
 &lt;ul&gt;
 &lt;li&gt;&lt;p&gt;&lt;strong&gt;Dropbox:&lt;/strong&gt; &lt;strong&gt;1)&lt;/strong&gt; doesn’t support custom URLs &lt;strong&gt;2)&lt;/strong&gt; can host only static files (HTML, CSS, JS) and &lt;strong&gt;3)&lt;/strong&gt; making changes to a website with many pages is tedious&lt;/p&gt;&lt;/li&gt;
-&lt;li&gt;&lt;p&gt;&lt;strong&gt;GitHub:&lt;/strong&gt; &lt;strong&gt;1)&lt;/strong&gt; requires special software and takes time to learn &lt;strong&gt;2)&lt;/strong&gt; pushing changes to repos no easy via mobile/tablet and &lt;strong&gt;3)&lt;/strong&gt; can host only static files (HTML, CSS, JS)&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;&lt;strong&gt;GitHub:&lt;/strong&gt; &lt;strong&gt;1)&lt;/strong&gt; requires special software and takes time to learn &lt;strong&gt;2)&lt;/strong&gt; pushing changes difficult via mobile/tablet and &lt;strong&gt;3)&lt;/strong&gt; can host only static files (HTML, CSS, JS)&lt;/p&gt;&lt;/li&gt;
 &lt;/ul&gt;
 
 
-&lt;p&gt;but for me it works. For me, the &lt;strong&gt;advantages outweigh the disadvantages&lt;/strong&gt;. I like my websites more (since they load faster and stay online longer), I feel much more relaxed and I also sleep better at night (secure servers, backups exist). Lastly, I feel liberated since I can access my files anytime from anywhere (and edit them, almost from any device).&lt;/p&gt;
+&lt;p&gt;But for me it works. For me, the &lt;strong&gt;advantages outweigh the disadvantages&lt;/strong&gt;. I like my websites more (since they load faster and stay online longer), I feel more relaxed and I also sleep better at night (secure servers, backups exist). Lastly, I feel liberated since I can access my files anytime from anywhere (and edit them, almost from any device).&lt;/p&gt;
 
-&lt;p&gt;Next article I have scheduled, is a continuation of this one: &lt;a href=&quot;http://sicanstudios.com/post/blog-dropbox-scriptogram&quot;&gt;&lt;em&gt;“How I moved my blog to Dropbox”&lt;/em&gt;&lt;/a&gt;. Make sure you &lt;a href=&quot;http://feeds.feedburner.com/sicanstudios&quot;&gt;grab the RSS feed&lt;/a&gt; or you &lt;a href=&quot;http://twitter.com/sican&quot;&gt;follow me on Twitter&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;Next article I have scheduled, is a continuation of this one: &lt;a href=&quot;http://alexcican.com/post/blog-dropbox-scriptogram&quot;&gt;&lt;em&gt;“How I moved my blog to Dropbox”&lt;/em&gt;&lt;/a&gt;. Make sure you &lt;a href=&quot;http://feeds.feedburner.com/alexcican&quot;&gt;grab the RSS feed&lt;/a&gt; and you &lt;a href=&quot;http://twitter.com/alexcican&quot;&gt;follow me on Twitter&lt;/a&gt;.&lt;/p&gt;
 </description>
         </item>
       
