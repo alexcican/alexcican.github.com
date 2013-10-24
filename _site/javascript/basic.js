@@ -85,7 +85,7 @@ $(window).scroll(function () {
   // timer for when to add class for hover effect on blog links
   clearTimeout($.data(this, 'scrollTimer'));
   $.data(this, 'scrollTimer', setTimeout(function() {
-    $('#fullWidthContainer').addClass('notScrolling');
+    $('#fullWidthContainer, #fullWidthDemoContainer').addClass('notScrolling');
   }, 100));
 
   // if user is at the top/bottom of page don’t hide hover animation
@@ -93,7 +93,7 @@ $(window).scroll(function () {
     // do nothing
   } else {
     if (scrollDifference >= 35) {
-      $('#fullWidthContainer').removeClass('notScrolling');
+      $('#fullWidthContainer, #fullWidthDemoContainer').removeClass('notScrolling');
     }
   }
 

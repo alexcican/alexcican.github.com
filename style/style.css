@@ -748,7 +748,7 @@ h1.animateOnFirstLoad, h2.animateOnFirstLoad {
 /************/
 
 /* links of blog are white and adds animation to links */
-#fullWidthContainer a {
+#fullWidthContainer a, #fullWidthDemoContainer a {
   color: #f1f1f1;
   -webkit-transition: padding .2s, color .2s, margin .2s;
   -moz-transition: padding .2s, color .2s, margin .2s;
@@ -760,7 +760,7 @@ h1.animateOnFirstLoad, h2.animateOnFirstLoad {
 }
 
 /* when not scrolling, expand each blog post link */
-#fullWidthContainer.notScrolling a:hover, #fullWidthContainer.notScrolling a:focus {
+#fullWidthContainer.notScrolling a:hover, #fullWidthContainer.notScrolling a:focus, #fullWidthDemoContainer.notScrolling a:hover, #fullWidthDemoContainer.notScrolling a:focus {
   padding: 2em 0;
   -webkit-transform: translate3d(0,0,0); /* hardware acceleration */
   -moz-transform: translate3d(0,0,0);
@@ -771,12 +771,12 @@ h1.animateOnFirstLoad, h2.animateOnFirstLoad {
 }
 
 /* each link for blog is centered and moves down a bit */
-#fullWidthContainer section a {
+#fullWidthContainer section a, #fullWidthDemoContainer section a {
   overflow: hidden;
   text-align: center;
 }
 
-#fullWidthContainer.animateOnFirstLoad section a {
+#fullWidthContainer.animateOnFirstLoad section a, #fullWidthDemoContainer.animateOnFirstLoad section a {
   -webkit-animation: moveDown .3s;
   -moz-animation: moveDown .3s;
   animation: moveDown .3s;
@@ -1528,7 +1528,7 @@ h1.animateOnFirstLoad, h2.animateOnFirstLoad {
   /*** BLOG ***/
   /************/
 
-  #fullWidthContainer h2 {
+  #fullWidthContainer h2, #fullWidthDemoContainer h2 {
     font-size: 2em;
   }
 

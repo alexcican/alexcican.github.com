@@ -59,10 +59,7 @@ We’ll write efficient code. On scroll, only if the navigation is not shown we�
 
     // on scroll hide/show menu
     $(window).scroll(function() {
-      if ($('nav').hasClass('expanded')) {
-        // do nothing; main navigation is being shown
-      } else {
-      }
+      if (!$('nav').hasClass('expanded')) {
     })
 
 Inside the `else {}` we need to calculate if the user scrolled past the navigation’s height, if they scrolled past the `detachPoint`, if they’re scrolling up or down, how fast they’re scrolling, and if they are at the bottom of the site (we’ll show navigation again):
@@ -74,17 +71,20 @@ Inside the `else {}` we need to calculate if the user scrolled past the navigati
     if (currentScroll > menuOffset) {
       // if scrolled past detach point add class to fix menu
       if (currentScroll > detachPoint) {
-        $('nav').addClass('detached');
+        if (!$('nav').hasClass('detached'))
+          $('nav').addClass('detached');
       }
 
       // if scrolling faster than hideShowOffset hide/show menu
       if (scrollDifference >= hideShowOffset) {
         if (currentScroll > previousScroll) {
           // scrolling down; hide menu
-          $('nav').addClass('invisible');
+          if (!$('nav').hasClass('invisible'))
+            $('nav').addClass('invisible');
         } else {
           // scrolling up; show menu
-          $('nav').removeClass('invisible');
+          if ($('nav').hasClass('invisible'))
+            $('nav').removeClass('invisible');
         }
       }
     } else {
