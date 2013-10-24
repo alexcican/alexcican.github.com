@@ -175,7 +175,8 @@ function hideNav() {
   $('#fullWidthContainer').addClass('notScrolling');
 }
 
-$('#mainNav a').on('click touchstart', function() {
+// on site link click show loader
+$('.siteLinks a').on('click touchstart', function() {
   $(this).addClass('spinnerSmall');
 })
 
