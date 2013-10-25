@@ -12,7 +12,7 @@ img, embed, object, video {
 }
 
 body {
-  font-family: Avenir, "Segoe UI", Roboto, "Helvetica Neue", sans-serif;
+  font-family: "Avenir Next", Avenir, "Segoe UI", Roboto, "Helvetica Neue", sans-serif;
   -webkit-font-smoothing: antialiased;
   font-size: 20px;
   line-height: 1.4em;
@@ -464,7 +464,7 @@ strong, b {
 
 /* menu heading */
 .heading {
-  font-weight: 800;
+  font-weight: 700;
   font-size: 2.4em;
   letter-spacing: -.05em;
   display: block;
@@ -716,7 +716,7 @@ h1.animateOnFirstLoad, h2.animateOnFirstLoad {
 
 /* intro subheading */
 #intro h2 {
-  font-family: Futura, Avenir, "Segoe UI", Roboto, "Helvetica Neue", sans-serif;
+  font-family: Futura, "Avenir Next", Avenir, "Segoe UI", Roboto, "Helvetica Neue", sans-serif;
   font-size: 1.2em;
   font-weight: 100;
   padding-left: .3em;
