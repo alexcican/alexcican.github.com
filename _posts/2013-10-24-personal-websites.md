@@ -74,9 +74,7 @@ On every page, I tried to create a unique and immersive experience. The site’s
 
 I directed much attention to small details. When you hover the Twitter share button it emulates a beating heart. Or the order of the menu items was established based on the [river](http://bit.ly/duR7Cu) created by each word. Keyboard shortcuts for every action were added. You can also navigate the site only with your keyboard. The previous/older post link, situated at the bottom of each blog post is cut off by the edge of your screen, to intrigue you and make you click. All these small details add up to create a unique experience for this site.
 
-In conclusion: be bold. Make a statement. Upset people. Stand out. Keep hustling. Stay foolish.
-
-That’s what I’m trying to do. Have I succeeded? Let me know.
+In conclusion: be **bold**. Make a statement. Upset people. Stand out. Keep hustling. Stay foolish.
 
 <div id="footnotes">
 <strong><em>[1] What influences our personality:</strong> <a href="http://psychology.about.com/od/personalitydevelopment/tp/facs-about-personality.htm">link</a>, <a href="http://toknowinfo.hubpages.com/hub/wheredoesourpersonalitycomefrom">link</a>, <a href="http://abcnews.go.com/Technology/story?id=97961">link</a>, and <a href="http://personalityspirituality.net/articles/what-is-personality/">link</a>.</em>
