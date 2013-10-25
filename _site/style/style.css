@@ -1213,14 +1213,14 @@ h1.animateOnFirstLoad, h2.animateOnFirstLoad {
 }
 
 /* on hover animate background fill of link */
-#readMore:hover span {
+#readMore:hover span, #readMore:focus span {
   padding: 0 45%;
   height: 100%;
   color: transparent;
 }
 
 /* on hover animate text going up */
-#readMore:hover h2 {
+#readMore:hover h2, #readMore:focus h2 {
   color: #fff;
   -webkit-transform: translate(0,-.8em);
   -moz-transform: translate(0,-.8em);

@@ -72,7 +72,7 @@ if (navigator.userAgent.match(/IEMobile\/10\.0/)) {
 
 var previousScroll = 0, // previous scroll position
     menuOffset = 90, // height of menu (once scroll passed it, menu is hidden)
-    detachPoint = 700, // point of detach (after scroll passed it, menu is fixed)
+    detachPoint = 1000, // point of detach (after scroll passed it, menu is fixed)
     hideShowOffset = 6; // scrolling value after which triggers hide/show menu
 
 
