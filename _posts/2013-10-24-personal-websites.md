@@ -54,14 +54,14 @@ In any case, I wrote this post to introduce you to my new redesigned personal we
 
 When redesigning this site, my thought was to make it personal. If you’ve been following me, you know that I was operating under the brand *“SicanStudios”* for design and under my name for photography.
 
-![](https://dl.dropboxusercontent.com/u/48552248/websites/alexcican/images/blog/assets/logos.svg)
+![](http://alexcican.com/images/blog/assets/logos.svg)
 <figcaption>Sicanstudios logo vs Alex Cican.</figcaption>
 
 This is no longer the case. From now on, in my efforts for more transparency, I’m putting my name on everything that gets *out*.
 
 Since it’s personal website, I’ve decided to *“put my face where my name is”* and design the site around my mug. This should somewhat impede *“cats”* from copying my site.
 
-![](https://dl.dropboxusercontent.com/u/48552248/websites/alexcican/images/blog/assets/alex-cican-face.jpg)
+![](http://alexcican.com/images/blog/assets/alex-cican-face.jpg)
 <figcaption>Yours truly.</figcaption>
 
 With this redesign I focused on simplicity, typography, and animations—showing the progression of an element on the page. Animations were certainly cthe most challenging aspect of the project.
