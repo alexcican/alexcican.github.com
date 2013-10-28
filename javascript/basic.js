@@ -197,8 +197,10 @@ function adjustHeight() {
       height = height + 30; // for iPhone extra height because we’re hiding address bar
     } else if (width > 767 && width < 1024) {
       padding = height / 2.2;
+    } else if (width > 1024 && width < 1450) {
+      padding = height / 2.9;
     } else {
-      padding = height / 3;
+      padding = height / 2.5;
     }
 
     $("#intro, #post section").css("height", height);
