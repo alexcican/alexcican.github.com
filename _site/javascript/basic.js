@@ -198,7 +198,7 @@ function adjustHeight() {
     } else if (width > 767 && width < 1024) {
       padding = height / 2.2;
     } else if (width > 1024 && width < 1450) {
-      padding = height / 2.9;
+      padding = height / 3.5;
     } else {
       padding = height / 2.5;
     }
