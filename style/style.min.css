@@ -86,5 +86,5 @@ to{transform:rotate(359deg)}}.yellow{background:#eea900}.green{background:#4e9a8
 #fullWidthContainer.notScrolling section:hover>a .cover,#fullWidthContainer.notScrolling a:focus .cover{-webkit-transform:translate(0,-2.8em);-moz-transform:translate(0,-2.8em);transform:translate(0,-2.8em)}
 #post h1{font-size:4em}#post .cover{top:-30%}#readMore span{width:15%}#readMore h2{font-size:2em}#dribbble li{width:33.33%}}@media screen and (min-width:1024px){body{font-size:28px}
 #content{max-width:790px}[data-icon]:before{font-size:48px}#mainNav.expanded,#mainNav.transition{padding-top:.5%}#intro h1{font-size:7.9em}#intro h2{font-size:2em}
-#fullWidthContainer h2,#fullWidthDemoContainer h2{font-size:2em}#post .cover{top:-40%}#readMore span{width:10%}#dribbble li{width:25%;max-width:400px}
-#dribbble li a{margin-bottom:-.45em}}
+#fullWidthContainer h2,#fullWidthDemoContainer h2{font-size:2em}#readMore span{width:10%}#dribbble li{width:25%;max-width:400px}#dribbble li a{margin-bottom:-.45em}
+}

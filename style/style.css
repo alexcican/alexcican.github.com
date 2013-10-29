@@ -1536,7 +1536,7 @@ h1.animateOnFirstLoad, h2.animateOnFirstLoad {
   /************/
 
   #post .cover {
-    top: -40%;
+    /*top: -40%;*/
   }
 
   /* "read more" box container */
