@@ -1212,6 +1212,11 @@ h1.animateOnFirstLoad, h2.animateOnFirstLoad {
   transition: transform .3s, color .3s;
 }
 
+/* weird bug of leaving 1px off on hover… */
+#readMore:hover {
+  height: 1.605em;
+}
+
 /* on hover animate background fill of link */
 #readMore:hover span, #readMore:focus span {
   padding: 0 45%;
