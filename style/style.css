@@ -180,6 +180,10 @@ ol li {
   padding-left: .2em;
 }
 
+sup {
+  line-height: 1;
+}
+
 code {
   font-family: Inconsolata, Consolas, "Courier New", Courier, monospace;
   font-size: .85em;
