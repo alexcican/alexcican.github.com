@@ -76,7 +76,7 @@ contact me
 &lt;p&gt;&lt;img src=&quot;http://alexcican.com/images/blog/assets/alex-cican-face.jpg&quot; alt=&quot;&quot; /&gt;
 &lt;figcaption&gt;Yours truly.&lt;/figcaption&gt;&lt;/p&gt;
 
-&lt;p&gt;With this redesign I focused on simplicity, typography, and animations—showing the progression of an element on the page. Animations were certainly cthe most challenging aspect of the project.&lt;/p&gt;
+&lt;p&gt;With this redesign I focused on simplicity, typography, and animations—showing the progression of an element on the page. Animations were certainly the most challenging aspect of the project.&lt;/p&gt;
 
 &lt;p&gt;As I &lt;a href=&quot;http://alexcican.com/post/design-future-not-past/&quot;&gt;wrote before&lt;/a&gt;, I want to push the boundaries of design. Animations look best at 60FPS. This is difficult to achieve when you animate large images, SVG elements, and entire webpages. I needed to do heavy optimisation and code refactoring to pull it off. And this was only possible with the help of Google Chrome’s dev tools which allows you to measure site rendering time.&lt;/p&gt;
 

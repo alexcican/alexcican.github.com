@@ -64,7 +64,7 @@ Since it’s personal website, I’ve decided to *“put my face where my name i
 ![](http://alexcican.com/images/blog/assets/alex-cican-face.jpg)
 <figcaption>Yours truly.</figcaption>
 
-With this redesign I focused on simplicity, typography, and animations—showing the progression of an element on the page. Animations were certainly cthe most challenging aspect of the project.
+With this redesign I focused on simplicity, typography, and animations—showing the progression of an element on the page. Animations were certainly the most challenging aspect of the project.
 
 As I [wrote before](http://alexcican.com/post/design-future-not-past/), I want to push the boundaries of design. Animations look best at 60FPS. This is difficult to achieve when you animate large images, SVG elements, and entire webpages. I needed to do heavy optimisation and code refactoring to pull it off. And this was only possible with the help of Google Chrome’s dev tools which allows you to measure site rendering time.
 
