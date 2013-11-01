@@ -59,7 +59,7 @@ When redesigning this site, my thought was to make it personal. If you’ve been
 
 This is no longer the case. From now on, in my efforts for more transparency, I’m putting my name on everything that gets *out*.
 
-Since it’s personal website, I’ve decided to *“put my face where my name is”* and design the site around my mug. This should somewhat impede *“cats”* from copying my site.
+Since it’s a personal website, I’ve decided to *“put my face where my name is”* and design the site around my mug. This should somewhat impede *“cats”* from copying my site.
 
 ![](http://alexcican.com/images/blog/assets/alex-cican-face.jpg)
 <figcaption>Yours truly.</figcaption>
