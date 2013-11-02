@@ -1053,6 +1053,7 @@ h1.animateOnFirstLoad, h2.animateOnFirstLoad {
   text-align: center;
   margin: .6em 0 .44em;
   font-size: 3em;
+  letter-spacing: -1px;
 }
 
 /* aligns button */
@@ -1471,6 +1472,7 @@ h1.animateOnFirstLoad, h2.animateOnFirstLoad {
 
   #post h1 {
     font-size: 4em;
+    letter-spacing: -3px;
   }
 
   #post .cover {
