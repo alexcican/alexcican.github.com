@@ -2866,18 +2866,6 @@ RewriteRule ^([^\.]+)$ $1.php [NC,L]
         </item>
       
     
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
 
   </channel>
 </rss>
