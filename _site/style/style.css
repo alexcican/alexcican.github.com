@@ -1381,7 +1381,18 @@ h1.animateOnFirstLoad, h2.animateOnFirstLoad {
 
   /*** TYPOGRAPHY ***/
   /******************/
+  /* fix kerning */
+  .char1 {
+    margin-left: -2px;
+  }
 
+  .char2 {
+    padding-right: 4px;
+  }
+
+  .char3 {
+    padding-left: 4px;
+  }
 
   /*** HEADER ***/
   /**************/
@@ -1506,7 +1517,18 @@ h1.animateOnFirstLoad, h2.animateOnFirstLoad {
 
   /*** TYPOGRAPHY ***/
   /******************/
+  /* fix kerning */
+  .char1 {
+    margin-left: -4px;
+  }
 
+  .char2 {
+    padding-right: 5px;
+  }
+
+  .char3 {
+    padding-left: 5px;
+  }
 
   /*** HEADER ***/
   /**************/

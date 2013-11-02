@@ -80,11 +80,11 @@ to{transform:rotate(359deg)}}.yellow{background:#eea900}.green{background:#4e9a8
 .swipe{overflow:hidden;visibility:hidden;position:relative;text-align:center}.swipe-wrap{overflow:hidden;position:relative}.swipe-wrap .spinnerSmall:before{top:49%;left:49%;z-index:-1}
 .swipe-wrap>div{float:left;width:100%;position:relative;overflow:hidden}.swipe-wrap img{width:100%}.swipe-wrap .maxHeight img{width:auto;max-height:100%}
 .sliderButton{position:fixed;top:0;padding:0 25%;height:100%;z-index:100;border:0;background:0;outline:0;background-color:rgba(0,0,0,0)}.sliderButton.next{right:0;cursor:e-resize}
-.previous{cursor:w-resize}@media screen and (min-width:768px){body{font-size:24px;line-height:1.6em}[data-icon]:before{font-size:1.7em}.menuIcon{padding:1em;margin:.7em}
-.heading{margin-bottom:-.65em}#navigation section{width:65%}#navigation section p{font-size:.75em}#intro{background-size:auto!important}#intro h1{font-size:7em}
-#intro h2{font-size:1.8em;padding-left:.6em;letter-spacing:.37em}#fullWidthContainer h2{font-size:1.5em}#fullWidthContainer a{padding:1.6em 0}#fullWidthContainer.notScrolling a:hover,#fullWidthContainer.notScrolling a:focus{padding:3.2em 0}
-#fullWidthContainer.notScrolling section:hover>a .cover,#fullWidthContainer.notScrolling a:focus .cover{-webkit-transform:translate(0,-2.8em);-moz-transform:translate(0,-2.8em);transform:translate(0,-2.8em)}
+.previous{cursor:w-resize}@media screen and (min-width:768px){body{font-size:24px;line-height:1.6em}.char1{margin-left:-2px}.char2{padding-right:4px}.char3{padding-left:4px}
+[data-icon]:before{font-size:1.7em}.menuIcon{padding:1em;margin:.7em}.heading{margin-bottom:-.65em}#navigation section{width:65%}#navigation section p{font-size:.75em}
+#intro{background-size:auto!important}#intro h1{font-size:7em}#intro h2{font-size:1.8em;padding-left:.6em;letter-spacing:.37em}#fullWidthContainer h2{font-size:1.5em}
+#fullWidthContainer a{padding:1.6em 0}#fullWidthContainer.notScrolling a:hover,#fullWidthContainer.notScrolling a:focus{padding:3.2em 0}#fullWidthContainer.notScrolling section:hover>a .cover,#fullWidthContainer.notScrolling a:focus .cover{-webkit-transform:translate(0,-2.8em);-moz-transform:translate(0,-2.8em);transform:translate(0,-2.8em)}
 #post h1{font-size:4em}#post .cover{top:-30%}#readMore span{width:15%}#readMore h2{font-size:2em}#dribbble li{width:33.33%}}@media screen and (min-width:1024px){body{font-size:28px}
-#content{max-width:790px}[data-icon]:before{font-size:48px}#mainNav.expanded,#mainNav.transition{padding-top:.5%}#intro h1{font-size:7.9em}#intro h2{font-size:2em}
-#fullWidthContainer h2,#fullWidthDemoContainer h2{font-size:2em}#readMore span{width:10%}#dribbble li{width:25%;max-width:400px}#dribbble li a{margin-bottom:-.45em}
-}
+#content{max-width:790px}.char1{margin-left:-4px}.char2{padding-right:5px}.char3{padding-left:5px}[data-icon]:before{font-size:48px}#mainNav.expanded,#mainNav.transition{padding-top:.5%}
+#intro h1{font-size:7.9em}#intro h2{font-size:2em}#fullWidthContainer h2,#fullWidthDemoContainer h2{font-size:2em}#readMore span{width:10%}#dribbble li{width:25%;max-width:400px}
+#dribbble li a{margin-bottom:-.45em}}
