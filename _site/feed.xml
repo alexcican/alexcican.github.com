@@ -121,7 +121,7 @@ contact me
 &lt;/ul&gt;
 
 
-&lt;p&gt;&lt;a href=&quot;http://lab.sicanstudios.com/teehan_lax_navigation/&quot; class=&quot;button&quot; target=&quot;_blank&quot;&gt;View the Demo &amp;rarr;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;http://lab.alexcican.com/teehan_lax_navigation/&quot; class=&quot;button&quot; target=&quot;_blank&quot;&gt;View the Demo &amp;rarr;&lt;/a&gt;&lt;/p&gt;
 
 &lt;h2&gt;Step 1 - HTML&lt;/h2&gt;
 
@@ -380,7 +380,7 @@ nav.expanded #navigation {
 &lt;!--more--&gt;
 
 
-&lt;p&gt;&lt;a href=&quot;http://sicanstudios.com/images/blog/assets/dacia-logan-horn.jpg&quot; class=&quot;img&quot; target=&quot;_blank&quot;&gt;&lt;img src=&quot;http://sicanstudios.com/images/blog/assets/dacia-logan-horn.jpg&quot; alt=&quot;dacia logan horn ux&quot; /&gt;&lt;/a&gt;
+&lt;p&gt;&lt;a href=&quot;http://alexcican.com/images/blog/assets/dacia-logan-horn.jpg&quot; class=&quot;img&quot; target=&quot;_blank&quot;&gt;&lt;img src=&quot;http://alexcican.com/images/blog/assets/dacia-logan-horn.jpg&quot; alt=&quot;dacia logan horn ux&quot; /&gt;&lt;/a&gt;
 &lt;figcaption&gt;The car’s horn is a small button. Even the horn and arrow icons don’t help much where they are located, at the end of the barrel.&lt;/figcaption&gt;&lt;/p&gt;
 
 &lt;p&gt;When I confessed this frustration to my father, he said it’s because Dacia cars have always had it there, since their first models back in 1969.&lt;/p&gt;
@@ -397,7 +397,7 @@ nav.expanded #navigation {
 
 &lt;p&gt;People ask me why I don’t own an Android device. I’m technically a geek, so all the customisations and options available on Android should make me happy. Yet two of the reasons I hate Android is their UI inconsistency and inability to innovate on the user experience. Even though Android phones pack a 1.6 GHz quadcore processor, the apps—you know, the things I use to interact with the phone—still look ugly and the animations feel dated; they look old. That’s partially due to Android’s fragmented ecosystem and the slow new OS adoption rate. Apple boasts with the fact that most of its users are using the latest version of iOS. And that’s good, because it allows iOS developers and designers to use the latest technology and design for the future, by knowing they won’t have to support older versions of iOS for long.&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&quot;http://sicanstudios.com/images/blog/assets/ios-android-cook.jpg&quot; alt=&quot;&quot; /&gt;
+&lt;p&gt;&lt;img src=&quot;http://alexcican.com/images/blog/assets/ios-android-cook.jpg&quot; alt=&quot;&quot; /&gt;
 &lt;figcaption&gt;Fragmentation of Android versions vs iOS versions.&lt;/figcaption&gt;&lt;/p&gt;
 
 &lt;p&gt;At my University we used IE 6 to browse and build websites, Firefox was a commodity, but updating Internet Explorer on all the lab computers would have been very consuming. I get that not everyone has the possibility, or preference, to switch to a better browser, purchase the newest laptop, use the latest OS, keep up with the fast pace of change. In the end, to each their own. But refusing, or being unable, to upgrade revokes your right to expect from me to keep designing for your old OS.&lt;/p&gt;
@@ -464,7 +464,7 @@ nav.expanded #navigation {
 
 &lt;h2&gt;Design empty states&lt;/h2&gt;
 
-&lt;p&gt;&lt;img src=&quot;http://sicanstudios.com/images/blog/assets/kippt-empty-state.png&quot; alt=&quot;&quot; /&gt;
+&lt;p&gt;&lt;img src=&quot;http://alexcican.com/images/blog/assets/kippt-empty-state.png&quot; alt=&quot;&quot; /&gt;
 &lt;figcaption&gt;&lt;a href=&quot;https://kippt.com&quot;&gt;Kippt&lt;/a&gt; web app’s empty state.&lt;/figcaption&gt;&lt;/p&gt;
 
 &lt;p&gt;For apps and websites an important part often forgotten are the states of the app/website. These states are still part of the user experience, so don’t forget them. Design the initial state (first-time user) of the app, logged in state, the empty state, and any error states—though you should avoid showing errors altogether.&lt;/p&gt;
@@ -473,8 +473,8 @@ nav.expanded #navigation {
 
 &lt;p&gt;People like to be guided, i.e. told what to do. A compelling experience guides the user through the product. For example, one of the most recent memorable walkthroughs that I experienced was in Vine application:&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&quot;http://sicanstudios.com/images/blog/assets/vine.gif&quot; alt=&quot;&quot; /&gt;
-&lt;figcaption&gt;Vine app interactive tutorial GIF (&lt;a href=&quot;http://sicanstudios.com/images/blog/assets/vine.gif&quot;&gt;watch it again&lt;/a&gt;)&lt;/figcaption&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;http://alexcican.com/images/blog/assets/vine.gif&quot; alt=&quot;&quot; /&gt;
+&lt;figcaption&gt;Vine app interactive tutorial GIF (&lt;a href=&quot;http://alexcican.com/images/blog/assets/vine.gif&quot;&gt;watch it again&lt;/a&gt;)&lt;/figcaption&gt;&lt;/p&gt;
 
 &lt;p&gt;Vine shows you an interactive tutorial how to record your first Vine, and once you are done with the walkthrough, the video you recorded is ready to be published. They guide the user through these different stages (recording, posting, browsing), seamlessly. Brilliant.&lt;/p&gt;
 
@@ -484,7 +484,7 @@ nav.expanded #navigation {
 
 &lt;h2&gt;Provide visual cues&lt;/h2&gt;
 
-&lt;p&gt;&lt;img src=&quot;http://sicanstudios.com/images/blog/assets/apple-packaging.jpg&quot; alt=&quot;&quot; /&gt;
+&lt;p&gt;&lt;img src=&quot;http://alexcican.com/images/blog/assets/apple-packaging.jpg&quot; alt=&quot;&quot; /&gt;
 &lt;figcaption&gt;Lift the instructions booklet by pulling the semicircle.&lt;/figcaption&gt;&lt;/p&gt;
 
 &lt;p&gt;Think how Apple packages their products. They don’t have instructions showing you how to lift the instructions booklet, but you know how to do it because of the visual cues.&lt;/p&gt;
@@ -523,7 +523,7 @@ nav.expanded #navigation {
 
 &lt;h2&gt;Create a stimulating environment&lt;/h2&gt;
 
-&lt;p&gt;In order to be creative you have to &lt;strong&gt;stimulate the mind&lt;/strong&gt; and embrace new ideas. I’m not most creative when under external pressure, by a client or time. I tend to stick to the basics/default/usual, and certainly don’t wander exploring stuff and trying to come up with new ideas. But don’t get me wrong, deadlines are good—that’s how you &lt;a href=&quot;http://sicanstudios.com/post/doing-work/&quot;&gt;get stuff done&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;In order to be creative you have to &lt;strong&gt;stimulate the mind&lt;/strong&gt; and embrace new ideas. I’m not most creative when under external pressure, by a client or time. I tend to stick to the basics/default/usual, and certainly don’t wander exploring stuff and trying to come up with new ideas. But don’t get me wrong, deadlines are good—that’s how you &lt;a href=&quot;http://alexcican.com/post/doing-work/&quot;&gt;get stuff done&lt;/a&gt;.&lt;/p&gt;
 
 &lt;p&gt;Be open, try new things, test new ideas, and allow yourself &lt;strong&gt;creative freedom&lt;/strong&gt;. Ask the question &lt;em&gt;“What if?”&lt;/em&gt;. Pick a different colour palette, use a not-so-popular font, design with a different style, try a new drawing technique, give that new &lt;a href=&quot;http://www.bohemiancoding.com/sketch/&quot;&gt;design app&lt;/a&gt; a go, experiment with stuff!&lt;/p&gt;
 
@@ -552,9 +552,9 @@ nav.expanded #navigation {
 
 &lt;p&gt;Here’s the thing though. In the beginning, when you’re starting out, you need to work your ass off. I don’t condone workaholism but you need to burn the midnight oil and work long hours, in order to improve your skills and become good.&lt;/p&gt;
 
-&lt;p&gt;It’s only by going through a &lt;a href=&quot;http://sicanstudios.com/post/doing-work/&quot;&gt;volume of work&lt;/a&gt; that you will close that gap and your work will be as good as your ambitions.&lt;/p&gt;
+&lt;p&gt;It’s only by going through a &lt;a href=&quot;http://alexcican.com/post/doing-work/&quot;&gt;volume of work&lt;/a&gt; that you will close that gap and your work will be as good as your ambitions.&lt;/p&gt;
 
-&lt;p&gt;&lt;a href=&quot;http://sicanstudios.com/images/blog/assets/ira-glass-poster.jpg&quot; class=&quot;img&quot;&gt;&lt;img src=&quot;http://sicanstudios.com/images/blog/assets/ira-glass-poster-small.jpg&quot; alt=&quot;ira glass poster&quot;/&gt;&lt;/a&gt;
+&lt;p&gt;&lt;a href=&quot;http://alexcican.com/images/blog/assets/ira-glass-poster.jpg&quot; class=&quot;img&quot;&gt;&lt;img src=&quot;http://alexcican.com/images/blog/assets/ira-glass-poster-small.jpg&quot; alt=&quot;ira glass poster&quot;/&gt;&lt;/a&gt;
 &lt;figcaption&gt;Quote by Ira Glass, created by Sawyer Hollenshead. Click to view bigger.&lt;/figcaption&gt;&lt;/p&gt;
 
 &lt;p&gt;Moreover, I don’t consider designing to be work that I can switch off when I go home. So in a sense I’m not a workaholic, I just design a lot. And you should feel the same, too. It’s fine if you have a boring 9 to 5 job, that pays the rent, and you can shut it off when you get home. But whatever you really want do with your life—your calling—shouldn’t feel like work.&lt;/p&gt;
@@ -674,7 +674,7 @@ write tutorial blog post
 
 &lt;p&gt;Imagine you’re from Mars, and in 2013 you’re visiting Earth for the first time. Someone shows you two iPhones, running different operating systems. Judging by the icons, which of the two would you think is more cool/modern/recent/stunning looking?&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&quot;http://sicanstudios.com/images/blog/assets/ios-icons.jpg&quot; alt=&quot;ios 7 icons&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;http://alexcican.com/images/blog/assets/ios-icons.jpg&quot; alt=&quot;ios 7 icons&quot; /&gt;&lt;/p&gt;
 
 &lt;p&gt;What is the purpose of an icon if not to present in a beautiful, detailed, graphical way the functionality of the app? I know what the app is, I can read its title—I just want a beautiful icon to accompany it and make me want to click it. Just because currently there is this trend of “flat design”, it doesn’t mean you have to stick pictograms on backgrounds with eye-popping gradients. That’s just kitch&lt;sup&gt;&lt;a href=&quot;#footnotes&quot;&gt;1&lt;/a&gt;&lt;/sup&gt;.&lt;/p&gt;
 
@@ -1006,7 +1006,7 @@ The noise reduction of the X100S is great. Until you reach ISO 6400. At this poi
 
 &lt;p&gt;Even as you’re reading this line, your eyes fixate on one word and then they “jump” to the next three-four words (depends on how fast you read; fast readers use their peripheral vision and fixate fewer times per line). In a feed, we tend to &lt;strong&gt;scan&lt;/strong&gt; in an &lt;a href=&quot;http://www.vanseodesign.com/web-design/3-design-layouts/&quot;&gt;F-shape pattern&lt;/a&gt;. We start from the avatar (left-top) and then move on to read what the person has said.&lt;/p&gt;
 
-&lt;p&gt;&lt;a href=&quot;http://sicanstudios.com/images/blog/assets/twitter-eye-tracking.png&quot; class=&quot;img&quot; target=&quot;_blank&quot;&gt;&lt;img src=&quot;http://sicanstudios.com/images/blog/assets/twitter-eye-tracking.png&quot; alt=&quot;twitter eye tracking&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;http://alexcican.com/images/blog/assets/twitter-eye-tracking.png&quot; class=&quot;img&quot; target=&quot;_blank&quot;&gt;&lt;img src=&quot;http://alexcican.com/images/blog/assets/twitter-eye-tracking.png&quot; alt=&quot;twitter eye tracking&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
 
 &lt;p&gt;Because it’s so easy for the reader to “skip you” and scroll down, thus neglecting your post, you have to make it interesting to the reader, so they will stop and accord you a few seconds. If what you say is worth or not their while, that’s another story.&lt;/p&gt;
 
@@ -1028,9 +1028,9 @@ The noise reduction of the X100S is great. Until you reach ISO 6400. At this poi
 
 &lt;p&gt;A few months ago there was a trend with avatars, to display your avatar in black and white (I did it too). The problem is that your B&amp;amp;W avatar gets mixed up in my memory with the other B&amp;amp;W avatars, because they look too similar, and I can’t differentiate yours. See the difference, in the image below?&lt;/p&gt;
 
-&lt;p&gt;&lt;a href=&quot;http://sicanstudios.com/images/blog/assets/avatars.jpg&quot; class=&quot;img&quot; target=&quot;_blank&quot;&gt;&lt;img src=&quot;http://sicanstudios.com/images/blog/assets/avatars.jpg&quot; alt=&quot;avatars&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;http://alexcican.com/images/blog/assets/avatars.jpg&quot; class=&quot;img&quot; target=&quot;_blank&quot;&gt;&lt;img src=&quot;http://alexcican.com/images/blog/assets/avatars.jpg&quot; alt=&quot;avatars&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
 
-&lt;p&gt;&lt;small&gt;Top tier: &lt;a href=&quot;https://twitter.com/soffes&quot;&gt;@soffes&lt;/a&gt;, &lt;a href=&quot;https://twitter.com/salleedesign&quot;&gt;@salleedesign&lt;/a&gt;, &lt;a href=&quot;https://twitter.com/_dte&quot;&gt;@_dte&lt;/a&gt;, &lt;a href=&quot;https://twitter.com/MengTo&quot;&gt;@MengTo&lt;/a&gt;, &lt;a href=&quot;https://twitter.com/sican&quot;&gt;@sican&lt;/a&gt;. Bottom tier: &lt;a href=&quot;https://twitter.com/jessicahische&quot;&gt;@jessicahische&lt;/a&gt;, &lt;a href=&quot;https://twitter.com/paul_irish&quot;&gt;@paul_irish&lt;/a&gt;, &lt;a href=&quot;https://twitter.com/repponen&quot;&gt;@repponen&lt;/a&gt;, &lt;a href=&quot;https://twitter.com/drewwilson&quot;&gt;@drewwilson&lt;/a&gt;, &lt;a href=&quot;http://twitter.com/sican&quot;&gt;@sican&lt;/a&gt;.&lt;/small&gt;&lt;/p&gt;
+&lt;p&gt;&lt;small&gt;Top tier: &lt;a href=&quot;https://twitter.com/soffes&quot;&gt;@soffes&lt;/a&gt;, &lt;a href=&quot;https://twitter.com/salleedesign&quot;&gt;@salleedesign&lt;/a&gt;, &lt;a href=&quot;https://twitter.com/_dte&quot;&gt;@_dte&lt;/a&gt;, &lt;a href=&quot;https://twitter.com/MengTo&quot;&gt;@MengTo&lt;/a&gt;, &lt;a href=&quot;https://twitter.com/sican&quot;&gt;@sican&lt;/a&gt;. Bottom tier: &lt;a href=&quot;https://twitter.com/jessicahische&quot;&gt;@jessicahische&lt;/a&gt;, &lt;a href=&quot;https://twitter.com/paul_irish&quot;&gt;@paul_irish&lt;/a&gt;, &lt;a href=&quot;https://twitter.com/repponen&quot;&gt;@repponen&lt;/a&gt;, &lt;a href=&quot;https://twitter.com/drewwilson&quot;&gt;@drewwilson&lt;/a&gt;, &lt;a href=&quot;http://twitter.com/alexcican&quot;&gt;@sican&lt;/a&gt;.&lt;/small&gt;&lt;/p&gt;
 
 &lt;p&gt;That’s why I made my avatar yellow.&lt;/p&gt;
 
@@ -1048,11 +1048,11 @@ The noise reduction of the X100S is great. Until you reach ISO 6400. At this poi
 
 &lt;h2&gt;Consistency&lt;/h2&gt;
 
-&lt;p&gt;&lt;a href=&quot;http://sicanstudios.com/images/blog/assets/coca-cola-vs-pepsi.png&quot; class=&quot;img&quot; target=&quot;_blank&quot;&gt;&lt;img src=&quot;http://sicanstudios.com/images/blog/assets/coca-cola-vs-pepsi.png&quot; alt=&quot;coca cola vs pepsi&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;http://alexcican.com/images/blog/assets/coca-cola-vs-pepsi.png&quot; class=&quot;img&quot; target=&quot;_blank&quot;&gt;&lt;img src=&quot;http://alexcican.com/images/blog/assets/coca-cola-vs-pepsi.png&quot; alt=&quot;coca cola vs pepsi&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
 
 &lt;p&gt;Be consistent with your avatar. In my opinion it’s the most important marketing tool you have today. Don’t change your avatar/profile picture frequently. Also, your avatar should be the same across all sites, apps, and social networks. One avatar to rule them all. Doing so, you tap in the long-term memory of your followers and people can instantly recognise you.&lt;/p&gt;
 
-&lt;p&gt;Even if it’s &lt;em&gt;“the dude with the face of a &lt;a href=&quot;http://www.youtube.com/watch?v=fTHL0MAWkmY&quot;&gt;Minion&lt;/a&gt;”&lt;/em&gt;, i.e. &lt;a href=&quot;http://sicanstudios.com/images/alex-cican@2x.jpg&quot;&gt;me&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;Even if it’s &lt;em&gt;“the dude with the face of a &lt;a href=&quot;http://www.youtube.com/watch?v=fTHL0MAWkmY&quot;&gt;Minion&lt;/a&gt;”&lt;/em&gt;, i.e. &lt;a href=&quot;http://alexcican.com/sicanstudios/images/alex-cican@2x.jpg&quot;&gt;me&lt;/a&gt;.&lt;/p&gt;
 </description>
         </item>
       
@@ -1186,7 +1186,7 @@ The noise reduction of the X100S is great. Until you reach ISO 6400. At this poi
 
 &lt;ul&gt;
 &lt;li&gt;&lt;strong&gt;&lt;a href=&quot;https://chrome.google.com/webstore/detail/whatfont/&quot;&gt;WhatFont&lt;/a&gt; for identifying fonts on websites&lt;/strong&gt;.&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;&lt;a href=&quot;https://chrome.google.com/webstore/detail/user-agent-switcher-for-c/&quot;&gt;User-Agent Switcher&lt;/a&gt; to evaluate how websites are rendered on other devices (Chrome DevTools also has this feature, but it’s hidden in the settings)&lt;/strong&gt;.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;&lt;a href=&quot;https://chrome.google.com/webstore/detail/user-agent-switcher-for-c/&quot;&gt;User-Agent Switcher&lt;/a&gt; to evaluate how websites are rendered on other devices&lt;/strong&gt; (Chrome DevTools also has this feature, but it’s hidden in the settings).&lt;/li&gt;
 &lt;li&gt;&lt;strong&gt;&lt;a href=&quot;https://chrome.google.com/webstore/detail/pagespeed-insights-by-goo/&quot;&gt;PageSpeed Insights&lt;/a&gt; for analyzing and improving website performance&lt;/strong&gt;.&lt;/li&gt;
 &lt;li&gt;&lt;strong&gt;&lt;a href=&quot;https://chrome.google.com/webstore/detail/window-resizer/&quot;&gt;Window Resizer&lt;/a&gt; for resizing the browser window to specific resolutions&lt;/strong&gt;.&lt;/li&gt;
 &lt;/ul&gt;
@@ -1218,15 +1218,11 @@ The noise reduction of the X100S is great. Until you reach ISO 6400. At this poi
 
 &lt;p&gt;I chose to work on a 32px grid. If you’re using Photoshop, go to &lt;em&gt;Preferences [Cmd + K] &gt; Guides, Grids &amp;amp; Slices&lt;/em&gt;, and add a Gridline every 32 pixels with Subdivision of 1. To view the grid, go to &lt;em&gt;View &gt; Show &gt; Grid [Cmd + ']&lt;/em&gt;.&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&quot;http://sicanstudios.com/images/blog/assets/photoshop-preferences.png&quot; alt=&quot;photoshop preferences&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;http://alexcican.com/images/blog/assets/photoshop-preferences.png&quot; alt=&quot;photoshop preferences&quot; /&gt;&lt;/p&gt;
 
 &lt;p&gt;Stick to the grid. Every vector icon, image, text, container, needs to adhere to the 32 pixels. To help you out, Photoshop can snap your elements to the grid. To enable it go to &lt;em&gt;View &gt; Snap To&lt;/em&gt;, make sure &lt;em&gt;Grid&lt;/em&gt; is checked, and enable by going to &lt;em&gt;View &gt; Snap [Shift + Cmd + ;]&lt;/em&gt;.&lt;/p&gt;
 
-&lt;p&gt;When it’s time to code your pixel-perfect website, you can create a 32px x 32px transparent PNG pattern that you can use as a background, to help you out. Create two 1px lines and place them on top and left side of the pattern (&lt;a href=&quot;http://sicanstudios.com/images/line.png&quot;&gt;example&lt;/a&gt;).&lt;/p&gt;
-
-&lt;p&gt;Check out the arrangement of this website on a grid by clicking below:&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&quot;#&quot; class=&quot;button grid&quot;&gt;&lt;span&gt;Enable Grid&lt;/span&gt;&lt;span class=&quot;hidden&quot;&gt;Disable Grid&lt;/span&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;When it’s time to code your pixel-perfect website, you can create a 32px x 32px transparent PNG pattern that you can use as a background, to help you out. Create two 1px lines and place them on top and left side of the pattern (&lt;a href=&quot;http://alexcican.com/sicanstudios/images/line.png&quot;&gt;example&lt;/a&gt;).&lt;/p&gt;
 
 &lt;h2&gt;A grid of 32px until it isn’t&lt;/h2&gt;
 
@@ -1236,17 +1232,17 @@ The noise reduction of the X100S is great. Until you reach ISO 6400. At this poi
 
 &lt;p&gt;The web consists mostly of text and cat pictures. Leaving cat pictures aside, text needs to be readable. Vertical rhythm refers to the spacing and arrangement of text as the reader descends the page. It is contributed to by three factors: font size, line height and margin or padding.&lt;/p&gt;
 
-&lt;p&gt;&lt;a href=&quot;http://sicanstudios.com/images/blog/assets/vertical-rhythm.svg&quot; class=&quot;img&quot; target=&quot;_blank&quot;&gt;&lt;img src=&quot;http://sicanstudios.com/images/blog/assets/vertical-rhythm.svg&quot; class=&quot;black&quot; alt=&quot;vertical rhythm svg&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;http://alexcican.com/images/blog/assets/vertical-rhythm.svg&quot; class=&quot;img&quot; target=&quot;_blank&quot;&gt;&lt;img src=&quot;http://alexcican.com/images/blog/assets/vertical-rhythm.svg&quot; class=&quot;black&quot; alt=&quot;vertical rhythm svg&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
 
 &lt;p&gt;To improve readability, keep your text length between 50 and 75 characters per line. For body text, the line height should be 1.6x the font size. So for a 20px font size, the line height would be 32px (our grid). Read more on &lt;a href=&quot;http://24ways.org/2006/compose-to-a-vertical-rhythm/&quot;&gt;how to compose to a vertical rhythm&lt;/a&gt;.&lt;/p&gt;
 
 &lt;p&gt;When you measure vertical height with text, always exclude ascenders and descenders, because each type is different. Measure everything from the X-height, which is the height of the body, minus ascenders and descenders. This is equal to the height of the lowercase &lt;em&gt;‘x’&lt;/em&gt;, hence its name.&lt;/p&gt;
 
-&lt;p&gt;&lt;a href=&quot;http://sicanstudios.com/images/blog/assets/type-anatomy.svg&quot; class=&quot;img&quot; target=&quot;_blank&quot;&gt;&lt;img src=&quot;http://sicanstudios.com/images/blog/assets/type-anatomy.svg&quot; class=&quot;black&quot; alt=&quot;type anatomy svg&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;http://alexcican.com/images/blog/assets/type-anatomy.svg&quot; class=&quot;img&quot; target=&quot;_blank&quot;&gt;&lt;img src=&quot;http://alexcican.com/images/blog/assets/type-anatomy.svg&quot; class=&quot;black&quot; alt=&quot;type anatomy svg&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
 
 &lt;h2&gt;Retina revolution&lt;/h2&gt;
 
-&lt;p&gt;I don’t own a retina device. I almost bought one in September 2012, when on the lookout for a new laptop (went for a 13” Air). Retina is the future, and in order to future-proof your pixel-perfect website you need to use SVG (Scalable Vector Graphics) when exporting your graphics. By using SVG, you can scale the image infinitely without losing quality and pixelating/blurring the graphic. I wrote in a previous post &lt;a href=&quot;http://sicanstudios.com/post/retina-website-tutorial/&quot;&gt;how to make your website pretty for retina devices&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;I don’t own a retina device. I almost bought one in September 2012, when on the lookout for a new laptop (went for a 13” Air). Retina is the future, and in order to future-proof your pixel-perfect website you need to use SVG (Scalable Vector Graphics) when exporting your graphics. By using SVG, you can scale the image infinitely without losing quality and pixelating/blurring the graphic. I wrote in a previous post &lt;a href=&quot;http://alexcican.com/post/retina-website-tutorial/&quot;&gt;how to make your website pretty for retina devices&lt;/a&gt;.&lt;/p&gt;
 
 &lt;p&gt;There is a rule when exporting assets. You use JPG for photographs, and PNG for graphics. By doing that you reduce the file size of the asset. That is because graphics usually consist of large blocks of colour that are displayed more efficiently with PNGs. I say scratch that; use SVG instead of PNG. SVG can reduce the file size even more than PNG.&lt;/p&gt;
 
@@ -1323,7 +1319,7 @@ The noise reduction of the X100S is great. Until you reach ISO 6400. At this poi
 &lt;iframe src=&quot;http://player.vimeo.com/video/59101559?byline=0&quot; width=&quot;740&quot; height=&quot;416&quot; frameborder=&quot;0&quot; webkitAllowFullScreen mozallowfullscreen allowFullScreen&gt;&lt;/iframe&gt;
 
 
-&lt;p&gt; &lt;p&gt;&lt;a href=&quot;http://vimeo.com/59101559&quot;&gt;Making your website look pretty on retina devices&lt;/a&gt; from &lt;a href=&quot;http://vimeo.com/sican&quot;&gt;Alex Cican&lt;/a&gt; on Vimeo.&lt;/p&gt;&lt;/p&gt;
+&lt;p&gt;&lt;figcaption&gt;&lt;a href=&quot;http://vimeo.com/59101559&quot;&gt;Making your website look pretty on retina devices&lt;/a&gt; from &lt;a href=&quot;http://vimeo.com/alexcican&quot;&gt;Alex Cican&lt;/a&gt; on Vimeo.&lt;/figcaption&gt;&lt;/p&gt;
 
 &lt;h2&gt;Clarifications from the video (Spoiler Alert)&lt;/h2&gt;
 
@@ -1351,7 +1347,7 @@ The noise reduction of the X100S is great. Until you reach ISO 6400. At this poi
           <pubDate>2013-01-09T00:00:00+02:00</pubDate>
           <link>http://alexcican.com/post/recent-posts-scriptogram/</link>
           <guid>http://alexcican.com/post/recent-posts-scriptogram/</guid>
-          <description>&lt;p&gt;In the previous design of this blog I used to show a list with my latest three articles. There is no option to do that in Scriptogr.am. People kept asking me how I did it and if I could share with them the script that shows the latest articles. When I responded that I do it manually—there’s no script I just go and edit the theme file every time—they were disappointed. But it keeps coming up in my &lt;a href=&quot;https://twitter.com/sican&quot;&gt;Twitter feed&lt;/a&gt;. So I spent an hour last night writing a script that reads your blog’s &lt;code&gt;RSS&lt;/code&gt; feed and shows the latest three posts.&lt;/p&gt;
+          <description>&lt;p&gt;In the previous design of this blog I used to show a list with my latest three articles. There is no option to do that in Scriptogr.am. People kept asking me how I did it and if I could share with them the script that shows the latest articles. When I responded that I do it manually—there’s no script I just go and edit the theme file every time—they were disappointed. But it keeps coming up in my &lt;a href=&quot;https://twitter.com/alexcican&quot;&gt;Twitter feed&lt;/a&gt;. So I spent an hour last night writing a script that reads your blog’s &lt;code&gt;RSS&lt;/code&gt; feed and shows the latest three posts.&lt;/p&gt;
 
 &lt;!--more--&gt;
 
@@ -1506,9 +1502,9 @@ The noise reduction of the X100S is great. Until you reach ISO 6400. At this poi
 
 &lt;h2&gt;Negotiating&lt;/h2&gt;
 
-&lt;p&gt;I won’t go into too much detail about this subject here, because I already wrote about it in another &lt;a href=&quot;http://sicanstudios.com/post/pricing-negotiating&quot;&gt;blog post&lt;/a&gt;. Nonetheless, let’s look into how to negotiate a salary if they say it’s not flexible.&lt;/p&gt;
+&lt;p&gt;I won’t go into too much detail about this subject here, because I already wrote about it in another &lt;a href=&quot;http://alexcican.com/post/pricing-negotiating&quot;&gt;blog post&lt;/a&gt;. Nonetheless, let’s look into how to negotiate a salary if they say it’s not flexible.&lt;/p&gt;
 
-&lt;p&gt;When interviewers say the salary it’s not flexible, they implement the classic scare tactic. And because you’re terrified of negotiating—understandable, since nobody taught you how to do it; &lt;a href=&quot;http://sicanstudios.com/post/pricing-negotiating&quot;&gt;learn now&lt;/a&gt;—the interviewer owns you like a puppeteer manipulates a puppet:&lt;/p&gt;
+&lt;p&gt;When interviewers say the salary it’s not flexible, they implement the classic scare tactic. And because you’re terrified of negotiating—understandable, since nobody taught you how to do it; &lt;a href=&quot;http://alexcican.com/post/pricing-negotiating&quot;&gt;learn now&lt;/a&gt;—the interviewer owns you like a puppeteer manipulates a puppet:&lt;/p&gt;
 
 &lt;blockquote&gt;&lt;p&gt;&lt;em&gt;“I know you don’t have any other offers and I know how much you made at your previous job. Now dance to my song”.&lt;/em&gt;&lt;/p&gt;&lt;/blockquote&gt;
 
@@ -1652,7 +1648,7 @@ The noise reduction of the X100S is great. Until you reach ISO 6400. At this poi
           <pubDate>2012-05-19T00:00:00+03:00</pubDate>
           <link>http://alexcican.com/post/blog-dropbox-scriptogram/</link>
           <guid>http://alexcican.com/post/blog-dropbox-scriptogram/</guid>
-          <description>&lt;p&gt;A few months ago I cancelled my hosting accounts and moved all my &lt;a href=&quot;http://sicanstudios.com/post/guide-hosting-website-dropbox-github&quot;&gt;websites to Dropbox and GitHub&lt;/a&gt;. The only problem I was left with was where I should host the blog. I decided to use Tumblr. Regretting the decision after only two months, the solution was right in front of me the entire time: &lt;strong&gt;use Dropbox for the blog&lt;/strong&gt; as well. In this article I’ll show you how I did it.&lt;/p&gt;
+          <description>&lt;p&gt;A few months ago I cancelled my hosting accounts and moved all my &lt;a href=&quot;http://alexcican.com/post/guide-hosting-website-dropbox-github&quot;&gt;websites to Dropbox and GitHub&lt;/a&gt;. The only problem I was left with was where I should host the blog. I decided to use Tumblr. Regretting the decision after only two months, the solution was right in front of me the entire time: &lt;strong&gt;use Dropbox for the blog&lt;/strong&gt; as well. In this article I’ll show you how I did it.&lt;/p&gt;
 
 &lt;!--more--&gt;
 
@@ -1668,7 +1664,7 @@ The noise reduction of the X100S is great. Until you reach ISO 6400. At this poi
 &lt;p&gt;Some cool features of Scriptogr.am:&lt;/p&gt;
 
 &lt;ol&gt;
-&lt;li&gt;&lt;strong&gt;Custom domain name&lt;/strong&gt;: Use your own domain name for the blog, like &lt;code&gt;blog.sicanstudios.com&lt;/code&gt;.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Custom domain name&lt;/strong&gt;: Use your own domain name for the blog, like &lt;code&gt;blog.alexcican.com&lt;/code&gt;.&lt;/li&gt;
 &lt;li&gt;&lt;strong&gt;Awesome themes&lt;/strong&gt;: Build your own themes (very easy to do) or select one from the gallery.&lt;/li&gt;
 &lt;li&gt;&lt;strong&gt;Awesome HTML and CSS editor&lt;/strong&gt;: Beautifully designed online editor with syntax highlighting.&lt;/li&gt;
 &lt;li&gt;&lt;strong&gt;One step sign-up&lt;/strong&gt;: One step to sign-up and one click sign-in to Scriptogr.am.&lt;/li&gt;
@@ -1697,28 +1693,28 @@ Slug: blog-dropbox-scriptogram
 Tags: blog, dropbox, tutorial
 Type: post
 Published: false
-Excerpt: A few months ago I cancelled my hosting accounts and moved all my [websites to Dropbox and GitHub](http://blog.sicanstudios.com/post/guide-hosting-website-dropbox-github)…
+Excerpt: A few months ago I cancelled my hosting accounts and moved all my [websites to Dropbox and GitHub](http://blog.alexcican.com/post/guide-hosting-website-dropbox-github)…
 ---
 &lt;/code&gt;&lt;/pre&gt;
 
 &lt;p&gt;Once you are done with the front-block, you can start writing your blog post. When you’ve finished, save the file, go to your &lt;a href=&quot;http://scriptogr.am/admin/&quot;&gt;admin page&lt;/a&gt; and click the button &lt;em&gt;Synchronize&lt;/em&gt; to update the blog with the new post. I hope this process of having to click the button in order to update the blog will be removed in the future. Simply, have the server update the directory once a new file is added to the &lt;code&gt;posts&lt;/code&gt; folder.&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&quot;http://sicanstudios.com/images/blog/assets/scriptogram-publish-button.jpg&quot; alt=&quot;scriptogram synchronize button&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;http://alexcican.com/images/blog/assets/scriptogram-publish-button.jpg&quot; alt=&quot;scriptogram synchronize button&quot; /&gt;&lt;/p&gt;
 
 &lt;h2&gt;Adding a custom domain name&lt;/h2&gt;
 
 &lt;p&gt;To add a custom domain name for your Scriptogr.am blog, simply go to your &lt;a href=&quot;http://scriptogr.am/admin/&quot;&gt;admin panel&lt;/a&gt;, find the &lt;em&gt;“custom domain”&lt;/em&gt; field and insert your desired custom domain name without the &lt;code&gt;http://&lt;/code&gt;. For me it’s:&lt;/p&gt;
 
-&lt;pre&gt;&lt;code&gt;blog.sicanstudios.com
+&lt;pre&gt;&lt;code&gt;blog.alexcican.com
 &lt;/code&gt;&lt;/pre&gt;
 
 &lt;p&gt;Make sure you click the &lt;em&gt;“Update Settings”&lt;/em&gt; button below the input field to apply the changes. Now it’s time to change the &lt;strong&gt;DNS settings&lt;/strong&gt;.&lt;/p&gt;
 
 &lt;p&gt;If you’re using GoDaddy, login to your account, launch the domains and click on the domain name you want to change. From that page, go down and find the &lt;em&gt;“DNS Manager”&lt;/em&gt; section. Click on &lt;em&gt;“Launch”&lt;/em&gt;.&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&quot;http://sicanstudios.com/images/blog/assets/godaddy-dns-editor.jpg&quot; alt=&quot;godaddy dns editor&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;http://alexcican.com/images/blog/assets/godaddy-dns-editor.jpg&quot; alt=&quot;godaddy dns editor&quot; /&gt;&lt;/p&gt;
 
-&lt;p&gt;Based on the type of custom domain name you’ve added in the Scriptogr.am’s admin panel, we’ll make different changes to the DNS. For a sub-domain like &lt;code&gt;http://www.sicanstudios.com&lt;/code&gt; or &lt;code&gt;http://blog.sicanstudios.com&lt;/code&gt; you would simply create a &lt;code&gt;CNAME&lt;/code&gt; record pointing to &lt;code&gt;scriptogr.am&lt;/code&gt;. If you are using a top-level domain like &lt;code&gt;http://sicanstudios.com&lt;/code&gt;, you must use an &lt;code&gt;A (Host)&lt;/code&gt; record pointing to &lt;code&gt;50.116.1.192&lt;/code&gt;. There’s no need to add a &lt;code&gt;CNAME&lt;/code&gt; record for top-level domains. Wait up to 48-72 hours for the changes to take effect (usually within an hour or so).&lt;/p&gt;
+&lt;p&gt;Based on the type of custom domain name you’ve added in the Scriptogr.am’s admin panel, we’ll make different changes to the DNS. For a sub-domain like &lt;code&gt;http://www.alexcican.com&lt;/code&gt; or &lt;code&gt;http://blog.alexcican.com&lt;/code&gt; you would simply create a &lt;code&gt;CNAME&lt;/code&gt; record pointing to &lt;code&gt;scriptogr.am&lt;/code&gt;. If you are using a top-level domain like &lt;code&gt;http://alexcican.com&lt;/code&gt;, you must use an &lt;code&gt;A (Host)&lt;/code&gt; record pointing to &lt;code&gt;50.116.1.192&lt;/code&gt;. There’s no need to add a &lt;code&gt;CNAME&lt;/code&gt; record for top-level domains. Wait up to 48-72 hours for the changes to take effect (usually within an hour or so).&lt;/p&gt;
 
 &lt;h2&gt;Creating a theme&lt;/h2&gt;
 
@@ -1781,7 +1777,7 @@ Excerpt: A few months ago I cancelled my hosting accounts and moved all my [webs
             &amp;lt;/div&amp;gt;&amp;lt;!--end body--&amp;gt;
         &amp;lt;/div&amp;gt;&amp;lt;!--end content--&amp;gt;
     &amp;lt;/div&amp;gt;&amp;lt;!--end post--&amp;gt;
-    &amp;lt;p class=&quot;more&quot;&amp;gt;&amp;lt;a href=&quot;http://blog.sicanstudios.com/archive&quot;&amp;gt;More articles in the Archive →&amp;lt;/a&amp;gt;&amp;lt;/p&amp;gt;
+    &amp;lt;p class=&quot;more&quot;&amp;gt;&amp;lt;a href=&quot;http://blog.alexcican.com/archive&quot;&amp;gt;More articles in the Archive →&amp;lt;/a&amp;gt;&amp;lt;/p&amp;gt;
 {{/is_post}}
 &lt;/code&gt;&lt;/pre&gt;
 
@@ -1789,10 +1785,10 @@ Excerpt: A few months ago I cancelled my hosting accounts and moved all my [webs
 
 &lt;p&gt;Here’s a tip: It’s best to tinker with the theme a bit. Because, the default theme of Scriptogr.am could be improved in terms of SEO (&lt;code&gt;&amp;lt;h1&amp;gt;&lt;/code&gt; tags, title, descriptions, etc.). I want to show you a better way to display the &lt;code&gt;&amp;lt;title&amp;gt;&lt;/code&gt; of the blog:&lt;/p&gt;
 
-&lt;pre&gt;&lt;code&gt;&amp;lt;title&amp;gt;{{#posts}}{{#is_post}}{{title}}{{/is_post}}{{/posts}}{{#is_index}}Blog of SicanStudios{{/is_index}}{{#is_archive}}Archive of the Blog of SicanStudios{{/is_archive}}&amp;lt;/title&amp;gt;
+&lt;pre&gt;&lt;code&gt;&amp;lt;title&amp;gt;{{#posts}}{{#is_post}}{{title}}{{/is_post}}{{/posts}}{{#is_index}}Blog of Alex Cican{{/is_index}}{{#is_archive}}Archive of the Blog of Alex Cican{{/is_archive}}&amp;lt;/title&amp;gt;
 &lt;/code&gt;&lt;/pre&gt;
 
-&lt;p&gt;We’re saying if the page is a post, display the &lt;code&gt;{{title}}&lt;/code&gt; of the post, if it’s the homepage, display &lt;em&gt;“Blog of SicanStudios”&lt;/em&gt; and if it’s an archive, display &lt;em&gt;“Archive of the Blog of SicanStudios”&lt;/em&gt;.&lt;/p&gt;
+&lt;p&gt;We’re saying if the page is a post, display the &lt;code&gt;{{title}}&lt;/code&gt; of the post, if it’s the homepage, display &lt;em&gt;“Blog of Alex Cican&lt;/em&gt; and if it’s an archive, display &lt;em&gt;“Archive of the Blog of Alex Cican&lt;/em&gt;.&lt;/p&gt;
 
 &lt;p&gt;This was a brief overview of the themes in Scriptogr.am. If you’re having any trouble, please visit the &lt;a href=&quot;http://support.scriptogr.am/kb&quot;&gt;FAQ&lt;/a&gt; or the &lt;a href=&quot;http://support.scriptogr.am/discussions&quot;&gt;forums&lt;/a&gt;.&lt;/p&gt;
 
@@ -1838,7 +1834,7 @@ Excerpt: A few months ago I cancelled my hosting accounts and moved all my [webs
 
 &lt;p&gt;The drop that spilled the cup came one day of February 2012, when all my websites (folders) &lt;strong&gt;were deleted&lt;/strong&gt; somehow. Because I considered paying $20 per month for simply hosting my files was enough, I didn’t enable the backup option (it was an extra $2 per month, if I remember correctly). So that day came, and I went straight to their support ticketing system. The dude that was assigned to me was not helpful at all and said there was nothing to be done. My last backup of the websites was in December 2011.&lt;/p&gt;
 
-&lt;p&gt;Pissed off, I &lt;strong&gt;cancelled my account&lt;/strong&gt;, got my refund and didn’t think back (or forward). Having been left only with my domain names, I had to do something (for &lt;em&gt;SicanStudios.com&lt;/em&gt; alone, I was averaging around 700 unique visitors per day). That’s when I made the decision to use the cloud.&lt;/p&gt;
+&lt;p&gt;Pissed off, I &lt;strong&gt;cancelled my account&lt;/strong&gt;, got my refund and didn’t think back (or forward). Having been left only with my domain names, I had to do something (for &lt;em&gt;AlexCican.com&lt;/em&gt; alone, I was averaging around 700 unique visitors per day). That’s when I made the decision to use the cloud.&lt;/p&gt;
 
 &lt;h2&gt;Why I switched to Dropbox and GitHub&lt;/h2&gt;
 
@@ -1862,7 +1858,7 @@ Excerpt: A few months ago I cancelled my hosting accounts and moved all my [webs
 
 &lt;p&gt;If you want your files to be accessible by anyone, you have to move them into your “Public” folder. If you’re using absolute paths for your website, I suggest you change it to relative paths. So from this:&lt;/p&gt;
 
-&lt;pre&gt;&lt;code&gt;&amp;lt;a href=&quot;http://sicanstudios.com/web/file.html&quot;&amp;gt;&amp;lt;/a&amp;gt;
+&lt;pre&gt;&lt;code&gt;&amp;lt;a href=&quot;http://alexcican.com/web/file.html&quot;&amp;gt;&amp;lt;/a&amp;gt;
 &lt;/code&gt;&lt;/pre&gt;
 
 &lt;p&gt;change them to this:&lt;/p&gt;
@@ -1876,7 +1872,7 @@ Excerpt: A few months ago I cancelled my hosting accounts and moved all my [webs
 
 &lt;p&gt;If you’re using GoDaddy, logit to &lt;em&gt;“Your account”&lt;/em&gt; and launch the &lt;em&gt;“Domains”&lt;/em&gt;. Then, click on the domain name you want to edit and from the toolbar, select the &lt;em&gt;forward&lt;/em&gt; icon. Click &lt;em&gt;“Forward Domain”&lt;/em&gt; and insert in the popup input, the complete URL of the &lt;code&gt;index.html&lt;/code&gt; from inside the Dropbox folder (to get the link: &lt;em&gt;right click on the file&gt;Dropbox&gt;Copy public link&lt;/em&gt;).&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&quot;http://sicanstudios.com/images/blog/assets/godaddy-forward-domain.jpg&quot; alt=&quot;godaddy forward domain&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;http://alexcican.com/images/blog/assets/godaddy-forward-domain.jpg&quot; alt=&quot;godaddy forward domain&quot; /&gt;&lt;/p&gt;
 
 &lt;p&gt;Wait a few hours and you should be able to access the website hosted on Dropbox via your domain name!&lt;/p&gt;
 
@@ -1891,12 +1887,12 @@ Excerpt: A few months ago I cancelled my hosting accounts and moved all my [webs
 
 &lt;p&gt;This means that the Dropbox URL would be visible when navigating the website. I couldn’t have something like:&lt;/p&gt;
 
-&lt;pre&gt;&lt;code&gt;http://sicanstudios.com/file.html
+&lt;pre&gt;&lt;code&gt;http://alexcican.com/file.html
 &lt;/code&gt;&lt;/pre&gt;
 
 &lt;p&gt;unless I did a URL forwarding with masking from my DNS settings. This was not optimal because whichever page of the website I’d browse, it would show up only as:&lt;/p&gt;
 
-&lt;pre&gt;&lt;code&gt;sicanstudios.com
+&lt;pre&gt;&lt;code&gt;alexcican.com
 &lt;/code&gt;&lt;/pre&gt;
 
 &lt;p&gt;To do this URL masking on GoDaddy, repeat the steps above for pointing the DNS record to Dropbox, but in the popup click on &lt;em&gt;“Advanced Options”&lt;/em&gt; and select the second option: &lt;em&gt;“Forward with Masking”&lt;/em&gt;.&lt;/p&gt;
@@ -1916,14 +1912,14 @@ Excerpt: A few months ago I cancelled my hosting accounts and moved all my [webs
 
 &lt;p&gt;To enable &lt;strong&gt;custom domain names&lt;/strong&gt;, you just have to create a file named &lt;code&gt;CNAME&lt;/code&gt;, in the root of the repo or branch, open the file with a text editor and add your domain name inside:&lt;/p&gt;
 
-&lt;pre&gt;&lt;code&gt;sicanstudios.com
+&lt;pre&gt;&lt;code&gt;alexcican.com
 &lt;/code&gt;&lt;/pre&gt;
 
 &lt;p&gt;GitHub pages also supports &lt;strong&gt;custom error pages&lt;/strong&gt;. Simply push a &lt;code&gt;404.html&lt;/code&gt; file with your message in the root of the repo or branch.&lt;/p&gt;
 
 &lt;p&gt;Now it’s time to change the &lt;strong&gt;DNS settings&lt;/strong&gt; from GoDaddy to point to our GitHub page. Login to your account, launch the domains and click on the domain name you want to change. From that page (see screenshot above), go down and find the &lt;em&gt;“DNS Manager”&lt;/em&gt; section. Click on &lt;em&gt;“Launch”&lt;/em&gt;.&lt;/p&gt;
 
-&lt;p&gt;You have to decide what domain name you’ll be using. For a sub-domain like &lt;code&gt;http://www.sicanstudios.com&lt;/code&gt; or &lt;code&gt;http://blog.sicanstudios.com&lt;/code&gt; you would simply create a &lt;code&gt;CNAME&lt;/code&gt; record pointing to &lt;code&gt;charlie.github.com&lt;/code&gt;. If you are using a top-level domain like &lt;code&gt;http://sicanstudios.com&lt;/code&gt;, you must use an &lt;code&gt;A (Host)&lt;/code&gt; record pointing to &lt;code&gt;204.232.175.78&lt;/code&gt;. There’s no need to add a &lt;code&gt;CNAME&lt;/code&gt; record for top-level domains.&lt;/p&gt;
+&lt;p&gt;You have to decide what domain name you’ll be using. For a sub-domain like &lt;code&gt;http://www.alexcican.com&lt;/code&gt; or &lt;code&gt;http://blog.alexcican.com&lt;/code&gt; you would simply create a &lt;code&gt;CNAME&lt;/code&gt; record pointing to &lt;code&gt;charlie.github.com&lt;/code&gt;. If you are using a top-level domain like &lt;code&gt;http://alexcican.com&lt;/code&gt;, you must use an &lt;code&gt;A (Host)&lt;/code&gt; record pointing to &lt;code&gt;204.232.175.78&lt;/code&gt;. There’s no need to add a &lt;code&gt;CNAME&lt;/code&gt; record for top-level domains.&lt;/p&gt;
 
 &lt;h2&gt;Downsides of GitHub&lt;/h2&gt;
 
@@ -2028,7 +2024,7 @@ What usually goes through the mind of the designer/developer: “Oh oh, Here com
 
 &lt;p&gt;or they don’t even respond, you guessed it; you &lt;strong&gt;&lt;a href=&quot;http://www.youtube.com/watch?v=x4o-TeMHys0&quot;&gt;priced too high!&lt;/a&gt;&lt;/strong&gt;&lt;/p&gt;
 
-&lt;p&gt;In order to avoid attracting clients who can’t afford me, I wrote two paragraphs (&lt;strong&gt;Update&lt;/strong&gt;: I removed them when redesigned this site) on my &lt;a href=&quot;http://sicanstudios.com&quot;&gt;homepage&lt;/a&gt; to let people know I won’t do cheap work. I also added a &lt;em&gt;state your budget&lt;/em&gt; button to my contact form (although not mandatory to complete). This worked! It scared away &lt;strong&gt;90% of the potential clients&lt;/strong&gt; who couldn’t afford me and it cleared my email inbox.&lt;/p&gt;
+&lt;p&gt;In order to avoid attracting clients who can’t afford me, I wrote two paragraphs (&lt;strong&gt;Update&lt;/strong&gt;: I removed them when I redesigned this site) on my &lt;a href=&quot;http://alexcican.com&quot;&gt;homepage&lt;/a&gt; to let people know I won’t do cheap work. I also added a &lt;em&gt;state your budget&lt;/em&gt; button to my contact form (although not mandatory to complete). This worked! It scared away &lt;strong&gt;90% of the potential clients&lt;/strong&gt; who couldn’t afford me and it cleared my email inbox.&lt;/p&gt;
 
 &lt;p&gt;In order to develop your &lt;em&gt;estimation skill&lt;/em&gt;, without getting burned and still nailing projects to pay the bills, there are a couple of things you can do. But first, I want to talk about pricing by the hour VS by the project.&lt;/p&gt;
 
@@ -2076,7 +2072,7 @@ What usually goes through the mind of the designer/developer: “Oh oh, Here com
 
 &lt;p&gt;The idea is that you should have a personality—be careful to not become annoying—and be willing to &lt;strong&gt;drop their offer if it sounds ridiculous&lt;/strong&gt;. You should give the impression that &lt;strong&gt;you are busy&lt;/strong&gt;. Hell, you should be busy! You don’t have clients or commercial projects to work on because you haven’t developed your portfolio or skills yet? Great! Get a 9-5 job for six months to pay the rent and work on personal projects two hours per weekday and in the weekends five hours totalling 20 hours per week. Following this schedule, you should get your skills up in no time. Quit your boring job once you lock-in a few awesome projects and start working on the things you love.&lt;/p&gt;
 
-&lt;p&gt;A note on personal projects: Aside from being fun, many clients have contacted me because of the cool personal projects I did (like the &lt;a href=&quot;http://lab.sicanstudios.com/twitter_button/&quot;&gt;Twitter CSS button&lt;/a&gt;). Personal projects are also important to you, and your well-being—they create the feeling of &lt;strong&gt;doing something purposeful&lt;/strong&gt;. Google, Microsoft and other large companies have figured it out. They saw that their employees were more happy and productive when they had a small side project going on. So, nowadays they encourage employees to &lt;strong&gt;devote 20% of their time&lt;/strong&gt; to self-initiated projects.&lt;/p&gt;
+&lt;p&gt;A note on personal projects: Aside from being fun, many clients have contacted me because of the cool personal projects I did (like the &lt;a href=&quot;http://lab.alexcican.com/twitter_button/&quot;&gt;Twitter CSS button&lt;/a&gt;). Personal projects are also important to you, and your well-being—they create the feeling of &lt;strong&gt;doing something purposeful&lt;/strong&gt;. Google, Microsoft and other large companies have figured it out. They saw that their employees were more happy and productive when they had a small side project going on. So, nowadays they encourage employees to &lt;strong&gt;devote 20% of their time&lt;/strong&gt; to self-initiated projects.&lt;/p&gt;
 
 &lt;p&gt;Lastly, you cannot publish many commercial projects in your portfolio, at least in the web/design industry, because of the killer NDA (Non Disclosure Agreement) you have to sign. An NDA is a contract signed by both parties agreeing not to disclose information covered by the agreement (such as: copyright, trade secret, and other proprietary information, techniques, sketches, mock-ups, wireframes, drawings, models, inventions, know-how, processes, etc.). So, the only way you can show-off your skills and progress is by posting personal projects: designs, web apps, plugins, open-source, code snippets, etc.&lt;/p&gt;
 
@@ -2190,7 +2186,7 @@ What usually goes through the mind of the designer/developer: “Oh oh, Here com
 
 &lt;p&gt;Results were similar to the previous scenario: &lt;strong&gt;it’s better to have no apps running in the background&lt;/strong&gt; but the fact of having running apps in the background consumed very little power (around 0.5%).&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&quot;http://sicanstudios.com/images/blog/assets/background-apps.jpg&quot; alt=&quot;ipad background apps&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;http://alexcican.com/images/blog/assets/background-apps.jpg&quot; alt=&quot;ipad background apps&quot; /&gt;&lt;/p&gt;
 
 &lt;p&gt;I further investigated this issue and it turns up that the iOS “freezes” the app when it’s minimised (background) and little activity is allowed (push notifications) and once you click on the app, it becomes “unfreezed” and fully working again. So, when double tapping the home button you basically have a list of recently used apps, not a list of running apps in the background. I now, contrary to the past, find it useless going every once in a while and removing all those apps from the list.&lt;/p&gt;
 
@@ -2210,7 +2206,7 @@ What usually goes through the mind of the designer/developer: “Oh oh, Here com
 
 &lt;p&gt;Now, if the iPad was more powerful (CPU-wise), I could completely ditch my main bulky workstation that I still use for my photo editing (Photoshop) and video editing (After Effects/Premiere) needs. I was a bit disappointed with the release of the iPad 3 because it didn’t have an awesome quad-core powerful CPU. Not only that, but the retina display, a whooping 2048-by-1536 resolution, is a resource killer making the iPad 3 not much faster than its predecessor, the iPad 2.&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&quot;http://sicanstudios.com/images/blog/assets/apple-ipad-sales.jpg&quot; alt=&quot;apple ipad sales&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;http://alexcican.com/images/blog/assets/apple-ipad-sales.jpg&quot; alt=&quot;apple ipad sales&quot; /&gt;&lt;/p&gt;
 
 &lt;p&gt;If I were Apple, seeing the massive success the iPad has gained, I’d be looking at eliminating the laptops out of the equation. As you can see from the graph above, even without a powerful device that would suit my needs, they beat other laptop manufacturers in sales.&lt;/p&gt;
 
@@ -2320,9 +2316,9 @@ $39/month vs. $49/month&lt;/p&gt;
 &lt;!--more--&gt;
 
 
-&lt;p&gt;&lt;a href=&quot;http://lab.sicanstudios.com/set_cookies/&quot; class=&quot;button&quot; target=&quot;_blank&quot;&gt;View the Demo &amp;rarr;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;http://lab.alexcican.com/set_cookies/&quot; class=&quot;button&quot; target=&quot;_blank&quot;&gt;View the Demo &amp;rarr;&lt;/a&gt;&lt;/p&gt;
 
-&lt;p&gt;I’ll be using a cookie plugin created by Klaus Hartl. We do not need to edit anything in this file, just call it after jQuery. &lt;a href=&quot;http://lab.sicanstudios.com/set_cookies/cookie.js&quot;&gt;Download the script&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;I’ll be using a cookie plugin created by Klaus Hartl. We do not need to edit anything in this file, just call it after jQuery. &lt;a href=&quot;http://lab.alexcican.com/set_cookies/cookie.js&quot;&gt;Download the script&lt;/a&gt;&lt;/p&gt;
 
 &lt;h2&gt;Step 1 - HTML first&lt;/h2&gt;
 
@@ -2526,18 +2522,18 @@ if (cookie_mesage_clicked == 'clicked') {
 
 &lt;p&gt;The first method, involves using only CSS. We will use the CSS pseudo-class &lt;code&gt;:hover&lt;/code&gt;. The idea is that we want to hide the div once the user has moved their mouse over it, and display something else instead. This effect is commonly used when you have a subscribe button. It saves space, without compromising the necessary information for the user.&lt;/p&gt;
 
-&lt;p&gt;&lt;a href=&quot;http://lab.sicanstudios.com/hide_show_div/&quot; class=&quot;button&quot; target=&quot;_blank&quot;&gt;View the Demo &amp;rarr;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;http://lab.alexcican.com/hide_show_div/&quot; class=&quot;button&quot; target=&quot;_blank&quot;&gt;View the Demo &amp;rarr;&lt;/a&gt;&lt;/p&gt;
 
 &lt;h2&gt;HTML Code&lt;/h2&gt;
 
-&lt;p&gt;First we need to add the HTML. We create a div, &lt;code&gt;.subscribe&lt;/code&gt;; inside it we add another div and a form, which is hidden at first. Once the user moves their mouse over the &lt;code&gt;.subscribe&lt;/code&gt; div, the inside div is hidden and the form is displayed. The form was made to work with &lt;a href=&quot;http://feedburner.google.com/&quot;&gt;FeedBurner&lt;/a&gt;. You can replace the form with whatever you want. If you want the form to work for your account, replace &lt;code&gt;sicanstudios&lt;/code&gt; from the &lt;code&gt;…a/mailverify?uri='xxxxx'&lt;/code&gt; and &lt;code&gt;value='xxxxx'&lt;/code&gt; with your FeedBurner URI.&lt;/p&gt;
+&lt;p&gt;First we need to add the HTML. We create a div, &lt;code&gt;.subscribe&lt;/code&gt;; inside it we add another div and a form, which is hidden at first. Once the user moves their mouse over the &lt;code&gt;.subscribe&lt;/code&gt; div, the inside div is hidden and the form is displayed. The form was made to work with &lt;a href=&quot;http://feedburner.google.com/&quot;&gt;FeedBurner&lt;/a&gt;. You can replace the form with whatever you want. If you want the form to work for your account, replace &lt;code&gt;alexcican&lt;/code&gt; from the &lt;code&gt;…a/mailverify?uri='xxxxx'&lt;/code&gt; and &lt;code&gt;value='xxxxx'&lt;/code&gt; with your FeedBurner URI.&lt;/p&gt;
 
 &lt;pre&gt;&lt;code&gt;&amp;lt;div class=&quot;subscribe&quot;&amp;gt;
     &amp;lt;div&amp;gt;Subscribe to this website&amp;lt;/div&amp;gt;
-    &amp;lt;form action=&quot;http://feedburner.google.com/fb/a/mailverify&quot; method=&quot;post&quot; target=&quot;popupwindow&quot; onsubmit=&quot;window.open('http://feedburner.google.com/fb/a/mailverify?uri=sicanstudios', 'popupwindow', 'scrollbars=yes,width=550,height=520');return true&quot; &amp;gt;
+    &amp;lt;form action=&quot;http://feedburner.google.com/fb/a/mailverify&quot; method=&quot;post&quot; target=&quot;popupwindow&quot; onsubmit=&quot;window.open('http://feedburner.google.com/fb/a/mailverify?uri=alexcican', 'popupwindow', 'scrollbars=yes,width=550,height=520');return true&quot; &amp;gt;
         &amp;lt;p&amp;gt;
             &amp;lt;input type=&quot;text&quot; class=&quot;email_field&quot; name=&quot;email&quot; size=&quot;18&quot; value=&quot;E-mail address&quot; /&amp;gt;
-            &amp;lt;input type=&quot;hidden&quot; value=&quot;sicanstudios&quot; name=&quot;uri&quot; /&amp;gt;
+            &amp;lt;input type=&quot;hidden&quot; value=&quot;alexcican&quot; name=&quot;uri&quot; /&amp;gt;
             &amp;lt;input type=&quot;hidden&quot; name=&quot;loc&quot; value=&quot;en_US&quot; /&amp;gt;
             &amp;lt;input class=&quot;email_btn&quot; name=&quot;submit&quot; type=&quot;submit&quot; value=&quot;Done&quot; /&amp;gt;
         &amp;lt;/p&amp;gt;
@@ -2564,7 +2560,7 @@ if (cookie_mesage_clicked == 'clicked') {
 
 &lt;p&gt;In this second example, we hide and show a div using a JavaScript library, called jQuery. This time, we won’t hide the div when it’s hovered but when it’s clicked. By default the divs will be hidden; once they are clicked, they become visible, displaying the text inside. Also, we want each div to be “independent“ from one another. Meaning, if I click on the first div to see its content, the other divs should remain hidden.&lt;/p&gt;
 
-&lt;p&gt;&lt;a href=&quot;http://lab.sicanstudios.com/hide_show_div/demo2.html&quot; class=&quot;button&quot; target=&quot;_blank&quot;&gt;View the Demo &amp;rarr;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;http://lab.alexcican.com/hide_show_div/demo2.html&quot; class=&quot;button&quot; target=&quot;_blank&quot;&gt;View the Demo &amp;rarr;&lt;/a&gt;&lt;/p&gt;
 
 &lt;h2&gt;HTML Code&lt;/h2&gt;
 
@@ -2668,7 +2664,7 @@ if (cookie_mesage_clicked == 'clicked') {
 
 &lt;p&gt;There’s a strong possibility that by the time you’ve learned and mastered all these skills, the trends would have already changed. Now you are left behind, watching helplessly how others who ride the “trend wave” get all the clients.&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&quot;http://sicanstudios.com/images/blog/assets/website_1999.gif&quot; alt=&quot;old website&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;http://alexcican.com/images/blog/assets/website_1999.gif&quot; alt=&quot;old website&quot; /&gt;&lt;/p&gt;
 
 &lt;p&gt;There is a hidden pitfall, which goes by &lt;em&gt;“I don’t follow trends”&lt;/em&gt;. Well buddy, as far as I’m concerned, you can design your website like it’s 1999 but don’t expect to lock-in any clients. Adapt or die…&lt;/p&gt;
 
@@ -2678,7 +2674,7 @@ if (cookie_mesage_clicked == 'clicked') {
 
 &lt;p&gt;Now, whether they know how to design and develop a website is irrelevant. Yes, completely irrelevant. Because there are many clients; hell, the majority of them who will want a website done for the minimum cost. It doesn’t matter if it’s going to cost them more in the long run. They just don’t see the forest behind the tree.&lt;/p&gt;
 
-&lt;p&gt;I want to share with you a trade secret: &lt;strong&gt;avoid clients who say they don’t have the budget&lt;/strong&gt;. Those who suggest you do it for free or some other bullshit compensation. They’re a pain in the arse to work with. I figured a way to repel those timewasters. In your contact form, show a &lt;em&gt;“what’s your budget”&lt;/em&gt; input field, if the message is work related. I wrote more on &lt;a href=&quot;http://sicanstudios.com/post/pricing-negotiating/&quot;&gt;the lost art of pricing and negotiating&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;I want to share with you a trade secret: &lt;strong&gt;avoid clients who say they don’t have the budget&lt;/strong&gt;. Those who suggest you do it for free or some other bullshit compensation. They’re a pain in the arse to work with. I figured a way to repel those timewasters. In your contact form, show a &lt;em&gt;“what’s your budget”&lt;/em&gt; input field, if the message is work related. I wrote more on &lt;a href=&quot;http://alexcican.com/post/pricing-negotiating/&quot;&gt;the lost art of pricing and negotiating&lt;/a&gt;.&lt;/p&gt;
 
 &lt;p&gt;And remember this: &lt;strong&gt;there is always going to be someone who can do the job faster, or cheaper, or even better than you&lt;/strong&gt;. This applies to any business. But in the website creation business, the amount of people who can do it faster and cheaper than you is infinitely larger! So you have to differentiate yourself, and stand out from the crowd.&lt;/p&gt;
 
@@ -2810,7 +2806,7 @@ RewriteRule ^([^\.]+)$ $1.php [NC,L]
 
 &lt;p&gt;If you’re worried that search engines might index these pages as duplicate content, add a &lt;code&gt;canonical&lt;/code&gt; meta tag in your HTML head:&lt;/p&gt;
 
-&lt;pre&gt;&lt;code&gt;&amp;lt;link rel=&quot;canonical&quot; href=&quot;http://sicanstudios.com/post/single-post&quot;&amp;gt;
+&lt;pre&gt;&lt;code&gt;&amp;lt;link rel=&quot;canonical&quot; href=&quot;http://alexcican.com/post/single-post&quot;&amp;gt;
 &lt;/code&gt;&lt;/pre&gt;
 </description>
         </item>

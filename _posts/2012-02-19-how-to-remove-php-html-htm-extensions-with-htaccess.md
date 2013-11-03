@@ -77,4 +77,4 @@ Attention GoDaddy users: In order to remove the extensions you need to enable `M
 
 If you’re worried that search engines might index these pages as duplicate content, add a `canonical` meta tag in your HTML head:
 
-    <link rel="canonical" href="http://sicanstudios.com/post/single-post">
+    <link rel="canonical" href="http://alexcican.com/post/single-post">

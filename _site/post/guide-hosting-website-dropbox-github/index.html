@@ -108,7 +108,7 @@
 
 <p>The drop that spilled the cup came one day of February 2012, when all my websites (folders) <strong>were deleted</strong> somehow. Because I considered paying $20 per month for simply hosting my files was enough, I didn’t enable the backup option (it was an extra $2 per month, if I remember correctly). So that day came, and I went straight to their support ticketing system. The dude that was assigned to me was not helpful at all and said there was nothing to be done. My last backup of the websites was in December 2011.</p>
 
-<p>Pissed off, I <strong>cancelled my account</strong>, got my refund and didn’t think back (or forward). Having been left only with my domain names, I had to do something (for <em>SicanStudios.com</em> alone, I was averaging around 700 unique visitors per day). That’s when I made the decision to use the cloud.</p>
+<p>Pissed off, I <strong>cancelled my account</strong>, got my refund and didn’t think back (or forward). Having been left only with my domain names, I had to do something (for <em>AlexCican.com</em> alone, I was averaging around 700 unique visitors per day). That’s when I made the decision to use the cloud.</p>
 
 <h2>Why I switched to Dropbox and GitHub</h2>
 
@@ -132,7 +132,7 @@
 
 <p>If you want your files to be accessible by anyone, you have to move them into your “Public” folder. If you’re using absolute paths for your website, I suggest you change it to relative paths. So from this:</p>
 
-<pre><code>&lt;a href="http://sicanstudios.com/web/file.html"&gt;&lt;/a&gt;
+<pre><code>&lt;a href="http://alexcican.com/web/file.html"&gt;&lt;/a&gt;
 </code></pre>
 
 <p>change them to this:</p>
@@ -146,7 +146,7 @@
 
 <p>If you’re using GoDaddy, logit to <em>“Your account”</em> and launch the <em>“Domains”</em>. Then, click on the domain name you want to edit and from the toolbar, select the <em>forward</em> icon. Click <em>“Forward Domain”</em> and insert in the popup input, the complete URL of the <code>index.html</code> from inside the Dropbox folder (to get the link: <em>right click on the file>Dropbox>Copy public link</em>).</p>
 
-<p><img src="http://sicanstudios.com/images/blog/assets/godaddy-forward-domain.jpg" alt="godaddy forward domain" /></p>
+<p><img src="http://alexcican.com/images/blog/assets/godaddy-forward-domain.jpg" alt="godaddy forward domain" /></p>
 
 <p>Wait a few hours and you should be able to access the website hosted on Dropbox via your domain name!</p>
 
@@ -161,12 +161,12 @@
 
 <p>This means that the Dropbox URL would be visible when navigating the website. I couldn’t have something like:</p>
 
-<pre><code>http://sicanstudios.com/file.html
+<pre><code>http://alexcican.com/file.html
 </code></pre>
 
 <p>unless I did a URL forwarding with masking from my DNS settings. This was not optimal because whichever page of the website I’d browse, it would show up only as:</p>
 
-<pre><code>sicanstudios.com
+<pre><code>alexcican.com
 </code></pre>
 
 <p>To do this URL masking on GoDaddy, repeat the steps above for pointing the DNS record to Dropbox, but in the popup click on <em>“Advanced Options”</em> and select the second option: <em>“Forward with Masking”</em>.</p>
@@ -186,14 +186,14 @@
 
 <p>To enable <strong>custom domain names</strong>, you just have to create a file named <code>CNAME</code>, in the root of the repo or branch, open the file with a text editor and add your domain name inside:</p>
 
-<pre><code>sicanstudios.com
+<pre><code>alexcican.com
 </code></pre>
 
 <p>GitHub pages also supports <strong>custom error pages</strong>. Simply push a <code>404.html</code> file with your message in the root of the repo or branch.</p>
 
 <p>Now it’s time to change the <strong>DNS settings</strong> from GoDaddy to point to our GitHub page. Login to your account, launch the domains and click on the domain name you want to change. From that page (see screenshot above), go down and find the <em>“DNS Manager”</em> section. Click on <em>“Launch”</em>.</p>
 
-<p>You have to decide what domain name you’ll be using. For a sub-domain like <code>http://www.sicanstudios.com</code> or <code>http://blog.sicanstudios.com</code> you would simply create a <code>CNAME</code> record pointing to <code>charlie.github.com</code>. If you are using a top-level domain like <code>http://sicanstudios.com</code>, you must use an <code>A (Host)</code> record pointing to <code>204.232.175.78</code>. There’s no need to add a <code>CNAME</code> record for top-level domains.</p>
+<p>You have to decide what domain name you’ll be using. For a sub-domain like <code>http://www.alexcican.com</code> or <code>http://blog.alexcican.com</code> you would simply create a <code>CNAME</code> record pointing to <code>charlie.github.com</code>. If you are using a top-level domain like <code>http://alexcican.com</code>, you must use an <code>A (Host)</code> record pointing to <code>204.232.175.78</code>. There’s no need to add a <code>CNAME</code> record for top-level domains.</p>
 
 <h2>Downsides of GitHub</h2>
 

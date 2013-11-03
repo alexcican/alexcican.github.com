@@ -17,7 +17,7 @@ On top of the basic functionality that can be found on Teehan+Lax’s navigation
 * Fixed Firefox animation bugs.
 * Added functionality to close navigation if you click anywhere outside link area.
 
-<a href="http://lab.sicanstudios.com/teehan_lax_navigation/" class="button" target="_blank">View the Demo &rarr;</a>
+<a href="http://lab.alexcican.com/teehan_lax_navigation/" class="button" target="_blank">View the Demo &rarr;</a>
 
 ## Step 1 - HTML
 

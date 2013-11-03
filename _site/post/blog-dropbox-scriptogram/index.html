@@ -97,7 +97,7 @@
     <h1>How I moved my blog to Dropbox</h1>
 
     <div id="content">
-      <p>A few months ago I cancelled my hosting accounts and moved all my <a href="http://sicanstudios.com/post/guide-hosting-website-dropbox-github">websites to Dropbox and GitHub</a>. The only problem I was left with was where I should host the blog. I decided to use Tumblr. Regretting the decision after only two months, the solution was right in front of me the entire time: <strong>use Dropbox for the blog</strong> as well. In this article I’ll show you how I did it.</p>
+      <p>A few months ago I cancelled my hosting accounts and moved all my <a href="http://alexcican.com/post/guide-hosting-website-dropbox-github">websites to Dropbox and GitHub</a>. The only problem I was left with was where I should host the blog. I decided to use Tumblr. Regretting the decision after only two months, the solution was right in front of me the entire time: <strong>use Dropbox for the blog</strong> as well. In this article I’ll show you how I did it.</p>
 
 <!--more-->
 
@@ -113,7 +113,7 @@
 <p>Some cool features of Scriptogr.am:</p>
 
 <ol>
-<li><strong>Custom domain name</strong>: Use your own domain name for the blog, like <code>blog.sicanstudios.com</code>.</li>
+<li><strong>Custom domain name</strong>: Use your own domain name for the blog, like <code>blog.alexcican.com</code>.</li>
 <li><strong>Awesome themes</strong>: Build your own themes (very easy to do) or select one from the gallery.</li>
 <li><strong>Awesome HTML and CSS editor</strong>: Beautifully designed online editor with syntax highlighting.</li>
 <li><strong>One step sign-up</strong>: One step to sign-up and one click sign-in to Scriptogr.am.</li>
@@ -142,28 +142,28 @@ Slug: blog-dropbox-scriptogram
 Tags: blog, dropbox, tutorial
 Type: post
 Published: false
-Excerpt: A few months ago I cancelled my hosting accounts and moved all my [websites to Dropbox and GitHub](http://blog.sicanstudios.com/post/guide-hosting-website-dropbox-github)…
+Excerpt: A few months ago I cancelled my hosting accounts and moved all my [websites to Dropbox and GitHub](http://blog.alexcican.com/post/guide-hosting-website-dropbox-github)…
 ---
 </code></pre>
 
 <p>Once you are done with the front-block, you can start writing your blog post. When you’ve finished, save the file, go to your <a href="http://scriptogr.am/admin/">admin page</a> and click the button <em>Synchronize</em> to update the blog with the new post. I hope this process of having to click the button in order to update the blog will be removed in the future. Simply, have the server update the directory once a new file is added to the <code>posts</code> folder.</p>
 
-<p><img src="http://sicanstudios.com/images/blog/assets/scriptogram-publish-button.jpg" alt="scriptogram synchronize button" /></p>
+<p><img src="http://alexcican.com/images/blog/assets/scriptogram-publish-button.jpg" alt="scriptogram synchronize button" /></p>
 
 <h2>Adding a custom domain name</h2>
 
 <p>To add a custom domain name for your Scriptogr.am blog, simply go to your <a href="http://scriptogr.am/admin/">admin panel</a>, find the <em>“custom domain”</em> field and insert your desired custom domain name without the <code>http://</code>. For me it’s:</p>
 
-<pre><code>blog.sicanstudios.com
+<pre><code>blog.alexcican.com
 </code></pre>
 
 <p>Make sure you click the <em>“Update Settings”</em> button below the input field to apply the changes. Now it’s time to change the <strong>DNS settings</strong>.</p>
 
 <p>If you’re using GoDaddy, login to your account, launch the domains and click on the domain name you want to change. From that page, go down and find the <em>“DNS Manager”</em> section. Click on <em>“Launch”</em>.</p>
 
-<p><img src="http://sicanstudios.com/images/blog/assets/godaddy-dns-editor.jpg" alt="godaddy dns editor" /></p>
+<p><img src="http://alexcican.com/images/blog/assets/godaddy-dns-editor.jpg" alt="godaddy dns editor" /></p>
 
-<p>Based on the type of custom domain name you’ve added in the Scriptogr.am’s admin panel, we’ll make different changes to the DNS. For a sub-domain like <code>http://www.sicanstudios.com</code> or <code>http://blog.sicanstudios.com</code> you would simply create a <code>CNAME</code> record pointing to <code>scriptogr.am</code>. If you are using a top-level domain like <code>http://sicanstudios.com</code>, you must use an <code>A (Host)</code> record pointing to <code>50.116.1.192</code>. There’s no need to add a <code>CNAME</code> record for top-level domains. Wait up to 48-72 hours for the changes to take effect (usually within an hour or so).</p>
+<p>Based on the type of custom domain name you’ve added in the Scriptogr.am’s admin panel, we’ll make different changes to the DNS. For a sub-domain like <code>http://www.alexcican.com</code> or <code>http://blog.alexcican.com</code> you would simply create a <code>CNAME</code> record pointing to <code>scriptogr.am</code>. If you are using a top-level domain like <code>http://alexcican.com</code>, you must use an <code>A (Host)</code> record pointing to <code>50.116.1.192</code>. There’s no need to add a <code>CNAME</code> record for top-level domains. Wait up to 48-72 hours for the changes to take effect (usually within an hour or so).</p>
 
 <h2>Creating a theme</h2>
 
@@ -226,7 +226,7 @@ Excerpt: A few months ago I cancelled my hosting accounts and moved all my [webs
             &lt;/div&gt;&lt;!--end body--&gt;
         &lt;/div&gt;&lt;!--end content--&gt;
     &lt;/div&gt;&lt;!--end post--&gt;
-    &lt;p class="more"&gt;&lt;a href="http://blog.sicanstudios.com/archive"&gt;More articles in the Archive →&lt;/a&gt;&lt;/p&gt;
+    &lt;p class="more"&gt;&lt;a href="http://blog.alexcican.com/archive"&gt;More articles in the Archive →&lt;/a&gt;&lt;/p&gt;
 {{/is_post}}
 </code></pre>
 
@@ -234,10 +234,10 @@ Excerpt: A few months ago I cancelled my hosting accounts and moved all my [webs
 
 <p>Here’s a tip: It’s best to tinker with the theme a bit. Because, the default theme of Scriptogr.am could be improved in terms of SEO (<code>&lt;h1&gt;</code> tags, title, descriptions, etc.). I want to show you a better way to display the <code>&lt;title&gt;</code> of the blog:</p>
 
-<pre><code>&lt;title&gt;{{#posts}}{{#is_post}}{{title}}{{/is_post}}{{/posts}}{{#is_index}}Blog of SicanStudios{{/is_index}}{{#is_archive}}Archive of the Blog of SicanStudios{{/is_archive}}&lt;/title&gt;
+<pre><code>&lt;title&gt;{{#posts}}{{#is_post}}{{title}}{{/is_post}}{{/posts}}{{#is_index}}Blog of Alex Cican{{/is_index}}{{#is_archive}}Archive of the Blog of Alex Cican{{/is_archive}}&lt;/title&gt;
 </code></pre>
 
-<p>We’re saying if the page is a post, display the <code>{{title}}</code> of the post, if it’s the homepage, display <em>“Blog of SicanStudios”</em> and if it’s an archive, display <em>“Archive of the Blog of SicanStudios”</em>.</p>
+<p>We’re saying if the page is a post, display the <code>{{title}}</code> of the post, if it’s the homepage, display <em>“Blog of Alex Cican</em> and if it’s an archive, display <em>“Archive of the Blog of Alex Cican</em>.</p>
 
 <p>This was a brief overview of the themes in Scriptogr.am. If you’re having any trouble, please visit the <a href="http://support.scriptogr.am/kb">FAQ</a> or the <a href="http://support.scriptogr.am/discussions">forums</a>.</p>
 

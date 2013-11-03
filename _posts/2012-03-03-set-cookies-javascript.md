@@ -8,9 +8,9 @@ Cookies are an important part of modern browsers. Without them, we couldn’t br
 
 <!--more-->
 
-<a href="http://lab.sicanstudios.com/set_cookies/" class="button" target="_blank">View the Demo &rarr;</a>
+<a href="http://lab.alexcican.com/set_cookies/" class="button" target="_blank">View the Demo &rarr;</a>
 
-I’ll be using a cookie plugin created by Klaus Hartl. We do not need to edit anything in this file, just call it after jQuery. [Download the script](http://lab.sicanstudios.com/set_cookies/cookie.js)
+I’ll be using a cookie plugin created by Klaus Hartl. We do not need to edit anything in this file, just call it after jQuery. [Download the script](http://lab.alexcican.com/set_cookies/cookie.js)
 
 ##Step 1 - HTML first
 

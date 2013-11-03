@@ -7,7 +7,7 @@ cover: '<img class="cover" src="data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS
 In the summer of 2013 I visited my birthplace, Romania. I rented a 2012 Dacia Logan (Dacia cars are made by Romanians), because it was the cheapest car available. I hated it. There were hundreds of usability flaws, mainly with the positioning of the buttons. One that stuck out was the car’s horn which is not on the steering wheel but to the left of the steering wheel as a button, which you have to push in, located on the tip of the light switch barrel.
 <!--more-->
 
-<a href="http://sicanstudios.com/images/blog/assets/dacia-logan-horn.jpg" class="img" target="_blank"><img src="http://sicanstudios.com/images/blog/assets/dacia-logan-horn.jpg" alt="dacia logan horn ux" /></a>
+<a href="http://alexcican.com/images/blog/assets/dacia-logan-horn.jpg" class="img" target="_blank"><img src="http://alexcican.com/images/blog/assets/dacia-logan-horn.jpg" alt="dacia logan horn ux" /></a>
 <figcaption>The car’s horn is a small button. Even the horn and arrow icons don’t help much where they are located, at the end of the barrel.</figcaption>
 
 When I confessed this frustration to my father, he said it’s because Dacia cars have always had it there, since their first models back in 1969.
@@ -23,7 +23,7 @@ So I didn’t spend time designing/coding my site for the future, but rather I s
 
 People ask me why I don’t own an Android device. I’m technically a geek, so all the customisations and options available on Android should make me happy. Yet two of the reasons I hate Android is their UI inconsistency and inability to innovate on the user experience. Even though Android phones pack a 1.6 GHz quadcore processor, the apps—you know, the things I use to interact with the phone—still look ugly and the animations feel dated; they look old. That’s partially due to Android’s fragmented ecosystem and the slow new OS adoption rate. Apple boasts with the fact that most of its users are using the latest version of iOS. And that’s good, because it allows iOS developers and designers to use the latest technology and design for the future, by knowing they won’t have to support older versions of iOS for long.
 
-![](http://sicanstudios.com/images/blog/assets/ios-android-cook.jpg)
+![](http://alexcican.com/images/blog/assets/ios-android-cook.jpg)
 <figcaption>Fragmentation of Android versions vs iOS versions.</figcaption>
 
 At my University we used IE 6 to browse and build websites, Firefox was a commodity, but updating Internet Explorer on all the lab computers would have been very consuming. I get that not everyone has the possibility, or preference, to switch to a better browser, purchase the newest laptop, use the latest OS, keep up with the fast pace of change. In the end, to each their own. But refusing, or being unable, to upgrade revokes your right to expect from me to keep designing for your old OS.

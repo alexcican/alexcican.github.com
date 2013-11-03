@@ -106,18 +106,18 @@
 
 <p>The first method, involves using only CSS. We will use the CSS pseudo-class <code>:hover</code>. The idea is that we want to hide the div once the user has moved their mouse over it, and display something else instead. This effect is commonly used when you have a subscribe button. It saves space, without compromising the necessary information for the user.</p>
 
-<p><a href="http://lab.sicanstudios.com/hide_show_div/" class="button" target="_blank">View the Demo &rarr;</a></p>
+<p><a href="http://lab.alexcican.com/hide_show_div/" class="button" target="_blank">View the Demo &rarr;</a></p>
 
 <h2>HTML Code</h2>
 
-<p>First we need to add the HTML. We create a div, <code>.subscribe</code>; inside it we add another div and a form, which is hidden at first. Once the user moves their mouse over the <code>.subscribe</code> div, the inside div is hidden and the form is displayed. The form was made to work with <a href="http://feedburner.google.com/">FeedBurner</a>. You can replace the form with whatever you want. If you want the form to work for your account, replace <code>sicanstudios</code> from the <code>…a/mailverify?uri='xxxxx'</code> and <code>value='xxxxx'</code> with your FeedBurner URI.</p>
+<p>First we need to add the HTML. We create a div, <code>.subscribe</code>; inside it we add another div and a form, which is hidden at first. Once the user moves their mouse over the <code>.subscribe</code> div, the inside div is hidden and the form is displayed. The form was made to work with <a href="http://feedburner.google.com/">FeedBurner</a>. You can replace the form with whatever you want. If you want the form to work for your account, replace <code>alexcican</code> from the <code>…a/mailverify?uri='xxxxx'</code> and <code>value='xxxxx'</code> with your FeedBurner URI.</p>
 
 <pre><code>&lt;div class="subscribe"&gt;
     &lt;div&gt;Subscribe to this website&lt;/div&gt;
-    &lt;form action="http://feedburner.google.com/fb/a/mailverify" method="post" target="popupwindow" onsubmit="window.open('http://feedburner.google.com/fb/a/mailverify?uri=sicanstudios', 'popupwindow', 'scrollbars=yes,width=550,height=520');return true" &gt;
+    &lt;form action="http://feedburner.google.com/fb/a/mailverify" method="post" target="popupwindow" onsubmit="window.open('http://feedburner.google.com/fb/a/mailverify?uri=alexcican', 'popupwindow', 'scrollbars=yes,width=550,height=520');return true" &gt;
         &lt;p&gt;
             &lt;input type="text" class="email_field" name="email" size="18" value="E-mail address" /&gt;
-            &lt;input type="hidden" value="sicanstudios" name="uri" /&gt;
+            &lt;input type="hidden" value="alexcican" name="uri" /&gt;
             &lt;input type="hidden" name="loc" value="en_US" /&gt;
             &lt;input class="email_btn" name="submit" type="submit" value="Done" /&gt;
         &lt;/p&gt;
@@ -144,7 +144,7 @@
 
 <p>In this second example, we hide and show a div using a JavaScript library, called jQuery. This time, we won’t hide the div when it’s hovered but when it’s clicked. By default the divs will be hidden; once they are clicked, they become visible, displaying the text inside. Also, we want each div to be “independent“ from one another. Meaning, if I click on the first div to see its content, the other divs should remain hidden.</p>
 
-<p><a href="http://lab.sicanstudios.com/hide_show_div/demo2.html" class="button" target="_blank">View the Demo &rarr;</a></p>
+<p><a href="http://lab.alexcican.com/hide_show_div/demo2.html" class="button" target="_blank">View the Demo &rarr;</a></p>
 
 <h2>HTML Code</h2>
 
