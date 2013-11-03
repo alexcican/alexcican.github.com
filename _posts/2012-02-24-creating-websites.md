@@ -65,4 +65,4 @@ Being a one man army, jack of all trades can **become tiresome** at some point. 
 
 There won’t be anyone behind you (or “above” you) checking to see if you’ve done the work. Your work/life balance will also get disrupted. But if you’re like me, and you can get more done by eliminating distractions such as coffee breaks, telephone interruptions, meetings, colleagues, then this profession might be worth trying it out.
 
-If you’d like to join *us*, and want to learn more about freelancing, where to get started, books and resources, etc. ask me anything [on Twitter](http://twitter.com/sican).
+If you’d like to join *us*, and want to learn more about freelancing, where to get started, books and resources, etc. ask me anything [on Twitter](http://twitter.com/alexcican).
