@@ -67,7 +67,6 @@ if (navigator.userAgent.match(/IEMobile\/10\.0/)) {
     )
   );
   document.getElementsByTagName("head")[0].appendChild(msViewportStyle);
-  $('.sliderButton').removeClass('hidden');
 }
 
 var previousScroll = 0, // previous scroll position
@@ -229,14 +228,18 @@ $(window).resize(function() {
 var container;
 
 // on blog section click, opens section, removes all others, increases size of illustration, and makes it full screen
-$('#fullWidthContainer section').on('click touchstart', function() {
-  container = $(this);
-  var positionScreen = container.offset().top - $(window).scrollTop(); // finds the position of section relative to screen
-  container.addClass('magnify');
-  $('#fullWidthContainer').addClass('clickedBlogLink');
-  $('body').addClass('noScroll');
-  $('.magnify').css('transform', 'translateY(-'+ positionScreen + 'px)');
-  window.setTimeout(function(){$('.spinner').removeClass('hidden');}, 500);
+$('#fullWidthContainer section').on('click touchstart', function(e) {
+  if (e.metaKey || e.ctrlKey || e.shiftKey) {
+    // do nothing (user opened link in new tab/window)
+  } else {
+    container = $(this);
+    var positionScreen = container.offset().top - $(window).scrollTop(); // finds the position of section relative to screen
+    container.addClass('magnify');
+    $('#fullWidthContainer').addClass('clickedBlogLink');
+    $('body').addClass('noScroll');
+    $('.magnify').css('transform', 'translateY(-'+ positionScreen + 'px)');
+    window.setTimeout(function(){$('.spinner').removeClass('hidden');}, 500);
+  }
 })
 
 // hides the opened blog section (checks if on blog page)
