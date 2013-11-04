@@ -1257,6 +1257,9 @@ h1.animateOnFirstLoad, h2.animateOnFirstLoad {
   display: block;
   margin-bottom: -.5em;
   position: relative;
+  -webkit-backface-visibility: hidden;
+  -moz-backface-visibility: hidden;
+  -ms-backface-visibility: hidden;
 }
 
 /* on hover show a white overlay (not using opacity: .8) */
