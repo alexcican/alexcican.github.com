@@ -34,7 +34,7 @@ So just like electronics have a fingerprint scanner that can uniquely identify y
 
 Some freelancers get this “show your personality” approach. But they execute it in a wrong way. Why should I, the potential client, care if you like milk in your coffee, or the Star Wars trilogy?
 
-Sure, these *facts* can be linked, so if you didn’t like milk in your coffee you wouldn’t drink coffee, and you’d be less productive in the morning. But potential clients search to find what’s in it for them. So unless you can link these *facts* about you to the big picture leave them out. Think how your personality can help the client, if they were to choose you, live a better life, make more money, attract more clients, and so on.
+Sure, these *facts* can be linked: if you don’t have milk, you won’t drink coffee, and you’ll be less productive in the morning. But potential clients search to find what’s in it for them. So unless you can link these *facts* about you to the big picture leave them out. Think how your personality can help the client, if they were to choose you, live a better life, make more money, attract more clients, and so on.
 
 ## Section: Blog
 
