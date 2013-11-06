@@ -197,13 +197,39 @@ function adjustHeight() {
     } else if (width > 767 && width < 1024) {
       padding = height / 2.2;
     } else if (width > 1024 && width < 1450) {
-      padding = height / 3;
+      padding = height / 2.85;
+    } else if (width > 1450 && width < 1920) {
+      padding = height / 2.4;
     } else {
-      padding = height / 2.5;
+      padding = height / 2.2;
     }
+
+    // if (height < 480) {
+    //   padding = height / 2.2;
+    //   height = height + 30; // for iPhone extra height because we’re hiding address bar
+    // } else if (height > 480 && height < 767) {
+    //   padding = height / 2.3;
+    // } else if (height > 767 && height < 900) {
+    //   padding = height / 2.8;
+    // } else if (height > 900 && height < 1080) {
+    //   padding: height / 2.4;
+    // } else if (height > 1080 && height < 1300) {
+    //   padding: height / 2.2;
+    // } else {
+    //   padding = height / 2;
+    // }
 
     $("#intro, #post section").css("height", height);
     $("#intro div, #post .cover").css("padding-top", padding);
+
+    // $("#intro, #post section").css("height", height);
+
+    // var introHeight = ((height - $("#intro div").height()) / 2) + 10;
+    // $('#intro div').css("padding-top", introHeight);
+
+    // var coverHeight = (height - $("#post .cover").height()) / 2);
+    // $('#post .cover').css("padding-top", coverHeight);
+
 
     // if screen height is smaller than menu height, hide headings of menu (less info)
     if (height > 670 && height < 750) {
