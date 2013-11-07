@@ -336,61 +336,64 @@ $('body').keydown(function(e) {
     }
   }
 
-  // if ESC show/hide menu
-  if (e.keyCode === 27 || e.keyCode === 77) {
-    // if ($('body a, body span').is(":focus")) {
-    // } else {
-      showHideNav();
-      e.preventDefault();
-    // }
-  }
+  if (e.metaKey || e.ctrlKey || e.shiftKey) {
+    // do nothing (user using function keys)
+  } else {
+    // if ESC show/hide menu
+    if (e.keyCode === 27 || e.keyCode === 77) {
+      // if ($('body a, body span').is(":focus")) {
+      // } else {
+        showHideNav();
+        e.preventDefault();
+      // }
+    }
+    // if left arrow show previous slide
+    if (e.keyCode === 37) {
+      if (typeof mySwipe != 'undefined')
+        if (!$('body').hasClass('noScroll'))
+          $(".previous").trigger("click");
+    }
 
-  // if left arrow show previous slide
-  if (e.keyCode === 37) {
-    if (typeof mySwipe != 'undefined')
-      if (!$('body').hasClass('noScroll'))
-        $(".previous").trigger("click");
-  }
+    // if right arrow show next slide
+    if (e.keyCode === 39) {
+      if (typeof mySwipe != 'undefined')
+        if (!$('body').hasClass('noScroll'))
+          $(".next").trigger("click");
+    }
 
-  // if right arrow show next slide
-  if (e.keyCode === 39) {
-    if (typeof mySwipe != 'undefined')
-      if (!$('body').hasClass('noScroll'))
-        $(".next").trigger("click");
-  }
+    // if H navigate to "Home"
+    if (e.keyCode === 72) {
+      window.location = $(".home").attr("href");
+    }
 
-  // if H navigate to "Home"
-  if (e.keyCode === 72) {
-    window.location = $(".home").attr("href");
-  }
+    // if W navigate to "Work"
+    if (e.keyCode === 87) {
+      window.location = $(".work").attr("href");
+    }
 
-  // if W navigate to "Work"
-  if (e.keyCode === 87) {
-    window.location = $(".work").attr("href");
-  }
+    // if B navigate to "Blog"
+    if (e.keyCode === 66) {
+      window.location = $(".blog").attr("href");
+    }
 
-  // if B navigate to "Blog"
-  if (e.keyCode === 66) {
-    window.location = $(".blog").attr("href");
-  }
+    // if P navigate to "Photos"
+    if (e.keyCode === 80) {
+      window.location = $(".photos").attr("href");
+    }
 
-  // if P navigate to "Photos"
-  if (e.keyCode === 80) {
-    window.location = $(".photos").attr("href");
-  }
+    // if L navigate to "Lab"
+    if (e.keyCode === 76) {
+      window.location = $(".lab").attr("href");
+    }
 
-  // if L navigate to "Lab"
-  if (e.keyCode === 76) {
-    window.location = $(".lab").attr("href");
-  }
+    // if E navigate to "Email"
+    if (e.keyCode === 69) {
+      window.location = $(".email").attr("href");
+    }
 
-  // if E navigate to "Email"
-  if (e.keyCode === 69) {
-    window.location = $(".email").attr("href");
-  }
-
-  // if S navigate to "Skype"
-  if (e.keyCode === 83) {
-    window.location = $(".skype").attr("href");
+    // if S navigate to "Skype"
+    if (e.keyCode === 83) {
+      window.location = $(".skype").attr("href");
+    }
   }
 })
