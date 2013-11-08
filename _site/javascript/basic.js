@@ -71,7 +71,7 @@ if (navigator.userAgent.match(/IEMobile\/10\.0/)) {
 
 var previousScroll = 0, // previous scroll position
     menuOffset = 90, // height of menu (once scroll passed it, menu is hidden)
-    detachPoint = 1000, // point of detach (after scroll passed it, menu is fixed)
+    detachPoint = 850, // point of detach (after scroll passed it, menu is fixed)
     hideShowOffset = 6; // scrolling value after which triggers hide/show menu
 
 
@@ -85,7 +85,7 @@ $(window).scroll(function () {
   clearTimeout($.data(this, 'scrollTimer'));
   $.data(this, 'scrollTimer', setTimeout(function() {
     $('#fullWidthContainer, #fullWidthDemoContainer').addClass('notScrolling');
-  }, 100));
+  }, 120));
 
   // if user is at the top/bottom of page don’t hide hover animation
   if ((currentScroll <= 0) || (scrolledWindowHeight >= pageHeight - 200)) {
@@ -155,20 +155,31 @@ function showHideNav() {
   }
 }
 
+// better handling of scrollbars in Windows
+var windows = false;
+if (navigator.appVersion.indexOf("Win")!=-1) windows = true;
+
 // shows the main menu popover
 function showNav() {
   $('#mainNav').removeClass('invisible').addClass('expanded');
   window.setTimeout(function(){$('#container').addClass('blurred');}, 40);
-  window.setTimeout(function(){$('body').addClass('noScroll');}, 200); // Firefox hack. Hides scrollbar as soon as menu animation is done
   $('#navigation a').attr('tabindex', ''); // links inside navigation should be TAB selectable
   $('#fullWidthContainer').removeClass('notScrolling');
+
+  // better handling of scrollbars in Windows
+  if (windows) {
+    $('body').width($('body').width());
+    $('body').css('overflow', 'hidden');
+  } else {
+    window.setTimeout(function(){$('body').addClass('noScroll');}, 200); // Firefox hack. Hides scrollbar as soon as menu animation is done
+  }
 }
 
 // hides the main menu popover
 function hideNav() {
   $('#container').removeClass('blurred');
   $('#mainNav').addClass('transition');
-  window.setTimeout(function(){$('body').removeClass('noScroll');}, 50); // allow animations to start before removing class (Firefox)
+  window.setTimeout(function(){$('body').removeClass('noScroll').removeAttr('style');}, 50); // allow animations to start before removing class (Firefox)
   window.setTimeout(function(){$('#mainNav').removeClass('transition').removeClass('expanded');}, 200);
   $('.menuIcon').blur(); // removes tab focus
   $('#fullWidthContainer').addClass('notScrolling');
