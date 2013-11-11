@@ -10,7 +10,7 @@ In the summer of 2013 I visited my birthplace, Romania. I rented a 2012 Dacia Lo
 <a href="http://alexcican.com/images/blog/assets/dacia-logan-horn.jpg" class="img" target="_blank"><img src="http://alexcican.com/images/blog/assets/dacia-logan-horn.jpg" alt="dacia logan horn ux" /></a>
 <figcaption>The car’s horn is a small button. Even the horn and arrow icons don’t help much where they are located, at the end of the barrel.</figcaption>
 
-When I confessed this frustration to my father, he said it’s because Dacia cars have always had it there, since their first models back in 1969.
+When I confessed this frustration to my father, he said it’s because Dacia cars have always had the horn in that position, since the first models back in 1969.
 
 So in order to not alienate their long time loyal users, Dacia, decided to stick with that odd button placement, not adapting to modern standards, thus annoying, even crippling, new users by having them search for an important functionality of the car.
 
@@ -48,6 +48,6 @@ My sister came up to me the other day with something along the lines of *“bein
 
 > Being grateful is the biggest enemy of progress.
 
-If I were grateful because I’m breathing today I would do nothing all day; breathing is enough. I wouldn’t try to improve, I wouldn’t be curious, I wouldn’t try learn stuff or practice to become better. Our civilisation wouldn’t have reached the current level. We wouldn’t have invented the wheel, walking is adequate; it’s way too difficult to come up with ways to travel faster than walking, with a wooden circle. The Pyramids wouldn’t have been built; erecting buildings in triangular shape isn’t standardised, let’s stick with squares. We wouldn’t have electricity, computers, a mouse, the Internet, Photoshop, Google Chrome, touch screens, 12hr laptop battery life, 1080p mobile screens, NFC, wireless charging, and so on.
+If I were grateful because I’m breathing today I would do nothing all day; breathing is enough. I wouldn’t try to improve, I wouldn’t be curious, I wouldn’t try learn stuff or practice to become better. Our civilisation wouldn’t have reached the current level. We wouldn’t have invented the wheel, walking is adequate; it’s way too difficult to come up with ways to travel faster than walking, using a wooden circle. The Pyramids wouldn’t have been built; erecting buildings in triangular shape isn’t standardised, let’s stick with squares. We wouldn’t have electricity, computers, a mouse, the Internet, Photoshop, Google Chrome, touch screens, 12hr laptop battery life, 1080p mobile screens, NFC, wireless charging, and so on.
 
 So you can either join me and **help move the web forward**, design for the future, be an inventor, an early adopter, a future-sensitive designer, or go back to fixing IE bugs, and spending more time in IE than you’d like to admit.
