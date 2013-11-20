@@ -249,6 +249,7 @@ strong, b {
 .chromeframe {
   text-align: center;
   font-size: .8em;
+  z-index: 1000;
 }
 
 /* main nav is absolute positioned */
@@ -1063,9 +1064,9 @@ h1.animateOnFirstLoad, h2.animateOnFirstLoad {
   width: 88px;
   height: 88px;
   margin: 24px auto 0;
-  -webkit-border-radius: 100%;
-  -moz-border-radius: 100%;
-  border-radius: 100%;
+  -webkit-border-radius: 44px;
+  -moz-border-radius: 44px;
+  border-radius: 44px;
   text-decoration: none !important;
   color: #00abf1 !important;
   -webkit-transform: translate3d(0,0,0); /* hardware acceleration */
@@ -1156,9 +1157,9 @@ h1.animateOnFirstLoad, h2.animateOnFirstLoad {
   top: -20px;
   left: -2px;
   z-index: -1;
-  -webkit-border-radius: 100%;
-  -moz-border-radius: 100%;
-  border-radius: 100%;
+  -webkit-border-radius: 44px;
+  -moz-border-radius: 44px;
+  border-radius: 44px;
   -webkit-animation: pulsateBg 1s infinite;
   -moz-animation: pulsateBg 1s infinite;
   -o-animation: pulsateBg 1s infinite;
