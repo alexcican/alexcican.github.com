@@ -11,8 +11,8 @@
         <item>
           <title>Personal websites</title>
           <pubDate>2013-10-24T00:00:00+03:00</pubDate>
-          <link>http://localhost:4000/post/personal-websites/</link>
-          <guid>http://localhost:4000/post/personal-websites/</guid>
+          <link>http://alexcican.com/post/personal-websites/</link>
+          <guid>http://alexcican.com/post/personal-websites/</guid>
           <description>&lt;p&gt;I often browse personal websites of freelance designers &amp;amp; devs. After having visited a few sites, you start seeing patterns. Their “personal” websites become homogenised, stripped of personality, almost identical to the previous or next site. There’s nothing personal about it anymore, besides the URL. And this makes me sad.&lt;/p&gt;
 
 &lt;!--more--&gt;
@@ -100,8 +100,8 @@ contact me
         <item>
           <title>How to code a Teehan+Lax navigation</title>
           <pubDate>2013-09-25T00:00:00+03:00</pubDate>
-          <link>http://localhost:4000/post/teehan-lax-navigation/</link>
-          <guid>http://localhost:4000/post/teehan-lax-navigation/</guid>
+          <link>http://alexcican.com/post/teehan-lax-navigation/</link>
+          <guid>http://alexcican.com/post/teehan-lax-navigation/</guid>
           <description>&lt;p&gt;This type of navigation was first seen on the &lt;a href=&quot;http://www.teehanlax.com&quot;&gt;Teehan+Lax&lt;/a&gt; website, then it became quite popular and got adopted by several other websites (&lt;a href=&quot;http://mailchimp.com&quot;&gt;MailChimp&lt;/a&gt;, &lt;a href=&quot;https://www.wunderlist.com/&quot;&gt;Wunderlist&lt;/a&gt;). The navigation bar works as follows: it’s being hidden once you start scrolling. As soon as you scroll up a few pixels it is shown. After that, when you scroll down again it gets hidden. When you have reached the bottom of the page the navigation bar reappears.&lt;/p&gt;
 
 &lt;!--more--&gt;
@@ -373,8 +373,8 @@ nav.expanded #navigation {
         <item>
           <title>Design for the future, not the past</title>
           <pubDate>2013-08-15T00:00:00+03:00</pubDate>
-          <link>http://localhost:4000/post/design-future-not-past/</link>
-          <guid>http://localhost:4000/post/design-future-not-past/</guid>
+          <link>http://alexcican.com/post/design-future-not-past/</link>
+          <guid>http://alexcican.com/post/design-future-not-past/</guid>
           <description>&lt;p&gt;In the summer of 2013 I visited my birthplace, Romania. I rented a 2012 Dacia Logan (Dacia cars are made by Romanians), because it was the cheapest car available. I hated it. There were hundreds of usability flaws, mainly with the positioning of the buttons. One that stuck out was the car’s horn which is not on the steering wheel but to the left of the steering wheel as a button, which you have to push in, located on the tip of the light switch barrel.&lt;/p&gt;
 
 &lt;!--more--&gt;
@@ -437,8 +437,8 @@ nav.expanded #navigation {
         <item>
           <title>Designing the experience</title>
           <pubDate>2013-07-02T00:00:00+03:00</pubDate>
-          <link>http://localhost:4000/post/designing-experience/</link>
-          <guid>http://localhost:4000/post/designing-experience/</guid>
+          <link>http://alexcican.com/post/designing-experience/</link>
+          <guid>http://alexcican.com/post/designing-experience/</guid>
           <description>&lt;p&gt;It doesn’t matter if you have a beautifully designed button in the wrong place—it will frustrate the user and curse your decision of placing the button there. It is important to think how the user will experience that button, interface, website, product, and in what context.&lt;/p&gt;
 
 &lt;!--more--&gt;
@@ -506,8 +506,8 @@ nav.expanded #navigation {
         <item>
           <title>Creative freedom</title>
           <pubDate>2013-06-25T00:00:00+03:00</pubDate>
-          <link>http://localhost:4000/post/creative-freedom/</link>
-          <guid>http://localhost:4000/post/creative-freedom/</guid>
+          <link>http://alexcican.com/post/creative-freedom/</link>
+          <guid>http://alexcican.com/post/creative-freedom/</guid>
           <description>&lt;p&gt;Designers are &lt;strong&gt;creative people&lt;/strong&gt;. We are messy. I’m not talking about your design process. You might have a factory-like process, be very organised, note everything in your Moleskine notebook, draw perfect wireframes, keep your layers organised, and stuff like that. This depends on the character of each person. But that’s not how ideas are formed.&lt;/p&gt;
 
 &lt;!--more--&gt;
@@ -539,8 +539,8 @@ nav.expanded #navigation {
         <item>
           <title>Burnout</title>
           <pubDate>2013-06-21T00:00:00+03:00</pubDate>
-          <link>http://localhost:4000/post/burnout/</link>
-          <guid>http://localhost:4000/post/burnout/</guid>
+          <link>http://alexcican.com/post/burnout/</link>
+          <guid>http://alexcican.com/post/burnout/</guid>
           <description>&lt;blockquote&gt;&lt;p&gt;All work and no play makes Jack a dull boy.&lt;/p&gt;&lt;/blockquote&gt;
 
 &lt;p&gt;You know that feeling when you’ve been working a long time on something and you get burned out. You don’t have the energy to keep going, and you need a break. Some say that as long as you work normal hours, and not push yourself you’ll be fine.&lt;/p&gt;
@@ -574,8 +574,8 @@ nav.expanded #navigation {
         <item>
           <title>Inspiration</title>
           <pubDate>2013-06-18T00:00:00+03:00</pubDate>
-          <link>http://localhost:4000/post/inspiration/</link>
-          <guid>http://localhost:4000/post/inspiration/</guid>
+          <link>http://alexcican.com/post/inspiration/</link>
+          <guid>http://alexcican.com/post/inspiration/</guid>
           <description>&lt;blockquote&gt;&lt;p&gt;“Inspiration is for amateurs—the rest of us just show up and get to work” - Chuck Close&lt;/p&gt;&lt;/blockquote&gt;
 
 &lt;!--more--&gt;
@@ -608,8 +608,8 @@ nav.expanded #navigation {
         <item>
           <title>Doing the work</title>
           <pubDate>2013-06-13T00:00:00+03:00</pubDate>
-          <link>http://localhost:4000/post/doing-work/</link>
-          <guid>http://localhost:4000/post/doing-work/</guid>
+          <link>http://alexcican.com/post/doing-work/</link>
+          <guid>http://alexcican.com/post/doing-work/</guid>
           <description>&lt;p&gt;Everything you’ve learned so far, won’t matter unless you pick up your pencil, your guitar, your mouse, and start doing the work. Period. You have to do the work because nobody else will do it for you.&lt;/p&gt;
 
 &lt;!--more--&gt;
@@ -657,8 +657,8 @@ write tutorial blog post
         <item>
           <title>The experience should justify design aesthetics</title>
           <pubDate>2013-06-11T00:00:00+03:00</pubDate>
-          <link>http://localhost:4000/post/experience-justifies-aesthetics/</link>
-          <guid>http://localhost:4000/post/experience-justifies-aesthetics/</guid>
+          <link>http://alexcican.com/post/experience-justifies-aesthetics/</link>
+          <guid>http://alexcican.com/post/experience-justifies-aesthetics/</guid>
           <description>&lt;p&gt;Whether you are an advocate of flat design or skeuomorphic design, you must acknowledge something: these are &lt;strong&gt;aesthetics&lt;/strong&gt;. They depict &lt;em&gt;how&lt;/em&gt; something looks. But design is more fundamental. It goes beyond flat vs skeuomorphic, golden ratios, “clean” UI, Pantone colour palette, 960 grids, and so on. Design is a form of problem solving. You can’t be following trends blindly, and adopting a certain aesthetic just because…&lt;/p&gt;
 
 &lt;!--more--&gt;
@@ -692,8 +692,8 @@ write tutorial blog post
         <item>
           <title>Fuji X100S camera review</title>
           <pubDate>2013-05-23T00:00:00+03:00</pubDate>
-          <link>http://localhost:4000/post/fuji-x100s/</link>
-          <guid>http://localhost:4000/post/fuji-x100s/</guid>
+          <link>http://alexcican.com/post/fuji-x100s/</link>
+          <guid>http://alexcican.com/post/fuji-x100s/</guid>
           <description>&lt;p&gt;I recently bought the Fujifilm X100S camera. I was on the lookout for a smaller camera as my Canon 5D MKII with L lenses setup and all the extra gear was slowing me down.&lt;/p&gt;
 
 &lt;!-- more --&gt;
@@ -995,8 +995,8 @@ The noise reduction of the X100S is great. Until you reach ISO 6400. At this poi
         <item>
           <title>Standing out from the digital crowd</title>
           <pubDate>2013-03-29T00:00:00+02:00</pubDate>
-          <link>http://localhost:4000/post/standing-out/</link>
-          <guid>http://localhost:4000/post/standing-out/</guid>
+          <link>http://alexcican.com/post/standing-out/</link>
+          <guid>http://alexcican.com/post/standing-out/</guid>
           <description>&lt;p&gt;Have you noticed? The most popular websites nowadays be it Facebook, Twitter, YouTube, Instagram, revolve around a feed. A feed consisting of status updates, photos, videos, posts, what have you. Alongside that content you also find your name, and your avatar. That small square arrangement of pixels is crucial in identifying your post from the one above or below you. Fail to grab the attention of the reader, with your small avatar, and you’re lost in the background. What benefit does that new follower bring you, if they “can’t see” your post in their feed?&lt;/p&gt;
 
 &lt;!--more--&gt;
@@ -1061,8 +1061,8 @@ The noise reduction of the X100S is great. Until you reach ISO 6400. At this poi
         <item>
           <title>Must-have OS X apps for designers and developers</title>
           <pubDate>2013-03-27T00:00:00+02:00</pubDate>
-          <link>http://localhost:4000/post/osx-apps/</link>
-          <guid>http://localhost:4000/post/osx-apps/</guid>
+          <link>http://alexcican.com/post/osx-apps/</link>
+          <guid>http://alexcican.com/post/osx-apps/</guid>
           <description>&lt;p&gt;Yep, it’s the post every Mac user has to publish at least once in their lifetime. But hear me out now; If you’re a designer or developer, you might this list useful.&lt;/p&gt;
 
 &lt;!--more--&gt;
@@ -1106,7 +1106,7 @@ The noise reduction of the X100S is great. Until you reach ISO 6400. At this poi
 
 &lt;p&gt;&lt;strong&gt;&lt;a href=&quot;http://www.google.com/chrome/&quot;&gt;Google Chrome&lt;/a&gt; for browsing&lt;/strong&gt;. Until recently, I was using Safari. The &lt;a href=&quot;http://discover-devtools.codeschool.com/&quot;&gt;Chrome DevTools&lt;/a&gt; made me switch forever.&lt;/p&gt;
 
-&lt;p&gt;&lt;strong&gt;&lt;a href=&quot;http://www.sublimetext.com/&quot;&gt;SublimeText&lt;/a&gt; for coding&lt;/strong&gt;. I spend my life in it, so I might as well make it look pretty. &lt;a href=&quot;https://gist.github.com/alexcican/5248905&quot;&gt;Download my User settings&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;a href=&quot;http://www.sublimetext.com/&quot;&gt;SublimeText&lt;/a&gt; for coding&lt;/strong&gt;. I spend my life in it, so I might as well make it look pretty. &lt;a href=&quot;https://gist.github.com/alexcican/5248905&quot;&gt;Download my User settings&lt;/a&gt;. For CSS coding I use &lt;a href=&quot;http://sass-lang.com/&quot;&gt;SASS&lt;/a&gt; + &lt;a href=&quot;compass-style.org&quot;&gt;Compass&lt;/a&gt;.&lt;/p&gt;
 
 &lt;p&gt;&lt;a href=&quot;/images/blog/assets/sublime-theme.png&quot; class=&quot;img&quot; target=&quot;_blank&quot;&gt;&lt;img src=&quot;/images/blog/assets/sublime-theme.png&quot; alt=&quot;sublime text theme&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
 
@@ -1150,7 +1150,7 @@ The noise reduction of the X100S is great. Until you reach ISO 6400. At this poi
 
 &lt;p&gt;&lt;strong&gt;&lt;a href=&quot;http://manytricks.com/moom/&quot;&gt;Moom&lt;/a&gt; for managing app windows&lt;/strong&gt;. You can also assign keyboard shortcuts for frequently used app screen locations.&lt;/p&gt;
 
-&lt;p&gt;&lt;strong&gt;&lt;a href=&quot;http://macrabbit.com/slicy/&quot;&gt;Slicy&lt;/a&gt; for exporting assets from Photoshop&lt;/strong&gt;. Drag and drop your PSD, and assets are created automatically. It also generates @2x from 1x assets, and vice versa.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;a href=&quot;http://macrabbit.com/slicy/&quot;&gt;Slicy&lt;/a&gt; for exporting assets from Photoshop&lt;/strong&gt;. Drag and drop your PSD, and assets are created automatically. It also generates @2x from 1x assets, and vice versa. Free alternative: &lt;a href=&quot;http://www.cutandslice.me/&quot;&gt;Cut&amp;amp;Slice me&lt;/a&gt;.&lt;/p&gt;
 
 &lt;p&gt;&lt;strong&gt;&lt;a href=&quot;http://wakaba.c3.cx/s/apps/unarchiver.html&quot;&gt;The Unarchiver&lt;/a&gt; for extracting and compressing files&lt;/strong&gt;. Much better than the Archive Utility app.&lt;/p&gt;
 
@@ -1174,7 +1174,7 @@ The noise reduction of the X100S is great. Until you reach ISO 6400. At this poi
 
 &lt;ul&gt;
 &lt;li&gt;&lt;strong&gt;&lt;a href=&quot;http://guideguide.me/&quot;&gt;GuideGuide&lt;/a&gt; for making grids&lt;/strong&gt;.&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;&lt;a href=&quot;http://www.adobe.com/products/kuler.html&quot;&gt;Kuler&lt;/a&gt; for picking colours and palettes&lt;/strong&gt;. To enable it, in Photoshop, go to &lt;em&gt;Window &gt; Extension &gt; Kuler&lt;/em&gt;. It should be there.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;&lt;a href=&quot;http://www.adobe.com/products/kuler.html&quot;&gt;Kuler&lt;/a&gt; for picking colours and palettes&lt;/strong&gt;. To enable it, in Photoshop, go to &lt;em&gt;Window &gt; Extension &gt; Kuler&lt;/em&gt;. It should be there. &lt;a href=&quot;https://kuler.adobe.com&quot;&gt;Online version&lt;/a&gt;.&lt;/li&gt;
 &lt;li&gt;&lt;strong&gt;&lt;a href=&quot;http://webzap.uiparade.com/&quot;&gt;WebZap&lt;/a&gt; for creating layouts, mockups, editing many text fields&lt;/strong&gt;.&lt;/li&gt;
 &lt;li&gt;&lt;strong&gt;&lt;a href=&quot;http://devrocket.uiparade.com/&quot;&gt;DevRocket&lt;/a&gt; for faster designing and exporting iOS UI elements&lt;/strong&gt;.&lt;/li&gt;
 &lt;li&gt;&lt;strong&gt;&lt;a href=&quot;http://csshat.com/&quot;&gt;CSSHat&lt;/a&gt; for turning layer styles into CSS code&lt;/strong&gt;.&lt;/li&gt;
@@ -1185,10 +1185,25 @@ The noise reduction of the X100S is great. Until you reach ISO 6400. At this poi
 &lt;p&gt;To make developing websites easier, I use some cool extensions for Google Chrome:&lt;/p&gt;
 
 &lt;ul&gt;
-&lt;li&gt;&lt;strong&gt;&lt;a href=&quot;https://chrome.google.com/webstore/detail/whatfont/&quot;&gt;WhatFont&lt;/a&gt; for identifying fonts on websites&lt;/strong&gt;.&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;&lt;a href=&quot;https://chrome.google.com/webstore/detail/user-agent-switcher-for-c/&quot;&gt;User-Agent Switcher&lt;/a&gt; to evaluate how websites are rendered on other devices&lt;/strong&gt; (Chrome DevTools also has this feature, but it’s hidden in the settings).&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;&lt;a href=&quot;https://chrome.google.com/webstore/detail/pagespeed-insights-by-goo/&quot;&gt;PageSpeed Insights&lt;/a&gt; for analyzing and improving website performance&lt;/strong&gt;.&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;&lt;a href=&quot;https://chrome.google.com/webstore/detail/window-resizer/&quot;&gt;Window Resizer&lt;/a&gt; for resizing the browser window to specific resolutions&lt;/strong&gt;.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;&lt;a href=&quot;https://chrome.google.com/webstore/detail/whatfont/jabopobgcpjmedljpbcaablpmlmfcogm&quot;&gt;WhatFont&lt;/a&gt; for identifying fonts on websites&lt;/strong&gt;.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;&lt;a href=&quot;https://chrome.google.com/webstore/detail/user-agent-switcher-for-c/djflhoibgkdhkhhcedjiklpkjnoahfmg&quot;&gt;User-Agent Switcher&lt;/a&gt; to evaluate how websites are rendered on other devices&lt;/strong&gt; (Chrome DevTools also has this feature, but it’s hidden in the settings).&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;&lt;a href=&quot;https://chrome.google.com/webstore/detail/pagespeed-insights-by-goo/gplegfbjlmmehdoakndmohflojccocli&quot;&gt;PageSpeed Insights&lt;/a&gt; for analyzing and improving website performance&lt;/strong&gt;.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;&lt;a href=&quot;https://chrome.google.com/webstore/detail/window-resizer/kkelicaakdanhinjdeammmilcgefonfh&quot;&gt;Window Resizer&lt;/a&gt; for resizing the browser window to specific resolutions&lt;/strong&gt;.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;&lt;a href=&quot;https://chrome.google.com/webstore/detail/hola-better-internet/gkojfkhlekighikafcpjkiklfbnlmeio&quot;&gt;Hola&lt;/a&gt; for unblocking sites and country-specific services, like Spotify&lt;/strong&gt;.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;&lt;a href=&quot;https://chrome.google.com/webstore/detail/rather/dkigkllnlkoblfbgfnfngfcnhmndonjm&quot;&gt;Rather&lt;/a&gt; for improving my browsing experience by replacing certain words, like “Justin Bieber”, with others&lt;/strong&gt;.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;&lt;a href=&quot;https://chrome.google.com/webstore/detail/adblock/gighmmpiobklfepjocnamgkkbiglidom&quot;&gt;AdBlock&lt;/a&gt; for blocking site ads and annoying popups&lt;/strong&gt;.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;&lt;a href=&quot;https://chrome.google.com/webstore/detail/awesome-color-picker/flkdgmgdgnpdecpaaoggnbjcdmbnagbj&quot;&gt;Awesome Color Picker&lt;/a&gt; for copying the HEX colour of a website directly to clipboard&lt;/strong&gt;.&lt;/li&gt;
+&lt;/ul&gt;
+
+
+&lt;p&gt;Web apps I use:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;&lt;a href=&quot;http://www.freshbooks.com/&quot;&gt;FreshBooks&lt;/a&gt; for invoicing clients&lt;/strong&gt;.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;&lt;a href=&quot;http://icomoon.io/app/&quot;&gt;IcoMoon&lt;/a&gt; for creating icon web fonts from SVG icons&lt;/strong&gt;.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;&lt;a href=&quot;http://dataurl.net/#dataurlmaker&quot;&gt;DataURL&lt;/a&gt; for converting images into Base64 code&lt;/strong&gt; (saving one HTTP request).&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;&lt;a href=&quot;http://www.invisionapp.com/&quot;&gt;InVision&lt;/a&gt; for creating high-fidelity desktop prototypes from images&lt;/strong&gt;.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;&lt;a href=&quot;https://www.flinto.com/&quot;&gt;Flinto&lt;/a&gt; for creating iOS prototypes from images&lt;/strong&gt;.&lt;/li&gt;
 &lt;/ul&gt;
 
 
@@ -1203,8 +1218,8 @@ The noise reduction of the X100S is great. Until you reach ISO 6400. At this poi
         <item>
           <title>Design a pixel-perfect website</title>
           <pubDate>2013-03-26T00:00:00+02:00</pubDate>
-          <link>http://localhost:4000/post/pixel-perfect/</link>
-          <guid>http://localhost:4000/post/pixel-perfect/</guid>
+          <link>http://alexcican.com/post/pixel-perfect/</link>
+          <guid>http://alexcican.com/post/pixel-perfect/</guid>
           <description>&lt;p&gt;Pixel perfection. Every designer worth its salt strives to make its designs pixel perfect. Unless they’re designing for the web. The web is diverse, fluid, overwhelming, even chaotic. You can browse the web from a tablet, a mobile, on Apple iOS 4 or Android Ice Cream Sandwich, a retina device, an old monitor, using Google Chrome, or Internet Explorer, and so on.&lt;/p&gt;
 
 &lt;!--more--&gt;
@@ -1305,8 +1320,8 @@ The noise reduction of the X100S is great. Until you reach ISO 6400. At this poi
         <item>
           <title>Making your website look pretty on retina devices</title>
           <pubDate>2013-02-07T00:00:00+02:00</pubDate>
-          <link>http://localhost:4000/post/retina-website-tutorial/</link>
-          <guid>http://localhost:4000/post/retina-website-tutorial/</guid>
+          <link>http://alexcican.com/post/retina-website-tutorial/</link>
+          <guid>http://alexcican.com/post/retina-website-tutorial/</guid>
           <description>&lt;p&gt;I thought I’d mix it up a bit and instead of writing a tutorial, I decided to make a video screencast. In this video tutorial I’ll show you some modern practices on how to make your website look great on retina devices, such as an iPhone 5 or a retina MacBook Pro.&lt;/p&gt;
 
 &lt;!--more--&gt;
@@ -1345,8 +1360,8 @@ The noise reduction of the X100S is great. Until you reach ISO 6400. At this poi
         <item>
           <title>Displaying recent posts on Scriptogr.am</title>
           <pubDate>2013-01-09T00:00:00+02:00</pubDate>
-          <link>http://localhost:4000/post/recent-posts-scriptogram/</link>
-          <guid>http://localhost:4000/post/recent-posts-scriptogram/</guid>
+          <link>http://alexcican.com/post/recent-posts-scriptogram/</link>
+          <guid>http://alexcican.com/post/recent-posts-scriptogram/</guid>
           <description>&lt;p&gt;In the previous design of this blog I used to show a list with my latest three articles. There is no option to do that in Scriptogr.am. People kept asking me how I did it and if I could share with them the script that shows the latest articles. When I responded that I do it manually—there’s no script I just go and edit the theme file every time—they were disappointed. But it keeps coming up in my &lt;a href=&quot;https://twitter.com/alexcican&quot;&gt;Twitter feed&lt;/a&gt;. So I spent an hour last night writing a script that reads your blog’s &lt;code&gt;RSS&lt;/code&gt; feed and shows the latest three posts.&lt;/p&gt;
 
 &lt;!--more--&gt;
@@ -1425,8 +1440,8 @@ The noise reduction of the X100S is great. Until you reach ISO 6400. At this poi
         <item>
           <title>Landing a job during an economic crisis</title>
           <pubDate>2012-11-16T00:00:00+02:00</pubDate>
-          <link>http://localhost:4000/post/landing-job/</link>
-          <guid>http://localhost:4000/post/landing-job/</guid>
+          <link>http://alexcican.com/post/landing-job/</link>
+          <guid>http://alexcican.com/post/landing-job/</guid>
           <description>&lt;p&gt;It’s depressing to see almost all of my friends being unemployed. Some of them, even with a Master’s degree, they struggle to make ends meet. You could blame your education, your family, people not acknowledging your brilliance, the economic crisis, the country you live in, and so on. But let me be frank with you: you’re the only one responsible for the situation you’re in. Nobody will come up to you and say:&lt;/p&gt;
 
 &lt;!--more--&gt;
@@ -1554,8 +1569,8 @@ The noise reduction of the X100S is great. Until you reach ISO 6400. At this poi
         <item>
           <title>Life Lessons</title>
           <pubDate>2012-10-16T00:00:00+03:00</pubDate>
-          <link>http://localhost:4000/post/life-lessons/</link>
-          <guid>http://localhost:4000/post/life-lessons/</guid>
+          <link>http://alexcican.com/post/life-lessons/</link>
+          <guid>http://alexcican.com/post/life-lessons/</guid>
           <description>&lt;p&gt;&lt;em&gt;Note: The following article contains my own bullet-points and conclusions from the book “&lt;a href=&quot;http://amzn.com/1576754758&quot;&gt;Five Secrets you must discover before you die&lt;/a&gt;”. I recommend you read the book if you enjoyed this article.&lt;/em&gt;&lt;/p&gt;
 
 &lt;!--more--&gt;
@@ -1646,8 +1661,8 @@ The noise reduction of the X100S is great. Until you reach ISO 6400. At this poi
         <item>
           <title>How I moved my blog to Dropbox</title>
           <pubDate>2012-05-19T00:00:00+03:00</pubDate>
-          <link>http://localhost:4000/post/blog-dropbox-scriptogram/</link>
-          <guid>http://localhost:4000/post/blog-dropbox-scriptogram/</guid>
+          <link>http://alexcican.com/post/blog-dropbox-scriptogram/</link>
+          <guid>http://alexcican.com/post/blog-dropbox-scriptogram/</guid>
           <description>&lt;p&gt;A few months ago I cancelled my hosting accounts and moved all my &lt;a href=&quot;http://alexcican.com/post/guide-hosting-website-dropbox-github&quot;&gt;websites to Dropbox and GitHub&lt;/a&gt;. The only problem I was left with was where I should host the blog. I decided to use Tumblr. Regretting the decision after only two months, the solution was right in front of me the entire time: &lt;strong&gt;use Dropbox for the blog&lt;/strong&gt; as well. In this article I’ll show you how I did it.&lt;/p&gt;
 
 &lt;!--more--&gt;
@@ -1821,8 +1836,8 @@ Excerpt: A few months ago I cancelled my hosting accounts and moved all my [webs
         <item>
           <title>How I moved my websites to Dropbox and GitHub</title>
           <pubDate>2012-05-15T00:00:00+03:00</pubDate>
-          <link>http://localhost:4000/post/guide-hosting-website-dropbox-github/</link>
-          <guid>http://localhost:4000/post/guide-hosting-website-dropbox-github/</guid>
+          <link>http://alexcican.com/post/guide-hosting-website-dropbox-github/</link>
+          <guid>http://alexcican.com/post/guide-hosting-website-dropbox-github/</guid>
           <description>&lt;p&gt;A few months ago I cancelled my hosting and server accounts and moved all my websites to the cloud. I tried it &lt;strong&gt;as an experiment&lt;/strong&gt;; never for a second I thought it would work this well. I did the switch out of impulse: I was pissed. I was pissed at the hosting companies charging so much, having such crappy support, and much downtime. I’m very glad I switched.&lt;/p&gt;
 
 &lt;!--more--&gt;
@@ -1960,8 +1975,8 @@ Excerpt: A few months ago I cancelled my hosting accounts and moved all my [webs
         <item>
           <title>The lost art of Pricing and Negotiating</title>
           <pubDate>2012-04-15T00:00:00+03:00</pubDate>
-          <link>http://localhost:4000/post/pricing-negotiating/</link>
-          <guid>http://localhost:4000/post/pricing-negotiating/</guid>
+          <link>http://alexcican.com/post/pricing-negotiating/</link>
+          <guid>http://alexcican.com/post/pricing-negotiating/</guid>
           <description>&lt;p&gt;&lt;em&gt;&lt;strong&gt;Disclaimer:&lt;/strong&gt; I am in no position to offer you financial advice. I am not a financial advisor. What I want to do, is share my personal experiences on freelancing for a living. This blog is tailored to suit freelancers, so if you’re in a different situation—applying for a full time job, for example—the techniques implemented should be different. That being said, it doesn’t mean that you can’t take away something from this article: useful techniques to tip the scale in your favour.&lt;/em&gt;&lt;/p&gt;
 
 &lt;!--more--&gt;
@@ -2134,8 +2149,8 @@ What usually goes through the mind of the designer/developer: “Oh oh, Here com
         <item>
           <title>iPad battery saving tips</title>
           <pubDate>2012-04-03T00:00:00+03:00</pubDate>
-          <link>http://localhost:4000/post/ipad-battery-tips/</link>
-          <guid>http://localhost:4000/post/ipad-battery-tips/</guid>
+          <link>http://alexcican.com/post/ipad-battery-tips/</link>
+          <guid>http://alexcican.com/post/ipad-battery-tips/</guid>
           <description>&lt;p&gt;In December 2011, I purchased the iPad 2 and integrated it deeply into my workflow. Since then I’ve saved energy by not turning on my main PC for most of my tasks, improved my posture—not sitting on the same chair for hours—thus reducing my chronic back pain, made my experience (browsing, reading, writing, watching) more interactive and fun, and I’ve spent less time on the Internet. A thing that I’ve been obsessing over is battery life. I want to discuss about the battery more.&lt;/p&gt;
 
 &lt;!--more--&gt;
@@ -2219,8 +2234,8 @@ What usually goes through the mind of the designer/developer: “Oh oh, Here com
         <item>
           <title>Different content or CSS depending on iOS version</title>
           <pubDate>2012-03-20T00:00:00+02:00</pubDate>
-          <link>http://localhost:4000/post/different-content-css-ios-version/</link>
-          <guid>http://localhost:4000/post/different-content-css-ios-version/</guid>
+          <link>http://alexcican.com/post/different-content-css-ios-version/</link>
+          <guid>http://alexcican.com/post/different-content-css-ios-version/</guid>
           <description>&lt;p&gt;&lt;del&gt;I’m currently caught in the process of developing my first web application&lt;/del&gt; It’s finished: &lt;a href=&quot;http://timewasted.co.uk&quot;&gt;TimeWasted&lt;/a&gt;. I’m optimising it to work and look great on the iPhone and iPad. Testing the app was done on my iPhone 3G running iOS 4.2 — the last supported iOS for this device.&lt;/p&gt;
 
 &lt;!--more--&gt;
@@ -2273,8 +2288,8 @@ if (chrome) {
         <item>
           <title>Ignore Details Early On</title>
           <pubDate>2012-03-15T00:00:00+02:00</pubDate>
-          <link>http://localhost:4000/post/ignore-details-early/</link>
-          <guid>http://localhost:4000/post/ignore-details-early/</guid>
+          <link>http://alexcican.com/post/ignore-details-early/</link>
+          <guid>http://alexcican.com/post/ignore-details-early/</guid>
           <description>&lt;p&gt;I was re-reading &lt;a href=&quot;http://gettingreal.37signals.com/&quot;&gt;“Getting Real”&lt;/a&gt; from 37 Signals and stumbled across a very important chapter, that resonated with me. Now that I think of it, that’s also one of the reasons why I &lt;a href=&quot;https://twitter.com/#!/sican/status/170287755891449856&quot;&gt;fired my first client&lt;/a&gt; (yes, I do that as well!). I share a small excerpt below, check it out.&lt;/p&gt;
 
 &lt;!--more--&gt;
@@ -2309,8 +2324,8 @@ $39/month vs. $49/month&lt;/p&gt;
         <item>
           <title>How to set cookies with JavaScript</title>
           <pubDate>2012-03-03T00:00:00+02:00</pubDate>
-          <link>http://localhost:4000/post/set-cookies-javascript/</link>
-          <guid>http://localhost:4000/post/set-cookies-javascript/</guid>
+          <link>http://alexcican.com/post/set-cookies-javascript/</link>
+          <guid>http://alexcican.com/post/set-cookies-javascript/</guid>
           <description>&lt;p&gt;Cookies are an important part of modern browsers. Without them, we couldn’t browse websites that require authentication, such as social networks since we’d be asked for our password on every page we’d browse. We wouldn’t be able to write a simple e-mail, or purchase stuff online. Website usage would be limited to browsing only static websites. In this tutorial we’ll focus only on creating and editing cookies using jQuery.&lt;/p&gt;
 
 &lt;!--more--&gt;
@@ -2511,8 +2526,8 @@ if (cookie_mesage_clicked == 'clicked') {
         <item>
           <title>Hide and show a div</title>
           <pubDate>2012-02-28T00:00:00+02:00</pubDate>
-          <link>http://localhost:4000/post/hide-and-show-div/</link>
-          <guid>http://localhost:4000/post/hide-and-show-div/</guid>
+          <link>http://alexcican.com/post/hide-and-show-div/</link>
+          <guid>http://alexcican.com/post/hide-and-show-div/</guid>
           <description>&lt;p&gt;Hiding and showing a div in HTML is really simple. In this tutorial I will show you how to do that using only CSS. I will also show you another version of hiding and showing divs using jQuery. Furthermore, we will take the necessary precautions if Javascript is disabled. Let’s dive in!&lt;/p&gt;
 
 &lt;!--more--&gt;
@@ -2639,8 +2654,8 @@ if (cookie_mesage_clicked == 'clicked') {
         <item>
           <title>Top 5 reasons why you shouldn’t start creating websites</title>
           <pubDate>2012-02-24T00:00:00+02:00</pubDate>
-          <link>http://localhost:4000/post/creating-websites/</link>
-          <guid>http://localhost:4000/post/creating-websites/</guid>
+          <link>http://alexcican.com/post/creating-websites/</link>
+          <guid>http://alexcican.com/post/creating-websites/</guid>
           <description>&lt;p&gt;The Internet is becoming mainstream, and business opportunities are growing fast. More than ever, I see ads claiming to show you how to make shitloads of money by working from home, via the Internet. One way is by working as a &lt;strong&gt;freelance website designer/developer&lt;/strong&gt;. I wrote this post in order to expose the risks of this industry and what I’ve learned from working in the field.&lt;/p&gt;
 
 &lt;!--more--&gt;
@@ -2721,8 +2736,8 @@ if (cookie_mesage_clicked == 'clicked') {
         <item>
           <title>How to remove .php, .html, .htm extensions with .htaccess</title>
           <pubDate>2012-02-19T00:00:00+02:00</pubDate>
-          <link>http://localhost:4000/post/how-to-remove-php-html-htm-extensions-with-htaccess/</link>
-          <guid>http://localhost:4000/post/how-to-remove-php-html-htm-extensions-with-htaccess/</guid>
+          <link>http://alexcican.com/post/how-to-remove-php-html-htm-extensions-with-htaccess/</link>
+          <guid>http://alexcican.com/post/how-to-remove-php-html-htm-extensions-with-htaccess/</guid>
           <description>&lt;p&gt;I recently wanted to remove the extensions from my website, in order to make the URLs more user and search engine friendly. I stumbled across tutorials on how to remove the &lt;code&gt;.php&lt;/code&gt; extension from a PHP page. What about the &lt;code&gt;.html&lt;/code&gt;? I wanted to remove those as well! In this tutorial I’ll show you how to do that easily, by editing the &lt;code&gt;.htaccess&lt;/code&gt; file.&lt;/p&gt;
 
 &lt;!--more--&gt;
