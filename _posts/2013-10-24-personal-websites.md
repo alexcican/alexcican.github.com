@@ -38,7 +38,7 @@ Sure, these *facts* can be linked: if you don’t have milk, you won’t drink c
 
 ## Section: Blog
 
-The original weblog idea was conceptualised in order to allow you to publish your personal thoughts and ideas. When you add a blog to your site just because everyone has one and it’s good for Google’s search engine, you’re doing it wrong. You’re also doing it wrong if you publish news articles related to the release of the iPad Air. Unless you can provide me with an insightful, personal review on the iPad Air, I don’t care. For gadget news, there’s [The Verge](theverge.com).
+The original weblog idea was conceptualised in order to allow you to publish your personal thoughts and ideas. When you add a blog to your site just because everyone has one and it’s good for Google’s search engine, you’re doing it wrong. You’re also doing it wrong if you publish news articles related to the release of the iPad Air. Unless you can provide me with an insightful, personal review on the iPad Air, I don’t care. For gadget news, there’s [The Verge](http://www.theverge.com).
 
 Your blog posts should include part of your personality. I might want to learn more about you by reading your blog. Are you really who you say you are? Personality can’t be faked and in the long run, after I’ve read three-four articles of yours, your true personality traits come out.
 
