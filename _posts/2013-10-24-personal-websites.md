@@ -55,7 +55,7 @@ In any case, I wrote this post to introduce you to my new redesigned personal we
 When redesigning this site, my thought was to make it personal. If you’ve been following me, you know that I was operating under the brand *“SicanStudios”* for design and under my name for photography.
 
 ![](http://alexcican.com/images/blog/assets/logos.svg)
-<figcaption>Sicanstudios logo vs Alex Cican.</figcaption>
+<figcaption>Sicanstudios logo vs Alex Cican logo.</figcaption>
 
 This is no longer the case. From now on, in my efforts for more transparency, I’m putting my name on everything that gets *out*.
 
