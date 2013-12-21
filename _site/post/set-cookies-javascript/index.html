@@ -45,7 +45,7 @@
       <p class="chromeframe">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> or <a href="http://www.google.com/chromeframe/?redirect=true">activate Google Chrome Frame</a> to improve your experience.</p>
   <![endif]-->
 
-  <nav id="mainNav">
+  <nav id="mainNav" role="navigation">
     <span class="menuIcon icon " title="Menu (Esc)" tabindex="0" data-icon="m"><span>Menu</span></span>
 
     <div id="navigation">
@@ -109,20 +109,23 @@
 
 <h2>Step 1 - HTML first</h2>
 
-<p>Based on the example above, we create a DIV and inside it we add two messages. One that will be displayed only once, when the page is loaded, and the other will be displayed after the first one was shown. I used heading tags to separate them from one another:</p>
+<p>Based on the example above, we create a <code>DIV</code> and inside it we add two messages. One that will be displayed only once, when the page is loaded, and the other will be displayed after the first one was shown. Whether to show the first or second message is the job of CSS:</p>
 
-<pre><code>&lt;div class="message"&gt;
-    &lt;h1&gt;This message is displayed only the first time you visit this page. Refresh to hide it!&lt;/h1&gt;
-    &lt;h3&gt;This is shown only after the previous message was shown in the last visit. Even when you refresh the page, the browser remembers your option. In case JS is disabled, this message is more important and should be displayed!&lt;/h3&gt;
+<pre><code>&lt;div class="message  change-message--on-load  hide--second"&gt;
+  &lt;p&gt;This message is displayed only the first time you visit this page. Refresh your page to hide it!&lt;/p&gt;
+  &lt;p&gt;This is shown only after the previous message was shown in the last visit. Even when you refresh the page, the browser remembers your option.&lt;/p&gt;
 &lt;/div&gt;
 </code></pre>
 
 <h2>Step 2 - CSS</h2>
 
-<p>I always take into account what happens when JavaScript is disabled. It’s good practice and makes your website more accessible and user friendly. In case JavaScript is disabled, we don’t want to confuse our visitor and have both messages shown at the same time. We need to hide the first message by default, in the CSS. We will display the message it in the JavaScript section:</p>
+<p>With CSS we tell the browser to hide the first message if the div’s class is <code>.hide--first</code> or hide the second message if the div’s class is <code>.hide--second</code>:</p>
 
-<pre><code>h1 {
-    display: none;
+<pre><code>.hide--first &gt; *:first-child {
+  display: none;
+}
+.hide--second &gt; *:last-child {
+  display: none;
 }
 </code></pre>
 
@@ -146,150 +149,131 @@
 
 <h2>Step 4 - JavaScript</h2>
 
-<p>First, we will reverse what we did in our CSS file. Display the initial message <code>&lt;h1&gt;</code>, and hide the second message <code>&lt;h3&gt;</code>.</p>
+<p>First we add the cookie code. There are two parts to this: one that checks if cookie exists, and the other part is the one that adds the cookie. First, we will check for the cookie (I’ll explain why later). If the cookie is true, hide the initial message and show the other one (with CSS) by changing the class of the <code>&lt;div&gt;</code>:</p>
 
-<pre><code>$(document).ready(function() {
-    $('.message h1').css("display", "block");
-    $('.message h3').css("display", "none");
-</code></pre>
-
-<p>Next we add the cookie code. There are two parts to this: one that checks if cookie exists, and the other part is the one that adds the cookie. First, we will check for the cookie (I’ll explain why later). If the ID of the cookie is set to hide, then hide the first message and display the second:</p>
-
-<pre><code>    var cookie_mesage = $.cookie('welcome');
-    if (cookie_mesage == 'hide') {
-        $('.message h1').css("display", "none");
-        $('.message h3').css("display", "block");
-    };
+<pre><code>    if ($.cookie('hide-after-load') == 'yes') {
+      $('.change-message--on-load').removeClass('hide--second');
+      $('.change-message--on-load').addClass('hide--first');
+    }
 </code></pre>
 
 <p>Before we close the script tag, we have to add the cookie that will hide the first message. We add it to the end, because if we were to add it before the code that checks (see above) the cookie, it would hide the first message from the start. Adding it at the end ensures that the message will be hidden the next time the page is loaded. It’s set to expire in 7 days.</p>
 
-<pre><code>    $.cookie('welcome', 'hide', {expires: 7 });
-});
+<pre><code>    $.cookie('hide-after-load', 'yes', {expires: 7 });
 </code></pre>
 
 <p>The complete code for the first example:</p>
 
 <pre><code>&lt;script type="text/JavaScript"&gt;
     $(document).ready(function() {
-        $('.message h1').css("display", "block");
-        $('.message h3').css("display", "none");
+        if ($.cookie('hide-after-load') == 'yes') {
+          $('.change-message--on-load').removeClass('hide--second');
+          $('.change-message--on-load').addClass('hide--first');
+        }
 
-        var cookie_mesage = $.cookie('welcome');
-
-        if (cookie_mesage == 'hide') {
-            $('.message h1').css("display", "none");
-            $('.message h3').css("display", "block");
-        };
-
-        $.cookie('welcome', 'hide', {expires: 7 });
+        $.cookie('hide-after-load', 'yes', {expires: 7 });
     });
 &lt;/script&gt;
 </code></pre>
 
 <h2>Step 5 - Add cookie on click</h2>
 
-<p>In the demo page, you saw that the second container would hide the text and show the other one, only after you clicked on the “X”. First we need to add an href tag to our HTML. I added it inside the first message, so that when it’s hidden, the button will be hidden as well:</p>
+<p>In the demo page, you saw that the second container would hide the first message and show the other one, only after you clicked on the “&times;” icon. First we need to add an empty <code>href</code> tag for the icon to our HTML:</p>
 
-<pre><code>&lt;h1&gt;This message is displayed only the first time you visit this page. Refresh to hide it!
-&lt;a href="#" title="Hide This Message"&gt;X&lt;/a&gt;&lt;/h1&gt;
+<pre><code>&lt;p&gt;You can only hide this message, by clicking the &amp;times; on the right of this box &lt;a href="#" class="close" title="Hide This Message"&gt;&amp;times;&lt;/a&gt;&lt;/p&gt;
 </code></pre>
 
-<p>Position the “X” to the top of the container using the relative/absolute trick in the CSS:</p>
+<p>To position the “&times;” icon to the top-right of the container, we use the absolute inside relative container trick in the CSS:</p>
 
 <pre><code>.message {
     position: relative
 }
 
-.message a {
-    position: absolute;
-    top: 0;
-    right: 0;
+.close {
+  color: #f00;
+  position: absolute;
+  text-transform: lowercase;
+  right: 20px;
+  font-size: 1.5em;
+  top: 10px;
+  line-height: 1;
+  border: none !important;
 }
 </code></pre>
 
-<p>Inside the script tag, we add the code to do something once the a href is clicked:</p>
+<p>Inside the JavaScript tag, we add the code to do something once the icon is clicked. In this case, return nothing so that the URL is not populated with the empty <code>href</code> hash (#) symbol:</p>
 
-<pre><code>$('.message a').click(function() {
+<pre><code>$('.close').click(function() {
+  return false;
+})
+</code></pre>
+
+<p>Once the user has clicked on the icon, we need to check whether the parent container of the icon is displaying the first message or the second. If it displays the first message, hide it by changing its class. Finally, we also add a cookie with the variable <code>yes</code> so that this option is remembered next time.</p>
+
+<pre><code>if (!$('.change-message--on-click').is('hide--first')) {
+  $('.change-message--on-click').removeClass('hide--second');
+  $('.change-message--on-click').addClass('hide--first');
+
+  // add cookie setting that user has clicked
+  $.cookie('hide-after-click', 'yes', {expires: 7 });
+}
+</code></pre>
+
+<p>The complete script when clicking the icon looks like this:</p>
+
+<pre><code>  $('.close').click(function() {
+    if (!$('.change-message--on-click').is('hide--first')) {
+      $('.change-message--on-click').removeClass('hide--second');
+      $('.change-message--on-click').addClass('hide--first');
+
+      $.cookie('hide-after-click', 'yes', {expires: 7 });
+    }
     return false;
-});
+  })
 </code></pre>
 
-<p>Inside the function we will be using classes to identify when a user has clicked or not. First we check to see if we already have a class clicked assigned to the link. If yes, do nothing. If we don’t have a class, it means that the user hasn’t clicked on the link before. Fade out the first message and queue the second one, once it’s finished. Finally, add a cookie with the variable clicked.</p>
+<p>But wait, we are not done! We also need to check if the clicked cookie has the <code>yes</code> variable attached to it. If it does, show the second message, and hide the first:</p>
 
-<pre><code>var $this = $(this);
-
-if ($this.hasClass('clicked')) { }
-
-else {
-    $(this).addClass('clicked');
-    $('.message h1').delay(200).fadeOut(1300)
-
-    .queue(function(n) {
-        $('.message h3').css("display", "block");
-        n();
-    });
-
-    $.cookie('welcome', 'clicked', {expires: 7 });
+<pre><code>if ($.cookie('hide-after-click') == 'yes') {
+  $('.change-message--on-click').removeClass('hide--second');
+  $('.change-message--on-click').addClass('hide--first');
 }
-</code></pre>
-
-<p>But wait, we are not done! We need to check if the cookie has the clicked variable attached to it:</p>
-
-<pre><code>var cookie_mesage_clicked = $.cookie('welcome');
-if (cookie_mesage_clicked == 'clicked') {
-    $('.message_click a').addClass('clicked');
-    $('.message_click h1').css("display", "none");
-    $('.message_click h3').css("display", "block");
-};
 </code></pre>
 
 <p>The complete code for the second example:</p>
 
 <pre><code>&lt;script type="text/JavaScript"&gt;
-    $(document).ready(function() {
-        $('.message h1').css("display", "block");
-        $('.message h3').css("display", "none");
-        $('.message a').click(function() {
+  $(document).ready(function() {
+    // COOKIES
+    // if the cookie is true, hide the initial message and show the other one
+    if ($.cookie('hide-after-click') == 'yes') {
+      $('.change-message--on-click').removeClass('hide--second');
+      $('.change-message--on-click').addClass('hide--first');
+    }
 
-        var $this = $(this);
 
-        if ($this.hasClass('clicked')) { }
 
-        else {
-            $(this).addClass('clicked');
-            $('.message h1').delay(200).fadeOut(1300)
+    // when clicked on “X” icon do something
+    $('.close').click(function() {
+      // check that “X” icon was not cliked before (hidden)
+      if (!$('.change-message--on-click').is('hide--first')) {
+        $('.change-message--on-click').removeClass('hide--second');
+        $('.change-message--on-click').addClass('hide--first');
 
-            .queue(function(n) {
-                $('.message h3').css("display", "block");
-                n();
-            });
-
-            $.cookie('welcome', 'clicked', {expires: 7 }); }
-            return false;
-        });
-
-        var cookie_mesage_clicked = $.cookie('welcome');
-        if (cookie_mesage_clicked == 'clicked') {
-            $('.message_click h1').css("display", "none");
-            $('.message_click h3').css("display", "block");
-        };
-    });
+        // add cookie setting that user has clicked
+        $.cookie('hide-after-click', 'yes', {expires: 7 });
+      }
+      return false;
+    })
+  });
 &lt;/script&gt;
 </code></pre>
 
-<h2>Step 6 - Accessibility</h2>
-
-<p>If you disable JavaScript and check the page, the first message will be completely hidden because we hid it in the CSS; that is good. But if you disable stylesheets both messages will be visible, thus creating confusion. Why would you want stylesheets disabled? Well for one: screen-readers; used by blind people, they read only what’s in the HTML code disregarding CSS. To fix this problem and make our website even more user friendly we have to add the first message in the <code>script</code> tag, so that it will be displayed only if the user has JavaScript enabled.</p>
-
-<p>To do that, we remove the first message from the HTML. Then we just append the message to the <code>.message</code> div inside jQuery. Note that this has to go before the JavaScript code where you hide the initial message <code>&lt;h1&gt;</code>.</p>
-
-<pre><code>$('.message').append('&lt;h1&gt;You can only hide this message, by pressing x at the top of this box &lt;a href="#" title="Hide This Message"&gt;X&lt;/a&gt;&lt;/h1&gt;');
-</code></pre>
+<p>Download and <a href="https://github.com/alexcican/lab/tree/gh-pages/set_cookies">browse the complete code on GitHub</a>.</p>
 
 <h2>Conclusion</h2>
 
-<p>Cookies can be used in many ways. Now you know how to create your own <a href="http://www.hellobar.com/">Hellobar</a>. The next step after this is to authenticate users (remember login details) and saving sessions in the cookies.</p>
+<p>Cookies can be used in many ways. Now you know how to create your own <a href="http://www.hellobar.com/">Hellobar</a>. You could take it a step further and figure out how to authenticate users (remember login details) and save entire sessions in the cookies (sign up process doesn’t get lost in case you refresh the page).</p>
 
 
       <a href="http://twitter.com/share?url=http://alexcican.com/post/set-cookies-javascript/&text=How to set cookies with JavaScript:&via=alexcican" data-icon="t" class="icon twitter_button" title="Share this article on Twitter" target="_blank"><b></b></a>
