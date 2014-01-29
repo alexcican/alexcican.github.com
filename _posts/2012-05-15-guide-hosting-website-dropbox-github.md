@@ -50,7 +50,7 @@ Doing it this way, you can still access the website without having the domain na
 
 Next step is to **change the DNS** to point to the Dropbox folder (skip this if you’re gonna use GitHub to host your online version of the site).
 
-If you’re using GoDaddy, logit to *“Your account”* and launch the *“Domains”*. Then, click on the domain name you want to edit and from the toolbar, select the *forward* icon. Click *“Forward Domain”* and insert in the popup input, the complete URL of the `index.html` from inside the Dropbox folder (to get the link: *right click on the file>Dropbox>Copy public link*).
+If you’re using GoDaddy, login to *“Your account”* and launch the *“Domains”*. Then, click on the domain name you want to edit and from the toolbar, select the *forward* icon. Click *“Forward Domain”* and insert in the popup input, the complete URL of the `index.html` from inside the Dropbox folder (to get the link: *right click on the file>Dropbox>Copy public link*).
 
 ![godaddy forward domain](http://alexcican.com/images/blog/assets/godaddy-forward-domain.jpg)
 
