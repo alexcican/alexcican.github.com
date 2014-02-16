@@ -868,7 +868,7 @@ The noise reduction of the X100S is great. Until you reach ISO 6400. At this poi
 
 &lt;h2&gt;Fujifilm X100S real life test shoot&lt;/h2&gt;
 
-&lt;p&gt;Enough with the straight out of the camera 100% crops. I always post-process my photographs, so let’s see how photos from the X100S look after I’ve processed them in Adobe Lightroom 4.&lt;/p&gt;
+&lt;p&gt;Enough with the straight out of the camera 100% crops. I always post-process my photographs, so let’s see how photos from the X100S look after I’ve processed them in Lightroom 4.&lt;/p&gt;
 
 &lt;p&gt;The photographs below were post-processed from original JPEG files, not RAW files. I shoot only RAW with my 5D MKII but I figured I’d try to shoot only JPEG with my X100S and see how it goes. The files are gorgeous, retaining enough shadow/highlight detail thus allowing me to push the processing a lot. So I’ll be sticking to JPEG.&lt;/p&gt;
 
@@ -1889,7 +1889,7 @@ Excerpt: A few months ago I cancelled my hosting accounts and moved all my [webs
 
 &lt;p&gt;Next step is to &lt;strong&gt;change the DNS&lt;/strong&gt; to point to the Dropbox folder (skip this if you’re gonna use GitHub to host your online version of the site).&lt;/p&gt;
 
-&lt;p&gt;If you’re using GoDaddy, logit to &lt;em&gt;“Your account”&lt;/em&gt; and launch the &lt;em&gt;“Domains”&lt;/em&gt;. Then, click on the domain name you want to edit and from the toolbar, select the &lt;em&gt;forward&lt;/em&gt; icon. Click &lt;em&gt;“Forward Domain”&lt;/em&gt; and insert in the popup input, the complete URL of the &lt;code&gt;index.html&lt;/code&gt; from inside the Dropbox folder (to get the link: &lt;em&gt;right click on the file&gt;Dropbox&gt;Copy public link&lt;/em&gt;).&lt;/p&gt;
+&lt;p&gt;If you’re using GoDaddy, login to &lt;em&gt;“Your account”&lt;/em&gt; and launch the &lt;em&gt;“Domains”&lt;/em&gt;. Then, click on the domain name you want to edit and from the toolbar, select the &lt;em&gt;forward&lt;/em&gt; icon. Click &lt;em&gt;“Forward Domain”&lt;/em&gt; and insert in the popup input, the complete URL of the &lt;code&gt;index.html&lt;/code&gt; from inside the Dropbox folder (to get the link: &lt;em&gt;right click on the file&gt;Dropbox&gt;Copy public link&lt;/em&gt;).&lt;/p&gt;
 
 &lt;p&gt;&lt;img src=&quot;http://alexcican.com/images/blog/assets/godaddy-forward-domain.jpg&quot; alt=&quot;godaddy forward domain&quot; /&gt;&lt;/p&gt;
 
