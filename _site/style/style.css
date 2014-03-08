@@ -290,10 +290,10 @@ strong, b {
 
 /* when hidden it goes up */
 #mainNav.invisible {
-  -webkit-transform: translate(0,-96px);
-  -moz-transform: translate(0,-96px);
-  -o-transform: translate(0,-96px);
-  transform: translate(0,-96px);
+  -webkit-transform: translate3d(0,-96px,0);
+  -moz-transform: translate3d(0,-96px,0);
+  -o-transform: translate3d(0,-96px,0);
+  transform: translate3d(0,-96px,0);
   -webkit-transition: -webkit-transform .4s, opacity 3s;
   -moz-transition: -moz-transform .4s, opacity 3s;
   -o-transition: -o-transform .4s, opacity 3s;
@@ -326,10 +326,10 @@ strong, b {
 
 #navigation {
   width: 100%;
-  -webkit-transform: translate(0,-500px);
-  -moz-transform: translate(0,-500px);
-  -o-transform: translate(0,-500px);
-  transform: translate(0,-500px);
+  -webkit-transform: translate3d(0,-500px,0);
+  -moz-transform: translate3d(0,-500px,0);
+  -o-transform: translate3d(0,-500px,0);
+  transform: translate3d(0,-500px,0);
   -webkit-transition: -webkit-transform .25s;
   -moz-transition: -moz-transform .25s;
   -o-transition: -o-transform .25s;
@@ -364,10 +364,10 @@ strong, b {
 
 /* hide navigation before hiding everything (transition) */
 .transition #navigation {
-  -webkit-transform: translate(0,-500px);
-  -moz-transform: translate(0,-500px);
-  -o-transform: translate(0,-500px);
-  transform: translate(0,-500px);
+  -webkit-transform: translate3d(0,-500px,0);
+  -moz-transform: translate3d(0,-500px,0);
+  -o-transform: translate3d(0,-500px,0);
+  transform: translate3d(0,-500px,0);
   -webkit-transition: -webkit-transform .3s;
   -moz-transition: -moz-transform .3s;
   -o-transition: -o-transform .3s;
@@ -629,7 +629,19 @@ section ul span {
   text-align: center;
   margin: 0 auto;
   height: 800px;
-  background: url('../images/bg.jpg') 50% 0 no-repeat fixed;
+  overflow: hidden;
+  position: relative;
+}
+
+.bg-image {
+  display: block;
+  position: absolute;
+  top: 0;
+  z-index: -1;
+  min-height: 1080px;
+  width: 100%;
+  /*padding-bottom: 450px;*/
+  background: url('../images/bg.jpg') 50% 0 no-repeat;
   -webkit-transform: translate3d(0,0,0); /* hardware acceleration */
   -moz-transform: translate3d(0,0,0);
   -o-transform: translate3d(0,0,0);
@@ -638,8 +650,8 @@ section ul span {
 
 /* retina bg image */
 @media (-webkit-min-device-pixel-ratio: 2), (min-resolution: 192dpi) {
-  #intro {
-    background: url('../images/bg@2x.jpg') 50% 0 no-repeat fixed;
+  .bg-image {
+    background: url('../images/bg@2x.jpg') 50% 0 no-repeat;
   }
 }
 
@@ -691,6 +703,10 @@ section ul span {
   background: -ms-linear-gradient(top, rgba(255,255,255,0) 0%,rgba(255,255,255,1) 100%);
   background: linear-gradient(to bottom, rgba(255,255,255,0) 0%,rgba(255,255,255,1) 100%);
   filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#00ffffff', endColorstr='#ffffff',GradientType=0 );
+}
+
+.fadeWhiteGradient {
+  background: #fff;
 }
 
 /* intro headline */
@@ -815,9 +831,10 @@ h1.animateOnFirstLoad, h2.animateOnFirstLoad {
   margin: 0 auto;
   opacity: .1;
   border: none;
-  -webkit-transform: translate(0,1.8em);
-  -moz-transform: translate(0,1.8em);
-  transform: translate(0,1.8em);
+  -webkit-transform: translate3d(0,1.8em,0);
+  -moz-transform: translate3d(0,1.8em,0);
+  -o-transform: translate3d(0,1.8em,0);
+  transform: translate3d(0,1.8em,0);
   -webkit-transition: -webkit-transform .3s, opacity .2s;
   -moz-transition: -moz-transform .3s, opacity .2s;
   -o-transition: -o-transform .3s, opacity .2s;
@@ -826,9 +843,10 @@ h1.animateOnFirstLoad, h2.animateOnFirstLoad {
 
 /* shows the illustration on hover */
 #fullWidthContainer.notScrolling section:hover > a .cover, #fullWidthContainer.notScrolling a:focus .cover {
-  -webkit-transform: translate(0,-1.6em);
-  -moz-transform: translate(0,-1.6em);
-  transform: translate(0,-1.6em);
+  -webkit-transform: translate3d(0,-1.6em,0);
+  -moz-transform: translate3d(0,-1.6em,0);
+  -o-transform: translate3d(0,-1.6em,0);
+  transform: translate3d(0,-1.6em,0);
 }
 
 /* incerase size of blog link container on click */
@@ -864,10 +882,10 @@ h1.animateOnFirstLoad, h2.animateOnFirstLoad {
 /* moves heading down */
 .magnify h2 {
   opacity: 0;
-  -webkit-transform: translate(0,350px);
-  -moz-transform: translate(0,350px);
-  -o-transform: translate(0,350px);
-  transform: translate(0,350px);
+  -webkit-transform: translate3d(0,350px,0);
+  -moz-transform: translate3d(0,350px,0);
+  -o-transform: translate3d(0,350px,0);
+  transform: translate3d(0,350px,0);
   -webkit-transition: -webkit-transform .3s, opacity .3s;
   -moz-transition: -moz-transform .3s, opacity .3s;
   -o-transition: -o-transform .3s, opacity .3s;

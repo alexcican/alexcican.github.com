@@ -7,13 +7,6 @@ adjustHeight();
 if (/Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent))
   touchDevice = true;
 
-// initiates the parallax script only for desktops
-if (!touchDevice)
-  if (typeof skrollr != 'undefined')
-    var s = skrollr.init({
-      forceHeight: false
-    });
-
 if (touchDevice) {
   // iOS re-orientation fix
   var viewportmeta = document.querySelectorAll('meta[name="viewport"]')[0];
@@ -74,12 +67,21 @@ var previousScroll = 0, // previous scroll position
     detachPoint = 850, // point of detach (after scroll passed it, menu is fixed)
     hideShowOffset = 6; // scrolling value after which triggers hide/show menu
 
+// needs initial position of bg image
+var s = $(this).scrollTop();
+$('.bg-image').css('-webkit-transform', 'translate3d(0,' + (s/1.3) + 'px, 0');
 
 $(window).scroll(function () {
   var currentScroll = $(this).scrollTop(), // gets current scroll position
       pageHeight = document.body.offsetHeight, // gets height of page
       scrolledWindowHeight = window.innerHeight + window.scrollY, // calculates current scroll position (to find if user at the bottom of site)
       scrollDifference = Math.abs(currentScroll - previousScroll); // calculates how fast user is scrolling
+
+
+  // for bg image
+  s = $(this).scrollTop();
+  if (scrolledWindowHeight <= pageHeight)
+    $('.bg-image').css('-webkit-transform', 'translate3d(0,' + (s/1.3) + 'px, 0');
 
   // timer for when to add class for hover effect on blog links
   clearTimeout($.data(this, 'scrollTimer'));
@@ -232,6 +234,7 @@ function adjustHeight() {
 
     $("#intro, #post section").css("height", height);
     $("#intro div, #post .cover").css("padding-top", padding);
+    $(".bg-image").css('top', padding - 430);
 
     // $("#intro, #post section").css("height", height);
 
