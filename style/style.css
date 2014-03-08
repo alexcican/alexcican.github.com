@@ -452,9 +452,15 @@ strong, b {
 }
 
 /* changes colour on hover or keyboard focus */
-.menuIcon:hover:before, .menuIcon:focus:before {
+.menuIcon:hover:before {
   color: #666;
 }
+
+/* accessibility improvement: on icon focus make icon red */
+.menuIcon:focus:before {
+  color: #c80909;
+}
+
 
 /* changes icon to an “X” */
 .expanded .menuIcon:before {
