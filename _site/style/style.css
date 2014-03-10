@@ -646,7 +646,7 @@ section ul span {
   z-index: -1;
   min-height: 1080px;
   width: 100%;
-  /*padding-bottom: 450px;*/
+  padding-bottom: 450px;
   background: url('../images/bg.jpg') 50% 0 no-repeat;
   -webkit-transform: translate3d(0,0,0); /* hardware acceleration */
   -moz-transform: translate3d(0,0,0);
@@ -654,12 +654,33 @@ section ul span {
   transform: translate3d(0,0,0);
 }
 
+/* fix image for iPhone */
+@media screen and (max-width: 320px){
+  .bg-image {
+    background-size: 100%;
+    background-position: 0 18%;
+  }
+}
+
+/* fix image for iPhone landscape */
+@media only screen and (min-device-width: 320px) and (max-device-width: 568px) and (orientation: landscape) {
+  .bg-image {
+    width: 50%;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+  }
+}
+
 /* retina bg image */
 @media (-webkit-min-device-pixel-ratio: 2), (min-resolution: 192dpi) {
   .bg-image {
-    background: url('../images/bg@2x.jpg') 50% 0 no-repeat;
+    background: url('../images/bg@2x.jpg') 0 18% no-repeat;
+    background-size: 100%;
   }
 }
+
+
 
 /* makes bg colour black and white */
 .blackAndWhite {
