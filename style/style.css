@@ -14,6 +14,7 @@ img, embed, object, video {
 body {
   font-family: "Avenir Next", Avenir, "Segoe UI", Roboto, "Helvetica Neue", sans-serif;
   -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
   font-size: 20px;
   line-height: 1.4em;
   background: #fff;
