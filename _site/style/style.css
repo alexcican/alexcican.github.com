@@ -684,11 +684,20 @@ section ul span {
 
 
 /* makes bg colour black and white */
-.blackAndWhite {
-  -webkit-filter: brightness(1.1) contrast(1.4) grayscale(1);
-  -moz-filter: brightness(1.1) contrast(1.4) grayscale(1);
-  -o-filter: brightness(1.1) contrast(1.4) grayscale(1);
-  filter: brightness(1.1) contrast(1.4) grayscale(1);
+.blackAndWhite .bg-image {
+  -webkit-filter: brightness(1.1) contrast(1.2) grayscale(1);
+  -moz-filter: brightness(1.1) contrast(1.2) grayscale(1);
+  -o-filter: brightness(1.1) contrast(1.2) grayscale(1);
+  filter: brightness(1.1) contrast(1.2) grayscale(1);
+}
+
+.blackAndWhite h2 {
+  background: #333;
+  padding: .5em 0;
+  width: 100%;
+  max-width: 550px;
+  margin: -1.5em auto;
+  color: #fff !important;
 }
 
 /* not found 404 container */
@@ -699,6 +708,7 @@ section ul span {
 
 /* each individual number */
 .leftNumber, .rightNumber {
+  color: #333;
   width: 100%;
   font-size: 39em;
   font-weight: 800;
@@ -714,6 +724,18 @@ section ul span {
 /* right number position */
 .rightNumber {
   left: .58em;
+}
+
+.back-link {
+  font-size: .875em;
+  padding: .3em .8em;
+  background: #333;
+  color: #fff !important;
+  margin-top: 11em;
+}
+
+.back-link:hover {
+  background: #b5322e;
 }
 
 /* fade gradient to match ending of photo*/
