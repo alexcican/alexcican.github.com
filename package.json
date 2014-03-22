@@ -5,6 +5,5 @@
     "grunt": "~0.4.4",
     "grunt-htmlcompressor": "~0.1.10",
     "grunt-contrib-watch": "~0.6.1",
-    "grunt-contrib-compress": "~0.7.0"
   }
 }
