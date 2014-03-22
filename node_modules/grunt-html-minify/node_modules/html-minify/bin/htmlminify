@@ -1,0 +1,98 @@
+#!/usr/bin/env node
+
+var util = require('util');
+var fs = require('fs');
+var path = require('path');
+var Htmlminify = require('../lib/minify').minify;
+var iconv = require('iconv-lite');
+var Buffer = require('buffer').Buffer;
+var commands = require('commander');
+
+
+var packageConfig = fs.readFileSync(path.join(path.dirname(fs.realpathSync(process.argv[1])), '../package.json'));
+var buildVersion = JSON.parse(packageConfig).version;
+
+var isWindows = process.platform == 'win32';
+
+// Specify commander options to parse command line params correctly
+commands
+    .version(buildVersion, '-v, --version')
+    .usage('[options] <source-file>')
+    .option('-r, --root [root-path]', 'Set a root path to which resolve absolute @import rules')
+    .option('-o, --output [output-file]', 'Use [output-file] as output instead of stdout')
+    .option('-c, --charset [charset]', 'charset');
+
+commands.on('--help', function () {
+    util.puts('  Examples:\n');
+    util.puts('    %> htmlminify one.html');
+    util.puts('    %> htmlminify -o one-min.html one.html');
+    util.puts('    %> htmlminify -o one-min.html one.html -c gbk');
+    if (isWindows) {
+        util.puts('    %> type one.html two.html three.html | htmlminify -o merged-and-minified.html');
+    } else {
+        util.puts('    %> cat one.html two.html three.html | htmlminify -o merged-and-minified.html');
+        util.puts('    %> cat one.html two.html three.html | htmlminify | gzip -9 -c > merged-minified-and-gzipped.html.gz');
+    }
+    util.puts('');
+    process.exit();
+});
+
+commands.parse(process.argv);
+
+var options = {
+    source: null,
+    target: null,
+    charset: 'utf-8'
+};
+
+var htmlOptions = {
+    collapseWhitespace: true,
+    removeComments: true
+};
+
+
+var fromStdin = !process.env['__DIRECT__'] && !process.stdin.isTTY;
+
+// If no sensible data passed in just print help and exit
+if (!fromStdin && commands.args.length == 0) {
+    commands.outputHelp();
+    return 0;
+}
+
+// Now coerce commands into Htmlminify configuration...
+if (commands.output)
+    options.target = commands.output;
+if (commands.charset) {
+    options.charset = commands.charset;
+}
+if (commands.args.length > 0) {
+    var source = commands.args[0];
+    options.source = source;
+    htmlOptions.relativeTo = path.dirname(path.resolve(source));
+}
+
+// ... and do the magic!
+if (options.source) {
+    var text = fs.readFileSync(options.source);
+    text = iconv.decode(text, options.charset);
+    output(Htmlminify(text, htmlOptions));
+} else {
+    var stdin = process.openStdin();
+    stdin.setEncoding('binary');
+    var text = '';
+    stdin.on('data', function (chunk) {
+        text += chunk;
+    });
+    stdin.on('end', function () {
+        output(Htmlminify(text, htmlOptions));
+    });
+}
+
+function output(cleaned) {
+    if (options.target) {
+        cleaned = iconv.encode(cleaned, options.charset);
+        fs.writeFileSync(options.target, cleaned);
+    }
+    else
+        process.stdout.write(cleaned);
+}

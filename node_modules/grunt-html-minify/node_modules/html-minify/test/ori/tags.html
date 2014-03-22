@@ -1,0 +1,97 @@
+<style>
+.bt-refresh{
+	
+	background:url(http://img01.taobaocdn.com/tps/i1/T1FJJrFlVgXXcBqPE.-13-14.png) no-repeat 0 center;
+	border-width:0;
+	text-indent:1.2em;
+	cursor:pointer;
+	_display:inline;
+	right:10px;
+	top:-35px;
+	position:absolute;
+	z-index:1;
+	color:#666;
+}
+.bt-refresh:hover{color:red;}
+
+.tags-cnt{
+	padding:20px 30px 30px;
+	text-align:center;
+	border-bottom:solid 1px #D7D6D6;
+	margin-bottom:20px;
+	position:relative;
+
+}
+.yx-tags-loading .yx-tag{
+
+	display:none;
+}
+
+
+.tags-filter{
+	background:#E2E2E2 url(http://img04.taobaocdn.com/tps/i4/T1HJFrFcNcXXXjm72a-19-50.png) no-repeat 10px -20px;
+	padding:10px 10px 10px 30px;
+	font-size:14px;
+	display:inline-block;
+}
+
+</style>
+<link rel="import" href="tag.htm"/>
+<div data-b-template="tags">
+
+<div class="tags-container">
+	<div class="tags-cnt">
+		<input type="button" value="换一换" class="bt-refresh" id="J_refresh"/>
+		<div id="yx-tags" class="yx-tags">
+			<div data-b-content="tag" data-b-data="INIT_DATA"></div>
+		</div>
+	</div>
+</div>	
+</div>
+<script data-b-for="tags">
+var ImpressionList={
+	api:{
+		get:"/shopimpression/topImpressionAPI"
+	},
+	container:null,
+	currentPage:0, 
+	get:function(){
+		var me=this;
+		KISSY.IO.get(me.api.get,{page:(++me.currentPage)},function(r){
+			eval('var r='+r);
+			if(r.success){
+				me.render(r.data);
+				if(!r.hasMore)me.currentPage==-1;
+			}
+			else{
+				KISSY.log(r.errorMsg)
+			}
+		});
+	},
+	render:function(data){
+		var me=this,tagDiv=me.container.html(Brick.renderTpl('tag',data)),
+		tags=tagDiv.addClass('yx-tags-loading').all('.yx-tag'),l=tags.length;
+	
+		tags.each(function(n,i){
+			var t=this;
+				setTimeout(function(){t.css('display','inline-block').fadeIn(function(){})
+				if(i==l-1){
+					tagDiv.removeClass('yx-tags-loading')
+				}
+			},(50-i)*(i++))
+		});
+	}
+};
+
+KISSY.use('node,event,ajax',function(S,N,E,io){
+	var $=S.one;
+	ImpressionList.container=KISSY.one('#yx-tags');
+	$('#J_refresh').on('click',function(){
+		ImpressionList.get();
+	});
+});
+</script>
+<script type="text/javascript">
+    alert(12311);
+</script>
+

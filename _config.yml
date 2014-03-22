@@ -10,3 +10,5 @@ url: "http://alexcican.com"
 markdown: rdiscount
 permalink: /post/:title/
 # pygments: true
+
+exclude: [Gruntfile.js, package.json, node_modules]

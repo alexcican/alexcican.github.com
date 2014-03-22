@@ -1,119 +1,4 @@
-
-
-<!doctype html>
-<html lang="en-gb">
-
-<head>
-  <title>Hide and show a div</title>
-  <meta name="p:domain_verify" content="96e0bccd344b210732acfc8bc110354b"/>
-  <meta charset="utf-8" />
-  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-  <meta name="description" content="Hiding and showing a div in HTML is really simple. In this tutorial I will show you how to do that using only CSS. I will also show you another version of hiding and showing divs using jQuery. Furthermore, we will take the necessary precautions if Javascript is disabled. Let’s dive in!
-
-" />
-  <meta name="viewport" content="width=device-width, minimal-ui" />
-  <meta name="msapplication-TileImage" content="http://alexcican.com/images/apple-touch-icon-144x144-precomposed.png">
-  <link rel="author" href="https://plus.google.com/116801469202683881648/" />
-  <link rel="shortcut icon" href="http://alexcican.com/images/favicon.ico" type="image/x-icon" />
-  <link rel="stylesheet" type="text/css" href="http://alexcican.com/style/style.min.css" />
-  <!--[if lt IE 10]>
-    <link rel="stylesheet" type="text/css" href="http://alexcican.com/style/ie9.css" />
-  <![endif]-->
-  <link rel="alternate" type="application/rss+xml" title="Alex Cican – Designer" href="http://feeds.feedburner.com/alexcican/" />
-  <link rel="canonical" href="http://alexcican.com/post/hide-and-show-div/" />
-  <link rel="apple-touch-icon-precomposed" href="http://alexcican.com/images/apple-touch-icon-57x57-precomposed.png" />
-  <link rel="apple-touch-icon-precomposed" href="http://alexcican.com/images/apple-touch-icon-72x72-precomposed.png" />
-  <link rel="apple-touch-icon-precomposed" href="http://alexcican.com/images/apple-touch-icon-114x114-precomposed.png" />
-  <link rel="apple-touch-icon-precomposed" href="http://alexcican.com/images/apple-touch-icon-144x144-precomposed.png" />
-  <link rel="apple-touch-icon-precomposed" href="http://alexcican.com/images/apple-touch-icon-152x152-precomposed.png" />
-  <meta property="og:image" content="http://alexcican.com/images/apple-touch-icon-152x152-precomposed.png" />
-  <meta property="og:title" content="Hide and show a div" />
-  <meta property="og:description" content="Hiding and showing a div in HTML is really simple. In this tutorial I will show you how to do that using only CSS. I will also show you another version of hiding and showing divs using jQuery. Furthermore, we will take the necessary precautions if Javascript is disabled. Let’s dive in!
-
-" />
-  <meta property="og:url" content="http://alexcican.com/post/hide-and-show-div/" />
-  <meta property="og:site_name" content="Alex Cican — Designer" />
-  <meta property="og:type" content="blog" />
-  <meta name="twitter:card" content="summary" />
-  <meta name="twitter:site" content="@alexcican" />
-  <meta name="twitter:creator" content="@alexcican" />
-  <meta name="twitter:creator:id" content="Alex Cican" />
-  <script src="http://alexcican.com/javascript/turbolinks.min.js"></script>
-</head>
-<body  >
-  <!--[if lt IE 9]>
-      <p class="chromeframe">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> or <a href="http://www.google.com/chromeframe/?redirect=true">activate Google Chrome Frame</a> to improve your experience.</p>
-  <![endif]-->
-
-  <nav id="mainNav" role="navigation">
-    <span class="menuIcon icon " title="Menu (Esc)" tabindex="0" data-icon="m"><span>Menu</span></span>
-
-    <div id="navigation">
-      <p><span class="heading">alex cican</span><br/><span class="subheading">Designer</span></p>
-      <p class="menu_label">Menu</p>
-
-      <section>
-        <ul class="siteLinks">
-          <li><span>Site dishes</span></li>
-          <li><a href="http://alexcican.com" class="home " title="Learn about me (H)">Home</a></li>
-          <li><a href="http://alexcican.com/work/" class="work " title="Check out my work (W)">Work</a></li>
-          <li><a href="http://lab.alexcican.com" class="lab" title="Visit my lab (L)">Lab</a></li>
-          <li><a href="http://alexcican.com/blog/" class="blog " title="Read my blog (B)">Blog</a></li>
-          <li><a href="http://alexcican.com/photos/" class="photos " title="View my photos (P)">Photos</a></li>
-        </ul>
-
-        <ul>
-          <li><span>Main contact</span></li>
-          <li><a href="mailto:&#097;&#108;&#101;&#120;&#064;&#097;&#108;&#101;&#120;&#099;&#105;&#099;&#097;&#110;&#046;&#099;&#111;&#109;" class="email" title="Email me (E)">Email</a></li>
-          <li><a href="skype:alex.cican?chat" class="skype" title="Skype me (S)">Skype</a></li>
-        </ul>
-
-        <ul>
-          <li><span>Desserts</span></li>
-          <li><a href="http://twitter.com/alexcican" title="Find me on Twitter" target="_blank">Twitter</a></li>
-          <li><a href="http://dribbble.com/alexcican" title="Find me on Dribbble" target="_blank">Dribbble</a></li>
-          <li><a href="http://facebook.com/alexcican" title="Find me on Facebook" target="_blank">Facebook</a></li>
-          <li><a href="http://github.com/alexcican" title="Find me on GitHub" target="_blank">GitHub</a></li>
-          <li><a href="http://flickr.com/sican" title="Find me on Flickr" target="_blank">Flickr</a></li>
-          <li><a href="http://vimeo.com/alexcican" title="Find me on Vimeo" target="_blank">Vimeo</a></li>
-          <li><a href="http://instagram.com/alexcican" title="Find me on Instagram" target="_blank">Instagram</a></li>
-          <li><a href="http://youtube.com/sican" title="Find me on YouTube" target="_blank">YouTube</a></li>
-          <li><a href="http://be.net/alexcican" title="Find me on Behance" target="_blank">Behance</a></li>
-        </ul>
-
-        <p>Some of our dishes may contain sarcasm and humour. <br/>Please don&rsquo;t inform our staff about any allergies you might have.</p>
-      </section>
-    </div>
-  </nav>
-
-  <div id="container">
-
-  <div id="post">
-    <section class="light_mauve">
-      
-        <img class="cover" src="data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0idXRmLTgiPz4NCjwhLS0gR2VuZXJhdG9yOiBBZG9iZSBJbGx1c3RyYXRvciAxNi4wLjAsIFNWRyBFeHBvcnQgUGx1Zy1JbiAuIFNWRyBWZXJzaW9uOiA2LjAwIEJ1aWxkIDApICAtLT4NCjwhRE9DVFlQRSBzdmcgUFVCTElDICItLy9XM0MvL0RURCBTVkcgMS4xLy9FTiIgImh0dHA6Ly93d3cudzMub3JnL0dyYXBoaWNzL1NWRy8xLjEvRFREL3N2ZzExLmR0ZCI+DQo8c3ZnIHZlcnNpb249IjEuMSIgaWQ9IkVsbGlwc2VfMl8xXyIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiB4bWxuczp4bGluaz0iaHR0cDovL3d3dy53My5vcmcvMTk5OS94bGluayIgeD0iMHB4Ig0KCSB5PSIwcHgiIHdpZHRoPSI3MzZweCIgaGVpZ2h0PSI0MTZweCIgdmlld0JveD0iMCAwIDczNiA0MTYiIGVuYWJsZS1iYWNrZ3JvdW5kPSJuZXcgMCAwIDczNiA0MTYiIHhtbDpzcGFjZT0icHJlc2VydmUiPg0KPGcgaWQ9IkVsbGlwc2VfMiI+DQoJPGc+DQoJCTxwYXRoIGZpbGw9IiNGRkZGRkYiIGQ9Ik0zNjYuMTcyLDE4NS4xNzdjLTI2LjYwNCwwLTQ4LjE3Miw0LjQ5LTQ4LjE3MiwyNi40OTVjMCwxMi45OTEsMTMuODgxLDIwLjY4MiwzMy4xMDIsMjMuMjE4DQoJCQlsMTUuNDAzLTE1LjQwM2wxNS4zMjMsMTUuMzI0YzE4LjkxNi0yLjYxNSwzMi41MTYtMTAuMjc5LDMyLjUxNi0yMy4xMzlDNDE0LjM0NCwxODkuNjY3LDM5Mi43NzYsMTg1LjE3NywzNjYuMTcyLDE4NS4xNzd6DQoJCQkgTTM0NS44LDIxMy43Yy01Ljg1NCwwLTEwLjYtMi41OTctMTAuNi01LjhjMC0zLjIwNCw0Ljc0NS01LjgwMSwxMC42LTUuODAxczEwLjYwMSwyLjU5NywxMC42MDEsNS44MDENCgkJCUMzNTYuNCwyMTEuMTA0LDM1MS42NTQsMjEzLjcsMzQ1LjgsMjEzLjd6IE0zODcuOCwyMTMuN2MtNS44NTQsMC0xMC42LTIuNTk3LTEwLjYtNS44YzAtMy4yMDQsNC43NDUtNS44MDEsMTAuNi01LjgwMQ0KCQkJczEwLjYwMSwyLjU5NywxMC42MDEsNS44MDFDMzk4LjQsMjExLjEwNCwzOTMuNjU0LDIxMy43LDM4Ny44LDIxMy43eiIvPg0KCTwvZz4NCjwvZz4NCjwvc3ZnPg0K" alt="mask svg" />
-      
-    </section>
-
-    <h1>Hide and show a div</h1>
-
-    <div id="content">
-      <p>Hiding and showing a div in HTML is really simple. In this tutorial I will show you how to do that using only CSS. I will also show you another version of hiding and showing divs using jQuery. Furthermore, we will take the necessary precautions if Javascript is disabled. Let’s dive in!</p>
-
-<!--more-->
-
-
-<h2>Hide and show a div with CSS</h2>
-
-<p>The first method, involves using only CSS. We will use the CSS pseudo-class <code>:hover</code>. The idea is that we want to hide the div once the user has moved their mouse over it, and display something else instead. This effect is commonly used when you have a subscribe button. It saves space, without compromising the necessary information for the user.</p>
-
-<p><a href="http://lab.alexcican.com/hide_show_div/" class="button" target="_blank">View the Demo &rarr;</a></p>
-
-<h2>HTML Code</h2>
-
-<p>First we need to add the HTML. We create a div, <code>.subscribe</code>; inside it we add another div and a form, which is hidden at first. Once the user moves their mouse over the <code>.subscribe</code> div, the inside div is hidden and the form is displayed. The form was made to work with <a href="http://feedburner.google.com/">FeedBurner</a>. You can replace the form with whatever you want. If you want the form to work for your account, replace <code>alexcican</code> from the <code>…a/mailverify?uri='xxxxx'</code> and <code>value='xxxxx'</code> with your FeedBurner URI.</p>
-
-<pre><code>&lt;div class="subscribe"&gt;
+<!doctype html> <html lang="en-gb"> <head> <title>Hide and show a div</title> <meta name="p:domain_verify" content="96e0bccd344b210732acfc8bc110354b"/> <meta charset="utf-8"/> <meta http-equiv="X-UA-Compatible" content="IE=edge"/> <meta name="description" content="Hiding and showing a div in HTML is really simple. In this tutorial I will show you how to do that using only CSS. I will also show you another version of hiding and showing divs using jQuery. Furthermore, we will take the necessary precautions if Javascript is disabled. Let’s dive in! "/> <meta name="viewport" content="width=device-width, minimal-ui"/> <meta name="msapplication-TileImage" content="http://alexcican.com/images/apple-touch-icon-144x144-precomposed.png"> <link rel="author" href="https://plus.google.com/116801469202683881648/"/> <link rel="shortcut icon" href="http://alexcican.com/images/favicon.ico" type="image/x-icon"/> <link rel="stylesheet" type="text/css" href="http://alexcican.com/style/style.min.css"/> <!--[if lt IE 10]><link rel="stylesheet" type="text/css" href="http://alexcican.com/style/ie9.css"/><![endif]--> <link rel="alternate" type="application/rss+xml" title="Alex Cican – Designer" href="http://feeds.feedburner.com/alexcican/"/> <link rel="canonical" href="http://alexcican.com/post/hide-and-show-div/"/> <link rel="apple-touch-icon-precomposed" href="http://alexcican.com/images/apple-touch-icon-57x57-precomposed.png"/> <link rel="apple-touch-icon-precomposed" href="http://alexcican.com/images/apple-touch-icon-72x72-precomposed.png"/> <link rel="apple-touch-icon-precomposed" href="http://alexcican.com/images/apple-touch-icon-114x114-precomposed.png"/> <link rel="apple-touch-icon-precomposed" href="http://alexcican.com/images/apple-touch-icon-144x144-precomposed.png"/> <link rel="apple-touch-icon-precomposed" href="http://alexcican.com/images/apple-touch-icon-152x152-precomposed.png"/> <meta property="og:image" content="http://alexcican.com/images/apple-touch-icon-152x152-precomposed.png"/> <meta property="og:title" content="Hide and show a div"/> <meta property="og:description" content="Hiding and showing a div in HTML is really simple. In this tutorial I will show you how to do that using only CSS. I will also show you another version of hiding and showing divs using jQuery. Furthermore, we will take the necessary precautions if Javascript is disabled. Let’s dive in! "/> <meta property="og:url" content="http://alexcican.com/post/hide-and-show-div/"/> <meta property="og:site_name" content="Alex Cican — Designer"/> <meta property="og:type" content="blog"/> <meta name="twitter:card" content="summary"/> <meta name="twitter:site" content="@alexcican"/> <meta name="twitter:creator" content="@alexcican"/> <meta name="twitter:creator:id" content="Alex Cican"/> <script src="http://alexcican.com/javascript/turbolinks.min.js"></script> </head> <body> <!--[if lt IE 9]><p class="chromeframe">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> or <a href="http://www.google.com/chromeframe/?redirect=true">activate Google Chrome Frame</a> to improve your experience.</p><![endif]--> <nav id="mainNav" role="navigation"> <span class="menuIcon icon " title="Menu (Esc)" tabindex="0" data-icon="m"><span>Menu</span></span> <div id="navigation"> <p><span class="heading">alex cican</span><br/><span class="subheading">Designer</span></p> <p class="menu_label">Menu</p> <section> <ul class="siteLinks"> <li><span>Site dishes</span></li> <li><a href="http://alexcican.com" class="home " title="Learn about me (H)">Home</a></li> <li><a href="http://alexcican.com/work/" class="work " title="Check out my work (W)">Work</a></li> <li><a href="http://lab.alexcican.com" class="lab" title="Visit my lab (L)">Lab</a></li> <li><a href="http://alexcican.com/blog/" class="blog " title="Read my blog (B)">Blog</a></li> <li><a href="http://alexcican.com/photos/" class="photos " title="View my photos (P)">Photos</a></li> </ul> <ul> <li><span>Main contact</span></li> <li><a href="mailto:&#097;&#108;&#101;&#120;&#064;&#097;&#108;&#101;&#120;&#099;&#105;&#099;&#097;&#110;&#046;&#099;&#111;&#109;" class="email" title="Email me (E)">Email</a></li> <li><a href="skype:alex.cican?chat" class="skype" title="Skype me (S)">Skype</a></li> </ul> <ul> <li><span>Desserts</span></li> <li><a href="http://twitter.com/alexcican" title="Find me on Twitter" target="_blank">Twitter</a></li> <li><a href="http://dribbble.com/alexcican" title="Find me on Dribbble" target="_blank">Dribbble</a></li> <li><a href="http://facebook.com/alexcican" title="Find me on Facebook" target="_blank">Facebook</a></li> <li><a href="http://github.com/alexcican" title="Find me on GitHub" target="_blank">GitHub</a></li> <li><a href="http://flickr.com/sican" title="Find me on Flickr" target="_blank">Flickr</a></li> <li><a href="http://vimeo.com/alexcican" title="Find me on Vimeo" target="_blank">Vimeo</a></li> <li><a href="http://instagram.com/alexcican" title="Find me on Instagram" target="_blank">Instagram</a></li> <li><a href="http://youtube.com/sican" title="Find me on YouTube" target="_blank">YouTube</a></li> <li><a href="http://be.net/alexcican" title="Find me on Behance" target="_blank">Behance</a></li> </ul> <p>Some of our dishes may contain sarcasm and humour. <br/>Please don&rsquo;t inform our staff about any allergies you might have.</p> </section> </div> </nav> <div id="container"> <div id="post"> <section class="light_mauve"> <img class="cover" src="data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0idXRmLTgiPz4NCjwhLS0gR2VuZXJhdG9yOiBBZG9iZSBJbGx1c3RyYXRvciAxNi4wLjAsIFNWRyBFeHBvcnQgUGx1Zy1JbiAuIFNWRyBWZXJzaW9uOiA2LjAwIEJ1aWxkIDApICAtLT4NCjwhRE9DVFlQRSBzdmcgUFVCTElDICItLy9XM0MvL0RURCBTVkcgMS4xLy9FTiIgImh0dHA6Ly93d3cudzMub3JnL0dyYXBoaWNzL1NWRy8xLjEvRFREL3N2ZzExLmR0ZCI+DQo8c3ZnIHZlcnNpb249IjEuMSIgaWQ9IkVsbGlwc2VfMl8xXyIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiB4bWxuczp4bGluaz0iaHR0cDovL3d3dy53My5vcmcvMTk5OS94bGluayIgeD0iMHB4Ig0KCSB5PSIwcHgiIHdpZHRoPSI3MzZweCIgaGVpZ2h0PSI0MTZweCIgdmlld0JveD0iMCAwIDczNiA0MTYiIGVuYWJsZS1iYWNrZ3JvdW5kPSJuZXcgMCAwIDczNiA0MTYiIHhtbDpzcGFjZT0icHJlc2VydmUiPg0KPGcgaWQ9IkVsbGlwc2VfMiI+DQoJPGc+DQoJCTxwYXRoIGZpbGw9IiNGRkZGRkYiIGQ9Ik0zNjYuMTcyLDE4NS4xNzdjLTI2LjYwNCwwLTQ4LjE3Miw0LjQ5LTQ4LjE3MiwyNi40OTVjMCwxMi45OTEsMTMuODgxLDIwLjY4MiwzMy4xMDIsMjMuMjE4DQoJCQlsMTUuNDAzLTE1LjQwM2wxNS4zMjMsMTUuMzI0YzE4LjkxNi0yLjYxNSwzMi41MTYtMTAuMjc5LDMyLjUxNi0yMy4xMzlDNDE0LjM0NCwxODkuNjY3LDM5Mi43NzYsMTg1LjE3NywzNjYuMTcyLDE4NS4xNzd6DQoJCQkgTTM0NS44LDIxMy43Yy01Ljg1NCwwLTEwLjYtMi41OTctMTAuNi01LjhjMC0zLjIwNCw0Ljc0NS01LjgwMSwxMC42LTUuODAxczEwLjYwMSwyLjU5NywxMC42MDEsNS44MDENCgkJCUMzNTYuNCwyMTEuMTA0LDM1MS42NTQsMjEzLjcsMzQ1LjgsMjEzLjd6IE0zODcuOCwyMTMuN2MtNS44NTQsMC0xMC42LTIuNTk3LTEwLjYtNS44YzAtMy4yMDQsNC43NDUtNS44MDEsMTAuNi01LjgwMQ0KCQkJczEwLjYwMSwyLjU5NywxMC42MDEsNS44MDFDMzk4LjQsMjExLjEwNCwzOTMuNjU0LDIxMy43LDM4Ny44LDIxMy43eiIvPg0KCTwvZz4NCjwvZz4NCjwvc3ZnPg0K" alt="mask svg"/> </section> <h1>Hide and show a div</h1> <div id="content"> <p>Hiding and showing a div in HTML is really simple. In this tutorial I will show you how to do that using only CSS. I will also show you another version of hiding and showing divs using jQuery. Furthermore, we will take the necessary precautions if Javascript is disabled. Let’s dive in!</p> <h2>Hide and show a div with CSS</h2> <p>The first method, involves using only CSS. We will use the CSS pseudo-class <code>:hover</code>. The idea is that we want to hide the div once the user has moved their mouse over it, and display something else instead. This effect is commonly used when you have a subscribe button. It saves space, without compromising the necessary information for the user.</p> <p><a href="http://lab.alexcican.com/hide_show_div/" class="button" target="_blank">View the Demo &rarr;</a></p> <h2>HTML Code</h2> <p>First we need to add the HTML. We create a div, <code>.subscribe</code>; inside it we add another div and a form, which is hidden at first. Once the user moves their mouse over the <code>.subscribe</code> div, the inside div is hidden and the form is displayed. The form was made to work with <a href="http://feedburner.google.com/">FeedBurner</a>. You can replace the form with whatever you want. If you want the form to work for your account, replace <code>alexcican</code> from the <code>…a/mailverify?uri='xxxxx'</code> and <code>value='xxxxx'</code> with your FeedBurner URI.</p> <pre><code>&lt;div class="subscribe"&gt;
     &lt;div&gt;Subscribe to this website&lt;/div&gt;
     &lt;form action="http://feedburner.google.com/fb/a/mailverify" method="post" target="popupwindow" onsubmit="window.open('http://feedburner.google.com/fb/a/mailverify?uri=alexcican', 'popupwindow', 'scrollbars=yes,width=550,height=520');return true" &gt;
         &lt;p&gt;
@@ -124,63 +9,27 @@
         &lt;/p&gt;
     &lt;/form&gt;
 &lt;/div&gt;
-</code></pre>
-
-<h2>CSS Code</h2>
-
-<p>Next we have to add some CSS. By default, the elements that will be hidden are: a) the form and b) the inside div (once the .subscribe div is hovered). To affect something with CSS you add “ > ” at the end of the class, meaning you target the descendants of that class. For example: <code>.this_class&gt;affects_this</code>. The one class you are changing must be a child of the parent class (in the previous example <code>affects_this</code> is the child of <code>.this_class</code>). The second CSS statement, tells the browser to show the form once the <code>.subscribe</code> div is hovered.</p>
-
-<pre><code>form, .subscribe:hover&gt;div {
+</code></pre> <h2>CSS Code</h2> <p>Next we have to add some CSS. By default, the elements that will be hidden are: a) the form and b) the inside div (once the .subscribe div is hovered). To affect something with CSS you add “ > ” at the end of the class, meaning you target the descendants of that class. For example: <code>.this_class&gt;affects_this</code>. The one class you are changing must be a child of the parent class (in the previous example <code>affects_this</code> is the child of <code>.this_class</code>). The second CSS statement, tells the browser to show the form once the <code>.subscribe</code> div is hovered.</p> <pre><code>form, .subscribe:hover&gt;div {
     display: none;
 }
 
 .subscribe:hover&gt;form {
     display: block;
 }
-</code></pre>
-
-<p>That’s all you need to make this work. Now, it’s up to you; style it and make it look sexy with some cool CSS3 coding.</p>
-
-<h2>Hide and show a div with JavaScript</h2>
-
-<p>In this second example, we hide and show a div using a JavaScript library, called jQuery. This time, we won’t hide the div when it’s hovered but when it’s clicked. By default the divs will be hidden; once they are clicked, they become visible, displaying the text inside. Also, we want each div to be “independent“ from one another. Meaning, if I click on the first div to see its content, the other divs should remain hidden.</p>
-
-<p><a href="http://lab.alexcican.com/hide_show_div/demo2.html" class="button" target="_blank">View the Demo &rarr;</a></p>
-
-<h2>HTML Code</h2>
-
-<p>To get this to work, we will add two divs, one inside the other. The outer div will always be displayed, along with a title wrapped inside an h3 heading. The inner div will be hidden by default and once the outer div is clicked, the inner div will be shown. Feel free to alter the code to your needs. For example you can hide the divs completely once they are clicked, or you can add a button to hide them.</p>
-
-<pre><code>&lt;div class="text_container"&gt;
+</code></pre> <p>That’s all you need to make this work. Now, it’s up to you; style it and make it look sexy with some cool CSS3 coding.</p> <h2>Hide and show a div with JavaScript</h2> <p>In this second example, we hide and show a div using a JavaScript library, called jQuery. This time, we won’t hide the div when it’s hovered but when it’s clicked. By default the divs will be hidden; once they are clicked, they become visible, displaying the text inside. Also, we want each div to be “independent“ from one another. Meaning, if I click on the first div to see its content, the other divs should remain hidden.</p> <p><a href="http://lab.alexcican.com/hide_show_div/demo2.html" class="button" target="_blank">View the Demo &rarr;</a></p> <h2>HTML Code</h2> <p>To get this to work, we will add two divs, one inside the other. The outer div will always be displayed, along with a title wrapped inside an h3 heading. The inner div will be hidden by default and once the outer div is clicked, the inner div will be shown. Feel free to alter the code to your needs. For example you can hide the divs completely once they are clicked, or you can add a button to hide them.</p> <pre><code>&lt;div class="text_container"&gt;
     &lt;h3&gt;This is a third title...&lt;/h3&gt;
     &lt;div&gt;&lt;!--div that we want to hide--&gt;
         &lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam blandit, eros id adipiscing congue, lorem ante sagittis elit, id malesuada nibh est sed orci&lt;/p&gt;
     &lt;/div&gt;
 &lt;/div&gt;&lt;!--end div_text_container--&gt;
-</code></pre>
-
-<h2>CSS Code</h2>
-
-<p>In the CSS we will add two classes. One class, named <code>.hidden</code>, will hide the element and the other named <code>.visible</code> will display the element. Since we want to affect the div inside, we will be adding <code>&gt;div</code> to the class. You can change it to whatever you want, for example <code>&gt;span</code>. This will affect the span element inside the outer div.</p>
-
-<pre><code>.hidden&gt;div {
+</code></pre> <h2>CSS Code</h2> <p>In the CSS we will add two classes. One class, named <code>.hidden</code>, will hide the element and the other named <code>.visible</code> will display the element. Since we want to affect the div inside, we will be adding <code>&gt;div</code> to the class. You can change it to whatever you want, for example <code>&gt;span</code>. This will affect the span element inside the outer div.</p> <pre><code>.hidden&gt;div {
     display:none;
 }
 
 .visible&gt;div {
     display:block;
 }
-</code></pre>
-
-<h2>JavaScript Code</h2>
-
-<p>Up until now, nothing happens. The divs are still visible and when you click on them, nothing happens. For a good reason; if the user has JavaScript disabled on their browser, they should still be able see and read the content of the divs. You should always use JavaScript as an enhancement and improve the browsing experience not degrade it.</p>
-
-<p>Now, inside JavaScript we will hide the divs once the document has finished loading. This will be our default state. We hide the divs by adding a CSS class called hidden to the outer div called <code>.text_container</code>. This will trigger CSS to hide the inner div.</p>
-
-<p>Once the user has clicked the div we will check to see if the div has a class hidden then we remove it and add the class visible which will show the inner div. If it doesn’t have the hidden class then it means that the inner div is visible; add a class hidden to the outer div to hide the inner div. Don’t forget to call jQuery before adding the following script:</p>
-
-<pre><code>&lt;script type="text/javascript"&gt;
+</code></pre> <h2>JavaScript Code</h2> <p>Up until now, nothing happens. The divs are still visible and when you click on them, nothing happens. For a good reason; if the user has JavaScript disabled on their browser, they should still be able see and read the content of the divs. You should always use JavaScript as an enhancement and improve the browsing experience not degrade it.</p> <p>Now, inside JavaScript we will hide the divs once the document has finished loading. This will be our default state. We hide the divs by adding a CSS class called hidden to the outer div called <code>.text_container</code>. This will trigger CSS to hide the inner div.</p> <p>Once the user has clicked the div we will check to see if the div has a class hidden then we remove it and add the class visible which will show the inner div. If it doesn’t have the hidden class then it means that the inner div is visible; add a class hidden to the outer div to hide the inner div. Don’t forget to call jQuery before adding the following script:</p> <pre><code>&lt;script type="text/javascript"&gt;
     $(document).ready(function(){
         $('.text_container').addClass("hidden");
 
@@ -196,15 +45,7 @@
         });
     });
 &lt;/script&gt;
-</code></pre>
-
-<h2>Conclusion</h2>
-
-<p>See how simple it is to hide and show a div? As a farewell gift from me to you, I will share with you another JS code. Following the same pattern of this code you can manipulate CSS values from within JavaScript directly, without having the need to add a class.</p>
-
-<p>You can alter many CSS values, for example the JS code below will hide the <code>.text_container</code> element and change the font colour to red.</p>
-
-<pre><code>&lt;script type="text/javascript"&gt;
+</code></pre> <h2>Conclusion</h2> <p>See how simple it is to hide and show a div? As a farewell gift from me to you, I will share with you another JS code. Following the same pattern of this code you can manipulate CSS values from within JavaScript directly, without having the need to add a class.</p> <p>You can alter many CSS values, for example the JS code below will hide the <code>.text_container</code> element and change the font colour to red.</p> <pre><code>&lt;script type="text/javascript"&gt;
     $(document).ready(function(){
         $('.text_container').click(function() {
             $('.text_container').css("display", "none");
@@ -213,43 +54,7 @@
         });
     });
 &lt;/script&gt;
-</code></pre>
-
-<p>Use the code wisely. If you have any questions, ask them in the comments section below.</p>
-
-
-      <a href="http://twitter.com/share?url=http://alexcican.com/post/hide-and-show-div/&text=Hide and show a div:&via=alexcican" data-icon="t" class="icon twitter_button" title="Share this article on Twitter" target="_blank"><b></b></a>
-    </div>
-
-    
-      
-        <a href="/post/creating-websites/" id="readMore">
-          <span class="white">Read next</span>
-          <h2>Top 5 reasons why you shouldn’t start creating websites</h2>
-          <link rel="" href="/post/creating-websites/">
-        </a>
-      </div>
-      
-    
-
-
-
-  </div>
-
-  <!-- Load jQuery script -->
-  <script src="http://ajax.googleapis.com/ajax/libs/jquery/2.0.3/jquery.min.js"></script>
-
-  
-
-  <!-- Load main JS file -->
-  <script src="http://alexcican.com/javascript/basic.min.js"></script>
-
-  
-
-  
-
-  <!-- Load Analytics -->
-  <script type="text/javascript">
+</code></pre> <p>Use the code wisely. If you have any questions, ask them in the comments section below.</p> <a href="http://twitter.com/share?url=http://alexcican.com/post/hide-and-show-div/&text=Hide and show a div:&via=alexcican" data-icon="t" class="icon twitter_button" title="Share this article on Twitter" target="_blank"><b></b></a> </div> <a href="/post/creating-websites/" id="readMore"> <span class="white">Read next</span> <h2>Top 5 reasons why you shouldn’t start creating websites</h2> <link rel="" href="/post/creating-websites/"> </a> </div> </div> <script src="http://ajax.googleapis.com/ajax/libs/jquery/2.0.3/jquery.min.js"></script> <script src="http://alexcican.com/javascript/basic.min.js"></script> <script type="text/javascript">
     var _gaq = _gaq || [];
     _gaq.push(['_setAccount', 'UA-6273751-7']);
     _gaq.push(['_trackPageview']);
@@ -259,6 +64,4 @@
       ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
       var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
     })();
-  </script>
-</body>
-</html>
+  </script> </body> </html>
