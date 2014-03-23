@@ -24,16 +24,20 @@
   <link rel="apple-touch-icon-precomposed" href="{{ site.url }}/images/apple-touch-icon-114x114-precomposed.png" />
   <link rel="apple-touch-icon-precomposed" href="{{ site.url }}/images/apple-touch-icon-144x144-precomposed.png" />
   <link rel="apple-touch-icon-precomposed" href="{{ site.url }}/images/apple-touch-icon-152x152-precomposed.png" />
-  <meta property="og:image" content="{{ site.url }}/images/apple-touch-icon-152x152-precomposed.png" />
+  <meta property="og:image" content="{{ site.url }}/images/cover.jpg" />
   <meta property="og:title" content="{{ page.title }}" />
   <meta property="og:description" content="{% if page.layout == 'default' %}{{ page.title }}{% else if page.cover %}{{ content | split:'<!--more-->' | first | strip_html }}{% endif %}" />
   <meta property="og:url" content="{{ site.url }}{{ page.url }}" />
   <meta property="og:site_name" content="Alex Cican — Designer" />
   <meta property="og:type" content="blog" />
-  <meta name="twitter:card" content="summary" />
+  <meta name="twitter:card" content="summary_large_image" />
   <meta name="twitter:site" content="@alexcican" />
   <meta name="twitter:creator" content="@alexcican" />
   <meta name="twitter:creator:id" content="Alex Cican" />
+  <meta name="twitter:url" content="http://alexcican.com" />
+  <meta name="twitter:title" content="{{ page.title }}" />
+  <meta name="twitter:description" content="{% if page.layout == 'default' %}{{ page.title }}{% else if page.cover %}{{ content | split:'<!--more-->' | first | strip_html }}{% endif %}" />
+  <meta name="twitter:image" content="{{ site.url }}/images/cover.jpg" />
   <script src="{{ site.url }}/javascript/turbolinks.min.js"></script>
 </head>
 <body {% if page.url == '/photos/'%}class="sliderRemoveScroll"{% endif %} {% if page.url == '/404.html'%}class="notFoundNoScroll"{% endif %}>
