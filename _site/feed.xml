@@ -9,15 +9,119 @@
     
       
         <item>
-          <title>Insane Traffic</title>
-          <pubDate>2014-04-09T00:00:00+03:00</pubDate>
-          <link>http://alexcican.com/post/insane-traffic/</link>
-          <guid>http://alexcican.com/post/insane-traffic/</guid>
-          <description>&lt;p&gt;How I got 522K visits in one week
-How I got 455K unique visitors in one week
-How I got my site in front of 455K users in one week
-How my web app got 522K visits in one week
-How my app was used by 455K unique users in one week&lt;/p&gt;
+          <title>How my app got 455K users in the first week</title>
+          <pubDate>2014-04-13T00:00:00+03:00</pubDate>
+          <link>http://alexcican.com/post/455k-users/</link>
+          <guid>http://alexcican.com/post/455k-users/</guid>
+          <description>&lt;p&gt;In my free time, I enjoy working on cool small projects that help me, or others, in some way. I came up with the simple idea of a TV show time calculator that ended up being a smashing hit.&lt;/p&gt;
+
+&lt;h2&gt;The stats&lt;/h2&gt;
+
+&lt;p&gt;After just &lt;strong&gt;one week&lt;/strong&gt; of releasing the app, it got &lt;strong&gt;455,826&lt;/strong&gt; unique visitors, 522,091 visits, and 688,280 pageviews.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;http://alexcican.com/images/blog/assets/tiiime-stats.png&quot; alt=&quot;tiii.me stats&quot; /&gt;
+&lt;figcaption&gt;Tiii.me stats during the first week. Thursday, April 3, was insane.&lt;/figcaption&gt;&lt;/p&gt;
+
+&lt;p&gt;During peak hours there were 1600+ active users and the app was being mentioned in about 250 tweets / hour. During off-peak around 10 tweets / hour.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;http://alexcican.com/images/blog/assets/tiiime-analytics-realtime.png&quot; alt=&quot;tiii.me stats&quot; /&gt;
+&lt;figcaption&gt;Over 1600 active users at any point.&lt;/figcaption&gt;&lt;/p&gt;
+
+&lt;p&gt;I was using Trakt’s API to grab the TV shows, and because of the overwhelming API requests, their servers had several outages (sorry, guys). GitHub, where the app is &lt;a href=&quot;https://github.com/alexcican/tiii.me&quot;&gt;being hosted&lt;/a&gt;, passed this stress test with flying colours—not a single minute of downtime. Hat’s off to you.&lt;/p&gt;
+
+&lt;p&gt;The app got featured in &lt;a href=&quot;http://www.businessinsider.com/website-calculates-how-much-time-youve-wasted-watching-tv-2014-4&quot;&gt;Business Insider&lt;/a&gt;, &lt;a href=&quot;http://www.buzzfeed.com/josephbernstein/this-app-calculates-how-many-days-of-your-life-you-have-spen&quot;&gt;BuzzFeed&lt;/a&gt;, &lt;a href=&quot;http://www.fastcocreate.com/3028496/see-how-many-days-hours-and-minutes-of-your-life-youve-spent-watching-tv?partner=rss&quot;&gt;Fast Company&lt;/a&gt;, &lt;a href=&quot;http://www.huffingtonpost.com/2014/04/01/website-lets-you-see-how-much-tv_n_5072320.html&quot;&gt;Huffington Post&lt;/a&gt;, &lt;a href=&quot;http://www.washingtonpost.com/express/wp/2014/04/03/find-out-how-much-time-youve-wasted-watching-tv-on-the-website-tiii-me/&quot;&gt;Washington Post&lt;/a&gt;, &lt;a href=&quot;http://www.dailydot.com/entertainment/TV-time-calculator/&quot;&gt;The Daily Dot&lt;/a&gt;, &lt;a href=&quot;http://metro.co.uk/2014/04/02/website-tells-you-how-much-time-youve-wasted-on-tv-shows-4686456/&quot;&gt;Metro&lt;/a&gt;, &lt;a href=&quot;http://io9.com/calculator-reveals-all-how-much-of-your-life-youve-giv-1557195751&quot;&gt;iO9&lt;/a&gt;, &lt;a href=&quot;http://www.vanityfair.it/show/tv/14/04/04/serie-tv-tempo-sito-calcola&quot;&gt;Vanity Fair Italy&lt;/a&gt;, &lt;a href=&quot;http://www.wired.it/play/televisione/2014/04/03/quanto-tempo-hai-passato-guardando-serie-tv/&quot;&gt;Wired Italy&lt;/a&gt;, &lt;a href=&quot;http://www.themarysue.com/tv-show-time-calculator/&quot;&gt;The Mary Sue&lt;/a&gt;, &lt;a href=&quot;http://papelpop.com/2014/04/site-mostra-quanto-tempo-voce-ja-perdeu-assistindo-series/&quot;&gt;Papel Pop&lt;/a&gt;, frontpage of &lt;a href=&quot;http://digg.com/source/tiii.me&quot;&gt;Digg&lt;/a&gt;, &lt;a href=&quot;http://www.reddit.com/r/television/comments/21nas9/this_site_lets_you_find_out_how_much_time_youve/&quot;&gt;Reddit&lt;/a&gt;, and on many many other sites.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;http://alexcican.com/images/blog/assets/tiiime-digg.png&quot; alt=&quot;tiii.me digg homepage&quot; /&gt;
+&lt;figcaption&gt;Tiii.me hit the frontpage of Digg.&lt;/figcaption&gt;&lt;/p&gt;
+
+&lt;h2&gt;How I did it&lt;/h2&gt;
+
+&lt;p&gt;First, I designed and coded the app. Once I had a good product I did some user testing to see how people used the app and then went back to refine the app. After I had a solid product, I focused on marketing: presentation is just as important as the product.&lt;/p&gt;
+
+&lt;p&gt;I searched for influential bloggers who wrote articles about TV shows in the past. I sent them a brief email explaining who I was, and asking them to check out this app I made and if they liked it they could write about it.&lt;/p&gt;
+
+&lt;p&gt;Attached with that email was a 500 word document written by me, in which I talk about the app’s features, how I came up with the idea, how many days it took me to develop the app, and a few words about myself. I wrote that document in order to make it easier for the blogger to write about the app. I sent this email to twenty bloggers and had high expectations that the app will go viral.&lt;/p&gt;
+
+&lt;p&gt;Many bloggers got back to me saying they’d write about it. So I asked them to coordinate their posts around the release date. I created a buzz that I would release a cool app, and on Tuesday—the best day of the week for release—I made the app publicly visible. I also submitted it to several websites (Reddit, HackerNews, DesignerNews) and on some other relevant forums.&lt;/p&gt;
+
+&lt;p&gt;WOW! Such traffic! Much tweets! So trendy!&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;http://alexcican.com/images/blog/assets/doge-tiiime.png&quot; alt=&quot;tiii.me doge meme&quot; /&gt;
+&lt;figcaption&gt;Doge meme is happy.&lt;/figcaption&gt;&lt;/p&gt;
+
+&lt;p&gt;The thing is, this happened in a parallel universe. Because in the one you’re currently reading this post, something very different actually happened.&lt;/p&gt;
+
+&lt;h2&gt;How I really did it&lt;/h2&gt;
+
+&lt;p&gt;I designed and coded the app, and I pushed it to GitHub (publicly released it on Friday). Then I posted a screenshot on Dribbble and tweeted once about it. That’s it.&lt;/p&gt;
+
+&lt;p&gt;The snowball effect that followed was pure luck!&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;http://alexcican.com/images/blog/assets/no-idea.jpg&quot; alt=&quot;tiii.me doge meme&quot; /&gt;
+&lt;figcaption&gt;I don’t know what I’m doing. Or do I…&lt;/figcaption&gt;&lt;/p&gt;
+
+&lt;p&gt;However, I do have some ideas why the app became so popular.&lt;/p&gt;
+
+&lt;h2&gt;1. Make it focused (niche)&lt;/h2&gt;
+
+&lt;p&gt;The app is called &lt;a href=&quot;http://tiii.me&quot;&gt;Tiii.me&lt;/a&gt; and it’s a calculator of time spent. You could calculate how much time you’ve spent watching movies, watching TV shows, surfing the Internet, commuting, talking on the phone, and so on. It all fits under the category “time spent”. But you can’t. You can only calculate how much time you’ve spent watching TV shows. That’s it.&lt;/p&gt;
+
+&lt;p&gt;By making the app specific, you know who your audience is and how to please them. You can pinpoint their needs, pains, and desires. If you meet their expectations with your app, you’re in for a success.&lt;/p&gt;
+
+&lt;p&gt;Succeed in not only making it viral, but also creating revenue from it. People would be happy to pay for your app if it solves their problem and makes their life easier.&lt;/p&gt;
+
+&lt;p&gt;Be aware of making it too focused, though. Engagement might be greater, but the amount of users (pool) will be much smaller. For Tiii.me, I could’ve made it even more focused if I had excluded all TV show genres besides comedy. But that would ignore a large part of the population who don’t watch only comedy shows. You need to find the sweet-spot between too focused and too broad.&lt;/p&gt;
+
+&lt;h2&gt;2. Create a unique experience&lt;/h2&gt;
+
+&lt;blockquote&gt;&lt;p&gt;“Nothing is new under the sun.”— Ecclesiastes 1:9&lt;/p&gt;&lt;/blockquote&gt;
+
+&lt;p&gt;Don’t despair if your “original” idea has been done before. It doesn’t mean it has been done well. Take something and make it better.&lt;/p&gt;
+
+&lt;blockquote&gt;&lt;p&gt;“Everything is designed, few things are designed well.”— Brian Reed&lt;/p&gt;&lt;/blockquote&gt;
+
+&lt;p&gt;Design matters. Make your app easy to use and intuitive, and you will rise above the competition. But in order to get that intuitive, memorable experience, you need to study your would-be users and understand them. Ask questions, observe how they work, listen to what they need, and adjust accordingly.&lt;/p&gt;
+
+&lt;p&gt;Also keep in mind that people don’t always know what they want. That’s where you can innovate and give users a taste of your own personality. Did people really want a bigger iPod Touch? No. But Apple still delivered one. It was so successful that a new profitable market emerged: tablets (In 2013 alone, 195M tablets were sold - &lt;a href=&quot;http://techcrunch.com/2014/03/03/gartner-195m-tablets-sold-in-2013-android-grabs-top-spot-from-ipad-with-62-share/&quot;&gt;Source&lt;/a&gt;).&lt;/p&gt;
+
+&lt;h2&gt;3. Make it simple&lt;/h2&gt;
+
+&lt;p&gt;Cut out the fluff. Include only the necessary elements needed to provide that unique experience.&lt;/p&gt;
+
+&lt;p&gt;Do users really need to create an account and login? Sure, it would be nice for Tiii.me if you could create an account and have a user profile with a list of all the TV shows that you’ve watched. Is it necessary? No.&lt;/p&gt;
+
+&lt;p&gt;Do I really need to see your logo when using your app? No (I hear marketers screaming at me). Do you really need a menu? An onboarding process? A footer? Challenge even the most “fundamental” elements of an app. What doesn’t improve the user experience should be thrown away.&lt;/p&gt;
+
+&lt;p&gt;Make it so simple (UI &amp;amp; UX-wise) and intuitive, that it looks like it wasn’t even designed. It was meant to be that way. Make your design “invisible”.&lt;/p&gt;
+
+&lt;blockquote&gt;&lt;p&gt;“Simplicity is the ultimate sophistication.”— Leonardo da Vinci&lt;/p&gt;&lt;/blockquote&gt;
+
+&lt;h2&gt;4. Make it easy to share&lt;/h2&gt;
+
+&lt;p&gt;Don’t over look this step. It’s important for making a viral app. Help users rave about your app. They loved the experience and want to tell others about it. Make it easy for them to do so. Spend some time customising the sharing experience. Don’t just strap-on a sharing plugin with social buttons.&lt;/p&gt;
+
+&lt;p&gt;Think from the perspective of a friend talking to you about this new app. What would you want them to say to you, so that you’d be intrigued to check it out?&lt;/p&gt;
+
+&lt;p&gt;For Tiii.me, I decided to only support sharing on Twitter and I customised the tweet like so:&lt;/p&gt;
+
+&lt;blockquote&gt;&lt;p&gt;I’ve wasted X days, X hours, and X minutes of my life watching TV shows. Calculate your time: http://tiii.me/&lt;/p&gt;&lt;/blockquote&gt;
+
+&lt;p&gt;If I saw this in my feed, I’d be intrigued to check it out.&lt;/p&gt;
+
+&lt;p&gt;One small change I made was swapping the word “spent” with “wasted” for the tweet. I think &lt;em&gt;wasted&lt;/em&gt; is a more powerful and controversial word, that grabs your attention better.&lt;/p&gt;
+
+&lt;p&gt;Even though I got some heat over this choice of words, I think it paid off. Over 19,308 &lt;a href=&quot;https://twitter.com/search?q=http%3A%2F%2Ftiii.me&amp;amp;src=typd&amp;amp;f=realtime&quot;&gt;tweeted about it&lt;/a&gt; (admittedly, some changing the word to “invested”, “enjoyed”, etc).&lt;/p&gt;
+
+&lt;h2&gt;Conclusion&lt;/h2&gt;
+
+&lt;p&gt;What I enjoyed most from this experience wasn’t the massive press coverage nor the many tweets I got. I enjoyed most the fact that people got to use my app and interact with the interface which I designed. And apparently they liked it. The app didn’t get lost in the sea of mediocrity, hidden in a dark corner of the Internet…&lt;/p&gt;
+
+&lt;p&gt;Thanks to everyone who shared and told others about Tiii.me.&lt;/p&gt;
+
+&lt;p&gt;I wrote this blog post to express my gratitude and also give you some tips which could help your next app go viral.&lt;/p&gt;
+
+&lt;p&gt;Have some faith and the rest will take care of itself.
+&lt;a href=&quot;http://tiii.me/&quot;&gt;Tiii.me&lt;/a&gt; is a living proof of that!&lt;/p&gt;
 </description>
         </item>
       

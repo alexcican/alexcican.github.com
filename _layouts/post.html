@@ -17,7 +17,7 @@
 
     {% if page.previous %}
       {% if page.previous.designs == nil %}
-        <a href="{{ page.previous.url }}" id="readMore">
+        <a href="{{ page.previous.url }}" id="readMore" title="Read next: {{ page.previous.title }}">
           <span class="{{ page.previous.bgcolour }}">Read next</span>
           <h2>{{ page.previous.title }}</h2>
           <link rel="" href="{{ page.previous.url }}">
