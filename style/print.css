@@ -1,0 +1,36 @@
+body {
+  background: #000;
+}
+
+a:link:after, a:visited:after {
+  content:" [" attr(href) "] ";
+  font-size: 80%;
+  color: #ccc;
+}
+
+#dribbble a:link:after, #dribbble a:visited:after {
+  display: none !important;
+}
+
+#post > section, #mainNav, #readMore, .twitter_button {
+  display: none;
+}
+
+#post h1 {
+  text-align: left;
+  font-size: 2em;
+  width: 85%;
+  margin: 0 auto;
+}
+
+#content {
+  max-width: 85%;
+}
+
+#intro {
+  max-height: 150px !important;
+}
+
+#intro > div {
+  padding-top: 0 !important;
+}
