@@ -1,6 +1,6 @@
 var width = (window.innerWidth > 0) ? window.innerWidth : screen.width,
     touchDevice = false;
-//
+
 // on first load, call function to resize height of div to appropriate screen size
 adjustHeight();
 
@@ -193,6 +193,7 @@ $('.siteLinks a').on('click touchstart', function() {
 })
 
 
+
 var adjustedScreenBefore = false;
 
 // when window resized, adjust height of photo div
@@ -265,14 +266,36 @@ $(window).resize(function() {
   adjustHeight();
 })
 
-var container;
+
+
+var container,
+    scrolling = false;
 
 // on blog section click, opens section, removes all others, increases size of illustration, and makes it full screen
-$('#fullWidthContainer section').on('click touchstart', function(e) {
+$('#fullWidthContainer section').on('click touchend', function(e) {
+  container = $(this);
+
   if (e.metaKey || e.ctrlKey || e.shiftKey) {
     // do nothing (user opened link in new tab/window)
   } else {
-    container = $(this);
+    openBlogSection();
+  }
+})
+
+// if scrolling, don't animate the opening of blog section (touch issues)
+$('#fullWidthContainer section').on('touchmove', function(e){
+  scrolling = true;
+});
+// if finished scrolling, animate the opening of blog section
+$('#fullWidthContainer section').on('touchend', function(e){
+  scrolling = false;
+});
+
+
+
+// animates the opening of blog section
+function openBlogSection() {
+  if (scrolling != true) {
     var positionScreen = container.offset().top - $(window).scrollTop(); // finds the position of section relative to screen
     container.addClass('magnify');
     $('#fullWidthContainer').addClass('clickedBlogLink');
@@ -280,12 +303,13 @@ $('#fullWidthContainer section').on('click touchstart', function(e) {
     $('.magnify').css('transform', 'translateY(-'+ positionScreen + 'px)');
     window.setTimeout(function(){$('.spinner').removeClass('hidden');}, 500);
   }
-})
+}
+
+
 
 // hides the opened blog section (checks if on blog page)
 $(document).on("page:restore", function() {
   var currentPage = window.location.pathname;
-
   if ((currentPage === '/blog.html') || (currentPage === '/blog/') || (currentPage == '/blog')) {
     $('.magnify').removeAttr('style');
     $('.spinner').addClass('hidden');
@@ -302,6 +326,8 @@ $('#slider img').bind('contextmenu', function(e) {
   return false;
 })
 
+
+
 // adds class to current visible slide so only that slide will be blurred
 $('.next').click(function() {
   $('.swipe-wrap div').removeClass('slideVisible');
@@ -317,6 +343,8 @@ $('.previous').click(function() {
   $('.slideVisible').prev().addClass('preload');
   preloadImage();
 })
+
+
 
 // preloads the next image
 function preloadImage() {
@@ -337,6 +365,9 @@ $('.twitter_button').hover(function() {
 $('#readMore').hover(function() {
   $(this).find('link').attr('rel', 'prerender');
 })
+
+
+
 
 
 // keyboard shortcuts
