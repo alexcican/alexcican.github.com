@@ -94,7 +94,7 @@ GitHub pages also supports **custom error pages**. Simply push a `404.html` file
 
 Now it’s time to change the **DNS settings** from GoDaddy to point to our GitHub page. Login to your account, launch the domains and click on the domain name you want to change. From that page (see screenshot above), go down and find the *“DNS Manager”* section. Click on *“Launch”*.
 
-You have to decide what domain name you’ll be using. For a sub-domain like `http://www.alexcican.com` or `http://blog.alexcican.com` you would simply create a `CNAME` record pointing to `charlie.github.com`. If you are using a top-level domain like `http://alexcican.com`, you must use an `A (Host)` record pointing to `204.232.175.78`. There’s no need to add a `CNAME` record for top-level domains.
+You have to decide what domain name you’ll be using. For a sub-domain like `http://www.alexcican.com` or `http://blog.alexcican.com` you would simply create a `CNAME` record pointing to `charlie.github.com`. If you are using a top-level domain like `http://alexcican.com`, you must use an `A (Host)` record pointing to `192.30.252.153` and another one to `192.30.252.154`. There’s no need to add a `CNAME` record for top-level domains. [Read more in the documentation](https://help.github.com/articles/tips-for-configuring-an-a-record-with-your-dns-provider/).
 
 ##Downsides of GitHub
 
