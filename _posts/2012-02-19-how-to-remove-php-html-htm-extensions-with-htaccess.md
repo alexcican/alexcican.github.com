@@ -69,7 +69,7 @@ For those who are not so experienced with .htaccess files there is an online too
 
 Attention GoDaddy users: In order to remove the extensions you need to enable `MultiViews` before. The code should look like this:
 
-	Options -MultiViews
+	Options +MultiViews
 	RewriteEngine On
 	RewriteCond %{REQUEST_FILENAME} !-d
 	RewriteCond %{REQUEST_FILENAME} !-f

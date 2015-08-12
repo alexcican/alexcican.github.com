@@ -2922,7 +2922,7 @@ RewriteRule (.*)$ /$1/ [R=301,L]
 
 &lt;p&gt;Attention GoDaddy users: In order to remove the extensions you need to enable &lt;code&gt;MultiViews&lt;/code&gt; before. The code should look like this:&lt;/p&gt;
 
-&lt;pre&gt;&lt;code&gt;Options -MultiViews
+&lt;pre&gt;&lt;code&gt;Options +MultiViews
 RewriteEngine On
 RewriteCond %{REQUEST_FILENAME} !-d
 RewriteCond %{REQUEST_FILENAME} !-f
