@@ -9,7 +9,7 @@
   <meta charset="utf-8" />
   <meta http-equiv="X-UA-Compatible" content="IE=edge" />
   <meta name="description" content="Alex Cican - Designer" />
-  <meta name="viewport" content="width=device-width, minimal-ui" />
+  <meta name="viewport" content="width=device-width" />
   <meta name="msapplication-TileImage" content="http://alexcican.com/images/apple-touch-icon-144x144-precomposed.png">
   <link rel="author" href="https://plus.google.com/116801469202683881648/" />
   <link rel="shortcut icon" href="http://alexcican.com/images/favicon.ico" type="image/x-icon" />
@@ -97,7 +97,7 @@
   </div>
 
   <!-- Load jQuery script -->
-  <script src="http://ajax.googleapis.com/ajax/libs/jquery/2.0.3/jquery.min.js"></script>
+  <script src="//cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
 
   
 
@@ -108,12 +108,20 @@
     <!-- Load JS for work page -->
     <script src="http://alexcican.com/javascript/dribbble.min.js"></script>
     <script>
-      var cache = jribbble.getShotsByPlayerId('alexcican', function (playerShots) {
-        var html = [];
-        $.each(playerShots.shots, function attach (i, shot) {
-          $('<li><a href="' + shot.url + '" target="_blank"><img src="' + shot.image_url + '" alt="' + shot.title + '"/></a></li>').hide().appendTo('#dribbble').delay(50 * i).fadeIn(50);
-        });
-      }, {page: 1, per_page: 20});
+    $.jribbble.setToken('771a1d122fddc9fc9f692c06c0eb19cfdee1256d031a3658b93fd41d80a13583');
+
+    $.jribbble.users('alexcican').shots({per_page: 30}).then(function(shots) {
+      var html = [];
+
+      shots.forEach(function(shot) {
+        html.push('<li class="shot">');
+        html.push('<a href="' + shot.html_url + '" target="_blank">');
+        html.push('<img src="' + shot.images.normal + '">');
+        html.push('</a></li>');
+      });
+
+      $('#dribbble').html(html.join(''));
+    });
     </script>
   
 
