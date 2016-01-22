@@ -15,7 +15,7 @@ I love what companies are doing nowadays, giving freedom to their employees to t
 This creates a stimulating environment, where the person can be most creative in. If you’re struggling to create whilst you’re at the office, and you are more creative at home, by all means, work from home.
 
 ##Create a stimulating environment
-In order to be creative you have to **stimulate the mind** and embrace new ideas. I’m not most creative when under external pressure, by a client or time. I tend to stick to the basics/default/usual, and certainly don’t wander exploring stuff and trying to come up with new ideas. But don’t get me wrong, deadlines are good—that’s how you [get stuff done](http://alexcican.com/post/doing-work/).
+In order to be creative you have to **stimulate the mind** and embrace new ideas. I’m not most creative when under external pressure, by a client or time. I tend to stick to the basics/default/usual, and certainly don’t wander exploring stuff and trying to come up with new ideas. But don’t get me wrong, deadlines are good—that’s how you [get stuff done](https://alexcican.com/post/doing-work/).
 
 Be open, try new things, test new ideas, and allow yourself **creative freedom**. Ask the question *“What if?”*. Pick a different colour palette, use a not-so-popular font, design with a different style, try a new drawing technique, give that new [design app](http://www.bohemiancoding.com/sketch/) a go, experiment with stuff!
 

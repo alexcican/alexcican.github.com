@@ -24,7 +24,7 @@ Mobile phones have entered the game, and now you also have to learn how to optim
 
 There’s a strong possibility that by the time you’ve learned and mastered all these skills, the trends would have already changed. Now you are left behind, watching helplessly how others who ride the “trend wave” get all the clients.
 
-![old website](http://alexcican.com/images/blog/assets/website_1999.gif)
+![old website](https://alexcican.com/images/blog/assets/website_1999.gif)
 
 There is a hidden pitfall, which goes by *“I don’t follow trends”*. Well buddy, as far as I’m concerned, you can design your website like it’s 1999 but don’t expect to lock-in any clients. Adapt or die…
 
@@ -33,7 +33,7 @@ You’ll find out sooner or later that **competition is fierce**! I often think 
 
 Now, whether they know how to design and develop a website is irrelevant. Yes, completely irrelevant. Because there are many clients; hell, the majority of them who will want a website done for the minimum cost. It doesn’t matter if it’s going to cost them more in the long run. They just don’t see the forest behind the tree.
 
-I want to share with you a trade secret: **avoid clients who say they don’t have the budget**. Those who suggest you do it for free or some other bullshit compensation. They’re a pain in the arse to work with. I figured a way to repel those timewasters. In your contact form, show a *“what’s your budget”* input field, if the message is work related. I wrote more on [the lost art of pricing and negotiating](http://alexcican.com/post/pricing-negotiating/).
+I want to share with you a trade secret: **avoid clients who say they don’t have the budget**. Those who suggest you do it for free or some other bullshit compensation. They’re a pain in the arse to work with. I figured a way to repel those timewasters. In your contact form, show a *“what’s your budget”* input field, if the message is work related. I wrote more on [the lost art of pricing and negotiating](https://alexcican.com/post/pricing-negotiating/).
 
 And remember this: **there is always going to be someone who can do the job faster, or cheaper, or even better than you**. This applies to any business. But in the website creation business, the amount of people who can do it faster and cheaper than you is infinitely larger! So you have to differentiate yourself, and stand out from the crowd.
 

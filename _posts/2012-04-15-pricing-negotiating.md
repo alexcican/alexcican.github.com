@@ -64,7 +64,7 @@ Lastly, if the client goes something like:
 
 or they don’t even respond, you guessed it; you **[priced too high!](http://www.youtube.com/watch?v=x4o-TeMHys0)**
 
-In order to avoid attracting clients who can’t afford me, I wrote two paragraphs (**Update**: I removed them when I redesigned this site) on my [homepage](http://alexcican.com) to let people know I won’t do cheap work. I also added a *state your budget* button to my contact form (although not mandatory to complete). This worked! It scared away **90% of the potential clients** who couldn’t afford me and it cleared my email inbox.
+In order to avoid attracting clients who can’t afford me, I wrote two paragraphs (**Update**: I removed them when I redesigned this site) on my [homepage](https://alexcican.com) to let people know I won’t do cheap work. I also added a *state your budget* button to my contact form (although not mandatory to complete). This worked! It scared away **90% of the potential clients** who couldn’t afford me and it cleared my email inbox.
 
 In order to develop your *estimation skill*, without getting burned and still nailing projects to pay the bills, there are a couple of things you can do. But first, I want to talk about pricing by the hour VS by the project.
 

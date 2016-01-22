@@ -46,7 +46,7 @@ For the first scenario, **it’s better to have WiFi turned off even if you have
 
 Results were similar to the previous scenario: **it’s better to have no apps running in the background** but the fact of having running apps in the background consumed very little power (around 0.5%).
 
-![ipad background apps](http://alexcican.com/images/blog/assets/background-apps.jpg)
+![ipad background apps](https://alexcican.com/images/blog/assets/background-apps.jpg)
 
 I further investigated this issue and it turns up that the iOS “freezes” the app when it’s minimised (background) and little activity is allowed (push notifications) and once you click on the app, it becomes “unfreezed” and fully working again. So, when double tapping the home button you basically have a list of recently used apps, not a list of running apps in the background. I now, contrary to the past, find it useless going every once in a while and removing all those apps from the list.
 
@@ -66,7 +66,7 @@ Finally, I found out that when charging the battery, it takes some time for the 
 
 Now, if the iPad was more powerful (CPU-wise), I could completely ditch my main bulky workstation that I still use for my photo editing (Photoshop) and video editing (After Effects/Premiere) needs. I was a bit disappointed with the release of the iPad 3 because it didn’t have an awesome quad-core powerful CPU. Not only that, but the retina display, a whooping 2048-by-1536 resolution, is a resource killer making the iPad 3 not much faster than its predecessor, the iPad 2.
 
-![apple ipad sales](http://alexcican.com/images/blog/assets/apple-ipad-sales.jpg)
+![apple ipad sales](https://alexcican.com/images/blog/assets/apple-ipad-sales.jpg)
 
 If I were Apple, seeing the massive success the iPad has gained, I’d be looking at eliminating the laptops out of the equation. As you can see from the graph above, even without a powerful device that would suit my needs, they beat other laptop manufacturers in sales.
 

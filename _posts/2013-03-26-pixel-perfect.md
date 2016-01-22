@@ -14,11 +14,11 @@ Yet I challenged myself to try and do it, by redesigning this website.
 ##Pick a grid
 I chose to work on a 32px grid. If you’re using Photoshop, go to *Preferences [Cmd + K] > Guides, Grids & Slices*, and add a Gridline every 32 pixels with Subdivision of 1. To view the grid, go to *View > Show > Grid [Cmd + ']*.
 
-![photoshop preferences](http://alexcican.com/images/blog/assets/photoshop-preferences.png)
+![photoshop preferences](https://alexcican.com/images/blog/assets/photoshop-preferences.png)
 
 Stick to the grid. Every vector icon, image, text, container, needs to adhere to the 32 pixels. To help you out, Photoshop can snap your elements to the grid. To enable it go to *View > Snap To*, make sure *Grid* is checked, and enable by going to *View > Snap [Shift + Cmd + ;]*.
 
-When it’s time to code your pixel-perfect website, you can create a 32px x 32px transparent PNG pattern that you can use as a background, to help you out. Create two 1px lines and place them on top and left side of the pattern ([example](http://alexcican.com/sicanstudios/images/line.png)).
+When it’s time to code your pixel-perfect website, you can create a 32px x 32px transparent PNG pattern that you can use as a background, to help you out. Create two 1px lines and place them on top and left side of the pattern ([example](https://alexcican.com/sicanstudios/images/line.png)).
 
 ##A grid of 32px until it isn’t
 If you clicked to study this website on the grid, and your browser screen is wider than 1280px, you might have observed that the text doesn’t fit vertically the 32px lines. That’s because the font size of the text is bigger, meaning that the line height is bigger than 32px. Resize your browser a bit to see text fall into place. The same applies to mobile devices (font size is smaller).
@@ -26,16 +26,16 @@ If you clicked to study this website on the grid, and your browser screen is wid
 ##Compose to a vertical rhythm
 The web consists mostly of text and cat pictures. Leaving cat pictures aside, text needs to be readable. Vertical rhythm refers to the spacing and arrangement of text as the reader descends the page. It is contributed to by three factors: font size, line height and margin or padding.
 
-<a href="http://alexcican.com/images/blog/assets/vertical-rhythm.svg" class="img" target="_blank"><img src="http://alexcican.com/images/blog/assets/vertical-rhythm.svg" class="black" alt="vertical rhythm svg" /></a>
+<a href="https://alexcican.com/images/blog/assets/vertical-rhythm.svg" class="img" target="_blank"><img src="https://alexcican.com/images/blog/assets/vertical-rhythm.svg" class="black" alt="vertical rhythm svg" /></a>
 
 To improve readability, keep your text length between 50 and 75 characters per line. For body text, the line height should be 1.6x the font size. So for a 20px font size, the line height would be 32px (our grid). Read more on [how to compose to a vertical rhythm](http://24ways.org/2006/compose-to-a-vertical-rhythm/).
 
 When you measure vertical height with text, always exclude ascenders and descenders, because each type is different. Measure everything from the X-height, which is the height of the body, minus ascenders and descenders. This is equal to the height of the lowercase *‘x’*, hence its name.
 
-<a href="http://alexcican.com/images/blog/assets/type-anatomy.svg" class="img" target="_blank"><img src="http://alexcican.com/images/blog/assets/type-anatomy.svg" class="black" alt="type anatomy svg" /></a>
+<a href="https://alexcican.com/images/blog/assets/type-anatomy.svg" class="img" target="_blank"><img src="https://alexcican.com/images/blog/assets/type-anatomy.svg" class="black" alt="type anatomy svg" /></a>
 
 ##Retina revolution
-I don’t own a retina device. I almost bought one in September 2012, when on the lookout for a new laptop (went for a 13” Air). Retina is the future, and in order to future-proof your pixel-perfect website you need to use SVG (Scalable Vector Graphics) when exporting your graphics. By using SVG, you can scale the image infinitely without losing quality and pixelating/blurring the graphic. I wrote in a previous post [how to make your website pretty for retina devices](http://alexcican.com/post/retina-website-tutorial/).
+I don’t own a retina device. I almost bought one in September 2012, when on the lookout for a new laptop (went for a 13” Air). Retina is the future, and in order to future-proof your pixel-perfect website you need to use SVG (Scalable Vector Graphics) when exporting your graphics. By using SVG, you can scale the image infinitely without losing quality and pixelating/blurring the graphic. I wrote in a previous post [how to make your website pretty for retina devices](https://alexcican.com/post/retina-website-tutorial/).
 
 There is a rule when exporting assets. You use JPG for photographs, and PNG for graphics. By doing that you reduce the file size of the asset. That is because graphics usually consist of large blocks of colour that are displayed more efficiently with PNGs. I say scratch that; use SVG instead of PNG. SVG can reduce the file size even more than PNG.
 

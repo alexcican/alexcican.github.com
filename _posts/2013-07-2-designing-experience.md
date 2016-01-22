@@ -23,7 +23,7 @@ Don’t punish the user for any mistakes they might make. It’s your job to hel
 See, whenever you have the user interacting with a product, they are free to abuse it in any way they see fit. It’s your job to take into account all the different ways your product can be used. So you have to test everything. Once you are done with testing, analyse the results and make improvements.
 
 ## Design empty states
-![](http://alexcican.com/images/blog/assets/kippt-empty-state.png)
+![](https://alexcican.com/images/blog/assets/kippt-empty-state.png)
 <figcaption>[Kippt](https://kippt.com) web app’s empty state.</figcaption>
 
 For apps and websites an important part often forgotten are the states of the app/website. These states are still part of the user experience, so don’t forget them. Design the initial state (first-time user) of the app, logged in state, the empty state, and any error states—though you should avoid showing errors altogether.
@@ -31,8 +31,8 @@ For apps and websites an important part often forgotten are the states of the ap
 ## Guide the user
 People like to be guided, i.e. told what to do. A compelling experience guides the user through the product. For example, one of the most recent memorable walkthroughs that I experienced was in Vine application:
 
-![](http://alexcican.com/images/blog/assets/vine.gif)
-<figcaption>Vine app interactive tutorial GIF ([watch it again](http://alexcican.com/images/blog/assets/vine.gif))</figcaption>
+![](https://alexcican.com/images/blog/assets/vine.gif)
+<figcaption>Vine app interactive tutorial GIF ([watch it again](https://alexcican.com/images/blog/assets/vine.gif))</figcaption>
 
 Vine shows you an interactive tutorial how to record your first Vine, and once you are done with the walkthrough, the video you recorded is ready to be published. They guide the user through these different stages (recording, posting, browsing), seamlessly. Brilliant.
 
@@ -40,7 +40,7 @@ Vine shows you an interactive tutorial how to record your first Vine, and once y
 Go easy with guiding the user, however. There’s a thin line between informing the user and showing a too detailed walkthrough of the product. If you cross it, you will annoy the user, and [ruin their experience](http://blog.maxrudberg.com/post/38958984259/if-you-see-a-ui-walkthrough-they-blew-it). Most users, when they see a new interface, they want to play with it. They want to click stuff, open windows, try to break the software, etc. Give them this flexibility by allowing them to skip your tutorial and come back to it later.
 
 ## Provide visual cues
-![](http://alexcican.com/images/blog/assets/apple-packaging.jpg)
+![](https://alexcican.com/images/blog/assets/apple-packaging.jpg)
 <figcaption>Lift the instructions booklet by pulling the semicircle.</figcaption>
 
 Think how Apple packages their products. They don’t have instructions showing you how to lift the instructions booklet, but you know how to do it because of the visual cues.

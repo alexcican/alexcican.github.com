@@ -22,19 +22,19 @@
 
 &lt;p&gt;After just &lt;strong&gt;one week&lt;/strong&gt; of releasing the app, it got &lt;strong&gt;455,826&lt;/strong&gt; unique visitors, 522,091 visits, and 688,280 pageviews.&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&quot;http://alexcican.com/images/blog/assets/tiiime-stats.png&quot; alt=&quot;tiii.me stats&quot; /&gt;
+&lt;p&gt;&lt;img src=&quot;https://alexcican.com/images/blog/assets/tiiime-stats.png&quot; alt=&quot;tiii.me stats&quot; /&gt;
 &lt;figcaption&gt;Tiii.me stats during the first week. Thursday, April 3, was insane.&lt;/figcaption&gt;&lt;/p&gt;
 
 &lt;p&gt;During peak hours there were 1600+ active users and the app was being mentioned in about 250 tweets / hour. During off-peak around 10 tweets / hour.&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&quot;http://alexcican.com/images/blog/assets/tiiime-analytics-realtime.png&quot; alt=&quot;tiii.me stats&quot; /&gt;
+&lt;p&gt;&lt;img src=&quot;https://alexcican.com/images/blog/assets/tiiime-analytics-realtime.png&quot; alt=&quot;tiii.me stats&quot; /&gt;
 &lt;figcaption&gt;Over 1600 active users at any point.&lt;/figcaption&gt;&lt;/p&gt;
 
 &lt;p&gt;I was using &lt;a href=&quot;https://trakt.tv/&quot;&gt;Trakt’s&lt;/a&gt; API to grab the TV shows, and because of the overwhelming API requests, their servers had several outages (sorry, guys). GitHub, where the app is &lt;a href=&quot;https://github.com/alexcican/tiii.me&quot;&gt;being hosted&lt;/a&gt;, passed this stress test with flying colours—not a single minute of downtime. Hat’s off to you.&lt;/p&gt;
 
 &lt;p&gt;The app got featured in &lt;a href=&quot;http://www.businessinsider.com/website-calculates-how-much-time-youve-wasted-watching-tv-2014-4&quot;&gt;Business Insider&lt;/a&gt;, &lt;a href=&quot;http://www.buzzfeed.com/josephbernstein/this-app-calculates-how-many-days-of-your-life-you-have-spen&quot;&gt;BuzzFeed&lt;/a&gt;, &lt;a href=&quot;http://www.fastcocreate.com/3028496/see-how-many-days-hours-and-minutes-of-your-life-youve-spent-watching-tv?partner=rss&quot;&gt;Fast Company&lt;/a&gt;, &lt;a href=&quot;http://www.huffingtonpost.com/2014/04/01/website-lets-you-see-how-much-tv_n_5072320.html&quot;&gt;Huffington Post&lt;/a&gt;, &lt;a href=&quot;http://www.washingtonpost.com/express/wp/2014/04/03/find-out-how-much-time-youve-wasted-watching-tv-on-the-website-tiii-me/&quot;&gt;Washington Post&lt;/a&gt;, &lt;a href=&quot;http://www.dailydot.com/entertainment/TV-time-calculator/&quot;&gt;The Daily Dot&lt;/a&gt;, &lt;a href=&quot;http://metro.co.uk/2014/04/02/website-tells-you-how-much-time-youve-wasted-on-tv-shows-4686456/&quot;&gt;Metro&lt;/a&gt;, &lt;a href=&quot;http://io9.com/calculator-reveals-all-how-much-of-your-life-youve-giv-1557195751&quot;&gt;iO9&lt;/a&gt;, &lt;a href=&quot;http://www.vanityfair.it/show/tv/14/04/04/serie-tv-tempo-sito-calcola&quot;&gt;Vanity Fair Italy&lt;/a&gt;, &lt;a href=&quot;http://www.wired.it/play/televisione/2014/04/03/quanto-tempo-hai-passato-guardando-serie-tv/&quot;&gt;Wired Italy&lt;/a&gt;, &lt;a href=&quot;http://www.themarysue.com/tv-show-time-calculator/&quot;&gt;The Mary Sue&lt;/a&gt;, &lt;a href=&quot;http://papelpop.com/2014/04/site-mostra-quanto-tempo-voce-ja-perdeu-assistindo-series/&quot;&gt;Papel Pop&lt;/a&gt;, frontpage of &lt;a href=&quot;http://digg.com/source/tiii.me&quot;&gt;Digg&lt;/a&gt;, &lt;a href=&quot;http://www.reddit.com/r/television/comments/21nas9/this_site_lets_you_find_out_how_much_time_youve/&quot;&gt;Reddit&lt;/a&gt;, and on many many other sites.&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&quot;http://alexcican.com/images/blog/assets/tiiime-digg.png&quot; alt=&quot;tiii.me digg homepage&quot; /&gt;
+&lt;p&gt;&lt;img src=&quot;https://alexcican.com/images/blog/assets/tiiime-digg.png&quot; alt=&quot;tiii.me digg homepage&quot; /&gt;
 &lt;figcaption&gt;Tiii.me hit the frontpage of Digg.&lt;/figcaption&gt;&lt;/p&gt;
 
 &lt;h2&gt;How I did it&lt;/h2&gt;
@@ -49,7 +49,7 @@
 
 &lt;p&gt;WOW! Such traffic! Much tweets! So trendy!&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&quot;http://alexcican.com/images/blog/assets/doge-tiiime.png&quot; alt=&quot;tiii.me doge meme&quot; /&gt;
+&lt;p&gt;&lt;img src=&quot;https://alexcican.com/images/blog/assets/doge-tiiime.png&quot; alt=&quot;tiii.me doge meme&quot; /&gt;
 &lt;figcaption&gt;Doge is happy.&lt;/figcaption&gt;&lt;/p&gt;
 
 &lt;p&gt;The thing is, this happened in a parallel universe. Because in the one you’re currently reading this post, something very different actually happened.&lt;/p&gt;
@@ -60,7 +60,7 @@
 
 &lt;p&gt;The snowball effect that followed was pure luck!&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&quot;http://alexcican.com/images/blog/assets/no-idea.jpg&quot; alt=&quot;tiii.me doge meme&quot; /&gt;
+&lt;p&gt;&lt;img src=&quot;https://alexcican.com/images/blog/assets/no-idea.jpg&quot; alt=&quot;tiii.me doge meme&quot; /&gt;
 &lt;figcaption&gt;I don’t know what I’m doing. Or do I…&lt;/figcaption&gt;&lt;/p&gt;
 
 &lt;p&gt;However, I do have some ideas why the app became so popular.&lt;/p&gt;
@@ -188,19 +188,19 @@ contact me
 
 &lt;p&gt;When redesigning this site, my thought was to make it personal. If you’ve been following me, you know that I was operating under the brand &lt;em&gt;“SicanStudios”&lt;/em&gt; for design and under my name for photography.&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&quot;http://alexcican.com/images/blog/assets/logos.svg&quot; alt=&quot;&quot; /&gt;
+&lt;p&gt;&lt;img src=&quot;https://alexcican.com/images/blog/assets/logos.svg&quot; alt=&quot;&quot; /&gt;
 &lt;figcaption&gt;Sicanstudios logo vs Alex Cican logo.&lt;/figcaption&gt;&lt;/p&gt;
 
 &lt;p&gt;This is no longer the case. From now on, in my efforts for more transparency, I’m putting my name on everything that gets &lt;em&gt;out&lt;/em&gt;.&lt;/p&gt;
 
 &lt;p&gt;Since it’s a personal website, I’ve decided to &lt;em&gt;“put my face where my name is”&lt;/em&gt; and design the site around my mug. This should somewhat impede &lt;em&gt;“cats”&lt;/em&gt; from copying my site.&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&quot;http://alexcican.com/images/blog/assets/alex-cican-face.jpg&quot; alt=&quot;&quot; /&gt;
+&lt;p&gt;&lt;img src=&quot;https://alexcican.com/images/blog/assets/alex-cican-face.jpg&quot; alt=&quot;&quot; /&gt;
 &lt;figcaption&gt;Yours truly.&lt;/figcaption&gt;&lt;/p&gt;
 
 &lt;p&gt;With this redesign I focused on simplicity, typography, and animations—showing the progression of an element on the page. Animations were certainly the most challenging aspect of the project.&lt;/p&gt;
 
-&lt;p&gt;As I &lt;a href=&quot;http://alexcican.com/post/design-future-not-past/&quot;&gt;wrote before&lt;/a&gt;, I want to push the boundaries of design. Animations look best at 60FPS. This is difficult to achieve when you animate large images, SVG elements, and entire webpages. I needed to do heavy optimisation and code refactoring to pull it off. And this was only possible with the help of Google Chrome’s dev tools which allows you to measure site rendering time.&lt;/p&gt;
+&lt;p&gt;As I &lt;a href=&quot;https://alexcican.com/post/design-future-not-past/&quot;&gt;wrote before&lt;/a&gt;, I want to push the boundaries of design. Animations look best at 60FPS. This is difficult to achieve when you animate large images, SVG elements, and entire webpages. I needed to do heavy optimisation and code refactoring to pull it off. And this was only possible with the help of Google Chrome’s dev tools which allows you to measure site rendering time.&lt;/p&gt;
 
 &lt;h2&gt;Create an experience&lt;/h2&gt;
 
@@ -502,7 +502,7 @@ nav.expanded #navigation {
 &lt;!--more--&gt;
 
 
-&lt;p&gt;&lt;a href=&quot;http://alexcican.com/images/blog/assets/dacia-logan-horn.jpg&quot; class=&quot;img&quot; target=&quot;_blank&quot;&gt;&lt;img src=&quot;http://alexcican.com/images/blog/assets/dacia-logan-horn.jpg&quot; alt=&quot;dacia logan horn ux&quot; /&gt;&lt;/a&gt;
+&lt;p&gt;&lt;a href=&quot;https://alexcican.com/images/blog/assets/dacia-logan-horn.jpg&quot; class=&quot;img&quot; target=&quot;_blank&quot;&gt;&lt;img src=&quot;https://alexcican.com/images/blog/assets/dacia-logan-horn.jpg&quot; alt=&quot;dacia logan horn ux&quot; /&gt;&lt;/a&gt;
 &lt;figcaption&gt;The car’s horn is a small button. Even the horn and arrow icons don’t help much where they are located, at the end of the barrel.&lt;/figcaption&gt;&lt;/p&gt;
 
 &lt;p&gt;When I confessed this frustration to my father, he said it’s because Dacia cars have always had the horn in that position, since the first models back in 1969.&lt;/p&gt;
@@ -519,7 +519,7 @@ nav.expanded #navigation {
 
 &lt;p&gt;People ask me why I don’t own an Android device. I’m technically a geek, so all the customisations and options available on Android should make me happy. Yet two of the reasons I hate Android is their UI inconsistency and inability to innovate on the user experience. Even though Android phones pack a 1.6 GHz quadcore processor, the apps—you know, the things I use to interact with the phone—still look ugly and the animations feel dated; they look old. That’s partially due to Android’s fragmented ecosystem and the slow new OS adoption rate. Apple boasts with the fact that most of its users are using the latest version of iOS. And that’s good, because it allows iOS developers and designers to use the latest technology and design for the future, by knowing they won’t have to support older versions of iOS for long.&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&quot;http://alexcican.com/images/blog/assets/ios-android-cook.jpg&quot; alt=&quot;&quot; /&gt;
+&lt;p&gt;&lt;img src=&quot;https://alexcican.com/images/blog/assets/ios-android-cook.jpg&quot; alt=&quot;&quot; /&gt;
 &lt;figcaption&gt;Fragmentation of Android versions vs iOS versions.&lt;/figcaption&gt;&lt;/p&gt;
 
 &lt;p&gt;At my University we used IE 6 to browse and build websites, Firefox was a commodity, but updating Internet Explorer on all the lab computers would have been very consuming. I get that not everyone has the possibility, or preference, to switch to a better browser, purchase the newest laptop, use the latest OS, keep up with the fast pace of change. In the end, to each their own. But refusing, or being unable, to upgrade revokes your right to expect from me to keep designing for your old OS.&lt;/p&gt;
@@ -586,7 +586,7 @@ nav.expanded #navigation {
 
 &lt;h2&gt;Design empty states&lt;/h2&gt;
 
-&lt;p&gt;&lt;img src=&quot;http://alexcican.com/images/blog/assets/kippt-empty-state.png&quot; alt=&quot;&quot; /&gt;
+&lt;p&gt;&lt;img src=&quot;https://alexcican.com/images/blog/assets/kippt-empty-state.png&quot; alt=&quot;&quot; /&gt;
 &lt;figcaption&gt;&lt;a href=&quot;https://kippt.com&quot;&gt;Kippt&lt;/a&gt; web app’s empty state.&lt;/figcaption&gt;&lt;/p&gt;
 
 &lt;p&gt;For apps and websites an important part often forgotten are the states of the app/website. These states are still part of the user experience, so don’t forget them. Design the initial state (first-time user) of the app, logged in state, the empty state, and any error states—though you should avoid showing errors altogether.&lt;/p&gt;
@@ -595,8 +595,8 @@ nav.expanded #navigation {
 
 &lt;p&gt;People like to be guided, i.e. told what to do. A compelling experience guides the user through the product. For example, one of the most recent memorable walkthroughs that I experienced was in Vine application:&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&quot;http://alexcican.com/images/blog/assets/vine.gif&quot; alt=&quot;&quot; /&gt;
-&lt;figcaption&gt;Vine app interactive tutorial GIF (&lt;a href=&quot;http://alexcican.com/images/blog/assets/vine.gif&quot;&gt;watch it again&lt;/a&gt;)&lt;/figcaption&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;https://alexcican.com/images/blog/assets/vine.gif&quot; alt=&quot;&quot; /&gt;
+&lt;figcaption&gt;Vine app interactive tutorial GIF (&lt;a href=&quot;https://alexcican.com/images/blog/assets/vine.gif&quot;&gt;watch it again&lt;/a&gt;)&lt;/figcaption&gt;&lt;/p&gt;
 
 &lt;p&gt;Vine shows you an interactive tutorial how to record your first Vine, and once you are done with the walkthrough, the video you recorded is ready to be published. They guide the user through these different stages (recording, posting, browsing), seamlessly. Brilliant.&lt;/p&gt;
 
@@ -606,7 +606,7 @@ nav.expanded #navigation {
 
 &lt;h2&gt;Provide visual cues&lt;/h2&gt;
 
-&lt;p&gt;&lt;img src=&quot;http://alexcican.com/images/blog/assets/apple-packaging.jpg&quot; alt=&quot;&quot; /&gt;
+&lt;p&gt;&lt;img src=&quot;https://alexcican.com/images/blog/assets/apple-packaging.jpg&quot; alt=&quot;&quot; /&gt;
 &lt;figcaption&gt;Lift the instructions booklet by pulling the semicircle.&lt;/figcaption&gt;&lt;/p&gt;
 
 &lt;p&gt;Think how Apple packages their products. They don’t have instructions showing you how to lift the instructions booklet, but you know how to do it because of the visual cues.&lt;/p&gt;
@@ -645,7 +645,7 @@ nav.expanded #navigation {
 
 &lt;h2&gt;Create a stimulating environment&lt;/h2&gt;
 
-&lt;p&gt;In order to be creative you have to &lt;strong&gt;stimulate the mind&lt;/strong&gt; and embrace new ideas. I’m not most creative when under external pressure, by a client or time. I tend to stick to the basics/default/usual, and certainly don’t wander exploring stuff and trying to come up with new ideas. But don’t get me wrong, deadlines are good—that’s how you &lt;a href=&quot;http://alexcican.com/post/doing-work/&quot;&gt;get stuff done&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;In order to be creative you have to &lt;strong&gt;stimulate the mind&lt;/strong&gt; and embrace new ideas. I’m not most creative when under external pressure, by a client or time. I tend to stick to the basics/default/usual, and certainly don’t wander exploring stuff and trying to come up with new ideas. But don’t get me wrong, deadlines are good—that’s how you &lt;a href=&quot;https://alexcican.com/post/doing-work/&quot;&gt;get stuff done&lt;/a&gt;.&lt;/p&gt;
 
 &lt;p&gt;Be open, try new things, test new ideas, and allow yourself &lt;strong&gt;creative freedom&lt;/strong&gt;. Ask the question &lt;em&gt;“What if?”&lt;/em&gt;. Pick a different colour palette, use a not-so-popular font, design with a different style, try a new drawing technique, give that new &lt;a href=&quot;http://www.bohemiancoding.com/sketch/&quot;&gt;design app&lt;/a&gt; a go, experiment with stuff!&lt;/p&gt;
 
@@ -674,9 +674,9 @@ nav.expanded #navigation {
 
 &lt;p&gt;Here’s the thing though. In the beginning, when you’re starting out, you need to work your ass off. I don’t condone workaholism but you need to burn the midnight oil and work long hours, in order to improve your skills and become good.&lt;/p&gt;
 
-&lt;p&gt;It’s only by going through a &lt;a href=&quot;http://alexcican.com/post/doing-work/&quot;&gt;volume of work&lt;/a&gt; that you will close that gap and your work will be as good as your ambitions.&lt;/p&gt;
+&lt;p&gt;It’s only by going through a &lt;a href=&quot;https://alexcican.com/post/doing-work/&quot;&gt;volume of work&lt;/a&gt; that you will close that gap and your work will be as good as your ambitions.&lt;/p&gt;
 
-&lt;p&gt;&lt;a href=&quot;http://alexcican.com/images/blog/assets/ira-glass-poster.jpg&quot; class=&quot;img&quot;&gt;&lt;img src=&quot;http://alexcican.com/images/blog/assets/ira-glass-poster-small.jpg&quot; alt=&quot;ira glass poster&quot;/&gt;&lt;/a&gt;
+&lt;p&gt;&lt;a href=&quot;https://alexcican.com/images/blog/assets/ira-glass-poster.jpg&quot; class=&quot;img&quot;&gt;&lt;img src=&quot;https://alexcican.com/images/blog/assets/ira-glass-poster-small.jpg&quot; alt=&quot;ira glass poster&quot;/&gt;&lt;/a&gt;
 &lt;figcaption&gt;Quote by Ira Glass, created by Sawyer Hollenshead. Click to view bigger.&lt;/figcaption&gt;&lt;/p&gt;
 
 &lt;p&gt;Moreover, I don’t consider designing to be work that I can switch off when I go home. So in a sense I’m not a workaholic, I just design a lot. And you should feel the same, too. It’s fine if you have a boring 9 to 5 job, that pays the rent, and you can shut it off when you get home. But whatever you really want do with your life—your calling—shouldn’t feel like work.&lt;/p&gt;
@@ -796,7 +796,7 @@ write tutorial blog post
 
 &lt;p&gt;Imagine you’re from Mars, and in 2013 you’re visiting Earth for the first time. Someone shows you two iPhones, running different operating systems. Judging by the icons, which of the two would you think is more cool/modern/recent/stunning looking?&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&quot;http://alexcican.com/images/blog/assets/ios-icons.jpg&quot; alt=&quot;ios 7 icons&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;https://alexcican.com/images/blog/assets/ios-icons.jpg&quot; alt=&quot;ios 7 icons&quot; /&gt;&lt;/p&gt;
 
 &lt;p&gt;What is the purpose of an icon if not to present in a beautiful, detailed, graphical way the functionality of the app? I know what the app is, I can read its title—I just want a beautiful icon to accompany it and make me want to click it. Just because currently there is this trend of “flat design”, it doesn’t mean you have to stick pictograms on backgrounds with eye-popping gradients. That’s just kitch&lt;sup&gt;&lt;a href=&quot;#footnotes&quot;&gt;1&lt;/a&gt;&lt;/sup&gt;.&lt;/p&gt;
 
@@ -821,7 +821,7 @@ write tutorial blog post
 &lt;!-- more --&gt;
 
 
-&lt;p&gt;&lt;a href=&quot;https://dl.dropboxusercontent.com/u/48552248/photos/x100_review/x100s.jpg&quot;&gt;&lt;img src=&quot;http://alexcican.com/images/blog/assets/x100s/x100s.jpg&quot; alt=&quot;&quot; /&gt;&lt;/a&gt;&lt;br /&gt;
+&lt;p&gt;&lt;a href=&quot;https://dl.dropboxusercontent.com/u/48552248/photos/x100_review/x100s.jpg&quot;&gt;&lt;img src=&quot;https://alexcican.com/images/blog/assets/x100s/x100s.jpg&quot; alt=&quot;&quot; /&gt;&lt;/a&gt;&lt;br /&gt;
 &lt;figcaption&gt;Fujifilm X100S camera. Click image above for bigger view.&lt;/figcaption&gt;&lt;/p&gt;
 
 &lt;p&gt;So far I like this camera a lot. There isn’t much difference in image quality from the 5D MKII, and at high ISO the X100S performs a lot better, as you’ll see below. I made a quick video review describing the positives/likes and the negatives/dislikes of the Fuji X100S.&lt;/p&gt;
@@ -865,10 +865,10 @@ write tutorial blog post
 
 &lt;p&gt;The X100S allows you to individually control the contrast of the highlights and shadows of the image (prior to taking it).&lt;/p&gt;
 
-&lt;p&gt;&lt;a href=&quot;https://dl.dropboxusercontent.com/u/48552248/photos/x100_review/highlight_tones.jpg&quot;&gt;&lt;img src=&quot;http://alexcican.com/images/blog/assets/x100s/highlight_tones.jpg&quot; alt=&quot;&quot; /&gt;&lt;/a&gt;&lt;br /&gt;
+&lt;p&gt;&lt;a href=&quot;https://dl.dropboxusercontent.com/u/48552248/photos/x100_review/highlight_tones.jpg&quot;&gt;&lt;img src=&quot;https://alexcican.com/images/blog/assets/x100s/highlight_tones.jpg&quot; alt=&quot;&quot; /&gt;&lt;/a&gt;&lt;br /&gt;
 &lt;figcaption&gt;Highlight tones (-2, 0, +2). Click image above for bigger view.&lt;/figcaption&gt;&lt;/p&gt;
 
-&lt;p&gt;&lt;a href=&quot;https://dl.dropboxusercontent.com/u/48552248/photos/x100_review/shadow_tones.jpg&quot;&gt;&lt;img src=&quot;http://alexcican.com/images/blog/assets/x100s/shadow_tones.jpg&quot; alt=&quot;&quot; /&gt;&lt;/a&gt;&lt;br /&gt;
+&lt;p&gt;&lt;a href=&quot;https://dl.dropboxusercontent.com/u/48552248/photos/x100_review/shadow_tones.jpg&quot;&gt;&lt;img src=&quot;https://alexcican.com/images/blog/assets/x100s/shadow_tones.jpg&quot; alt=&quot;&quot; /&gt;&lt;/a&gt;&lt;br /&gt;
 &lt;figcaption&gt;Shadow tones (-2, 0, +2). Click image above for bigger view.&lt;/figcaption&gt;&lt;/p&gt;
 
 &lt;h2&gt;7. In-camera ND filter&lt;/h2&gt;
@@ -938,7 +938,7 @@ write tutorial blog post
 
 &lt;h2&gt;10. Noise reduction&lt;/h2&gt;
 
-&lt;p&gt;&lt;a href=&quot;https://dl.dropboxusercontent.com/u/48552248/photos/x100_review/x100s_6400_mirror.jpg&quot;&gt;&lt;img src=&quot;http://alexcican.com/images/blog/assets/x100s/x100s_6400_mirror.jpg&quot; alt=&quot;&quot; /&gt;&lt;/a&gt;
+&lt;p&gt;&lt;a href=&quot;https://dl.dropboxusercontent.com/u/48552248/photos/x100_review/x100s_6400_mirror.jpg&quot;&gt;&lt;img src=&quot;https://alexcican.com/images/blog/assets/x100s/x100s_6400_mirror.jpg&quot; alt=&quot;&quot; /&gt;&lt;/a&gt;
 The noise reduction of the X100S is great. Until you reach ISO 6400. At this point the noise reduction applied is too strong for my taste, creating a soft image effect. You can fix this by going in the menu and reducing the intensity of the noise reduction &lt;em&gt;[Menu&amp;gt;Noise reduction&amp;gt;LOW(-2)]&lt;/em&gt;. The photo you see above was with the noise reduction set at -1 setting.&lt;/p&gt;
 
 &lt;h2&gt;Bonus: Tripod mount location&lt;/h2&gt;
@@ -953,39 +953,39 @@ The noise reduction of the X100S is great. Until you reach ISO 6400. At this poi
 
 &lt;p&gt;The X100S wins by a big margin. In the X100S stills, you can observe above ISO 6400 the noise reduction getting applied and creating that soft look (negative point #10). Both cameras were on JPEG, manual settings, similar focal length (on Canon I used the Canon 24-70 f/2.8 L USM lens). No post-processing, straight from the camera.&lt;/p&gt;
 
-&lt;p&gt;&lt;a href=&quot;https://dl.dropboxusercontent.com/u/48552248/photos/x100_review/f2.8_800.jpg&quot;&gt;&lt;img src=&quot;http://alexcican.com/images/blog/assets/x100s/f2.8_800.jpg&quot; alt=&quot;&quot; /&gt;&lt;/a&gt;
+&lt;p&gt;&lt;a href=&quot;https://dl.dropboxusercontent.com/u/48552248/photos/x100_review/f2.8_800.jpg&quot;&gt;&lt;img src=&quot;https://alexcican.com/images/blog/assets/x100s/f2.8_800.jpg&quot; alt=&quot;&quot; /&gt;&lt;/a&gt;
 &lt;figcaption&gt;f/2.8 ISO 800 (&lt;a href=&quot;http://dl.dropboxusercontent.com/u/48552248/photos/x100_review/original/5dmk2_f2.8_800.JPG&quot;&gt;5D MKII full resolution&lt;/a&gt; / &lt;a href=&quot;https://dl.dropboxusercontent.com/u/48552248/photos/x100_review/original/x100s_f2.8_800.JPG&quot;&gt;X100S full resolution&lt;/a&gt;)&lt;/figcaption&gt;&lt;/p&gt;
 
-&lt;p&gt;&lt;a href=&quot;https://dl.dropboxusercontent.com/u/48552248/photos/x100_review/f2.8_3200.jpg&quot;&gt;&lt;img src=&quot;http://alexcican.com/images/blog/assets/f2.8_3200.jpg&quot; alt=&quot;&quot; /&gt;&lt;/a&gt;
+&lt;p&gt;&lt;a href=&quot;https://dl.dropboxusercontent.com/u/48552248/photos/x100_review/f2.8_3200.jpg&quot;&gt;&lt;img src=&quot;https://alexcican.com/images/blog/assets/f2.8_3200.jpg&quot; alt=&quot;&quot; /&gt;&lt;/a&gt;
 &lt;figcaption&gt;f/2.8 ISO 3200 (&lt;a href=&quot;https://dl.dropboxusercontent.com/u/48552248/photos/x100_review/original/5dmk2_f2.8_3200.JPG&quot;&gt;5D MKII full resolution&lt;/a&gt; / &lt;a href=&quot;https://dl.dropboxusercontent.com/u/48552248/photos/x100_review/original/x100s_f2.8_3200.JPG&quot;&gt;X100S full resolution&lt;/a&gt;)&lt;/figcaption&gt;&lt;/p&gt;
 
-&lt;p&gt;&lt;a href=&quot;https://dl.dropboxusercontent.com/u/48552248/photos/x100_review/f2.8_6400.jpg&quot;&gt;&lt;img src=&quot;http://alexcican.com/images/blog/assets/x100s/f2.8_6400.jpg&quot; alt=&quot;&quot; /&gt;&lt;/a&gt;
+&lt;p&gt;&lt;a href=&quot;https://dl.dropboxusercontent.com/u/48552248/photos/x100_review/f2.8_6400.jpg&quot;&gt;&lt;img src=&quot;https://alexcican.com/images/blog/assets/x100s/f2.8_6400.jpg&quot; alt=&quot;&quot; /&gt;&lt;/a&gt;
 &lt;figcaption&gt;f/2.8 ISO 6400 (&lt;a href=&quot;https://dl.dropboxusercontent.com/u/48552248/photos/x100_review/original/5dmk2_f2.8_6400.JPG&quot;&gt;5D MKII full resolution&lt;/a&gt; / &lt;a href=&quot;https://dl.dropboxusercontent.com/u/48552248/photos/x100_review/original/x100s_f2.8_6400.JPG&quot;&gt;X100S full resolution&lt;/a&gt;)&lt;/figcaption&gt;&lt;/p&gt;
 
-&lt;p&gt;&lt;a href=&quot;https://dl.dropboxusercontent.com/u/48552248/photos/x100_review/f2.8_12800.jpg&quot;&gt;&lt;img src=&quot;http://alexcican.com/images/blog/assets/x100s/f2.8_12800.jpg&quot; alt=&quot;&quot; /&gt;&lt;/a&gt;
+&lt;p&gt;&lt;a href=&quot;https://dl.dropboxusercontent.com/u/48552248/photos/x100_review/f2.8_12800.jpg&quot;&gt;&lt;img src=&quot;https://alexcican.com/images/blog/assets/x100s/f2.8_12800.jpg&quot; alt=&quot;&quot; /&gt;&lt;/a&gt;
 &lt;figcaption&gt;f/2.8 ISO 12800 (&lt;a href=&quot;https://dl.dropboxusercontent.com/u/48552248/photos/x100_review/original/5dmk2_f2.8_12800.JPG&quot;&gt;5D MKII full resolution&lt;/a&gt; / &lt;a href=&quot;https://dl.dropboxusercontent.com/u/48552248/photos/x100_review/original/x100s_f2.8_12800.JPG&quot;&gt;X100S full resolution&lt;/a&gt;)&lt;/figcaption&gt;&lt;/p&gt;
 
-&lt;p&gt;&lt;a href=&quot;https://dl.dropboxusercontent.com/u/48552248/photos/x100_review/f11_1600.jpg&quot;&gt;&lt;img src=&quot;http://alexcican.com/images/blog/assets/x100s/f11_1600.jpg&quot; alt=&quot;&quot; /&gt;&lt;/a&gt;
+&lt;p&gt;&lt;a href=&quot;https://dl.dropboxusercontent.com/u/48552248/photos/x100_review/f11_1600.jpg&quot;&gt;&lt;img src=&quot;https://alexcican.com/images/blog/assets/x100s/f11_1600.jpg&quot; alt=&quot;&quot; /&gt;&lt;/a&gt;
 &lt;figcaption&gt;f/11 ISO 1600 (&lt;a href=&quot;https://dl.dropboxusercontent.com/u/48552248/photos/x100_review/original/5dmk2_f11_1600.JPG&quot;&gt;5D MKII full resolution&lt;/a&gt; / &lt;a href=&quot;https://dl.dropboxusercontent.com/u/48552248/photos/x100_review/original/x100s_f11_1600.JPG&quot;&gt;X100S full resolution&lt;/a&gt;)&lt;/figcaption&gt;&lt;/p&gt;
 
-&lt;p&gt;&lt;a href=&quot;https://dl.dropboxusercontent.com/u/48552248/photos/x100_review/f11_3200.jpg&quot;&gt;&lt;img src=&quot;http://alexcican.com/images/blog/assets/x100s/f11_3200.jpg&quot; alt=&quot;&quot; /&gt;&lt;/a&gt;
+&lt;p&gt;&lt;a href=&quot;https://dl.dropboxusercontent.com/u/48552248/photos/x100_review/f11_3200.jpg&quot;&gt;&lt;img src=&quot;https://alexcican.com/images/blog/assets/x100s/f11_3200.jpg&quot; alt=&quot;&quot; /&gt;&lt;/a&gt;
 &lt;figcaption&gt;f/11 ISO 3200 (&lt;a href=&quot;https://dl.dropboxusercontent.com/u/48552248/photos/x100_review/original/5dmk2_f11_3200.JPG&quot;&gt;5D MKII full resolution&lt;/a&gt; / &lt;a href=&quot;https://dl.dropboxusercontent.com/u/48552248/photos/x100_review/original/x100s_f11_3200.JPG&quot;&gt;X100S full resolution&lt;/a&gt;)&lt;/figcaption&gt;&lt;/p&gt;
 
-&lt;p&gt;&lt;a href=&quot;https://dl.dropboxusercontent.com/u/48552248/photos/x100_review/f11_12800.jpg&quot;&gt;&lt;img src=&quot;http://alexcican.com/images/blog/assets/x100s/f11_12800.jpg&quot; alt=&quot;&quot; /&gt;&lt;/a&gt;
+&lt;p&gt;&lt;a href=&quot;https://dl.dropboxusercontent.com/u/48552248/photos/x100_review/f11_12800.jpg&quot;&gt;&lt;img src=&quot;https://alexcican.com/images/blog/assets/x100s/f11_12800.jpg&quot; alt=&quot;&quot; /&gt;&lt;/a&gt;
 &lt;figcaption&gt;f/11 ISO 12800 (&lt;a href=&quot;https://dl.dropboxusercontent.com/u/48552248/photos/x100_review/original/5dmk2_f11_12800.JPG&quot;&gt;5D MKII full resolution&lt;/a&gt; / &lt;a href=&quot;https://dl.dropboxusercontent.com/u/48552248/photos/x100_review/original/x100s_f11_12800.JPG&quot;&gt;X100S full resolution&lt;/a&gt;)&lt;/figcaption&gt;&lt;/p&gt;
 
 &lt;p&gt;More high ISO photos from the X100S at 100% crop for the pixel peepers. Straight from the camera, JPEG, no sharpening, no noise reduction or post-processing applied to these.&lt;/p&gt;
 
-&lt;p&gt;&lt;a href=&quot;https://dl.dropboxusercontent.com/u/48552248/photos/x100_review/x100s_3200_self.jpg&quot;&gt;&lt;img src=&quot;http://alexcican.com/images/blog/assets/x100s/x100s_3200_self.jpg&quot; alt=&quot;&quot; /&gt;&lt;/a&gt;
+&lt;p&gt;&lt;a href=&quot;https://dl.dropboxusercontent.com/u/48552248/photos/x100_review/x100s_3200_self.jpg&quot;&gt;&lt;img src=&quot;https://alexcican.com/images/blog/assets/x100s/x100s_3200_self.jpg&quot; alt=&quot;&quot; /&gt;&lt;/a&gt;
 &lt;figcaption&gt;“Selfie in a dark room”. Light only from MacBook Air + Flash. f/2.2 1/10 ISO 3200&lt;/figcaption&gt;&lt;/p&gt;
 
-&lt;p&gt;&lt;a href=&quot;https://dl.dropboxusercontent.com/u/48552248/photos/x100_review/x100s_6400_books.jpg&quot;&gt;&lt;img src=&quot;http://alexcican.com/images/blog/assets/x100s/x100s_6400_books.jpg&quot; alt=&quot;&quot; /&gt;&lt;/a&gt;
+&lt;p&gt;&lt;a href=&quot;https://dl.dropboxusercontent.com/u/48552248/photos/x100_review/x100s_6400_books.jpg&quot;&gt;&lt;img src=&quot;https://alexcican.com/images/blog/assets/x100s/x100s_6400_books.jpg&quot; alt=&quot;&quot; /&gt;&lt;/a&gt;
 &lt;figcaption&gt;“Books and magazines”. f/5.6 1/250 ISO 6400&lt;/figcaption&gt;&lt;/p&gt;
 
-&lt;p&gt;&lt;a href=&quot;https://dl.dropboxusercontent.com/u/48552248/photos/x100_review/x100s_6400_books.jpg&quot;&gt;&lt;img src=&quot;http://alexcican.com/images/blog/assets/x100s/x100s_6400_books.jpg&quot; alt=&quot;&quot; /&gt;&lt;/a&gt;
+&lt;p&gt;&lt;a href=&quot;https://dl.dropboxusercontent.com/u/48552248/photos/x100_review/x100s_6400_books.jpg&quot;&gt;&lt;img src=&quot;https://alexcican.com/images/blog/assets/x100s/x100s_6400_books.jpg&quot; alt=&quot;&quot; /&gt;&lt;/a&gt;
 &lt;figcaption&gt;“Photographer in mirror”. f/5.6 1/220 ISO 6400&lt;/figcaption&gt;&lt;/p&gt;
 
-&lt;p&gt;&lt;a href=&quot;https://dl.dropboxusercontent.com/u/48552248/photos/x100_review/x100s_6400_outside.jpg&quot;&gt;&lt;img src=&quot;http://alexcican.com/images/blog/assets/x100s/x100s_6400_outside.jpg&quot; alt=&quot;&quot; /&gt;&lt;/a&gt;
+&lt;p&gt;&lt;a href=&quot;https://dl.dropboxusercontent.com/u/48552248/photos/x100_review/x100s_6400_outside.jpg&quot;&gt;&lt;img src=&quot;https://alexcican.com/images/blog/assets/x100s/x100s_6400_outside.jpg&quot; alt=&quot;&quot; /&gt;&lt;/a&gt;
 &lt;figcaption&gt;“Bush of flowers”. f/16 1/4000 ISO 6400&lt;/figcaption&gt;&lt;/p&gt;
 
 &lt;h2&gt;Fujifilm X100S real life test shoot&lt;/h2&gt;
@@ -994,103 +994,103 @@ The noise reduction of the X100S is great. Until you reach ISO 6400. At this poi
 
 &lt;p&gt;The photographs below were post-processed from original JPEG files, not RAW files. I shoot only RAW with my 5D MKII but I figured I’d try to shoot only JPEG with my X100S and see how it goes. The files are gorgeous, retaining enough shadow/highlight detail thus allowing me to push the processing a lot. So I’ll be sticking to JPEG.&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&quot;http://alexcican.com/images/blog/assets/x100s/DSCF8062.jpg&quot; alt=&quot;musicians xaratsi nicosia x100s candid&quot; /&gt;&lt;br/&gt;
+&lt;p&gt;&lt;img src=&quot;https://alexcican.com/images/blog/assets/x100s/DSCF8062.jpg&quot; alt=&quot;musicians xaratsi nicosia x100s candid&quot; /&gt;&lt;br/&gt;
 &lt;figcaption&gt;“Musicians”&lt;/figcaption&gt;&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&quot;http://alexcican.com/images/blog/assets/x100s/DSCF8002.jpg&quot; alt=&quot;eerie atmosphere x100s&quot; /&gt;&lt;br/&gt;
+&lt;p&gt;&lt;img src=&quot;https://alexcican.com/images/blog/assets/x100s/DSCF8002.jpg&quot; alt=&quot;eerie atmosphere x100s&quot; /&gt;&lt;br/&gt;
 &lt;figcaption&gt;“25 years ago”&lt;/figcaption&gt;&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&quot;http://alexcican.com/images/blog/assets/x100s/DSCF6801.jpg&quot; alt=&quot;romania brasov street x100s&quot; /&gt;&lt;br/&gt;
+&lt;p&gt;&lt;img src=&quot;https://alexcican.com/images/blog/assets/x100s/DSCF6801.jpg&quot; alt=&quot;romania brasov street x100s&quot; /&gt;&lt;br/&gt;
 &lt;figcaption&gt;“Reflection”&lt;/figcaption&gt;&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&quot;http://alexcican.com/images/blog/assets/x100s/DSCF4351.jpg&quot; alt=&quot;plane romania x100s aerial&quot; /&gt;&lt;br/&gt;
+&lt;p&gt;&lt;img src=&quot;https://alexcican.com/images/blog/assets/x100s/DSCF4351.jpg&quot; alt=&quot;plane romania x100s aerial&quot; /&gt;&lt;br/&gt;
 &lt;figcaption&gt;“Patterns”&lt;/figcaption&gt;&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&quot;http://alexcican.com/images/blog/assets/x100s/DSCF4356.jpg&quot; alt=&quot;plane romania x100s aerial&quot; /&gt;&lt;br/&gt;
+&lt;p&gt;&lt;img src=&quot;https://alexcican.com/images/blog/assets/x100s/DSCF4356.jpg&quot; alt=&quot;plane romania x100s aerial&quot; /&gt;&lt;br/&gt;
 &lt;figcaption&gt;“View from above”&lt;/figcaption&gt;&lt;/p&gt;
 
-&lt;p&gt;&lt;a href=&quot;https://dl.dropboxusercontent.com/u/48552248/photos/x100_review/DSCF0381.jpg&quot;&gt;&lt;img src=&quot;http://alexcican.com/images/blog/assets/x100s/DSCF0381.jpg&quot; alt=&quot;nicosia night x100s&quot; /&gt;&lt;/a&gt;&lt;br/&gt;
+&lt;p&gt;&lt;a href=&quot;https://dl.dropboxusercontent.com/u/48552248/photos/x100_review/DSCF0381.jpg&quot;&gt;&lt;img src=&quot;https://alexcican.com/images/blog/assets/x100s/DSCF0381.jpg&quot; alt=&quot;nicosia night x100s&quot; /&gt;&lt;/a&gt;&lt;br/&gt;
 &lt;figcaption&gt;“Old streets of Nicosia at night”&lt;/figcaption&gt;&lt;/p&gt;
 
-&lt;p&gt;&lt;a href=&quot;https://dl.dropboxusercontent.com/u/48552248/photos/x100_review/DSCF0382.jpg&quot;&gt;&lt;img src=&quot;http://alexcican.com/images/blog/assets/x100s/DSCF0382.jpg&quot; alt=&quot;anexitilon nicosia x100s fuji&quot; /&gt;&lt;/a&gt;&lt;br/&gt;
+&lt;p&gt;&lt;a href=&quot;https://dl.dropboxusercontent.com/u/48552248/photos/x100_review/DSCF0382.jpg&quot;&gt;&lt;img src=&quot;https://alexcican.com/images/blog/assets/x100s/DSCF0382.jpg&quot; alt=&quot;anexitilon nicosia x100s fuji&quot; /&gt;&lt;/a&gt;&lt;br/&gt;
 &lt;figcaption&gt;“Anexitilon”&lt;/figcaption&gt;&lt;/p&gt;
 
-&lt;p&gt;&lt;a href=&quot;https://dl.dropboxusercontent.com/u/48552248/photos/x100_review/DSCF0397.jpg&quot;&gt;&lt;img src=&quot;http://alexcican.com/images/blog/assets/x100s/DSCF0397.jpg&quot; alt=&quot;street nicosia x100s&quot; /&gt;&lt;/a&gt;&lt;br/&gt;
+&lt;p&gt;&lt;a href=&quot;https://dl.dropboxusercontent.com/u/48552248/photos/x100_review/DSCF0397.jpg&quot;&gt;&lt;img src=&quot;https://alexcican.com/images/blog/assets/x100s/DSCF0397.jpg&quot; alt=&quot;street nicosia x100s&quot; /&gt;&lt;/a&gt;&lt;br/&gt;
 &lt;figcaption&gt;“Looking up”&lt;/figcaption&gt;&lt;/p&gt;
 
-&lt;p&gt;&lt;a href=&quot;https://dl.dropboxusercontent.com/u/48552248/photos/x100_review/DSCF0398.jpg&quot;&gt;&lt;img src=&quot;http://alexcican.com/images/blog/assets/x100s/DSCF0398.jpg&quot; alt=&quot;palm trees nicosia x100s&quot; /&gt;&lt;/a&gt;&lt;br/&gt;
+&lt;p&gt;&lt;a href=&quot;https://dl.dropboxusercontent.com/u/48552248/photos/x100_review/DSCF0398.jpg&quot;&gt;&lt;img src=&quot;https://alexcican.com/images/blog/assets/x100s/DSCF0398.jpg&quot; alt=&quot;palm trees nicosia x100s&quot; /&gt;&lt;/a&gt;&lt;br/&gt;
 &lt;figcaption&gt;“Palm Trees”&lt;/figcaption&gt;&lt;/p&gt;
 
-&lt;p&gt;&lt;a href=&quot;https://dl.dropboxusercontent.com/u/48552248/photos/x100_review/DSCF0399.jpg&quot;&gt;&lt;img src=&quot;http://alexcican.com/images/blog/assets/x100s/DSCF0399.jpg&quot; alt=&quot;stairs x100s nicosia cyprus&quot; /&gt;&lt;/a&gt;&lt;br/&gt;
+&lt;p&gt;&lt;a href=&quot;https://dl.dropboxusercontent.com/u/48552248/photos/x100_review/DSCF0399.jpg&quot;&gt;&lt;img src=&quot;https://alexcican.com/images/blog/assets/x100s/DSCF0399.jpg&quot; alt=&quot;stairs x100s nicosia cyprus&quot; /&gt;&lt;/a&gt;&lt;br/&gt;
 &lt;figcaption&gt;“Up the stairs”&lt;/figcaption&gt;&lt;/p&gt;
 
-&lt;p&gt;&lt;a href=&quot;https://dl.dropboxusercontent.com/u/48552248/photos/x100_review/DSCF0411.jpg&quot;&gt;&lt;img src=&quot;http://alexcican.com/images/blog/assets/x100s/DSCF0411.jpg&quot; alt=&quot;nicosia x100s cyprus&quot; /&gt;&lt;/a&gt;&lt;br/&gt;
+&lt;p&gt;&lt;a href=&quot;https://dl.dropboxusercontent.com/u/48552248/photos/x100_review/DSCF0411.jpg&quot;&gt;&lt;img src=&quot;https://alexcican.com/images/blog/assets/x100s/DSCF0411.jpg&quot; alt=&quot;nicosia x100s cyprus&quot; /&gt;&lt;/a&gt;&lt;br/&gt;
 &lt;figcaption&gt;“Walk of light”&lt;/figcaption&gt;&lt;/p&gt;
 
-&lt;p&gt;&lt;a href=&quot;https://dl.dropboxusercontent.com/u/48552248/photos/x100_review/DSCF0412.jpg&quot;&gt;&lt;img src=&quot;http://alexcican.com/images/blog/assets/x100s/DSCF0412.jpg&quot; alt=&quot;street nicosia x100s cyprus&quot; /&gt;&lt;/a&gt;&lt;br/&gt;
+&lt;p&gt;&lt;a href=&quot;https://dl.dropboxusercontent.com/u/48552248/photos/x100_review/DSCF0412.jpg&quot;&gt;&lt;img src=&quot;https://alexcican.com/images/blog/assets/x100s/DSCF0412.jpg&quot; alt=&quot;street nicosia x100s cyprus&quot; /&gt;&lt;/a&gt;&lt;br/&gt;
 &lt;figcaption&gt;“Smile”&lt;/figcaption&gt;&lt;/p&gt;
 
-&lt;p&gt;&lt;a href=&quot;https://dl.dropboxusercontent.com/u/48552248/photos/x100_review/DSCF0038.jpg&quot;&gt;&lt;img src=&quot;http://alexcican.com/images/blog/assets/x100s/DSCF0038.jpg&quot; alt=&quot;sunny x100s nicosia&quot; /&gt;&lt;/a&gt;&lt;br /&gt;
+&lt;p&gt;&lt;a href=&quot;https://dl.dropboxusercontent.com/u/48552248/photos/x100_review/DSCF0038.jpg&quot;&gt;&lt;img src=&quot;https://alexcican.com/images/blog/assets/x100s/DSCF0038.jpg&quot; alt=&quot;sunny x100s nicosia&quot; /&gt;&lt;/a&gt;&lt;br /&gt;
 &lt;figcaption&gt;“Sunny day”. Notice that there is no banding or overexposed highlight. Nice flare.&lt;/figcaption&gt;&lt;/p&gt;
 
-&lt;p&gt;&lt;a href=&quot;https://dl.dropboxusercontent.com/u/48552248/photos/x100_review/DSCF0040.jpg&quot;&gt;&lt;img src=&quot;http://alexcican.com/images/blog/assets/x100s/DSCF0040.jpg&quot; alt=&quot;macro x100s&quot; /&gt;&lt;/a&gt;&lt;br /&gt;
+&lt;p&gt;&lt;a href=&quot;https://dl.dropboxusercontent.com/u/48552248/photos/x100_review/DSCF0040.jpg&quot;&gt;&lt;img src=&quot;https://alexcican.com/images/blog/assets/x100s/DSCF0040.jpg&quot; alt=&quot;macro x100s&quot; /&gt;&lt;/a&gt;&lt;br /&gt;
 &lt;figcaption&gt;“Macro detail”.&lt;/figcaption&gt;&lt;/p&gt;
 
-&lt;p&gt;&lt;a href=&quot;https://dl.dropboxusercontent.com/u/48552248/photos/x100_review/DSCF0049.jpg&quot;&gt;&lt;img src=&quot;http://alexcican.com/images/blog/assets/x100s/DSCF0049.jpg&quot; alt=&quot;dog x100s&quot; /&gt;&lt;/a&gt;&lt;br /&gt;
+&lt;p&gt;&lt;a href=&quot;https://dl.dropboxusercontent.com/u/48552248/photos/x100_review/DSCF0049.jpg&quot;&gt;&lt;img src=&quot;https://alexcican.com/images/blog/assets/x100s/DSCF0049.jpg&quot; alt=&quot;dog x100s&quot; /&gt;&lt;/a&gt;&lt;br /&gt;
 &lt;figcaption&gt;“Sniffing dog”.&lt;/figcaption&gt;&lt;/p&gt;
 
-&lt;p&gt;&lt;a href=&quot;https://dl.dropboxusercontent.com/u/48552248/photos/x100_review/DSCF0074.jpg&quot;&gt;&lt;img src=&quot;http://alexcican.com/images/blog/assets/x100s/DSCF0074.jpg&quot; alt=&quot;dog x100s&quot; /&gt;&lt;/a&gt;&lt;br /&gt;
+&lt;p&gt;&lt;a href=&quot;https://dl.dropboxusercontent.com/u/48552248/photos/x100_review/DSCF0074.jpg&quot;&gt;&lt;img src=&quot;https://alexcican.com/images/blog/assets/x100s/DSCF0074.jpg&quot; alt=&quot;dog x100s&quot; /&gt;&lt;/a&gt;&lt;br /&gt;
 &lt;figcaption&gt;“Sniffing dog 1”.&lt;/figcaption&gt;&lt;/p&gt;
 
-&lt;p&gt;&lt;a href=&quot;https://dl.dropboxusercontent.com/u/48552248/photos/x100_review/DSCF0080.jpg&quot;&gt;&lt;img src=&quot;http://alexcican.com/images/blog/assets/x100s/DSCF0080.jpg&quot; alt=&quot;moon x100s cyprus&quot; /&gt;&lt;/a&gt;&lt;br /&gt;
+&lt;p&gt;&lt;a href=&quot;https://dl.dropboxusercontent.com/u/48552248/photos/x100_review/DSCF0080.jpg&quot;&gt;&lt;img src=&quot;https://alexcican.com/images/blog/assets/x100s/DSCF0080.jpg&quot; alt=&quot;moon x100s cyprus&quot; /&gt;&lt;/a&gt;&lt;br /&gt;
 &lt;figcaption&gt;“Blue hour moon”. Missed focus on this one a bit. Liked the colours.&lt;/figcaption&gt;&lt;/p&gt;
 
-&lt;p&gt;&lt;a href=&quot;https://dl.dropboxusercontent.com/u/48552248/photos/x100_review/DSCF0110.jpg&quot;&gt;&lt;img src=&quot;http://alexcican.com/images/blog/assets/x100s/DSCF0110.jpg&quot; alt=&quot;tires wheat field x100s&quot; /&gt;&lt;/a&gt;&lt;br /&gt;
+&lt;p&gt;&lt;a href=&quot;https://dl.dropboxusercontent.com/u/48552248/photos/x100_review/DSCF0110.jpg&quot;&gt;&lt;img src=&quot;https://alexcican.com/images/blog/assets/x100s/DSCF0110.jpg&quot; alt=&quot;tires wheat field x100s&quot; /&gt;&lt;/a&gt;&lt;br /&gt;
 &lt;figcaption&gt;“Tires in a wheat field”.&lt;/figcaption&gt;&lt;/p&gt;
 
-&lt;p&gt;&lt;a href=&quot;https://dl.dropboxusercontent.com/u/48552248/photos/x100_review/DSCF0132.jpg&quot;&gt;&lt;img src=&quot;http://alexcican.com/images/blog/assets/x100s/DSCF0132.jpg&quot; alt=&quot;x100s test&quot; /&gt;&lt;/a&gt;&lt;br /&gt;
+&lt;p&gt;&lt;a href=&quot;https://dl.dropboxusercontent.com/u/48552248/photos/x100_review/DSCF0132.jpg&quot;&gt;&lt;img src=&quot;https://alexcican.com/images/blog/assets/x100s/DSCF0132.jpg&quot; alt=&quot;x100s test&quot; /&gt;&lt;/a&gt;&lt;br /&gt;
 &lt;figcaption&gt;“Street”. ISO 6400.&lt;/figcaption&gt;&lt;/p&gt;
 
-&lt;p&gt;&lt;a href=&quot;https://dl.dropboxusercontent.com/u/48552248/photos/x100_review/DSCF0142.jpg&quot;&gt;&lt;img src=&quot;http://alexcican.com/images/blog/assets/x100s/DSCF0142.jpg&quot; alt=&quot;cyprus x100s&quot; /&gt;&lt;/a&gt;&lt;br /&gt;
+&lt;p&gt;&lt;a href=&quot;https://dl.dropboxusercontent.com/u/48552248/photos/x100_review/DSCF0142.jpg&quot;&gt;&lt;img src=&quot;https://alexcican.com/images/blog/assets/x100s/DSCF0142.jpg&quot; alt=&quot;cyprus x100s&quot; /&gt;&lt;/a&gt;&lt;br /&gt;
 &lt;figcaption&gt;“Dusk reflection”. ISO 6400.&lt;/figcaption&gt;&lt;/p&gt;
 
-&lt;p&gt;&lt;a href=&quot;https://dl.dropboxusercontent.com/u/48552248/photos/x100_review/DSCF0146.jpg&quot;&gt;&lt;img src=&quot;http://alexcican.com/images/blog/assets/x100s/DSCF0146.jpg&quot; alt=&quot;x100s test iso&quot; /&gt;&lt;/a&gt;&lt;br /&gt;
+&lt;p&gt;&lt;a href=&quot;https://dl.dropboxusercontent.com/u/48552248/photos/x100_review/DSCF0146.jpg&quot;&gt;&lt;img src=&quot;https://alexcican.com/images/blog/assets/x100s/DSCF0146.jpg&quot; alt=&quot;x100s test iso&quot; /&gt;&lt;/a&gt;&lt;br /&gt;
 &lt;figcaption&gt;“Lines”. ISO 6400.&lt;/figcaption&gt;&lt;/p&gt;
 
-&lt;p&gt;&lt;a href=&quot;https://dl.dropboxusercontent.com/u/48552248/photos/x100_review/DSCF0259.jpg&quot;&gt;&lt;img src=&quot;http://alexcican.com/images/blog/assets/x100s/DSCF0259.jpg&quot; alt=&quot;swamp cyprus x100s&quot; /&gt;&lt;/a&gt;&lt;br /&gt;
+&lt;p&gt;&lt;a href=&quot;https://dl.dropboxusercontent.com/u/48552248/photos/x100_review/DSCF0259.jpg&quot;&gt;&lt;img src=&quot;https://alexcican.com/images/blog/assets/x100s/DSCF0259.jpg&quot; alt=&quot;swamp cyprus x100s&quot; /&gt;&lt;/a&gt;&lt;br /&gt;
 &lt;figcaption&gt;“Swamp”.&lt;/figcaption&gt;&lt;/p&gt;
 
-&lt;p&gt;&lt;a href=&quot;https://dl.dropboxusercontent.com/u/48552248/photos/x100_review/DSCF0268.jpg&quot;&gt;&lt;img src=&quot;http://alexcican.com/images/blog/assets/x100s/DSCF0268.jpg&quot; alt=&quot;field x100s nicosia&quot; /&gt;&lt;/a&gt;&lt;br /&gt;
+&lt;p&gt;&lt;a href=&quot;https://dl.dropboxusercontent.com/u/48552248/photos/x100_review/DSCF0268.jpg&quot;&gt;&lt;img src=&quot;https://alexcican.com/images/blog/assets/x100s/DSCF0268.jpg&quot; alt=&quot;field x100s nicosia&quot; /&gt;&lt;/a&gt;&lt;br /&gt;
 &lt;figcaption&gt;“Field”.&lt;/figcaption&gt;&lt;/p&gt;
 
-&lt;p&gt;&lt;a href=&quot;https://dl.dropboxusercontent.com/u/48552248/photos/x100_review/DSCF0283.jpg&quot;&gt;&lt;img src=&quot;http://alexcican.com/images/blog/assets/x100s/DSCF0283.jpg&quot; alt=&quot;olive garden cyprus x100s&quot; /&gt;&lt;/a&gt;&lt;br /&gt;
+&lt;p&gt;&lt;a href=&quot;https://dl.dropboxusercontent.com/u/48552248/photos/x100_review/DSCF0283.jpg&quot;&gt;&lt;img src=&quot;https://alexcican.com/images/blog/assets/x100s/DSCF0283.jpg&quot; alt=&quot;olive garden cyprus x100s&quot; /&gt;&lt;/a&gt;&lt;br /&gt;
 &lt;figcaption&gt;“Olive garden”.&lt;/figcaption&gt;&lt;/p&gt;
 
-&lt;p&gt;&lt;a href=&quot;https://dl.dropboxusercontent.com/u/48552248/photos/x100_review/DSCF0288.jpg&quot;&gt;&lt;img src=&quot;http://alexcican.com/images/blog/assets/x100s/DSCF0288.jpg&quot; alt=&quot;sun rays x100s&quot; /&gt;&lt;/a&gt;&lt;br /&gt;
+&lt;p&gt;&lt;a href=&quot;https://dl.dropboxusercontent.com/u/48552248/photos/x100_review/DSCF0288.jpg&quot;&gt;&lt;img src=&quot;https://alexcican.com/images/blog/assets/x100s/DSCF0288.jpg&quot; alt=&quot;sun rays x100s&quot; /&gt;&lt;/a&gt;&lt;br /&gt;
 &lt;figcaption&gt;“Sun rays”. Observe no blown highlights, even the sun. And it’s from a JPEG!&lt;/figcaption&gt;&lt;/p&gt;
 
-&lt;p&gt;&lt;a href=&quot;https://dl.dropboxusercontent.com/u/48552248/photos/x100_review/DSCF0303.jpg&quot;&gt;&lt;img src=&quot;http://alexcican.com/images/blog/assets/x100s/DSCF0303.jpg&quot; alt=&quot;tree x100s black and white cyprus&quot; /&gt;&lt;/a&gt;&lt;br /&gt;
+&lt;p&gt;&lt;a href=&quot;https://dl.dropboxusercontent.com/u/48552248/photos/x100_review/DSCF0303.jpg&quot;&gt;&lt;img src=&quot;https://alexcican.com/images/blog/assets/x100s/DSCF0303.jpg&quot; alt=&quot;tree x100s black and white cyprus&quot; /&gt;&lt;/a&gt;&lt;br /&gt;
 &lt;figcaption&gt;“Holding on to life”.&lt;/figcaption&gt;&lt;/p&gt;
 
-&lt;p&gt;&lt;a href=&quot;https://dl.dropboxusercontent.com/u/48552248/photos/x100_review/DSCF0306.jpg&quot;&gt;&lt;img src=&quot;http://alexcican.com/images/blog/assets/x100s/DSCF0306.jpg&quot; alt=&quot;panorama x100s&quot; /&gt;&lt;/a&gt;&lt;br /&gt;
+&lt;p&gt;&lt;a href=&quot;https://dl.dropboxusercontent.com/u/48552248/photos/x100_review/DSCF0306.jpg&quot;&gt;&lt;img src=&quot;https://alexcican.com/images/blog/assets/x100s/DSCF0306.jpg&quot; alt=&quot;panorama x100s&quot; /&gt;&lt;/a&gt;&lt;br /&gt;
 &lt;figcaption&gt;“Panorama”.&lt;/figcaption&gt;&lt;/p&gt;
 
-&lt;p&gt;&lt;a href=&quot;https://dl.dropboxusercontent.com/u/48552248/photos/x100_review/DSCF0310.jpg&quot;&gt;&lt;img src=&quot;http://alexcican.com/images/blog/assets/x100s/DSCF0310.jpg&quot; alt=&quot;panorama x100s&quot; /&gt;&lt;/a&gt;&lt;br /&gt;
+&lt;p&gt;&lt;a href=&quot;https://dl.dropboxusercontent.com/u/48552248/photos/x100_review/DSCF0310.jpg&quot;&gt;&lt;img src=&quot;https://alexcican.com/images/blog/assets/x100s/DSCF0310.jpg&quot; alt=&quot;panorama x100s&quot; /&gt;&lt;/a&gt;&lt;br /&gt;
 &lt;figcaption&gt;“Panorama 1”.&lt;/figcaption&gt;&lt;/p&gt;
 
-&lt;p&gt;&lt;a href=&quot;https://dl.dropboxusercontent.com/u/48552248/photos/x100_review/DSCF0312.jpg&quot;&gt;&lt;img src=&quot;http://alexcican.com/images/blog/assets/x100s/DSCF0312.jpg&quot; alt=&quot;panorama x100s&quot; /&gt;&lt;/a&gt;&lt;br /&gt;
+&lt;p&gt;&lt;a href=&quot;https://dl.dropboxusercontent.com/u/48552248/photos/x100_review/DSCF0312.jpg&quot;&gt;&lt;img src=&quot;https://alexcican.com/images/blog/assets/x100s/DSCF0312.jpg&quot; alt=&quot;panorama x100s&quot; /&gt;&lt;/a&gt;&lt;br /&gt;
 &lt;figcaption&gt;“Panorama 2”.&lt;/figcaption&gt;&lt;/p&gt;
 
-&lt;p&gt;&lt;a href=&quot;https://dl.dropboxusercontent.com/u/48552248/photos/x100_review/DSCF0321.jpg&quot;&gt;&lt;img src=&quot;http://alexcican.com/images/blog/assets/x100s/DSCF0321.jpg&quot; alt=&quot;panorama x100s&quot; /&gt;&lt;/a&gt;&lt;br /&gt;
+&lt;p&gt;&lt;a href=&quot;https://dl.dropboxusercontent.com/u/48552248/photos/x100_review/DSCF0321.jpg&quot;&gt;&lt;img src=&quot;https://alexcican.com/images/blog/assets/x100s/DSCF0321.jpg&quot; alt=&quot;panorama x100s&quot; /&gt;&lt;/a&gt;&lt;br /&gt;
 &lt;figcaption&gt;“Panorama with dog”.&lt;/figcaption&gt;&lt;/p&gt;
 
-&lt;p&gt;&lt;a href=&quot;https://dl.dropboxusercontent.com/u/48552248/photos/x100_review/DSCF0338.jpg&quot;&gt;&lt;img src=&quot;http://alexcican.com/images/blog/assets/x100s/DSCF0338.jpg&quot; alt=&quot;panorama x100s&quot; /&gt;&lt;/a&gt;&lt;br /&gt;
+&lt;p&gt;&lt;a href=&quot;https://dl.dropboxusercontent.com/u/48552248/photos/x100_review/DSCF0338.jpg&quot;&gt;&lt;img src=&quot;https://alexcican.com/images/blog/assets/x100s/DSCF0338.jpg&quot; alt=&quot;panorama x100s&quot; /&gt;&lt;/a&gt;&lt;br /&gt;
 &lt;figcaption&gt;“Panorama with dog 1”.&lt;/figcaption&gt;&lt;/p&gt;
 
-&lt;p&gt;&lt;a href=&quot;https://dl.dropboxusercontent.com/u/48552248/photos/x100_review/DSCF0348.jpg&quot;&gt;&lt;img src=&quot;http://alexcican.com/images/blog/assets/x100s/DSCF0348.jpg&quot; alt=&quot;panorama x100s&quot; /&gt;&lt;/a&gt;&lt;br /&gt;
+&lt;p&gt;&lt;a href=&quot;https://dl.dropboxusercontent.com/u/48552248/photos/x100_review/DSCF0348.jpg&quot;&gt;&lt;img src=&quot;https://alexcican.com/images/blog/assets/x100s/DSCF0348.jpg&quot; alt=&quot;panorama x100s&quot; /&gt;&lt;/a&gt;&lt;br /&gt;
 &lt;figcaption&gt;“Panorama 3”.&lt;/figcaption&gt;&lt;/p&gt;
 
-&lt;p&gt;&lt;a href=&quot;https://dl.dropboxusercontent.com/u/48552248/photos/x100_review/DSCF0136.jpg&quot;&gt;&lt;img src=&quot;http://alexcican.com/images/blog/assets/x100s/DSCF0136.jpg&quot; alt=&quot;panorama x100s&quot; /&gt;&lt;/a&gt;&lt;br /&gt;
+&lt;p&gt;&lt;a href=&quot;https://dl.dropboxusercontent.com/u/48552248/photos/x100_review/DSCF0136.jpg&quot;&gt;&lt;img src=&quot;https://alexcican.com/images/blog/assets/x100s/DSCF0136.jpg&quot; alt=&quot;panorama x100s&quot; /&gt;&lt;/a&gt;&lt;br /&gt;
 &lt;figcaption&gt;“Failed panorama”.&lt;/figcaption&gt;&lt;/p&gt;
 
 &lt;h2&gt;Conclusion&lt;/h2&gt;
@@ -1132,7 +1132,7 @@ The noise reduction of the X100S is great. Until you reach ISO 6400. At this poi
 
 &lt;p&gt;Even as you’re reading this line, your eyes fixate on one word and then they “jump” to the next three-four words (depends on how fast you read; fast readers use their peripheral vision and fixate fewer times per line). In a feed, we tend to &lt;strong&gt;scan&lt;/strong&gt; in an &lt;a href=&quot;http://www.vanseodesign.com/web-design/3-design-layouts/&quot;&gt;F-shape pattern&lt;/a&gt;. We start from the avatar (left-top) and then move on to read what the person has said.&lt;/p&gt;
 
-&lt;p&gt;&lt;a href=&quot;http://alexcican.com/images/blog/assets/twitter-eye-tracking.png&quot; class=&quot;img&quot; target=&quot;_blank&quot;&gt;&lt;img src=&quot;http://alexcican.com/images/blog/assets/twitter-eye-tracking.png&quot; alt=&quot;twitter eye tracking&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://alexcican.com/images/blog/assets/twitter-eye-tracking.png&quot; class=&quot;img&quot; target=&quot;_blank&quot;&gt;&lt;img src=&quot;https://alexcican.com/images/blog/assets/twitter-eye-tracking.png&quot; alt=&quot;twitter eye tracking&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
 
 &lt;p&gt;Because it’s so easy for the reader to “skip you” and scroll down, thus neglecting your post, you have to make it interesting to the reader, so they will stop and accord you a few seconds. If what you say is worth or not their while, that’s another story.&lt;/p&gt;
 
@@ -1154,7 +1154,7 @@ The noise reduction of the X100S is great. Until you reach ISO 6400. At this poi
 
 &lt;p&gt;A few months ago there was a trend with avatars, to display your avatar in black and white (I did it too). The problem is that your B&amp;amp;W avatar gets mixed up in my memory with the other B&amp;amp;W avatars, because they look too similar, and I can’t differentiate yours. See the difference, in the image below?&lt;/p&gt;
 
-&lt;p&gt;&lt;a href=&quot;http://alexcican.com/images/blog/assets/avatars.jpg&quot; class=&quot;img&quot; target=&quot;_blank&quot;&gt;&lt;img src=&quot;http://alexcican.com/images/blog/assets/avatars.jpg&quot; alt=&quot;avatars&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://alexcican.com/images/blog/assets/avatars.jpg&quot; class=&quot;img&quot; target=&quot;_blank&quot;&gt;&lt;img src=&quot;https://alexcican.com/images/blog/assets/avatars.jpg&quot; alt=&quot;avatars&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
 
 &lt;p&gt;&lt;small&gt;Top tier: &lt;a href=&quot;https://twitter.com/soffes&quot;&gt;@soffes&lt;/a&gt;, &lt;a href=&quot;https://twitter.com/salleedesign&quot;&gt;@salleedesign&lt;/a&gt;, &lt;a href=&quot;https://twitter.com/_dte&quot;&gt;@_dte&lt;/a&gt;, &lt;a href=&quot;https://twitter.com/MengTo&quot;&gt;@MengTo&lt;/a&gt;, &lt;a href=&quot;https://twitter.com/sican&quot;&gt;@sican&lt;/a&gt;. Bottom tier: &lt;a href=&quot;https://twitter.com/jessicahische&quot;&gt;@jessicahische&lt;/a&gt;, &lt;a href=&quot;https://twitter.com/paul_irish&quot;&gt;@paul_irish&lt;/a&gt;, &lt;a href=&quot;https://twitter.com/repponen&quot;&gt;@repponen&lt;/a&gt;, &lt;a href=&quot;https://twitter.com/drewwilson&quot;&gt;@drewwilson&lt;/a&gt;, &lt;a href=&quot;http://twitter.com/alexcican&quot;&gt;@sican&lt;/a&gt;.&lt;/small&gt;&lt;/p&gt;
 
@@ -1174,11 +1174,11 @@ The noise reduction of the X100S is great. Until you reach ISO 6400. At this poi
 
 &lt;h2&gt;Consistency&lt;/h2&gt;
 
-&lt;p&gt;&lt;a href=&quot;http://alexcican.com/images/blog/assets/coca-cola-vs-pepsi.png&quot; class=&quot;img&quot; target=&quot;_blank&quot;&gt;&lt;img src=&quot;http://alexcican.com/images/blog/assets/coca-cola-vs-pepsi.png&quot; alt=&quot;coca cola vs pepsi&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://alexcican.com/images/blog/assets/coca-cola-vs-pepsi.png&quot; class=&quot;img&quot; target=&quot;_blank&quot;&gt;&lt;img src=&quot;https://alexcican.com/images/blog/assets/coca-cola-vs-pepsi.png&quot; alt=&quot;coca cola vs pepsi&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
 
 &lt;p&gt;Be consistent with your avatar. In my opinion it’s the most important marketing tool you have today. Don’t change your avatar/profile picture frequently. Also, your avatar should be the same across all sites, apps, and social networks. One avatar to rule them all. Doing so, you tap in the long-term memory of your followers and people can instantly recognise you.&lt;/p&gt;
 
-&lt;p&gt;Even if it’s &lt;em&gt;“the dude with the face of a &lt;a href=&quot;http://www.youtube.com/watch?v=fTHL0MAWkmY&quot;&gt;Minion&lt;/a&gt;”&lt;/em&gt;, i.e. &lt;a href=&quot;http://alexcican.com/sicanstudios/images/alex-cican@2x.jpg&quot;&gt;me&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;Even if it’s &lt;em&gt;“the dude with the face of a &lt;a href=&quot;http://www.youtube.com/watch?v=fTHL0MAWkmY&quot;&gt;Minion&lt;/a&gt;”&lt;/em&gt;, i.e. &lt;a href=&quot;https://alexcican.com/sicanstudios/images/alex-cican@2x.jpg&quot;&gt;me&lt;/a&gt;.&lt;/p&gt;
 </description>
         </item>
       
@@ -1359,11 +1359,11 @@ The noise reduction of the X100S is great. Until you reach ISO 6400. At this poi
 
 &lt;p&gt;I chose to work on a 32px grid. If you’re using Photoshop, go to &lt;em&gt;Preferences [Cmd + K] &gt; Guides, Grids &amp;amp; Slices&lt;/em&gt;, and add a Gridline every 32 pixels with Subdivision of 1. To view the grid, go to &lt;em&gt;View &gt; Show &gt; Grid [Cmd + ']&lt;/em&gt;.&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&quot;http://alexcican.com/images/blog/assets/photoshop-preferences.png&quot; alt=&quot;photoshop preferences&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;https://alexcican.com/images/blog/assets/photoshop-preferences.png&quot; alt=&quot;photoshop preferences&quot; /&gt;&lt;/p&gt;
 
 &lt;p&gt;Stick to the grid. Every vector icon, image, text, container, needs to adhere to the 32 pixels. To help you out, Photoshop can snap your elements to the grid. To enable it go to &lt;em&gt;View &gt; Snap To&lt;/em&gt;, make sure &lt;em&gt;Grid&lt;/em&gt; is checked, and enable by going to &lt;em&gt;View &gt; Snap [Shift + Cmd + ;]&lt;/em&gt;.&lt;/p&gt;
 
-&lt;p&gt;When it’s time to code your pixel-perfect website, you can create a 32px x 32px transparent PNG pattern that you can use as a background, to help you out. Create two 1px lines and place them on top and left side of the pattern (&lt;a href=&quot;http://alexcican.com/sicanstudios/images/line.png&quot;&gt;example&lt;/a&gt;).&lt;/p&gt;
+&lt;p&gt;When it’s time to code your pixel-perfect website, you can create a 32px x 32px transparent PNG pattern that you can use as a background, to help you out. Create two 1px lines and place them on top and left side of the pattern (&lt;a href=&quot;https://alexcican.com/sicanstudios/images/line.png&quot;&gt;example&lt;/a&gt;).&lt;/p&gt;
 
 &lt;h2&gt;A grid of 32px until it isn’t&lt;/h2&gt;
 
@@ -1373,17 +1373,17 @@ The noise reduction of the X100S is great. Until you reach ISO 6400. At this poi
 
 &lt;p&gt;The web consists mostly of text and cat pictures. Leaving cat pictures aside, text needs to be readable. Vertical rhythm refers to the spacing and arrangement of text as the reader descends the page. It is contributed to by three factors: font size, line height and margin or padding.&lt;/p&gt;
 
-&lt;p&gt;&lt;a href=&quot;http://alexcican.com/images/blog/assets/vertical-rhythm.svg&quot; class=&quot;img&quot; target=&quot;_blank&quot;&gt;&lt;img src=&quot;http://alexcican.com/images/blog/assets/vertical-rhythm.svg&quot; class=&quot;black&quot; alt=&quot;vertical rhythm svg&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://alexcican.com/images/blog/assets/vertical-rhythm.svg&quot; class=&quot;img&quot; target=&quot;_blank&quot;&gt;&lt;img src=&quot;https://alexcican.com/images/blog/assets/vertical-rhythm.svg&quot; class=&quot;black&quot; alt=&quot;vertical rhythm svg&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
 
 &lt;p&gt;To improve readability, keep your text length between 50 and 75 characters per line. For body text, the line height should be 1.6x the font size. So for a 20px font size, the line height would be 32px (our grid). Read more on &lt;a href=&quot;http://24ways.org/2006/compose-to-a-vertical-rhythm/&quot;&gt;how to compose to a vertical rhythm&lt;/a&gt;.&lt;/p&gt;
 
 &lt;p&gt;When you measure vertical height with text, always exclude ascenders and descenders, because each type is different. Measure everything from the X-height, which is the height of the body, minus ascenders and descenders. This is equal to the height of the lowercase &lt;em&gt;‘x’&lt;/em&gt;, hence its name.&lt;/p&gt;
 
-&lt;p&gt;&lt;a href=&quot;http://alexcican.com/images/blog/assets/type-anatomy.svg&quot; class=&quot;img&quot; target=&quot;_blank&quot;&gt;&lt;img src=&quot;http://alexcican.com/images/blog/assets/type-anatomy.svg&quot; class=&quot;black&quot; alt=&quot;type anatomy svg&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://alexcican.com/images/blog/assets/type-anatomy.svg&quot; class=&quot;img&quot; target=&quot;_blank&quot;&gt;&lt;img src=&quot;https://alexcican.com/images/blog/assets/type-anatomy.svg&quot; class=&quot;black&quot; alt=&quot;type anatomy svg&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
 
 &lt;h2&gt;Retina revolution&lt;/h2&gt;
 
-&lt;p&gt;I don’t own a retina device. I almost bought one in September 2012, when on the lookout for a new laptop (went for a 13” Air). Retina is the future, and in order to future-proof your pixel-perfect website you need to use SVG (Scalable Vector Graphics) when exporting your graphics. By using SVG, you can scale the image infinitely without losing quality and pixelating/blurring the graphic. I wrote in a previous post &lt;a href=&quot;http://alexcican.com/post/retina-website-tutorial/&quot;&gt;how to make your website pretty for retina devices&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;I don’t own a retina device. I almost bought one in September 2012, when on the lookout for a new laptop (went for a 13” Air). Retina is the future, and in order to future-proof your pixel-perfect website you need to use SVG (Scalable Vector Graphics) when exporting your graphics. By using SVG, you can scale the image infinitely without losing quality and pixelating/blurring the graphic. I wrote in a previous post &lt;a href=&quot;https://alexcican.com/post/retina-website-tutorial/&quot;&gt;how to make your website pretty for retina devices&lt;/a&gt;.&lt;/p&gt;
 
 &lt;p&gt;There is a rule when exporting assets. You use JPG for photographs, and PNG for graphics. By doing that you reduce the file size of the asset. That is because graphics usually consist of large blocks of colour that are displayed more efficiently with PNGs. I say scratch that; use SVG instead of PNG. SVG can reduce the file size even more than PNG.&lt;/p&gt;
 
@@ -1643,9 +1643,9 @@ The noise reduction of the X100S is great. Until you reach ISO 6400. At this poi
 
 &lt;h2&gt;Negotiating&lt;/h2&gt;
 
-&lt;p&gt;I won’t go into too much detail about this subject here, because I already wrote about it in another &lt;a href=&quot;http://alexcican.com/post/pricing-negotiating&quot;&gt;blog post&lt;/a&gt;. Nonetheless, let’s look into how to negotiate a salary if they say it’s not flexible.&lt;/p&gt;
+&lt;p&gt;I won’t go into too much detail about this subject here, because I already wrote about it in another &lt;a href=&quot;https://alexcican.com/post/pricing-negotiating&quot;&gt;blog post&lt;/a&gt;. Nonetheless, let’s look into how to negotiate a salary if they say it’s not flexible.&lt;/p&gt;
 
-&lt;p&gt;When interviewers say the salary it’s not flexible, they implement the classic scare tactic. And because you’re terrified of negotiating—understandable, since nobody taught you how to do it; &lt;a href=&quot;http://alexcican.com/post/pricing-negotiating&quot;&gt;learn now&lt;/a&gt;—the interviewer owns you like a puppeteer manipulates a puppet:&lt;/p&gt;
+&lt;p&gt;When interviewers say the salary it’s not flexible, they implement the classic scare tactic. And because you’re terrified of negotiating—understandable, since nobody taught you how to do it; &lt;a href=&quot;https://alexcican.com/post/pricing-negotiating&quot;&gt;learn now&lt;/a&gt;—the interviewer owns you like a puppeteer manipulates a puppet:&lt;/p&gt;
 
 &lt;blockquote&gt;&lt;p&gt;&lt;em&gt;“I know you don’t have any other offers and I know how much you made at your previous job. Now dance to my song”.&lt;/em&gt;&lt;/p&gt;&lt;/blockquote&gt;
 
@@ -1789,7 +1789,7 @@ The noise reduction of the X100S is great. Until you reach ISO 6400. At this poi
           <pubDate>2012-05-19T00:00:00+03:00</pubDate>
           <link>https://alexcican.com/post/blog-dropbox-scriptogram/</link>
           <guid>https://alexcican.com/post/blog-dropbox-scriptogram/</guid>
-          <description>&lt;p&gt;A few months ago I cancelled my hosting accounts and moved all my &lt;a href=&quot;http://alexcican.com/post/guide-hosting-website-dropbox-github&quot;&gt;websites to Dropbox and GitHub&lt;/a&gt;. The only problem I was left with was where I should host the blog. I decided to use Tumblr. Regretting the decision after only two months, the solution was right in front of me the entire time: &lt;strong&gt;use Dropbox for the blog&lt;/strong&gt; as well. In this article I’ll show you how I did it.&lt;/p&gt;
+          <description>&lt;p&gt;A few months ago I cancelled my hosting accounts and moved all my &lt;a href=&quot;https://alexcican.com/post/guide-hosting-website-dropbox-github&quot;&gt;websites to Dropbox and GitHub&lt;/a&gt;. The only problem I was left with was where I should host the blog. I decided to use Tumblr. Regretting the decision after only two months, the solution was right in front of me the entire time: &lt;strong&gt;use Dropbox for the blog&lt;/strong&gt; as well. In this article I’ll show you how I did it.&lt;/p&gt;
 
 &lt;!--more--&gt;
 
@@ -1840,7 +1840,7 @@ Excerpt: A few months ago I cancelled my hosting accounts and moved all my [webs
 
 &lt;p&gt;Once you are done with the front-block, you can start writing your blog post. When you’ve finished, save the file, go to your &lt;a href=&quot;http://scriptogr.am/admin/&quot;&gt;admin page&lt;/a&gt; and click the button &lt;em&gt;Synchronize&lt;/em&gt; to update the blog with the new post. I hope this process of having to click the button in order to update the blog will be removed in the future. Simply, have the server update the directory once a new file is added to the &lt;code&gt;posts&lt;/code&gt; folder.&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&quot;http://alexcican.com/images/blog/assets/scriptogram-publish-button.jpg&quot; alt=&quot;scriptogram synchronize button&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;https://alexcican.com/images/blog/assets/scriptogram-publish-button.jpg&quot; alt=&quot;scriptogram synchronize button&quot; /&gt;&lt;/p&gt;
 
 &lt;h2&gt;Adding a custom domain name&lt;/h2&gt;
 
@@ -1853,9 +1853,9 @@ Excerpt: A few months ago I cancelled my hosting accounts and moved all my [webs
 
 &lt;p&gt;If you’re using GoDaddy, login to your account, launch the domains and click on the domain name you want to change. From that page, go down and find the &lt;em&gt;“DNS Manager”&lt;/em&gt; section. Click on &lt;em&gt;“Launch”&lt;/em&gt;.&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&quot;http://alexcican.com/images/blog/assets/godaddy-dns-editor.jpg&quot; alt=&quot;godaddy dns editor&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;https://alexcican.com/images/blog/assets/godaddy-dns-editor.jpg&quot; alt=&quot;godaddy dns editor&quot; /&gt;&lt;/p&gt;
 
-&lt;p&gt;Based on the type of custom domain name you’ve added in the Scriptogr.am’s admin panel, we’ll make different changes to the DNS. For a sub-domain like &lt;code&gt;http://www.alexcican.com&lt;/code&gt; or &lt;code&gt;http://blog.alexcican.com&lt;/code&gt; you would simply create a &lt;code&gt;CNAME&lt;/code&gt; record pointing to &lt;code&gt;scriptogr.am&lt;/code&gt;. If you are using a top-level domain like &lt;code&gt;http://alexcican.com&lt;/code&gt;, you must use an &lt;code&gt;A (Host)&lt;/code&gt; record pointing to &lt;code&gt;50.116.1.192&lt;/code&gt;. There’s no need to add a &lt;code&gt;CNAME&lt;/code&gt; record for top-level domains. Wait up to 48-72 hours for the changes to take effect (usually within an hour or so).&lt;/p&gt;
+&lt;p&gt;Based on the type of custom domain name you’ve added in the Scriptogr.am’s admin panel, we’ll make different changes to the DNS. For a sub-domain like &lt;code&gt;http://www.alexcican.com&lt;/code&gt; or &lt;code&gt;http://blog.alexcican.com&lt;/code&gt; you would simply create a &lt;code&gt;CNAME&lt;/code&gt; record pointing to &lt;code&gt;scriptogr.am&lt;/code&gt;. If you are using a top-level domain like &lt;code&gt;https://alexcican.com&lt;/code&gt;, you must use an &lt;code&gt;A (Host)&lt;/code&gt; record pointing to &lt;code&gt;50.116.1.192&lt;/code&gt;. There’s no need to add a &lt;code&gt;CNAME&lt;/code&gt; record for top-level domains. Wait up to 48-72 hours for the changes to take effect (usually within an hour or so).&lt;/p&gt;
 
 &lt;h2&gt;Creating a theme&lt;/h2&gt;
 
@@ -1999,7 +1999,7 @@ Excerpt: A few months ago I cancelled my hosting accounts and moved all my [webs
 
 &lt;p&gt;If you want your files to be accessible by anyone, you have to move them into your “Public” folder. If you’re using absolute paths for your website, I suggest you change it to relative paths. So from this:&lt;/p&gt;
 
-&lt;pre&gt;&lt;code&gt;&amp;lt;a href=&quot;http://alexcican.com/web/file.html&quot;&amp;gt;&amp;lt;/a&amp;gt;
+&lt;pre&gt;&lt;code&gt;&amp;lt;a href=&quot;https://alexcican.com/web/file.html&quot;&amp;gt;&amp;lt;/a&amp;gt;
 &lt;/code&gt;&lt;/pre&gt;
 
 &lt;p&gt;change them to this:&lt;/p&gt;
@@ -2013,7 +2013,7 @@ Excerpt: A few months ago I cancelled my hosting accounts and moved all my [webs
 
 &lt;p&gt;If you’re using GoDaddy, login to &lt;em&gt;“Your account”&lt;/em&gt; and launch the &lt;em&gt;“Domains”&lt;/em&gt;. Then, click on the domain name you want to edit and from the toolbar, select the &lt;em&gt;forward&lt;/em&gt; icon. Click &lt;em&gt;“Forward Domain”&lt;/em&gt; and insert in the popup input, the complete URL of the &lt;code&gt;index.html&lt;/code&gt; from inside the Dropbox folder (to get the link: &lt;em&gt;right click on the file&gt;Dropbox&gt;Copy public link&lt;/em&gt;).&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&quot;http://alexcican.com/images/blog/assets/godaddy-forward-domain.jpg&quot; alt=&quot;godaddy forward domain&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;https://alexcican.com/images/blog/assets/godaddy-forward-domain.jpg&quot; alt=&quot;godaddy forward domain&quot; /&gt;&lt;/p&gt;
 
 &lt;p&gt;Wait a few hours and you should be able to access the website hosted on Dropbox via your domain name!&lt;/p&gt;
 
@@ -2028,7 +2028,7 @@ Excerpt: A few months ago I cancelled my hosting accounts and moved all my [webs
 
 &lt;p&gt;This means that the Dropbox URL would be visible when navigating the website. I couldn’t have something like:&lt;/p&gt;
 
-&lt;pre&gt;&lt;code&gt;http://alexcican.com/file.html
+&lt;pre&gt;&lt;code&gt;https://alexcican.com/file.html
 &lt;/code&gt;&lt;/pre&gt;
 
 &lt;p&gt;unless I did a URL forwarding with masking from my DNS settings. This was not optimal because whichever page of the website I’d browse, it would show up only as:&lt;/p&gt;
@@ -2060,7 +2060,7 @@ Excerpt: A few months ago I cancelled my hosting accounts and moved all my [webs
 
 &lt;p&gt;Now it’s time to change the &lt;strong&gt;DNS settings&lt;/strong&gt; from GoDaddy to point to our GitHub page. Login to your account, launch the domains and click on the domain name you want to change. From that page (see screenshot above), go down and find the &lt;em&gt;“DNS Manager”&lt;/em&gt; section. Click on &lt;em&gt;“Launch”&lt;/em&gt;.&lt;/p&gt;
 
-&lt;p&gt;You have to decide what domain name you’ll be using. For a sub-domain like &lt;code&gt;http://www.alexcican.com&lt;/code&gt; or &lt;code&gt;http://blog.alexcican.com&lt;/code&gt; you would simply create a &lt;code&gt;CNAME&lt;/code&gt; record pointing to &lt;code&gt;charlie.github.com&lt;/code&gt;. If you are using a top-level domain like &lt;code&gt;http://alexcican.com&lt;/code&gt;, you must use an &lt;code&gt;A (Host)&lt;/code&gt; record pointing to &lt;code&gt;192.30.252.153&lt;/code&gt; and another one to &lt;code&gt;192.30.252.154&lt;/code&gt;. There’s no need to add a &lt;code&gt;CNAME&lt;/code&gt; record for top-level domains. &lt;a href=&quot;https://help.github.com/articles/tips-for-configuring-an-a-record-with-your-dns-provider/&quot;&gt;Read more in the documentation&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;You have to decide what domain name you’ll be using. For a sub-domain like &lt;code&gt;http://www.alexcican.com&lt;/code&gt; or &lt;code&gt;http://blog.alexcican.com&lt;/code&gt; you would simply create a &lt;code&gt;CNAME&lt;/code&gt; record pointing to &lt;code&gt;charlie.github.com&lt;/code&gt;. If you are using a top-level domain like &lt;code&gt;https://alexcican.com&lt;/code&gt;, you must use an &lt;code&gt;A (Host)&lt;/code&gt; record pointing to &lt;code&gt;192.30.252.153&lt;/code&gt; and another one to &lt;code&gt;192.30.252.154&lt;/code&gt;. There’s no need to add a &lt;code&gt;CNAME&lt;/code&gt; record for top-level domains. &lt;a href=&quot;https://help.github.com/articles/tips-for-configuring-an-a-record-with-your-dns-provider/&quot;&gt;Read more in the documentation&lt;/a&gt;.&lt;/p&gt;
 
 &lt;h2&gt;Downsides of GitHub&lt;/h2&gt;
 
@@ -2092,7 +2092,7 @@ Excerpt: A few months ago I cancelled my hosting accounts and moved all my [webs
 
 &lt;p&gt;But for me it works. For me, the &lt;strong&gt;advantages outweigh the disadvantages&lt;/strong&gt;. I like my websites more (since they load faster and stay online longer), I feel more relaxed and I also sleep better at night (secure servers, backups exist). Lastly, I feel liberated since I can access my files anytime from anywhere (and edit them, almost from any device).&lt;/p&gt;
 
-&lt;p&gt;Next article I have scheduled, is a continuation of this one: &lt;a href=&quot;http://alexcican.com/post/blog-dropbox-scriptogram&quot;&gt;&lt;em&gt;“How I moved my blog to Dropbox”&lt;/em&gt;&lt;/a&gt;. Make sure you &lt;a href=&quot;http://feeds.feedburner.com/alexcican&quot;&gt;grab the RSS feed&lt;/a&gt; and you &lt;a href=&quot;http://twitter.com/alexcican&quot;&gt;follow me on Twitter&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;Next article I have scheduled, is a continuation of this one: &lt;a href=&quot;https://alexcican.com/post/blog-dropbox-scriptogram&quot;&gt;&lt;em&gt;“How I moved my blog to Dropbox”&lt;/em&gt;&lt;/a&gt;. Make sure you &lt;a href=&quot;http://feeds.feedburner.com/alexcican&quot;&gt;grab the RSS feed&lt;/a&gt; and you &lt;a href=&quot;http://twitter.com/alexcican&quot;&gt;follow me on Twitter&lt;/a&gt;.&lt;/p&gt;
 </description>
         </item>
       
@@ -2165,7 +2165,7 @@ What usually goes through the mind of the designer/developer: “Oh oh, Here com
 
 &lt;p&gt;or they don’t even respond, you guessed it; you &lt;strong&gt;&lt;a href=&quot;http://www.youtube.com/watch?v=x4o-TeMHys0&quot;&gt;priced too high!&lt;/a&gt;&lt;/strong&gt;&lt;/p&gt;
 
-&lt;p&gt;In order to avoid attracting clients who can’t afford me, I wrote two paragraphs (&lt;strong&gt;Update&lt;/strong&gt;: I removed them when I redesigned this site) on my &lt;a href=&quot;http://alexcican.com&quot;&gt;homepage&lt;/a&gt; to let people know I won’t do cheap work. I also added a &lt;em&gt;state your budget&lt;/em&gt; button to my contact form (although not mandatory to complete). This worked! It scared away &lt;strong&gt;90% of the potential clients&lt;/strong&gt; who couldn’t afford me and it cleared my email inbox.&lt;/p&gt;
+&lt;p&gt;In order to avoid attracting clients who can’t afford me, I wrote two paragraphs (&lt;strong&gt;Update&lt;/strong&gt;: I removed them when I redesigned this site) on my &lt;a href=&quot;https://alexcican.com&quot;&gt;homepage&lt;/a&gt; to let people know I won’t do cheap work. I also added a &lt;em&gt;state your budget&lt;/em&gt; button to my contact form (although not mandatory to complete). This worked! It scared away &lt;strong&gt;90% of the potential clients&lt;/strong&gt; who couldn’t afford me and it cleared my email inbox.&lt;/p&gt;
 
 &lt;p&gt;In order to develop your &lt;em&gt;estimation skill&lt;/em&gt;, without getting burned and still nailing projects to pay the bills, there are a couple of things you can do. But first, I want to talk about pricing by the hour VS by the project.&lt;/p&gt;
 
@@ -2327,7 +2327,7 @@ What usually goes through the mind of the designer/developer: “Oh oh, Here com
 
 &lt;p&gt;Results were similar to the previous scenario: &lt;strong&gt;it’s better to have no apps running in the background&lt;/strong&gt; but the fact of having running apps in the background consumed very little power (around 0.5%).&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&quot;http://alexcican.com/images/blog/assets/background-apps.jpg&quot; alt=&quot;ipad background apps&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;https://alexcican.com/images/blog/assets/background-apps.jpg&quot; alt=&quot;ipad background apps&quot; /&gt;&lt;/p&gt;
 
 &lt;p&gt;I further investigated this issue and it turns up that the iOS “freezes” the app when it’s minimised (background) and little activity is allowed (push notifications) and once you click on the app, it becomes “unfreezed” and fully working again. So, when double tapping the home button you basically have a list of recently used apps, not a list of running apps in the background. I now, contrary to the past, find it useless going every once in a while and removing all those apps from the list.&lt;/p&gt;
 
@@ -2347,7 +2347,7 @@ What usually goes through the mind of the designer/developer: “Oh oh, Here com
 
 &lt;p&gt;Now, if the iPad was more powerful (CPU-wise), I could completely ditch my main bulky workstation that I still use for my photo editing (Photoshop) and video editing (After Effects/Premiere) needs. I was a bit disappointed with the release of the iPad 3 because it didn’t have an awesome quad-core powerful CPU. Not only that, but the retina display, a whooping 2048-by-1536 resolution, is a resource killer making the iPad 3 not much faster than its predecessor, the iPad 2.&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&quot;http://alexcican.com/images/blog/assets/apple-ipad-sales.jpg&quot; alt=&quot;apple ipad sales&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;https://alexcican.com/images/blog/assets/apple-ipad-sales.jpg&quot; alt=&quot;apple ipad sales&quot; /&gt;&lt;/p&gt;
 
 &lt;p&gt;If I were Apple, seeing the massive success the iPad has gained, I’d be looking at eliminating the laptops out of the equation. As you can see from the graph above, even without a powerful device that would suit my needs, they beat other laptop manufacturers in sales.&lt;/p&gt;
 
@@ -2789,7 +2789,7 @@ $39/month vs. $49/month&lt;/p&gt;
 
 &lt;p&gt;There’s a strong possibility that by the time you’ve learned and mastered all these skills, the trends would have already changed. Now you are left behind, watching helplessly how others who ride the “trend wave” get all the clients.&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&quot;http://alexcican.com/images/blog/assets/website_1999.gif&quot; alt=&quot;old website&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;https://alexcican.com/images/blog/assets/website_1999.gif&quot; alt=&quot;old website&quot; /&gt;&lt;/p&gt;
 
 &lt;p&gt;There is a hidden pitfall, which goes by &lt;em&gt;“I don’t follow trends”&lt;/em&gt;. Well buddy, as far as I’m concerned, you can design your website like it’s 1999 but don’t expect to lock-in any clients. Adapt or die…&lt;/p&gt;
 
@@ -2799,7 +2799,7 @@ $39/month vs. $49/month&lt;/p&gt;
 
 &lt;p&gt;Now, whether they know how to design and develop a website is irrelevant. Yes, completely irrelevant. Because there are many clients; hell, the majority of them who will want a website done for the minimum cost. It doesn’t matter if it’s going to cost them more in the long run. They just don’t see the forest behind the tree.&lt;/p&gt;
 
-&lt;p&gt;I want to share with you a trade secret: &lt;strong&gt;avoid clients who say they don’t have the budget&lt;/strong&gt;. Those who suggest you do it for free or some other bullshit compensation. They’re a pain in the arse to work with. I figured a way to repel those timewasters. In your contact form, show a &lt;em&gt;“what’s your budget”&lt;/em&gt; input field, if the message is work related. I wrote more on &lt;a href=&quot;http://alexcican.com/post/pricing-negotiating/&quot;&gt;the lost art of pricing and negotiating&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;I want to share with you a trade secret: &lt;strong&gt;avoid clients who say they don’t have the budget&lt;/strong&gt;. Those who suggest you do it for free or some other bullshit compensation. They’re a pain in the arse to work with. I figured a way to repel those timewasters. In your contact form, show a &lt;em&gt;“what’s your budget”&lt;/em&gt; input field, if the message is work related. I wrote more on &lt;a href=&quot;https://alexcican.com/post/pricing-negotiating/&quot;&gt;the lost art of pricing and negotiating&lt;/a&gt;.&lt;/p&gt;
 
 &lt;p&gt;And remember this: &lt;strong&gt;there is always going to be someone who can do the job faster, or cheaper, or even better than you&lt;/strong&gt;. This applies to any business. But in the website creation business, the amount of people who can do it faster and cheaper than you is infinitely larger! So you have to differentiate yourself, and stand out from the crowd.&lt;/p&gt;
 
@@ -2931,7 +2931,7 @@ RewriteRule ^([^\.]+)$ $1.php [NC,L]
 
 &lt;p&gt;If you’re worried that search engines might index these pages as duplicate content, add a &lt;code&gt;canonical&lt;/code&gt; meta tag in your HTML head:&lt;/p&gt;
 
-&lt;pre&gt;&lt;code&gt;&amp;lt;link rel=&quot;canonical&quot; href=&quot;http://alexcican.com/post/single-post&quot;&amp;gt;
+&lt;pre&gt;&lt;code&gt;&amp;lt;link rel=&quot;canonical&quot; href=&quot;https://alexcican.com/post/single-post&quot;&amp;gt;
 &lt;/code&gt;&lt;/pre&gt;
 </description>
         </item>
