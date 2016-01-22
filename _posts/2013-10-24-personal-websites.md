@@ -54,19 +54,19 @@ In any case, I wrote this post to introduce you to my new redesigned personal we
 
 When redesigning this site, my thought was to make it personal. If you’ve been following me, you know that I was operating under the brand *“SicanStudios”* for design and under my name for photography.
 
-![](http://alexcican.com/images/blog/assets/logos.svg)
+![](https://alexcican.com/images/blog/assets/logos.svg)
 <figcaption>Sicanstudios logo vs Alex Cican logo.</figcaption>
 
 This is no longer the case. From now on, in my efforts for more transparency, I’m putting my name on everything that gets *out*.
 
 Since it’s a personal website, I’ve decided to *“put my face where my name is”* and design the site around my mug. This should somewhat impede *“cats”* from copying my site.
 
-![](http://alexcican.com/images/blog/assets/alex-cican-face.jpg)
+![](https://alexcican.com/images/blog/assets/alex-cican-face.jpg)
 <figcaption>Yours truly.</figcaption>
 
 With this redesign I focused on simplicity, typography, and animations—showing the progression of an element on the page. Animations were certainly the most challenging aspect of the project.
 
-As I [wrote before](http://alexcican.com/post/design-future-not-past/), I want to push the boundaries of design. Animations look best at 60FPS. This is difficult to achieve when you animate large images, SVG elements, and entire webpages. I needed to do heavy optimisation and code refactoring to pull it off. And this was only possible with the help of Google Chrome’s dev tools which allows you to measure site rendering time.
+As I [wrote before](https://alexcican.com/post/design-future-not-past/), I want to push the boundaries of design. Animations look best at 60FPS. This is difficult to achieve when you animate large images, SVG elements, and entire webpages. I needed to do heavy optimisation and code refactoring to pull it off. And this was only possible with the help of Google Chrome’s dev tools which allows you to measure site rendering time.
 
 ## Create an experience
 

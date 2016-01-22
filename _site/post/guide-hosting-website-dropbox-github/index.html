@@ -140,7 +140,7 @@
 
 <p>If you want your files to be accessible by anyone, you have to move them into your “Public” folder. If you’re using absolute paths for your website, I suggest you change it to relative paths. So from this:</p>
 
-<pre><code>&lt;a href="http://alexcican.com/web/file.html"&gt;&lt;/a&gt;
+<pre><code>&lt;a href="https://alexcican.com/web/file.html"&gt;&lt;/a&gt;
 </code></pre>
 
 <p>change them to this:</p>
@@ -154,7 +154,7 @@
 
 <p>If you’re using GoDaddy, login to <em>“Your account”</em> and launch the <em>“Domains”</em>. Then, click on the domain name you want to edit and from the toolbar, select the <em>forward</em> icon. Click <em>“Forward Domain”</em> and insert in the popup input, the complete URL of the <code>index.html</code> from inside the Dropbox folder (to get the link: <em>right click on the file>Dropbox>Copy public link</em>).</p>
 
-<p><img src="http://alexcican.com/images/blog/assets/godaddy-forward-domain.jpg" alt="godaddy forward domain" /></p>
+<p><img src="https://alexcican.com/images/blog/assets/godaddy-forward-domain.jpg" alt="godaddy forward domain" /></p>
 
 <p>Wait a few hours and you should be able to access the website hosted on Dropbox via your domain name!</p>
 
@@ -169,7 +169,7 @@
 
 <p>This means that the Dropbox URL would be visible when navigating the website. I couldn’t have something like:</p>
 
-<pre><code>http://alexcican.com/file.html
+<pre><code>https://alexcican.com/file.html
 </code></pre>
 
 <p>unless I did a URL forwarding with masking from my DNS settings. This was not optimal because whichever page of the website I’d browse, it would show up only as:</p>
@@ -201,7 +201,7 @@
 
 <p>Now it’s time to change the <strong>DNS settings</strong> from GoDaddy to point to our GitHub page. Login to your account, launch the domains and click on the domain name you want to change. From that page (see screenshot above), go down and find the <em>“DNS Manager”</em> section. Click on <em>“Launch”</em>.</p>
 
-<p>You have to decide what domain name you’ll be using. For a sub-domain like <code>http://www.alexcican.com</code> or <code>http://blog.alexcican.com</code> you would simply create a <code>CNAME</code> record pointing to <code>charlie.github.com</code>. If you are using a top-level domain like <code>http://alexcican.com</code>, you must use an <code>A (Host)</code> record pointing to <code>192.30.252.153</code> and another one to <code>192.30.252.154</code>. There’s no need to add a <code>CNAME</code> record for top-level domains. <a href="https://help.github.com/articles/tips-for-configuring-an-a-record-with-your-dns-provider/">Read more in the documentation</a>.</p>
+<p>You have to decide what domain name you’ll be using. For a sub-domain like <code>http://www.alexcican.com</code> or <code>http://blog.alexcican.com</code> you would simply create a <code>CNAME</code> record pointing to <code>charlie.github.com</code>. If you are using a top-level domain like <code>https://alexcican.com</code>, you must use an <code>A (Host)</code> record pointing to <code>192.30.252.153</code> and another one to <code>192.30.252.154</code>. There’s no need to add a <code>CNAME</code> record for top-level domains. <a href="https://help.github.com/articles/tips-for-configuring-an-a-record-with-your-dns-provider/">Read more in the documentation</a>.</p>
 
 <h2>Downsides of GitHub</h2>
 
@@ -233,7 +233,7 @@
 
 <p>But for me it works. For me, the <strong>advantages outweigh the disadvantages</strong>. I like my websites more (since they load faster and stay online longer), I feel more relaxed and I also sleep better at night (secure servers, backups exist). Lastly, I feel liberated since I can access my files anytime from anywhere (and edit them, almost from any device).</p>
 
-<p>Next article I have scheduled, is a continuation of this one: <a href="http://alexcican.com/post/blog-dropbox-scriptogram"><em>“How I moved my blog to Dropbox”</em></a>. Make sure you <a href="http://feeds.feedburner.com/alexcican">grab the RSS feed</a> and you <a href="http://twitter.com/alexcican">follow me on Twitter</a>.</p>
+<p>Next article I have scheduled, is a continuation of this one: <a href="https://alexcican.com/post/blog-dropbox-scriptogram"><em>“How I moved my blog to Dropbox”</em></a>. Make sure you <a href="http://feeds.feedburner.com/alexcican">grab the RSS feed</a> and you <a href="http://twitter.com/alexcican">follow me on Twitter</a>.</p>
 
 
       <a href="http://twitter.com/share?url=https://alexcican.com/post/guide-hosting-website-dropbox-github/&text=How I moved my websites to Dropbox and GitHub:&via=alexcican" data-icon="t" class="icon twitter_button" title="Share this article on Twitter" target="_blank"><b></b></a>

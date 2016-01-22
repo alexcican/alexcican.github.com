@@ -63,9 +63,9 @@ After you’ve got your foot in the door and you’ve put yourself on their map,
 * Create a business plan. Create sheets with work you would do the first 30, 60, and 90 days at working there.
 
 ##Negotiating
-I won’t go into too much detail about this subject here, because I already wrote about it in another [blog post](http://alexcican.com/post/pricing-negotiating). Nonetheless, let’s look into how to negotiate a salary if they say it’s not flexible.
+I won’t go into too much detail about this subject here, because I already wrote about it in another [blog post](https://alexcican.com/post/pricing-negotiating). Nonetheless, let’s look into how to negotiate a salary if they say it’s not flexible.
 
-When interviewers say the salary it’s not flexible, they implement the classic scare tactic. And because you’re terrified of negotiating—understandable, since nobody taught you how to do it; [learn now](http://alexcican.com/post/pricing-negotiating)—the interviewer owns you like a puppeteer manipulates a puppet:
+When interviewers say the salary it’s not flexible, they implement the classic scare tactic. And because you’re terrified of negotiating—understandable, since nobody taught you how to do it; [learn now](https://alexcican.com/post/pricing-negotiating)—the interviewer owns you like a puppeteer manipulates a puppet:
 
 > *“I know you don’t have any other offers and I know how much you made at your previous job. Now dance to my song”.*
 
