@@ -9,7 +9,7 @@ enforce_ssl: alexcican.com
 
 # paginate: 10
 
-markdown: rdiscount
+markdown: kramdown
 permalink: /post/:title/
 # pygments: true
 
