@@ -17,20 +17,11 @@
     <!-- Load JS for work page -->
     <script src="{{ site.url }}/javascript/dribbble.min.js"></script>
     <script>
-    $.jribbble.setToken('771a1d122fddc9fc9f692c06c0eb19cfdee1256d031a3658b93fd41d80a13583');
-
-    $.jribbble.users('alexcican').shots({per_page: 30}).then(function(shots) {
-      var html = [];
-
-      shots.forEach(function(shot) {
-        html.push('<li class="shot">');
-        html.push('<a href="' + shot.html_url + '" target="_blank">');
-        html.push('<img src="' + shot.images.normal + '">');
-        html.push('</a></li>');
+      jribbble.shots({token: "3fc5e6e3a389e7e922f7bdad4c1ec924b3627c6c2bc03de6b2c4f434c9c5aabd", per_page:30}, function(shots) {
+        document.querySelector("#dribbble").innerHTML = shots.reduce(function(html, shot) {
+          return html + '<li class="shot"><a href="'+  shot.html_url + '" target="_blank"><img src="' + shot.images.normal + '"></a></li>';
+        }, "");
       });
-
-      $('#dribbble').html(html.join(''));
-    });
     </script>
   {% endif %}
 
