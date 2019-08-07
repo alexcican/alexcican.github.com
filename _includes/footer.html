@@ -2,15 +2,19 @@
 {% capture relative %}{% for i in (3..lvl) %}../{% endfor %}{% endcapture %}
   </div>
 
+  <!-- Load jQuery script -->
   <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.0/jquery.slim.js"></script>
 
   {% if page.url == '/index.html'%}
+    <!-- Load JS for home page -->
     <script src="{{ site.url }}/javascript/cookie.min.js"></script>
   {% endif %}
 
-  <script src="{{ site.url }}/javascript/basic.min.js"></script>
+  <!-- Load main JS file -->
+  <script src="{{ site.url }}/javascript/basicssss.min.js"></script>
 
   {% if page.url == '/work/'%}
+    <!-- Load JS for work page -->
     <script src="{{ site.url }}/javascript/dribbble.min.js"></script>
     <script>
       jribbble.shots({token: "3fc5e6e3a389e7e922f7bdad4c1ec924b3627c6c2bc03de6b2c4f434c9c5aabd", per_page:30}, function(shots) {
@@ -22,6 +26,7 @@
   {% endif %}
 
   {% if page.url == '/photos/'%}
+    <!-- Load JS for photos -->
     <script src="{{ site.url }}/javascript/swipe.min.js"></script>
     <script>
       window.mySwipe = new Swipe(document.getElementById('slider'), {
@@ -39,7 +44,7 @@
     </script>
   {% endif %}
 
-
+  <!-- Load Analytics -->
   <script type="text/javascript">
     var _gaq = _gaq || [];
     _gaq.push(['_setAccount', 'UA-6273751-7']);
