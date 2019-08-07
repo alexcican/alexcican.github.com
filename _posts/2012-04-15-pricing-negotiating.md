@@ -7,7 +7,7 @@ cover: '<img class="cover" src="data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS
 _**Disclaimer:** I am in no position to offer you financial advice. I am not a financial advisor. What I want to do, is share my personal experiences on freelancing for a living. This blog is tailored to suit freelancers, so if you’re in a different situation—applying for a full time job, for example—the techniques implemented should be different. That being said, it doesn’t mean that you can’t take away something from this article: useful techniques to tip the scale in your favour._
 <!--more-->
 
-##Negotiating? No, it’s insulting!
+## Negotiating? No, it’s insulting!
 
 Negotiating has gained a bad connotation throughout the years, especially in western cultures. We are ashamed of negotiating and we feel that it cheapens us and insults the person we’re negotiating with. This doesn’t happen in eastern cultures, where negotiation is synonymous to transaction.
 
@@ -28,7 +28,7 @@ I will go into *per hour* VS *per project* pay later.
 
 I know—I shouldn’t be talking money first, and I should’ve waited to see if the project is a good fit. I usually can tell if I’m going to like the project and company/person. In other words: I would have done my research before replying.
 
-##Conventional wisdom
+## Conventional wisdom
 
 Every marketer, financial advisor, blog, website, etc., and conventional wisdom will tell you to avoid being the first to name a price. Because in doing so, you could be leaving money on the table.
 
@@ -44,7 +44,7 @@ Instead, they say that you should be making the other party name a price first. 
 
 and so on… Until someone, usually the freelancer, gives in and names a price/quote.
 
-##My method
+## My method
 
 I decided to skip all the fluff, save myself the headaches, and avoid wasting my time and the client’s time by going against conventional wisdom: **name the price first**.
 
@@ -68,7 +68,7 @@ In order to avoid attracting clients who can’t afford me, I wrote two paragrap
 
 In order to develop your *estimation skill*, without getting burned and still nailing projects to pay the bills, there are a couple of things you can do. But first, I want to talk about pricing by the hour VS by the project.
 
-##Pricing: by the hour VS by the project
+## Pricing: by the hour VS by the project
 
 When you’re inexperienced, you have no idea how much time it will take you to complete a project. After you’ve completed enough projects, covering a vast area of fields (portfolio websites, e-commerce, web apps), you can estimate more accurately how many hours it will take you to complete a project and price accordingly. It’s up to you then if you want to charge by the hour or by the project. There is a major pitfail in charging hourly, described very well by [Jessica Hische](http://www.jessicahische.is/obsessedwiththeinternet/category/andhelpingyougetpaid):
 
@@ -76,11 +76,11 @@ Say you have two designers that charge **$100 per hour** but one designer works 
 
 I’m pretty efficient and I prefer to charge by the hour but in case the client wants to do by the project, *“we have a budget of X for this”*, I can give an estimate for the total cost. In the back of my mind I still gauge things hourly though. But sometimes I get stuck, the creative juices stop flowing or I get distracted with other issues. It happens even to the best of us. In that situation, I make a mental note that for example my two hours today were not actually two *“full”* hours. So, I put in more work outside the schedule (either that day, in the weekends or in the near future). It’s all about getting to know yourself and how efficient you are.
 
-##Tools of the trade
+## Tools of the trade
 
 If you’re pricing by the hour be prepared to show your employer/client where every minute of you working went in their project. A good way of doing that is to use time tracking software. There are many tools out there; I use [Toggl](http://toggl.com/) for that. All you have to do is type-in the part of the project you’re currently working on and start the timer. Save the progress once you are done and mark that time as billable. Another popular tool I use daily is [Basecamp](http://basecamphq.com/). This tool allows you to collaborate with others, share files and track time. [Dropbox](http://www.dropbox.com/) is another tool I use daily and has honestly simplified my life! Lastly, a very useful tool I use for invoicing my clients is [Freshbooks](http://www.freshbooks.com/). I honestly cannot overstate how much **I love these products!**
 
-##Knowing what to charge
+## Knowing what to charge
 
 Prepare before the battle! First, you should **do your research** on [Salary.com](http://salary.com/) (and other websites) to find out how much others are making in your field. This should give you a rough estimation on how much you should be charging.
 
@@ -92,7 +92,7 @@ Fourth, have a positive, assertive attitude (not cocky). **Quote respectable pri
 
 Nowadays, I’m working on many things and when I’m unable to take any more projects on board, I don’t reject them. I simply quote high prices to “scare” the client off. But even when my schedule wasn’t/won’t be full, I still wouldn’t/won’t take projects that pay ridiculously low (except from when I entered this industry; one has to start from somewhere). You know what I do instead? **Work on personal projects (more on that below)!**
 
-##The Art of Negotiating
+## The Art of Negotiating
 
 Many studies have shown that the first offer has a strong psychological pull and the resulting agreement tends to be **won by the person [who proposed the first offer](http://www.negotiations.com/articles/price-negotiation/)**. I use that in my favour and quote first the price. Check out this scenario:
 
@@ -132,7 +132,7 @@ Make them remember you. If they still decide to go with a lower salary from the 
 
 When negotiating, **never disclose your previous salary**. Tell them that **it’s confidential** or that your employer requested you to **keep it private**. Moreover, make a statement explaining that you have more experience, you improved your skills, and in general you are better qualified now, than when you started working for X in 2004.
 
-##Negotiating a raise
+## Negotiating a raise
 
 The same thing applies if you’re looking for a raise. Ask them:
 
@@ -144,7 +144,7 @@ Finally, try to help them out and guide them:
 
 > *“Thanks, it’s in my best interest to help your company grow and become more effective” (make it about them). “In order to do that, in six months I will get 80% of the coding done for the X feature. If and only if I do an awesome job, would you be willing to have this discussion again?”*
 
-##Working from home
+## Working from home
 
 Another popular situation people try to escape from, is the 9-5; You break that pattern by working from home on your own terms. Again, the same techniques apply in this situation as well. To improve the odds, you can start by **working a few hours from home**—on the same project you’re working at your job—and measure the results of this experiment. Then you can schedule a meeting with your boss:
 
@@ -154,11 +154,11 @@ Another popular situation people try to escape from, is the 9-5; You break that 
 
 Tim Ferriss writes excellently about this in his book *[4-Hour-Workweek](http://www.amazon.co.uk/4-Hour-Work-Week-Escape-Anywhere/dp/0091929113/)*.
 
-##Conclusion
+## Conclusion
 
 I could go on forever, but I have to stop somewhere. At 3,000+ words, I doubt anyone will read this article from start to finish. If you did, I want to hear from you: what are your experiences? what would you add to improve this article? If you didn’t read it entirely, and read only this conclusion, I still want to hear from you: what made you stop, apart from your laziness/lack of time, and how do you think I could improve this article? Contact me on [Twitter](http://twitter.com/?status=@sican%20).
 
-##Useful links
+## Useful links
 
 [Negotiations.com](http://www.negotiations.com/articles/price-negotiation/) (very good resource on negotiations and techniques I didn’t discuss in my article)
 [Jessica Hische](http://www.jessicahische.is/obsessedwiththeinternet/category/andhelpingyougetpaid)

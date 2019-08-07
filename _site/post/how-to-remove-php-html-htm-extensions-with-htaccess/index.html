@@ -9,30 +9,27 @@
   <meta charset="utf-8" />
   <meta http-equiv="X-UA-Compatible" content="IE=edge" />
   <meta name="description" content="I recently wanted to remove the extensions from my website, in order to make the URLs more user and search engine friendly. I stumbled across tutorials on how to remove the .php extension from a PHP page. What about the .html? I wanted to remove those as well! In this tutorial I’ll show you how to do that easily, by editing the .htaccess file.
-
 " />
   <meta name="viewport" content="width=device-width" />
-  <meta name="msapplication-TileImage" content="https://alexcican.com/images/apple-touch-icon-144x144-precomposed.png">
-  <link rel="author" href="https://plus.google.com/116801469202683881648/" />
-  <link rel="shortcut icon" href="https://alexcican.com/images/favicon.ico" type="image/x-icon" />
-  <link rel="stylesheet" type="text/css" media="all" href="https://alexcican.com/style/style.min.css" />
-  <link rel="stylesheet" type="text/css" media="print" href="https://alexcican.com/style/print.css" />
+  <meta name="msapplication-TileImage" content="http://localhost:4000/images/apple-touch-icon-144x144-precomposed.png">
+  <link rel="shortcut icon" href="http://localhost:4000/images/favicon.ico" type="image/x-icon" />
+  <link rel="stylesheet" type="text/css" media="all" href="http://localhost:4000/style/style.min.css" />
+  <link rel="stylesheet" type="text/css" media="print" href="http://localhost:4000/style/print.css" />
   <!--[if lt IE 10]>
-    <link rel="stylesheet" type="text/css" href="https://alexcican.com/style/ie9.css" />
+    <link rel="stylesheet" type="text/css" href="http://localhost:4000/style/ie9.css" />
   <![endif]-->
   <link rel="alternate" type="application/rss+xml" title="Alex Cican – Designer" href="http://feeds.feedburner.com/alexcican/" />
-  <link rel="canonical" href="https://alexcican.com/post/how-to-remove-php-html-htm-extensions-with-htaccess/" />
-  <link rel="apple-touch-icon-precomposed" href="https://alexcican.com/images/apple-touch-icon-57x57-precomposed.png" />
-  <link rel="apple-touch-icon-precomposed" href="https://alexcican.com/images/apple-touch-icon-72x72-precomposed.png" />
-  <link rel="apple-touch-icon-precomposed" href="https://alexcican.com/images/apple-touch-icon-114x114-precomposed.png" />
-  <link rel="apple-touch-icon-precomposed" href="https://alexcican.com/images/apple-touch-icon-144x144-precomposed.png" />
-  <link rel="apple-touch-icon-precomposed" href="https://alexcican.com/images/apple-touch-icon-152x152-precomposed.png" />
-  <meta property="og:image" content="https://alexcican.com/images/cover.jpg" />
+  <link rel="canonical" href="http://localhost:4000/post/how-to-remove-php-html-htm-extensions-with-htaccess/" />
+  <link rel="apple-touch-icon-precomposed" href="http://localhost:4000/images/apple-touch-icon-57x57-precomposed.png" />
+  <link rel="apple-touch-icon-precomposed" href="http://localhost:4000/images/apple-touch-icon-72x72-precomposed.png" />
+  <link rel="apple-touch-icon-precomposed" href="http://localhost:4000/images/apple-touch-icon-114x114-precomposed.png" />
+  <link rel="apple-touch-icon-precomposed" href="http://localhost:4000/images/apple-touch-icon-144x144-precomposed.png" />
+  <link rel="apple-touch-icon-precomposed" href="http://localhost:4000/images/apple-touch-icon-152x152-precomposed.png" />
+  <meta property="og:image" content="http://localhost:4000/images/cover.jpg" />
   <meta property="og:title" content="How to remove .php, .html, .htm extensions with .htaccess" />
   <meta property="og:description" content="I recently wanted to remove the extensions from my website, in order to make the URLs more user and search engine friendly. I stumbled across tutorials on how to remove the .php extension from a PHP page. What about the .html? I wanted to remove those as well! In this tutorial I’ll show you how to do that easily, by editing the .htaccess file.
-
 " />
-  <meta property="og:url" content="https://alexcican.com/post/how-to-remove-php-html-htm-extensions-with-htaccess/" />
+  <meta property="og:url" content="http://localhost:4000/post/how-to-remove-php-html-htm-extensions-with-htaccess/" />
   <meta property="og:site_name" content="Alex Cican — Designer" />
   <meta property="og:type" content="blog" />
   <meta name="twitter:card" content="summary_large_image" />
@@ -42,10 +39,9 @@
   <meta name="twitter:url" content="http://alexcican.com" />
   <meta name="twitter:title" content="How to remove .php, .html, .htm extensions with .htaccess" />
   <meta name="twitter:description" content="I recently wanted to remove the extensions from my website, in order to make the URLs more user and search engine friendly. I stumbled across tutorials on how to remove the .php extension from a PHP page. What about the .html? I wanted to remove those as well! In this tutorial I’ll show you how to do that easily, by editing the .htaccess file.
-
 " />
-  <meta name="twitter:image:src" content="https://alexcican.com/images/cover.jpg" />
-  <script src="https://alexcican.com/javascript/turbolinks.min.js"></script>
+  <meta name="twitter:image:src" content="http://localhost:4000/images/cover.jpg" />
+  <script src="http://localhost:4000/javascript/turbolinks.min.js"></script>
 
   
 </head>
@@ -64,11 +60,11 @@
       <section>
         <ul class="siteLinks">
           <li><span>Site dishes</span></li>
-          <li><a href="https://alexcican.com" class="home " title="Learn about me (H)">Home</a></li>
-          <li><a href="https://alexcican.com/work/" class="work " title="Check out my work (W)">Work</a></li>
+          <li><a href="http://localhost:4000" class="home " title="Learn about me (H)">Home</a></li>
+          <li><a href="http://localhost:4000/work/" class="work " title="Check out my work (W)">Work</a></li>
           <li><a href="http://lab.alexcican.com" class="lab" title="Visit my lab (L)">Lab</a></li>
-          <li><a href="https://alexcican.com/blog/" class="blog " title="Read my blog (B)">Blog</a></li>
-          <!-- <li><a href="https://alexcican.com/photos/" class="photos " title="View my photos (P)">Photos</a></li> -->
+          <li><a href="http://localhost:4000/blog/" class="blog " title="Read my blog (B)">Blog</a></li>
+          <!-- <li><a href="http://localhost:4000/photos/" class="photos " title="View my photos (P)">Photos</a></li> -->
         </ul>
 
         <ul>
@@ -78,14 +74,10 @@
 
         <ul>
           <li><span>Desserts</span></li>
-          <li><a href="http://twitter.com/alexcican" title="Find me on Twitter" target="_blank">Twitter</a></li>
-          <li><a href="http://dribbble.com/alexcican" title="Find me on Dribbble" target="_blank">Dribbble</a></li>
-          <li><a href="http://github.com/alexcican" title="Find me on GitHub" target="_blank">GitHub</a></li>
-          <li><a href="http://flickr.com/sican" title="Find me on Flickr" target="_blank">Flickr</a></li>
-          <li><a href="http://vimeo.com/alexcican" title="Find me on Vimeo" target="_blank">Vimeo</a></li>
-          <li><a href="http://instagram.com/alexcican" title="Find me on Instagram" target="_blank">Instagram</a></li>
-          <li><a href="http://youtube.com/sican" title="Find me on YouTube" target="_blank">YouTube</a></li>
-          <li><a href="http://be.net/alexcican" title="Find me on Behance" target="_blank">Behance</a></li>
+          <li><a href="http://twitter.com/alexcican" title="Find me on Twitter" rel="noreferrer" target="_blank">Twitter</a></li>
+          <li><a href="http://dribbble.com/alexcican" title="Find me on Dribbble" rel="noreferrer" target="_blank">Dribbble</a></li>
+          <li><a href="http://github.com/alexcican" title="Find me on GitHub" rel="noreferrer" target="_blank">GitHub</a></li>
+          <li><a href="http://flickr.com/sican" title="Find me on Flickr" rel="noreferrer" target="_blank">Flickr</a></li>
         </ul>
 
         <p>Some of our dishes may contain sarcasm and humour. <br/>Please don&rsquo;t inform our staff about any allergies you might have.</p>
@@ -105,61 +97,64 @@
     <h1>How to remove .php, .html, .htm extensions with .htaccess</h1>
 
     <div id="content">
-      <p>I recently wanted to remove the extensions from my website, in order to make the URLs more user and search engine friendly. I stumbled across tutorials on how to remove the <code>.php</code> extension from a PHP page. What about the <code>.html</code>? I wanted to remove those as well! In this tutorial I’ll show you how to do that easily, by editing the <code>.htaccess</code> file.</p>
+      <p>I recently wanted to remove the extensions from my website, in order to make the URLs more user and search engine friendly. I stumbled across tutorials on how to remove the <code class="highlighter-rouge">.php</code> extension from a PHP page. What about the <code class="highlighter-rouge">.html</code>? I wanted to remove those as well! In this tutorial I’ll show you how to do that easily, by editing the <code class="highlighter-rouge">.htaccess</code> file.
+<!--more--></p>
 
-<!--more-->
+<h2 id="what-is-an-htaccess-file">What is an .htaccess file</h2>
 
+<p>An <code class="highlighter-rouge">.htaccess</code> file is a simple ASCII file that you create with a text editor like <em>Notepad</em> or <em>TextEdit</em>. The file lets the server know what configuration changes to make on a per-directory basis.</p>
 
-<h2>What is an .htaccess file</h2>
+<blockquote>
+  <p>Please note that <code class="highlighter-rouge">.htaccess</code> is the full name of the file. It isn’t <code class="highlighter-rouge">file.htaccess</code>, it’s simply <code class="highlighter-rouge">.htaccess</code>.</p>
+</blockquote>
 
-<p>An <code>.htaccess</code> file is a simple ASCII file that you create with a text editor like Notepad or TextMate. It provides a way to make configuration changes on a per-directory basis.</p>
+<p><code class="highlighter-rouge">.htaccess</code> files affect the directory in which they are placed in and all children (sub-directories). For example if there is one <code class="highlighter-rouge">.htaccess</code> file located in your root directory of <code class="highlighter-rouge">yoursite.com</code>, it would affect <code class="highlighter-rouge">yoursite.com/content/</code>, <code class="highlighter-rouge">yoursite.com/content/images/</code>, and so on…</p>
 
-<blockquote><p><em>Please note that <code>.htaccess</code> is the file’s extension. It isn’t <code>file.htaccess</code>, it is simply <code>.htaccess</code>.</em></p></blockquote>
+<p>It is important to remember that this can be bypassed. If you don’t want certain <code class="highlighter-rouge">.htaccess</code> commands to affect a specific directory, place a new <code class="highlighter-rouge">.htaccess</code> file within the directory you don’t want to be affected with the changes, and remove the specific command(s) from the new file.</p>
 
-<p><code>.htaccess</code> files affect the directory in which they are placed and all sub-directories. For example if there is one <code>.htaccess</code> file located in your root directory of yoursite.com, it would affect yoursite.com/content/, yoursite.com/content/images/, etc.</p>
+<h2 id="features">Features</h2>
 
-<p>It is important to remember that this can be prevented — for example if you don’t want certain .htaccess commands to affect a specific directory — by placing a new <code>.htaccess</code> file within the directory you don’t want affected with the changes, and removing the specific command(s) from the new .htaccess file that you do not want affecting this directory.</p>
-
-<h2>Features</h2>
-
-<p>With an <code>.htaccess</code> file you can:</p>
+<p>With an <code class="highlighter-rouge">.htaccess</code> file you can:</p>
 
 <ul>
-<li>Redirect the user to different page</li>
-<li>Password protect a specific directory</li>
-<li>Block users by IP</li>
-<li>Preventing hot linking of your images</li>
-<li>Rewrite URIs</li>
-<li>Specify your own Error Documents</li>
+  <li>Redirect the user to different page</li>
+  <li>Password protect a specific directory</li>
+  <li>Block users by IP</li>
+  <li>Preventing hot-linking of your images</li>
+  <li>Rewrite URLs</li>
+  <li>Specify your own Error Documents</li>
 </ul>
 
+<p>In this tutorial we’ll be focusing only on <strong>rewriting URLs</strong>.</p>
 
-<p>In this tutorial we’ll be focusing only on rewriting URIs.</p>
+<h2 id="removing-extensions">Removing Extensions</h2>
 
-<h2>Removing Extensions</h2>
+<p>To remove the <code class="highlighter-rouge">.php</code> extension from a PHP file for example <code class="highlighter-rouge">yoursite.com/wallpaper.php</code> to <code class="highlighter-rouge">yoursite.com/wallpaper</code>
+you have to add the following code inside the <code class="highlighter-rouge">.htaccess</code> file:</p>
 
-<p>To remove the <code>.php</code> extension from a PHP file for example <code>yoursite.com/wallpaper.php</code> to <code>yoursite.com/wallpaper</code> you have to add the following code inside the <code>.htaccess</code> file:</p>
-
-<pre><code>RewriteEngine On
+<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>RewriteEngine On
 RewriteCond %{REQUEST_FILENAME} !-f
 RewriteRule ^([^\.]+)$ $1.php [NC,L]
-</code></pre>
+</code></pre></div></div>
 
-<p>If you want to remove the <code>.html</code> extension from a html file for example <code>yoursite.com/wallpaper.html</code> to <code>yoursite.com/wallpaper</code> you simply have to alter the last line from the code above to match the filename:</p>
+<p>If you want to remove the <code class="highlighter-rouge">.html</code> extension from a html file for example <code class="highlighter-rouge">yoursite.com/wallpaper.html</code> to <code class="highlighter-rouge">yoursite.com/wallpaper</code> you simply have to change the last line from the code above, to match the filename:</p>
 
-<pre><code>RewriteRule ^([^\.]+)$ $1.html [NC,L]
-</code></pre>
+<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>RewriteRule ^([^\.]+)$ $1.html [NC,L]
+</code></pre></div></div>
 
 <p>That’s it! You can now link pages inside the HTML document without needing to add the extension of the page. For example:</p>
 
-<pre><code>&lt;a href="http://whatever.com/wallpaper" title="wallpaper"&gt;wallpaper&lt;/a&gt;
-</code></pre>
+<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>&lt;a href="http://whatever.com/wallpaper" title="wallpaper"&gt;wallpaper&lt;/a&gt;
+</code></pre></div></div>
 
-<h2>Adding a trailing slash at the end</h2>
+<h2 id="adding-a-trailing-slash-at-the-end">Adding a trailing slash at the end</h2>
 
-<p>I received many requests asking how to add a trailing slash at the end. Ignore the first snippet and insert the following code. The first four lines deal with the removal of the extension and the following, with the addition of the trailing slash and redirecting. Link to the HTML or PHP file as shown above. Don’t forget to change the code if you want it applied to an HTML file.</p>
+<p>I received many requests asking how to add a trailing slash at the end, for example:
+<code class="highlighter-rouge">yoursite.com/page/</code></p>
 
-<pre><code>RewriteEngine On
+<p>Ignore the first snippet and insert the code below. The first four lines deal with the removal of the extension and the following, with the addition of the trailing slash and redirecting.</p>
+
+<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>RewriteEngine On
 RewriteCond %{REQUEST_FILENAME} !-f
 RewriteRule ^([^/]+)/$ $1.php
 RewriteRule ^([^/]+)/([^/]+)/$ /$1/$2.php
@@ -167,32 +162,33 @@ RewriteCond %{REQUEST_FILENAME} !-f
 RewriteCond %{REQUEST_FILENAME} !-d
 RewriteCond %{REQUEST_URI} !(\.[a-zA-Z0-9]{1,5}|/)$
 RewriteRule (.*)$ /$1/ [R=301,L]
-</code></pre>
+</code></pre></div></div>
 
-<p>Some people asked how you can remove the extension from both HTML and PHP files. I haven’t got a coding solution for that. But, you could just change the extension of your HTML file from <code>.html</code> or <code>.htm</code> to <code>.php</code> and add the code for removing the <code>.php</code> extension.</p>
+<p>Link to the HTML or PHP file the same way as shown above. Don’t forget to change the code if you want it applied to an HTML file instead of PHP.</p>
 
-<h2>Conclusion</h2>
+<p>Some people asked how you can remove the extension from both HTML and PHP files. I don’t have a solution for that. But, you could just change the extension of your HTML file from <code class="highlighter-rouge">.html</code> or <code class="highlighter-rouge">.htm</code> to <code class="highlighter-rouge">.php</code> and add the code for removing the <code class="highlighter-rouge">.php</code> extension.</p>
 
-<p>For those who are not so experienced with .htaccess files there is an online tool for creating .htaccess files. It is pretty good for novice users and very easy to use. <a href="http://www.htaccesseditor.com/en.shtml" title="Create .htacces files">Visit their website</a>.</p>
+<h2 id="conclusion">Conclusion</h2>
+<p>For those who are not so experienced with <code class="highlighter-rouge">.htaccess</code> files there is an <a href="http://www.htaccesseditor.com/" rel="nofollow">online tool</a> for creating them. It’s useful for novice users to get started, and easy to use.</p>
 
-<h2>Updates</h2>
+<h2 id="updates">Updates</h2>
 
-<p>Attention GoDaddy users: In order to remove the extensions you need to enable <code>MultiViews</code> before. The code should look like this:</p>
+<p>Attention GoDaddy users: In order to remove the extensions you need to enable <code class="highlighter-rouge">MultiViews</code> before. The code should look like this:</p>
 
-<pre><code>Options +MultiViews
+<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>Options +MultiViews
 RewriteEngine On
 RewriteCond %{REQUEST_FILENAME} !-d
 RewriteCond %{REQUEST_FILENAME} !-f
 RewriteRule ^([^\.]+)$ $1.php [NC,L]
-</code></pre>
+</code></pre></div></div>
 
-<p>If you’re worried that search engines might index these pages as duplicate content, add a <code>canonical</code> meta tag in your HTML head:</p>
+<p>If you’re worried that search engines might index these pages as duplicate content, add a <code class="highlighter-rouge">&lt;canonical&gt;</code> meta tag in the <code class="highlighter-rouge">&lt;head&gt;</code> of your HTML file:</p>
 
-<pre><code>&lt;link rel="canonical" href="https://alexcican.com/post/single-post"&gt;
-</code></pre>
+<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>&lt;link rel="canonical" href="https://alexcican.com/post/single-post" /&gt;
+</code></pre></div></div>
 
 
-      <a href="http://twitter.com/share?url=https://alexcican.com/post/how-to-remove-php-html-htm-extensions-with-htaccess/&text=How to remove .php, .html, .htm extensions with .htaccess:&via=alexcican" data-icon="t" class="icon twitter_button" title="Share this article on Twitter" target="_blank"><b></b></a>
+      <a href="http://twitter.com/share?url=http://localhost:4000/post/how-to-remove-php-html-htm-extensions-with-htaccess/&text=How to remove .php, .html, .htm extensions with .htaccess:&via=alexcican" data-icon="t" class="icon twitter_button" title="Share this article on Twitter" target="_blank"><b></b></a>
     </div>
 
     
@@ -202,12 +198,12 @@ RewriteRule ^([^\.]+)$ $1.php [NC,L]
   </div>
 
   <!-- Load jQuery script -->
-  <script src="//cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.0/jquery.slim.js"></script>
 
   
 
   <!-- Load main JS file -->
-  <script src="https://alexcican.com/javascript/basic.min.js"></script>
+  <script src="http://localhost:4000/javascript/basic.min.js"></script>
 
   
 

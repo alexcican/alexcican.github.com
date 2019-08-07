@@ -28,11 +28,11 @@ designs: '
 TimeWasted is a web app that calculates how much time you’ve wasted from your life watching TV shows.
 <!--more-->
 
-##What I learned
+## What I learned
 I learned how to create a modern web application that would prove useful to the the user. I learned to use JavaScript (Ajax) to fetch database items, interact, and display them. I became familiar with all the different mobile browser quirks, and their workarounds and fixes. Finally, I tried to mimic the Google search engine by making searching for shows intuitive and easy (read below).
 
-##Concept Idea
-I wanted to create a web application that would look awesome on the iPhone and iPad. Web apps are popular these days because they look great on any device or OS, and you&#8217;re not required to submit the app to a certain store and wait weeks for approval. 
+## Concept Idea
+I wanted to create a web application that would look awesome on the iPhone and iPad. Web apps are popular these days because they look great on any device or OS, and you&#8217;re not required to submit the app to a certain store and wait weeks for approval.
 
 This has several advantages some of which: you get all the profit from the app—if you decide to charge for using it, you always interact with the latest version, and you don’t have to install and update anything.
 
@@ -46,7 +46,7 @@ For some time now, I&#8217;ve been wanting to create this app. It wasnt&#8217;t 
 
 <img src="http://sicanstudios.com/images/work/timewasted/timewasted-old.jpg" alt="old timewasted design" title="Old TimeWasted design" />
 
-##iPhone and iPad
+## iPhone and iPad
 The web app was optimised for the iPhone and the iPad. Several elements were included or excluded from the devices accordingly.
 
 <a href="http://sicanstudios.com/images/work/timewasted/ipad-iphone.jpg" class="img" target="_blank"><img src="http://sicanstudios.com/images/work/timewasted/ipad-iphone-small.jpg" alt="iPad iPhone design" title="iPad iPhone design" /></a>
@@ -67,7 +67,7 @@ Aside from the portrait version, the app also has a landscape version. Using CSS
 
 <a href="http://sicanstudios.com/images/work/timewasted/landscape-portrait.jpg" class="img" target="_blank"><img src="http://sicanstudios.com/images/work/timewasted/landscape-portrait-small.jpg" alt="landscape portrait orientation" title="Landscape/Portrait orientation" /></a>
 
-##Production
+## Production
 For the development of this app, I decided to use the latest technologies available at that time: HTML5 and CSS3. Using <a href="http://html5boilerplate.com/" target="_blank">HTML5 Boilerplate</a> as the backend of this web app had many advantages. One of which was that the browsing experience degraded gracefully in browsers that don&#8217;t yet support this technology.
 
 Along with PHP, the app relies heavily on jQuery and AJAX in order to work. When the user types in their favourite shows, a dropdown with all the available shows appears. The user can select one from the list or continue typing to refine the result.
@@ -78,7 +78,7 @@ The app displays how much time was wasted, by multiplying the total number of sh
 
 In order to make app load faster, the number of connections to the database was reduced to one. All the details are then passed using <code>POST</code> method to the other pages. The calculations are made by PHP on the fly, from the details included in the POST. The images of each TV show on the results page are displayed by simply removing the spaces from the title of the show.
 
-##Error checking
+## Error checking
 Error checking is an important part of any project. It&#8217;s like having a proofreader. Because there is interaction with the user, all possibilities were accounted for. If the user has JavaScript disabled, a notification appears at the top, asking the user to enable JS in order to use the web app.
 
 <img src="http://sicanstudios.com/images/work/timewasted/javascript-disabled.jpg" alt="javascript disabled" title="Javascript disabled" />
@@ -89,12 +89,12 @@ When adding a TV show, if the show they typed is not in the database, a message 
 
 Upon selecting how many seasons of that TV show the user has watched, the entry is not added to the list automatically. The user has to click the &#8220;Add TV show&#8221; button first. The UX was created this way, in order to allow the user the option to edit the entry before adding it to the list, for example if they selected the wrong amount of seasons. I save the user from the trouble of having to delete the entry from the list, then typing it again and then selecting the correct amount of seasons watched.
 
-##Additional checks
+## Additional checks
 Additional checks were made to prevent unauthorised access to database or sensitive information via PHP such as using <code>mysql_real_escape_string()</code>.
 
 Moreover, when typing a TV show, the app doesn&#8217;t immediately fetch the TV shows list. It waits for the user to finish typing and has a small delay from the time you finished typing until it creates a database connection. The UX was created in such way to reduce the amount of calls being made to the database.
 
-##Being a smart-ass
+## Being a smart-ass
 I always admired Google for their search algorithm. You type in whatever you can think of and it comes back with meaningful results. Inspired by that, TimeWasted tries to be smart when identifying TV shows.
 
 If you type in for example &#8220;Breaking&#8221;, the show Breaking Bad will be listed. If you type in first &#8220;Bad&#8221;, the same show will be displayed. Where I took it a step further, was in adding the main character(s)/actor(s) as a search term. So if you type in &#8220;Heisenberg&#8221;, the show Breaking Bad will appear. Similarly, if you type in &#8220;Stewie&#8221;, the TV show Family Guy will be listed.

@@ -24,7 +24,7 @@ See, whenever you have the user interacting with a product, they are free to abu
 
 ## Design empty states
 ![](https://alexcican.com/images/blog/assets/kippt-empty-state.png)
-<figcaption>[Kippt](https://kippt.com) web app’s empty state.</figcaption>
+<figcaption>Kippt web app’s empty state</figcaption>
 
 For apps and websites an important part often forgotten are the states of the app/website. These states are still part of the user experience, so don’t forget them. Design the initial state (first-time user) of the app, logged in state, the empty state, and any error states—though you should avoid showing errors altogether.
 
@@ -32,7 +32,7 @@ For apps and websites an important part often forgotten are the states of the ap
 People like to be guided, i.e. told what to do. A compelling experience guides the user through the product. For example, one of the most recent memorable walkthroughs that I experienced was in Vine application:
 
 ![](https://alexcican.com/images/blog/assets/vine.gif)
-<figcaption>Vine app interactive tutorial GIF ([watch it again](https://alexcican.com/images/blog/assets/vine.gif))</figcaption>
+<figcaption>Vine app interactive tutorial GIF (<a href="https://alexcican.com/images/blog/assets/vine.gif">watch it again</a>)</figcaption>
 
 Vine shows you an interactive tutorial how to record your first Vine, and once you are done with the walkthrough, the video you recorded is ready to be published. They guide the user through these different stages (recording, posting, browsing), seamlessly. Brilliant.
 

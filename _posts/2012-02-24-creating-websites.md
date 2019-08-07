@@ -9,7 +9,7 @@ The Internet is becoming mainstream, and business opportunities are growing fast
 
 Throughout the post, I will assume you will be dealing with both the design and the development of websites, as I have been doing.
 
-##Reason #1 – It takes time
+## Reason #1 – It takes time
 It takes a long time to **learn how to design**, how to see. In order to design a good website, you have to learn how to compose the elements of the page, what colour palette to use, typographic hierarchy, font pairing, in one word: *design*.
 
 But designing websites doesn’t end there. You must also learn how to write good copy, headlines that attract the attention of the user, what makes users click, design for older browsers and devices, how to make a site usable, accessible, analyse analytics, and so on.
@@ -28,7 +28,7 @@ There’s a strong possibility that by the time you’ve learned and mastered al
 
 There is a hidden pitfall, which goes by *“I don’t follow trends”*. Well buddy, as far as I’m concerned, you can design your website like it’s 1999 but don’t expect to lock-in any clients. Adapt or die…
 
-##Reason #2 – The competition
+## Reason #2 – The competition
 You’ll find out sooner or later that **competition is fierce**! I often think that the Internet is filled only with website designers and developers! Wherever I turn my head—digitally of course—there is a dude or a dudette offering website design services.
 
 Now, whether they know how to design and develop a website is irrelevant. Yes, completely irrelevant. Because there are many clients; hell, the majority of them who will want a website done for the minimum cost. It doesn’t matter if it’s going to cost them more in the long run. They just don’t see the forest behind the tree.
@@ -37,7 +37,7 @@ I want to share with you a trade secret: **avoid clients who say they don’t ha
 
 And remember this: **there is always going to be someone who can do the job faster, or cheaper, or even better than you**. This applies to any business. But in the website creation business, the amount of people who can do it faster and cheaper than you is infinitely larger! So you have to differentiate yourself, and stand out from the crowd.
 
-##Reason #3 – There are no standards
+## Reason #3 – There are no standards
 There are certain standards and quality controls that you need to follow when manufacturing a laptop, for example. From the client’s perspective, there is also a standard of _price versus quality_.
 
 You know that if you want to buy a good laptop you are required to spend something between $600 – $1000. If you want a “top of the range” laptop you will go for an Apple MacBook Pro, or an Alienware, and expect to pay something between $1200 – $7000. My point is that you can estimate the value and cost.
@@ -48,7 +48,7 @@ No matter how crappy the coding is, if you deliver, the client will say thank yo
 
 Wrapping your head around all these issues can be overwhelming. Want to join this chaotic business? Be my guest! But again, don’t say I didn’t warn you!
 
-##Reason #4 – The Client
+## Reason #4 – The Client
 This one is tied with the previous reason, the _lack of standards_. Because of a utopian perception, the client **thinks they can ask** for the moon and the stars, and be given to them. Moreover, they make an outrageous request and offer to repay you with an X amount of money. When you say that it’s impossible because you need at least 3X to complete their request, they threaten to go to someone else. At this point you have two options:
 
 1. if you are low on cash you will suck up and do the job.
@@ -58,7 +58,7 @@ There is one personal trait you need to improve in this kind of business: **deal
 
 Don’t get ripped off by clients. Use contracts to avoid headaches in case something goes wrong, and ask for payment up front—depending on the scale of the project either 50%, 30%, or 20% of the total price.
 
-##Reason #5 – It can get lonely
+## Reason #5 – It can get lonely
 Being a one man army, jack of all trades can **become tiresome** at some point. Working infinite hours in front of a computer (developer, designer), dealing with money (accountant), dealing with problems (IT support), dealing with clients (support/secretary), etc. can burn you out in no time. You have to develop all the aforementioned qualities, and have a strong character to keep going.
 
 > If you’re going through hell, keep going - Winston Churchill

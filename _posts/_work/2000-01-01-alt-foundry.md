@@ -33,18 +33,18 @@ designs: '
 Alt-Foundry is a company that sells fonts. I was hired to designed and develop a complete e-commerce solution that would act as a platform for selling and promoting their fonts.
 <!--more-->
 
-##What I learned
+## What I learned
 I got a ton of back-end (PHP) experience from this project. I learned how challenging it is to create an e-commerce platform on top of WordPress. I also learned how to create images with PHP on the fly (implemented when live-testing each font). I also learned and applied online shopping cart best practices (one-click checkout, etc.).
 
 
-##Concept Idea
+## Concept Idea
 The client requested from me to design and develop a complete e-commerce website for selling fonts. With my previous experience in creating e-commerce websites, I confidently accepted the project.
 
 For the design of the website, he gave me complete creative freedom, asking only the website to have a simple, minimalistic design. Having shown him the first drafts, he was very happy with the initial result.
 
 <a href="http://sicanstudios.com/images/work/alt-foundry/homepage@2x.jpg" class="img" target="_blank"><img src="http://sicanstudios.com/images/work/alt-foundry/homepage.jpg" alt="alt foundry website" title="Alt-Foundry website" /></a>
 
-##Functionality
+## Functionality
 The website should be able to do the following (everything was implemented):
 <ul>
   <li>subscribe to the weekly newsletter</li>
@@ -60,7 +60,7 @@ The website should be able to do the following (everything was implemented):
   <li>ability to add periodical discount codes</li>
 </ul>
 
-##Production
+## Production
 The website was coded in valid xHTML Strict 1.0 and CSS3. Once all the design assets were created and a static website coded, it was then transcoded into PHP for a WordPress theme. The website was search engine optimised (SEO) in order to attract more visitors from search engines.
 
 Browsing the Internet and researching other font selling websites like <a href="http://new.myfonts.com/" target="_blank">MyFonts</a>, I decided that online testing of the fonts prior to purchasing is crucial for the potential buyer. It shows how the font and variations of the font will look with some user inputed text. I could not rely on the browser&#8217;s font rendering engine to display the text because every browser and OS renders the fonts differently.
@@ -80,7 +80,7 @@ When creating the testing of the fonts, it was necessary to add a no JavaScript 
 
 In the contact form, if the completed fields were incorrect, using jQuery, the erroneous fields would have a red coloured background and the website would request from the user to correct those fields. Moreover, checking the fields again back-end was necessary, in case someone with JavaScript disabled tried to &#8220;trick&#8221; the system entering phony details.
 
-##Devils is in the details
+## Devils is in the details
 Great attention was given to small details. Small visual cues improving the user&#8217;s browsing experience can be seen throughout the website. For every button, link or image there is a default state, a hover state, and a click state, thus making the website responsive to the user&#8217;s actions. When clicking on an input field, like in the contact form, the field would change its colour, clearly pointing to the user which field they&#8217;re filling.
 
 Whenever the user would add a product to the cart, a bar on top of their browser would appear saying that the product was added to the cart. Even if they would click to add the product in their cart again, the product would not be added twice.
@@ -89,7 +89,7 @@ Besides the message bar, the cart button in the header, prominent in all of the 
 
 <img src="http://sicanstudios.com/images/work/alt-foundry/cart-functionality.jpg" alt="cart functionality" />
 
-##Shopping Cart
+## Shopping Cart
 The cart features a simple one-step checkout, no sign-up required. In the cart page, the user can remove products from the cart, add a discount code, or clear their cart. Once they are done, all they have to do is click to pay via PayPal.
 
 If the fonts are free of charge, instead of the PayPal button, a download button is displayed. Once clicked, the fonts in the cart are downloaded as a ZIP file and the cart is cleared.

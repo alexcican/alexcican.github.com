@@ -7,18 +7,16 @@ cover: '<img class="cover" src="data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS
 Designers are **creative people**. We are messy. I’m not talking about your design process. You might have a factory-like process, be very organised, note everything in your Moleskine notebook, draw perfect wireframes, keep your layers organised, and stuff like that. This depends on the character of each person. But that’s not how ideas are formed.
 <!--more-->
 
-##Ideas are fragile
+## Ideas are fragile
 Ideas are formed from small sparks that can burst from anything. Ideas can morph, at any time, into any new idea, and can be easily forgotten. In their early stage, **ideas are very fragile**. Rather than rejecting them from the get go, embrace them. Give them time to grow and develop. Try them out and see if they stick.
 
 I love what companies are doing nowadays, giving freedom to their employees to try stuff, like work out of the office, embrace new technology, organise hackathons<sup>[1](#footnotes)</sup>, and so on.
 
 This creates a stimulating environment, where the person can be most creative in. If you’re struggling to create whilst you’re at the office, and you are more creative at home, by all means, work from home.
 
-##Create a stimulating environment
+## Create a stimulating environment
 In order to be creative you have to **stimulate the mind** and embrace new ideas. I’m not most creative when under external pressure, by a client or time. I tend to stick to the basics/default/usual, and certainly don’t wander exploring stuff and trying to come up with new ideas. But don’t get me wrong, deadlines are good—that’s how you [get stuff done](https://alexcican.com/post/doing-work/).
 
 Be open, try new things, test new ideas, and allow yourself **creative freedom**. Ask the question *“What if?”*. Pick a different colour palette, use a not-so-popular font, design with a different style, try a new drawing technique, give that new [design app](http://www.bohemiancoding.com/sketch/) a go, experiment with stuff!
 
-<div id="footnotes">
-<strong><em>[1] Hackathons:</strong> are events where developers, usually part of the company, gather for a weekend and implement a cool idea they came up with.</em>
-</div>
+<div id="footnotes"><em>[1] Hackathons: are events where developers, usually part of the company, gather for a weekend and implement a cool idea they came up with.</em></div>

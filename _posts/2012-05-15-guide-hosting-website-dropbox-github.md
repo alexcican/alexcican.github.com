@@ -7,14 +7,14 @@ cover: '<img class="cover" src="data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS
 A few months ago I cancelled my hosting and server accounts and moved all my websites to the cloud. I tried it **as an experiment**; never for a second I thought it would work this well. I did the switch out of impulse: I was pissed. I was pissed at the hosting companies charging so much, having such crappy support, and much downtime. I’m very glad I switched.
 <!--more-->
 
-##Why I switched
+## Why I switched
 Prior to the cloud, I was hosting my websites on a **VPS (Virtual Private Server) with a company called [Linode](http://linode.com)**. This company gives you a server *as is* and you have to install the OS by yourself, maintain it, improve its performance, etc. I busted my chops trying to configure a fast server. After I was done, the server was running **CentOS + nginx + PHP-fpm + MySQL**, hosting my websites and Wordpress blogs.
 
 The drop that spilled the cup came one day of February 2012, when all my websites (folders) **were deleted** somehow. Because I considered paying $20 per month for simply hosting my files was enough, I didn’t enable the backup option (it was an extra $2 per month, if I remember correctly). So that day came, and I went straight to their support ticketing system. The dude that was assigned to me was not helpful at all and said there was nothing to be done. My last backup of the websites was in December 2011.
 
 Pissed off, I **cancelled my account**, got my refund and didn’t think back (or forward). Having been left only with my domain names, I had to do something (for *AlexCican.com* alone, I was averaging around 700 unique visitors per day). That’s when I made the decision to use the cloud.
 
-##Why I switched to Dropbox and GitHub
+## Why I switched to Dropbox and GitHub
 
 I switched to these two services for a couple of reasons:
 
@@ -36,7 +36,7 @@ I switched to these two services for a couple of reasons:
 
 Let’s get into **how I did** it.
 
-##The specifics of Dropbox
+## The specifics of Dropbox
 
 If you want your files to be accessible by anyone, you have to move them into your “Public” folder. If you’re using absolute paths for your website, I suggest you change it to relative paths. So from this:
 
@@ -56,7 +56,7 @@ If you’re using GoDaddy, login to *“Your account”* and launch the *“Doma
 
 Wait a few hours and you should be able to access the website hosted on Dropbox via your domain name!
 
-##Downsides of Dropbox
+## Downsides of Dropbox
 
 The big downside of hosting your website on Dropbox is that you can only **host static assets** (HTML, CSS, JS, images). No PHP. A solution to that was to use another service called [PHPFog](http://phpfog.com). I won’t go into details in this tutorial about PHP.
 
@@ -76,7 +76,7 @@ To do this URL masking on GoDaddy, repeat the steps above for pointing the DNS r
 
 Lastly, if you have a large website, with many pages, you will find it difficult when you want to update the copyright of the page, for example. Because of the website being static, you would have to edit every single page of your website. Whereas with a dynamic website, you edit once (the `header.php` for example) and you’re done.
 
-##Specifics of GitHub
+## Specifics of GitHub
 
 Searching for solutions to this issue I came across GitHub. On GitHub, you can host static websites with the option of adding your custom domain name (hence custom URLs) as well. There are two ways to do this:
 
@@ -96,7 +96,7 @@ Now it’s time to change the **DNS settings** from GoDaddy to point to our GitH
 
 You have to decide what domain name you’ll be using. For a sub-domain like `http://www.alexcican.com` or `http://blog.alexcican.com` you would simply create a `CNAME` record pointing to `charlie.github.com`. If you are using a top-level domain like `https://alexcican.com`, you must use an `A (Host)` record pointing to `192.30.252.153` and another one to `192.30.252.154`. There’s no need to add a `CNAME` record for top-level domains. [Read more in the documentation](https://help.github.com/articles/tips-for-configuring-an-a-record-with-your-dns-provider/).
 
-##Downsides of GitHub
+## Downsides of GitHub
 
 The first downside is that you need **special software** for interacting (gracefully) with your repositories. The best software to install if you’re on a Mac is **[Git Tower](http://www.git-tower.com/)** and if you’re on Windows you shoud be using **[SmartGit](http://www.syntevo.com/smartgit/index.html)**.
 
@@ -104,7 +104,7 @@ The other downside to GitHub is that unless you’re a software geek, it **takes
 
 Lastly, the same with Dropbox, GitHub only **supports static assets** (HTML, CSS, JS, images).
 
-##Liberation begins
+## Liberation begins
 
 > *“FTP-ing is so 1999”* – everyone
 

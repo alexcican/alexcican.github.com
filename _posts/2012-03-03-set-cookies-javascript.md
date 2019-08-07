@@ -12,7 +12,7 @@ Cookies are an important part of modern browsers. Without them, we couldn’t br
 
 I’ll be using a cookie plugin created by Klaus Hartl. We do not need to edit anything in this file, just call it after jQuery. [Download the script](http://lab.alexcican.com/set_cookies/cookie.js)
 
-##Step 1 - HTML first
+## Step 1 - HTML first
 
 Based on the example above, we create a `DIV` and inside it we add two messages. One that will be displayed only once, when the page is loaded, and the other will be displayed after the first one was shown. Whether to show the first or second message is the job of CSS:
 
@@ -21,7 +21,7 @@ Based on the example above, we create a `DIV` and inside it we add two messages.
 	  <p>This is shown only after the previous message was shown in the last visit. Even when you refresh the page, the browser remembers your option.</p>
 	</div>
 
-##Step 2 - CSS
+## Step 2 - CSS
 
 With CSS we tell the browser to hide the first message if the div’s class is `.hide--first` or hide the second message if the div’s class is `.hide--second`:
 
@@ -32,7 +32,7 @@ With CSS we tell the browser to hide the first message if the div’s class is `
 	  display: none;
 	}
 
-##Step 3 - Initialising
+## Step 3 - Initialising
 
 For faster loading times, add your JavaScript to the bottom of the page, before closing the `</body>` tag. First, we need to call jQuery.
 
@@ -47,7 +47,7 @@ Below it, we add an empty script tag and we can start coding:
 	<script type="text/JavaScript">
 	</script>
 
-##Step 4 - JavaScript
+## Step 4 - JavaScript
 
 First we add the cookie code. There are two parts to this: one that checks if cookie exists, and the other part is the one that adds the cookie. First, we will check for the cookie (I’ll explain why later). If the cookie is true, hide the initial message and show the other one (with CSS) by changing the class of the `<div>`:
 
@@ -73,7 +73,7 @@ The complete code for the first example:
 		});
 	</script>
 
-##Step 5 - Add cookie on click
+## Step 5 - Add cookie on click
 
 In the demo page, you saw that the second container would hide the first message and show the other one, only after you clicked on the “&times;” icon. First we need to add an empty `href` tag for the icon to our HTML:
 
@@ -161,6 +161,6 @@ The complete code for the second example:
 
 Download and [browse the complete code on GitHub](https://github.com/alexcican/lab/tree/gh-pages/set_cookies).
 
-##Conclusion
+## Conclusion
 
 Cookies can be used in many ways. Now you know how to create your own [Hellobar](http://www.hellobar.com/). You could take it a step further and figure out how to authenticate users (remember login details) and save entire sessions in the cookies (sign up process doesn’t get lost in case you refresh the page).

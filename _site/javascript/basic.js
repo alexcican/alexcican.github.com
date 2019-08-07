@@ -25,7 +25,7 @@ $(document).ready(function() {
 
     // on orientation change it fixes height of div and resizes bg image (position up/down)
     function doOnOrientationChange() {
-      adjustHeight();
+      // adjustHeight();
 
       switch (window.orientation) {
         case -90:
@@ -42,13 +42,6 @@ $(document).ready(function() {
       }
     }
     window.addEventListener('orientationchange', doOnOrientationChange);
-
-    // hides Safari address bar on iPhone
-    window.addEventListener("load",function() {
-      setTimeout(function() {
-        window.scrollTo(0, 1);
-      }, 300);
-    })
   }
 
   // for Windows Phone mobile IE
@@ -69,8 +62,8 @@ $(document).ready(function() {
       hideShowOffset = 6; // scrolling value after which triggers hide/show menu
 
   // needs initial position of bg image
-  var s = $(this).scrollTop();
-  $('.bg-image').css('-webkit-transform', 'translate3d(0,' + (s/1.3) + 'px, 0');
+  // var s = $(this).scrollTop();
+  // $('.bg-image').css('-webkit-transform', 'translate3d(0,' + (s/1.3) + 'px, 0');
 
   $(window).scroll(function () {
     var currentScroll = $(this).scrollTop(), // gets current scroll position
@@ -80,9 +73,9 @@ $(document).ready(function() {
 
 
     // for bg image
-    s = $(this).scrollTop();
-    if (scrolledWindowHeight <= pageHeight)
-      $('.bg-image').css('-webkit-transform', 'translate3d(0,' + (s/1.3) + 'px, 0');
+    // s = $(this).scrollTop();
+    // if (scrolledWindowHeight <= pageHeight)
+      // $('.bg-image').css('-webkit-transform', 'translate3d(0,' + (s/1.3) + 'px, 0');
 
     // timer for when to add class for hover effect on blog links
     clearTimeout($.data(this, 'scrollTimer'));
@@ -208,7 +201,6 @@ $(document).ready(function() {
       // adjusts top padding of text depending on window width
       if (width < 768) {
         padding = height / 1.9;
-        height = height + 30; // for iPhone extra height because we’re hiding address bar
       } else if (width > 767 && width < 1024) {
         padding = height / 2.2;
       } else if (width > 1024 && width < 1450) {
@@ -219,23 +211,10 @@ $(document).ready(function() {
         padding = height / 2.2;
       }
 
-      // if (height < 480) {
-      //   padding = height / 2.2;
-      //   height = height + 30; // for iPhone extra height because we’re hiding address bar
-      // } else if (height > 480 && height < 767) {
-      //   padding = height / 2.3;
-      // } else if (height > 767 && height < 900) {
-      //   padding = height / 2.8;
-      // } else if (height > 900 && height < 1080) {
-      //   padding: height / 2.4;
-      // } else if (height > 1080 && height < 1300) {
-      //   padding: height / 2.2;
-      // } else {
-      //   padding = height / 2;
-      // }
-
-      $("#intro, #post section").css("height", height);
-      $("#intro div, #post .cover").css("padding-top", padding);
+      // $("#intro, #post section").css("height", height);
+      $("#intro").css("height", height);
+      // $("#intro div, #post .cover").css("padding-top", padding);
+      $("#intro div").css("padding-top", padding);
       $(".bg-image").css('top', padding - 430);
 
       // $("#intro, #post section").css("height", height);

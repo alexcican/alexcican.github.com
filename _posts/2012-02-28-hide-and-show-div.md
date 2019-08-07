@@ -7,13 +7,13 @@ cover: '<img class="cover" src="data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS
 Hiding and showing a div in HTML is really simple. In this tutorial I will show you how to do that using only CSS. I will also show you another version of hiding and showing divs using jQuery. Furthermore, we will take the necessary precautions if Javascript is disabled. Let’s dive in!
 <!--more-->
 
-##Hide and show a div with CSS
+## Hide and show a div with CSS
 
 The first method, involves using only CSS. We will use the CSS pseudo-class `:hover`. The idea is that we want to hide the div once the user has moved their mouse over it, and display something else instead. This effect is commonly used when you have a subscribe button. It saves space, without compromising the necessary information for the user.
 
 <a href="http://lab.alexcican.com/hide_show_div/" class="button" target="_blank">View the Demo &rarr;</a>
 
-##HTML Code
+## HTML Code
 
 First we need to add the HTML. We create a div, `.subscribe`; inside it we add another div and a form, which is hidden at first. Once the user moves their mouse over the `.subscribe` div, the inside div is hidden and the form is displayed. The form was made to work with [FeedBurner](http://feedburner.google.com/). You can replace the form with whatever you want. If you want the form to work for your account, replace `alexcican` from the `…a/mailverify?uri='xxxxx'` and `value='xxxxx'` with your FeedBurner URI.
 
@@ -29,7 +29,7 @@ First we need to add the HTML. We create a div, `.subscribe`; inside it we add a
 		</form>
 	</div>
 
-##CSS Code
+## CSS Code
 
 Next we have to add some CSS. By default, the elements that will be hidden are: a) the form and b) the inside div (once the .subscribe div is hovered). To affect something with CSS you add “ > ” at the end of the class, meaning you target the descendants of that class. For example: `.this_class>affects_this`. The one class you are changing must be a child of the parent class (in the previous example `affects_this` is the child of `.this_class`). The second CSS statement, tells the browser to show the form once the `.subscribe` div is hovered.
 
@@ -43,13 +43,13 @@ Next we have to add some CSS. By default, the elements that will be hidden are: 
 
 That’s all you need to make this work. Now, it’s up to you; style it and make it look sexy with some cool CSS3 coding.
 
-##Hide and show a div with JavaScript
+## Hide and show a div with JavaScript
 
 In this second example, we hide and show a div using a JavaScript library, called jQuery. This time, we won’t hide the div when it’s hovered but when it’s clicked. By default the divs will be hidden; once they are clicked, they become visible, displaying the text inside. Also, we want each div to be “independent“ from one another. Meaning, if I click on the first div to see its content, the other divs should remain hidden.
 
 <a href="http://lab.alexcican.com/hide_show_div/demo2.html" class="button" target="_blank">View the Demo &rarr;</a>
 
-##HTML Code
+## HTML Code
 
 To get this to work, we will add two divs, one inside the other. The outer div will always be displayed, along with a title wrapped inside an h3 heading. The inner div will be hidden by default and once the outer div is clicked, the inner div will be shown. Feel free to alter the code to your needs. For example you can hide the divs completely once they are clicked, or you can add a button to hide them.
 
@@ -60,7 +60,7 @@ To get this to work, we will add two divs, one inside the other. The outer div w
 		</div>
 	</div><!--end div_text_container-->
 
-##CSS Code
+## CSS Code
 
 In the CSS we will add two classes. One class, named `.hidden`, will hide the element and the other named `.visible` will display the element. Since we want to affect the div inside, we will be adding `>div` to the class. You can change it to whatever you want, for example `>span`. This will affect the span element inside the outer div.
 
@@ -72,7 +72,7 @@ In the CSS we will add two classes. One class, named `.hidden`, will hide the el
 		display:block;
 	}
 
-##JavaScript Code
+## JavaScript Code
 
 Up until now, nothing happens. The divs are still visible and when you click on them, nothing happens. For a good reason; if the user has JavaScript disabled on their browser, they should still be able see and read the content of the divs. You should always use JavaScript as an enhancement and improve the browsing experience not degrade it.
 
@@ -97,7 +97,7 @@ Once the user has clicked the div we will check to see if the div has a class hi
 		});
 	</script>
 
-##Conclusion
+## Conclusion
 
 See how simple it is to hide and show a div? As a farewell gift from me to you, I will share with you another JS code. Following the same pattern of this code you can manipulate CSS values from within JavaScript directly, without having the need to add a class.
 

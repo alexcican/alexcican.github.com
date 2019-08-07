@@ -33,17 +33,17 @@ designs: '
 Cartalyst is developer centric, open source e-commerce engine with a strong focus on exemplary documentation, community support, and framework. They hired me to design and develop their website.
 <!--more-->
 
-##What I learned
+## What I learned
 From this project I learned that a mid-size website (10-15 pages) can take a long time to develop, especially when implementing a responsive design (mobile, tablet, desktop). Nowadays, I ask and examine if a responsive website is absolutely necessary prior to starting the design of the site. By checking the website analytics and evaluating the percentage of people browsing from a mobile device, is a good indicator if a responsive website is worth it.
 
-##Technical Details
+## Technical Details
 The website was coded in HTML5 and CSS3. As a backend, FuelPHP (a PHP framework) was used. They later switched to Laravel. For the blog they use WordPress. The layout had to be transformed into a WordPress theme as well.
 
 The complete website has many sections (some not yet implemented) like advocate, features, roadmap, blog, forums, marketplace, user registration, profiles, documentation, job board, and others.
 
 <a href="http://sicanstudios.com/images/work/cartalyst/homepage@2x.jpg" class="img" target="_blank"><img src="http://sicanstudios.com/images/work/cartalyst/homepage.jpg" alt="cartalyst homepage" title="Cartalyst Homepage"/></a>
 
-##Design
+## Design
 For the design of the website, Dan (co-founder) pretty much gave me a blank canvas to impress him with my ideas. They wanted a simple, clean (without gradients or 3D effects) design that would reflect their philosophy. The only requirement was to use a purple shade, their signature colour, for headings and images.
 
 <a href="http://sicanstudios.com/images/work/cartalyst/homepage-iterations.jpg" class="img" target="_blank"><img src="http://sicanstudios.com/images/work/cartalyst/homepage-iterations-small.jpg" alt="homepage iterations" title="Homepage Iterations"/></a>
@@ -54,5 +54,5 @@ In the *Features* section of the website, a content slider was implemented. You 
 
 <img src="http://sicanstudios.com/images/work/cartalyst/features-tab.jpg" alt="features" title="Browsing Features"/>
 
-##Accessibility
+## Accessibility
 In matters of accessibility all images were added an &#8220;alt&#8221; tag, semantic and descriptive coding, “skip to content” for screen readers, and many more. One major request from the client was IE 8 support. This meant that I had to introduce some browser hacks to make the site looking as best as possible on Internet Explorer.

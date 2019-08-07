@@ -7,39 +7,40 @@ cover: '<img class="cover" src="data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS
 I recently wanted to remove the extensions from my website, in order to make the URLs more user and search engine friendly. I stumbled across tutorials on how to remove the `.php` extension from a PHP page. What about the `.html`? I wanted to remove those as well! In this tutorial I’ll show you how to do that easily, by editing the `.htaccess` file.
 <!--more-->
 
-##What is an .htaccess file
+## What is an .htaccess file
 
-An `.htaccess` file is a simple ASCII file that you create with a text editor like Notepad or TextMate. It provides a way to make configuration changes on a per-directory basis.
+An `.htaccess` file is a simple ASCII file that you create with a text editor like _Notepad_ or _TextEdit_. The file lets the server know what configuration changes to make on a per-directory basis.
 
-> _Please note that `.htaccess` is the file’s extension. It isn’t `file.htaccess`, it is simply `.htaccess`._
+> Please note that `.htaccess` is the full name of the file. It isn’t `file.htaccess`, it’s simply `.htaccess`.
 
-`.htaccess` files affect the directory in which they are placed and all sub-directories. For example if there is one `.htaccess` file located in your root directory of yoursite.com, it would affect yoursite.com/content/, yoursite.com/content/images/, etc.
+`.htaccess` files affect the directory in which they are placed in and all children (sub-directories). For example if there is one `.htaccess` file located in your root directory of `yoursite.com`, it would affect `yoursite.com/content/`, `yoursite.com/content/images/`, and so on…
 
-It is important to remember that this can be prevented — for example if you don’t want certain .htaccess commands to affect a specific directory — by placing a new `.htaccess` file within the directory you don’t want affected with the changes, and removing the specific command(s) from the new .htaccess file that you do not want affecting this directory.
+It is important to remember that this can be bypassed. If you don’t want certain `.htaccess` commands to affect a specific directory, place a new `.htaccess` file within the directory you don’t want to be affected with the changes, and remove the specific command(s) from the new file.
 
-##Features
+## Features
 
 With an `.htaccess` file you can:
 
 * Redirect the user to different page
 * Password protect a specific directory
 * Block users by IP
-* Preventing hot linking of your images
-* Rewrite URIs
+* Preventing hot-linking of your images
+* Rewrite URLs
 * Specify your own Error Documents
 
-In this tutorial we’ll be focusing only on rewriting URIs.
+In this tutorial we’ll be focusing only on **rewriting URLs**.
 
 
-##Removing Extensions
+## Removing Extensions
 
-To remove the `.php` extension from a PHP file for example `yoursite.com/wallpaper.php` to `yoursite.com/wallpaper` you have to add the following code inside the `.htaccess` file:
+To remove the `.php` extension from a PHP file for example `yoursite.com/wallpaper.php` to `yoursite.com/wallpaper`
+you have to add the following code inside the `.htaccess` file:
 
 	RewriteEngine On
 	RewriteCond %{REQUEST_FILENAME} !-f
 	RewriteRule ^([^\.]+)$ $1.php [NC,L]
 
-If you want to remove the `.html` extension from a html file for example `yoursite.com/wallpaper.html` to `yoursite.com/wallpaper` you simply have to alter the last line from the code above to match the filename:
+If you want to remove the `.html` extension from a html file for example `yoursite.com/wallpaper.html` to `yoursite.com/wallpaper` you simply have to change the last line from the code above, to match the filename:
 
 	RewriteRule ^([^\.]+)$ $1.html [NC,L]
 
@@ -47,9 +48,12 @@ That’s it! You can now link pages inside the HTML document without needing to 
 
 	<a href="http://whatever.com/wallpaper" title="wallpaper">wallpaper</a>
 
-##Adding a trailing slash at the end
+## Adding a trailing slash at the end
 
-I received many requests asking how to add a trailing slash at the end. Ignore the first snippet and insert the following code. The first four lines deal with the removal of the extension and the following, with the addition of the trailing slash and redirecting. Link to the HTML or PHP file as shown above. Don’t forget to change the code if you want it applied to an HTML file.
+I received many requests asking how to add a trailing slash at the end, for example:
+`yoursite.com/page/`
+
+Ignore the first snippet and insert the code below. The first four lines deal with the removal of the extension and the following, with the addition of the trailing slash and redirecting.
 
 	RewriteEngine On
 	RewriteCond %{REQUEST_FILENAME} !-f
@@ -60,12 +64,14 @@ I received many requests asking how to add a trailing slash at the end. Ignore t
 	RewriteCond %{REQUEST_URI} !(\.[a-zA-Z0-9]{1,5}|/)$
 	RewriteRule (.*)$ /$1/ [R=301,L]
 
-Some people asked how you can remove the extension from both HTML and PHP files. I haven’t got a coding solution for that. But, you could just change the extension of your HTML file from `.html` or `.htm` to `.php` and add the code for removing the `.php` extension.
+Link to the HTML or PHP file the same way as shown above. Don’t forget to change the code if you want it applied to an HTML file instead of PHP.
 
-##Conclusion
-For those who are not so experienced with .htaccess files there is an online tool for creating .htaccess files. It is pretty good for novice users and very easy to use. [Visit their website](http://www.htaccesseditor.com/en.shtml "Create .htacces files").
+Some people asked how you can remove the extension from both HTML and PHP files. I don’t have a solution for that. But, you could just change the extension of your HTML file from `.html` or `.htm` to `.php` and add the code for removing the `.php` extension.
 
-##Updates
+## Conclusion
+For those who are not so experienced with `.htaccess` files there is an <a href="http://www.htaccesseditor.com/" rel="nofollow">online tool</a> for creating them. It’s useful for novice users to get started, and easy to use.
+
+## Updates
 
 Attention GoDaddy users: In order to remove the extensions you need to enable `MultiViews` before. The code should look like this:
 
@@ -75,6 +81,6 @@ Attention GoDaddy users: In order to remove the extensions you need to enable `M
 	RewriteCond %{REQUEST_FILENAME} !-f
 	RewriteRule ^([^\.]+)$ $1.php [NC,L]
 
-If you’re worried that search engines might index these pages as duplicate content, add a `canonical` meta tag in your HTML head:
+If you’re worried that search engines might index these pages as duplicate content, add a `<canonical>` meta tag in the `<head>` of your HTML file:
 
-    <link rel="canonical" href="https://alexcican.com/post/single-post">
+    <link rel="canonical" href="https://alexcican.com/post/single-post" />

@@ -7,21 +7,21 @@ cover: '<img class="cover" src="data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS
 In the previous design of this blog I used to show a list with my latest three articles. There is no option to do that in Scriptogr.am. People kept asking me how I did it and if I could share with them the script that shows the latest articles. When I responded that I do it manually—there’s no script I just go and edit the theme file every time—they were disappointed. But it keeps coming up in my [Twitter feed](https://twitter.com/alexcican). So I spent an hour last night writing a script that reads your blog’s `RSS` feed and shows the latest three posts.
 <!--more-->
 
-##Implications
+## Implications
 Before we get started you should know that JavaScript has a [same origin policy](http://en.wikipedia.org/wiki/Same_origin_policy). What this means is that with JavaScript, you can’t read an external `XML` feed from [Digg.com](http://digg.com), for example, and show it on your website. A workaround is to create a `PHP` file that will act as a proxy, pull the external `XML` file on your server, and then parse that file in JavaScript. But we can’t run a `PHP` file on Scriptogr.am or Dropbox.
 
 Thankfully, there’s an awesome thing called Google API. We’ll use the Google Loader to load the external feed’s `XML` file and then parse it in JavaScript. You can see the demo of this script at the bottom of this page.
 
-##Step 1 - RSS Feed
+## Step 1 - RSS Feed
 Find your Scriptogr.am `RSS` feed. It should be in this format:
 
 	http://scriptogr.am/USERNAME/feed/
 
-##Step 2 - Add script
+## Step 2 - Add script
 From the [Scriptogr.am dashboard](http://scriptogr.am/dashboard/), go to the *Tools* tab, and edit your `HTML` theme file. Go at the bottom of the file, before the end of the `</body>` tag, and add [the script](https://gist.github.com/alexcican/4753483) below:
 <script src="https://gist.github.com/alexcican/4753483.js"></script>
 
-##Step 3 - Personalise script
+## Step 3 - Personalise script
 The bits you have to edit are on **line 8** and **line 59**. Replace bits of code from this line:
 
 	var feed = new google.feeds.Feed("http://scriptogr.am/sican/feed/");
@@ -32,7 +32,7 @@ with your feed URL from Step 1. Next, replace bits of code from this line:
 
 with your feed URL’s first name and your custom domain name. Basically this line of code finds the `scriptogr.am/sican` links in the feed and replaces them with my custom domain name. If you don’t have a custom domain name for your blog, remove this line.
 
-##Step 4 - Link to HTML
+## Step 4 - Link to HTML
 Last thing you need to do is add this `HTML` element:
 
 	<div id="recent-articles">Loading…</div>
@@ -52,7 +52,7 @@ at the location(s) where you want the recent posts container to be displayed. Fo
       {{"{{/first" }}}}
       {{"{{/is_index" }}}}
 
-##Further customisation
+## Further customisation
 Feel free to customise the script even more. For example, I don’t show the most recent post, because I show it on the homepage. I skip it by stating the loop count at `1` instead of `0` on **line 20**:
 
 	for (var i = 1; i < 4; i++) {

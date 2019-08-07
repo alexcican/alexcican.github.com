@@ -7,17 +7,17 @@ cover: '<img class="cover" src="data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS
 > “Inspiration is for amateurs—the rest of us just show up and get to work” - Chuck Close
 
 <!--more-->
-##I need my Muse
+## I need my Muse
 Relying your ability to create great work, and to sustain such, on a website that showcases cool designs daily, the movement of the stars, a beautiful song, whether it’s sunny or not, and in general, a “Muse”, is **not a wise decision**. You are handing over the reigns of your work—your life—to external, unpredictable factors that have nothing to do with you and your ability to create.
 
-##Where to find inspiration
+## Where to find inspiration
 Rather, find inspiration in yourself, **through your work**. Show up, do the work day-in day-out—it doesn’t matter if it’s crappy or good—do it. With time, it will become a habit, almost second nature, and you’ll be able to perform without this drug-like need to inject inspiration intravenously to get you started with creating.
 
 That’s how the pros create stuff and ship them. No matter the weather—or other external sources—they show up, they’re present.
 
 Stephen King published over fifty novels, wrote five non-fiction books, and nearly two hundred short stories. His body of work is astonishing. Imagine how much less he would have written if he would have waited to get inspired before picking up a pen.
 
-##Have discipline
+## Have discipline
 Discipline is greater than inspiration or even motivation. Motivation only gets you pumped up to start something; it only gets you excited. But having that discipline of doing something every day at the exact time, will eventually **transform into a habit**. Habits are hard to break because of our mind’s tendency to avoid change and preference to do that same thing every day.
 
 Therefore, searching for inspiration outside, in external sources, is not natural to us. Try finding inspiration from within, from the process of writing, or designing, or drawing, or singing. Embrace that blank Photoshop document, that moment when you take your first step towards a 5K run in the morning, the process that takes you from a rough sketch to a detailed drawing…

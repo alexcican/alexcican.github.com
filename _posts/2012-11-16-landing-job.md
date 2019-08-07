@@ -24,7 +24,7 @@ To land a good job, you just need to do four “simple” things:
 3. Prove you’re the best.
 4. Negotiate.
 
-##Mistakes job seekers make
+## Mistakes job seekers make
 Let me start off by touching on mistakes people make when applying for a job. Remember, you need to work smart, not hard. Apply the [Pareto principle](http://en.wikipedia.org/wiki/Pareto_principle): 80% of the results should come from 20% of the activities.
 
 Job seekers spend too much time:
@@ -35,7 +35,7 @@ Job seekers spend too much time:
 
 Instead, be super specific about the job you’d like. Spend some time identifying your passion. A good way to finding your passion, is to ask yourself *“what would I be doing even if I was doing it for free?”*. Stop spending time refining your resume and fine-tuning your cover letter. Ignore job ads. Stop trying to get noticed by spamming your online feed (I’ll show you how to network). Change your mindset.
 
-##Changing your mindset
+## Changing your mindset
 Like Shane Mac writes in his book “[Stop with the BS](http://www.amazon.co.uk/Stop-With-The-Shane-Mac/dp/0615645119/)”: *resumes don’t get jobs*. Forget about them. Always work on the relationships and when they ask, give them your resume. Forget about online job boards, newspaper ads, and job-seeker magazines.
 
 Dream jobs aren’t even advertised. Get this well embedded in your brain. Spend time finding companies you want to work for, find the people you would be working with and get in touch with them. Don’t ask for anything. Help them out, become their friend, praise them and their work, and be thankful for their contribution.
@@ -48,21 +48,21 @@ Most large companies have a recruiter and a hiring manager. The recruiter is a s
 
 Few people know this, but I got offered a full time designer position at Google in Mountain View, California. And guess what: I didn’t get this offer by submitting my CV and cover letter.
 
-##Networking
+## Networking
 Networking is a hot but old topic. We’ve all heard the phrase “it’s not what you know but who you know”. And I agree. You don’t need to spend 10,000 hours—made famous by Malcom Gladwell in its book “[Outliers](http://www.amazon.co.uk/Outliers-Story-Success-Malcolm-Gladwell/dp/0141036257)”—becoming the best of the best at your craft, and then get a job. You just need to be expert enough. You will improve and get better whilst you’re working at the job you have got because you made friends with the creative director. Speaking of expert enough, Corbett Barr often posts cool tips on his appropriately-named website [Expert Enough](http://expertenough.com).
 
 A note on social networks. Facebook is about people you know. Twitter is about people you want to know. You can follow and get in touch with anyone from any field. Get started today connecting with them. Networking for most means being social with people you don’t like in the hopes that someone knows someone. Wrong. Networking is about giving and helping people.
 
 You connect with people by helping them out. By solving their problems, you are letting them know that you can perform, and that you are dependable and reliable. After some time, you can ask questions and for advice. They’d be more likely to answer your inquiries then. You should follow-up showing how you used their advice and thank them for it.
 
-##Proving you’re the best
+## Proving you’re the best
 After you’ve got your foot in the door and you’ve put yourself on their map, you actually need to have something to say. You need to prove to the hiring manager/employer why you’d be a better hire than anybody else. Meaning, not a more experienced hire or a better technician. You do that in a couple of ways:
 
 * By actually knowing and understanding the issues they care the most. Research what worries them. What problems are they facing?
 * Showing, not telling, why you’re the best solution to their problems. Use the words they use, talk about the issues they talk about with their team. Prepare proof that you can do the job more convincingly than anybody else can.
 * Create a business plan. Create sheets with work you would do the first 30, 60, and 90 days at working there.
 
-##Negotiating
+## Negotiating
 I won’t go into too much detail about this subject here, because I already wrote about it in another [blog post](https://alexcican.com/post/pricing-negotiating). Nonetheless, let’s look into how to negotiate a salary if they say it’s not flexible.
 
 When interviewers say the salary it’s not flexible, they implement the classic scare tactic. And because you’re terrified of negotiating—understandable, since nobody taught you how to do it; [learn now](https://alexcican.com/post/pricing-negotiating)—the interviewer owns you like a puppeteer manipulates a puppet:
@@ -77,7 +77,7 @@ Make the case why you should get a higher salary. Get the pay range of the job p
 
 Last resort: if I do an astonishingly great job, do you agree to revisit your proposal in six months and renegotiate my salary? Be ultra specific and ask them (bullet points) what you need to do to create great work. Present the deliverables in six months.
 
-##During the interview
+## During the interview
 When you get the chance for an interview, remember to ask smart questions. They’re finding out more about you, and you about them. Interviews are about telling your story. Use key words that you learned beforehand from the needs and problems of the company. Relate with their philosophy. Use the “Briefcase technique” made famous by [Ramit Sethi](http://www.iwillteachyoutoberich.com).
 
 The “Briefcase technique” is about bringing a briefcase and inside it have printed paper sheets with the deliverables (see above on creating a business plan) of the project and how you will improve the company. At some point during the interview, reach out and hand these sheets of paper from inside your briefcase. It’s a great way to make an impression and showcase your out-of-the-box thinking.
@@ -90,7 +90,7 @@ Pick three major events in your life and focus on them. Tailor the seven traits 
 
 Remember that it’s not just the interviewer deciding if they want to work with you but also if *you* want to work with them. What might look like a great place to work from the “outside”, for various reasons it might not be such a great place from the inside.
 
-##Closing Tips
+## Closing Tips
 Here are some more tips to help you land and keep a job:
 
 * Stop waiting for someone to recognise your brilliance. Nobody owes to give you a job—hell even a chance—just because you are yourself.

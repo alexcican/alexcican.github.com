@@ -18,7 +18,9 @@ body {
   font-size: 20px;
   line-height: 1.4em;
   background: #fff;
-  color: #333;
+  color: #222;
+  font-weight: 500;
+  letter-spacing: -0.01em;
   /*background: url('../images/grid44.png') 0 0;*/
 }
 
@@ -159,12 +161,16 @@ h1 {
 }
 
 h2, h3 {
-  font-size: 1.2em;
+  font-size: 1.5em;
   line-height: 1.35em;
 }
 
 p, ul, ol, #footnotes {
   padding-bottom: 1.55em;
+}
+
+h2 {
+  padding-bottom: 0.5em;
 }
 
 p > img {
@@ -186,26 +192,30 @@ sup {
 }
 
 code {
-  font-family: Inconsolata, Consolas, "Courier New", Courier, monospace;
-  font-size: .85em;
-  line-height: 1.6em;
+  font-family: "Menlo", Consolas, "Courier New", Courier, monospace;
+  font-size: .7em;
+  line-height: 1.5em;
   white-space: -webkit-pre-wrap;
   white-space: -moz-pre-wrap !important;
   white-space: -o-pre-wrap;
   white-space: pre-wrap;
   word-wrap: break-word;
+  background: #eee;
+  padding: 0.4em 0.2em;
 }
 
 pre > code {
-  font-size: .65em;
-  line-height: 1em;
+  font-size: .6em;
+  line-height: 2em;
+  display: inline-block;
+  background: transparent;
+  padding: 0;
 }
 
 blockquote, pre {
   display: block;
-  background: #fcfcfc;
-  border: solid 1px #f7f7f7;
-  border-left: solid 7px #f5f5f5;
+  background: #f6f6f6;
+  border-left: solid 10px #eee;
   padding: .48em 1em;
   margin: .4em 0 1.8em;
 }
@@ -216,14 +226,18 @@ blockquote p {
 }
 
 figcaption {
-  margin: -1.6em 0 0;
+  margin: -2em 0 .4em;
   font-style: italic;
   color: #666;
-  font-size: .875em
+  font-size: .8em
 }
 
 strong, b {
-  font-weight: 500;
+  font-weight: 600;
+}
+
+#footnotes {
+  font-size: .8em;
 }
 
 /* visit link under each project text */
@@ -422,7 +436,7 @@ strong, b {
   top: 0;
   right: 0;
   opacity: 1;
-  color: #333;
+  color: #222;
   z-index: 1000;
   -webkit-user-select: none;
   -moz-user-select: none;
@@ -449,7 +463,7 @@ strong, b {
 
 /* icon colour */
 .menuIcon:before, .menuIcon:active:before {
-  color: #333;
+  color: #222;
 }
 
 /* changes colour on hover or keyboard focus */
@@ -708,7 +722,7 @@ section ul span {
 
 /* each individual number */
 .leftNumber, .rightNumber {
-  color: #333;
+  color: #222;
   width: 100%;
   font-size: 39em;
   font-weight: 800;
@@ -1107,13 +1121,17 @@ h1.animateOnFirstLoad, h2.animateOnFirstLoad {
 #post section {
   overflow: hidden;
   position: relative;
-  height: 1000px;
+  height: 500px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 /* positions the post illustration */
 #post .cover {
   position: fixed;
-  padding-top: 20%;
+  top: auto;
+  bottom: auto;
   width: 100%;
   opacity: 1;
 }
@@ -1121,7 +1139,9 @@ h1.animateOnFirstLoad, h2.animateOnFirstLoad {
 /* title of blog post */
 #post h1 {
   text-align: center;
-  margin: .6em 0 .44em;
+  margin: .6em auto .44em;
+  width: 85%;
+  max-width: 1280px;
   font-size: 3em;
   letter-spacing: -1px;
 }
@@ -1279,7 +1299,7 @@ h1.animateOnFirstLoad, h2.animateOnFirstLoad {
 
 /* text of link is cut off sceen */
 #readMore h2 {
-  color: #333;
+  color: #222;
   font-size: 1.4em;
   -webkit-transition: -webkit-transform .3s, color .3s;
   -moz-transition: -moz-transform .3s, color .3s;
@@ -1450,7 +1470,7 @@ h1.animateOnFirstLoad, h2.animateOnFirstLoad {
 @media screen and (min-width: 768px){
   body {
     font-size: 24px;
-    line-height: 1.6em;
+    line-height: 1.5em;
   }
 
   /*** TYPOGRAPHY ***/
@@ -1548,9 +1568,9 @@ h1.animateOnFirstLoad, h2.animateOnFirstLoad {
     letter-spacing: -3px;
   }
 
-  #post .cover {
+/*  #post .cover {
     top: -30%;
-  }
+  }*/
 
   /* "read more" box container */
   #readMore span {

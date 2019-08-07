@@ -7,17 +7,17 @@ cover: '<img class="cover" src="data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS
 I thought I’d mix it up a bit and instead of writing a tutorial, I decided to make a video screencast. In this video tutorial I’ll show you some modern practices on how to make your website look great on retina devices, such as an iPhone 5 or a retina MacBook Pro.
 <!--more-->
 
-##What you’ll learn
+## What you’ll learn
 From this tutorial you’ll learn how to make your logos and icons infinitely scalable by exporting them as SVG (Scalable Vector Graphics) format. Next, we’ll link the SVG image to the HTML file and talk performance, and how to encode the image into data URL to save an HTTP request. Lastly, you will learn how to export @2x images and how to embed them in CSS with media queries. Finally, we’ll learn about some cool JavaScript plugins that help you with that. Check out the video:
 <iframe src="http://player.vimeo.com/video/59101559?byline=0" width="740" height="416" frameborder="0" webkitAllowFullScreen mozallowfullscreen allowFullScreen></iframe>
 <figcaption><a href="http://vimeo.com/59101559">Making your website look pretty on retina devices</a> from <a href="http://vimeo.com/alexcican">Alex Cican</a> on Vimeo.</figcaption>
 
-##Clarifications from the video (Spoiler Alert)
+## Clarifications from the video (Spoiler Alert)
 1. You can also copy the vector shape directly from Photoshop, paste it into Illustrator, and then export is as SVG. No need to save as PSD if you don’t want to.
 2. The scripts that I mention may replace standard quality images with retina @2x images automatically, but only for the HTML side (`img` tag). For CSS images (`background-image`), the best way to target them is usign a media query. Unless you use LESS or SASS mixins for your CSS.
 3. In the video I say that I want to target other devices with the CSS3 media query, yet use only a `-webkit` a vendor prefix. That's because I didn’t finish the entire script. Grab it here: [gist.github.com/alexcican/4726254](http://gist.github.com/alexcican/4726254).
 
-##Links from the video
+## Links from the video
 [DataURL creator](http://dataurl.net/#dataurlmaker)<br/>
 [Slicy app](http://macrabbit.com/slicy/)<br/>
 [RetinaJS](http://github.com/imulus/retinajs)<br/>
