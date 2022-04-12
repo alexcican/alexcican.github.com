@@ -200,6 +200,7 @@ code {
   white-space: -o-pre-wrap;
   white-space: pre-wrap;
   word-wrap: break-word;
+  word-wrap: anywhere;
   background: #eee;
   padding: 0.4em 0.2em;
 }
