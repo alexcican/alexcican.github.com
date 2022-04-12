@@ -73,9 +73,9 @@ $(document).ready(function() {
 
 
     // for bg image
-    // s = $(this).scrollTop();
-    // if (scrolledWindowHeight <= pageHeight)
-      // $('.bg-image').css('-webkit-transform', 'translate3d(0,' + (s/1.3) + 'px, 0');
+    s = $(this).scrollTop();
+    if (scrolledWindowHeight <= pageHeight)
+      $('.bg-image').css('-webkit-transform', 'translate3d(0,' + (s/1.3) + 'px, 0');
 
     // timer for when to add class for hover effect on blog links
     clearTimeout($.data(this, 'scrollTimer'));
@@ -252,15 +252,15 @@ $(document).ready(function() {
       scrolling = false;
 
   // on blog section click, opens section, removes all others, increases size of illustration, and makes it full screen
-  $('#fullWidthContainer section').on('click touchend', function(e) {
-    container = $(this);
+  // $('#fullWidthContainer section').on('click touchend', function(e) {
+  //   container = $(this);
 
-    if (e.metaKey || e.ctrlKey || e.shiftKey) {
-      // do nothing (user opened link in new tab/window)
-    } else {
-      openBlogSection();
-    }
-  })
+  //   if (e.metaKey || e.ctrlKey || e.shiftKey) {
+  //     // do nothing (user opened link in new tab/window)
+  //   } else {
+  //     openBlogSection();
+  //   }
+  // })
 
   // if scrolling, don't animate the opening of blog section (touch issues)
   $('#fullWidthContainer section').on('touchmove', function(e){
@@ -273,33 +273,33 @@ $(document).ready(function() {
 
 
 
-  // animates the opening of blog section
-  function openBlogSection() {
-    if (scrolling != true) {
-      var positionScreen = container.offset().top - $(window).scrollTop(); // finds the position of section relative to screen
-      container.addClass('magnify');
-      $('#fullWidthContainer').addClass('clickedBlogLink');
-      $('body').addClass('noScroll');
-      $('.magnify').css('transform', 'translateY(-'+ positionScreen + 'px)');
-      window.setTimeout(function(){$('.spinner').removeClass('hidden');}, 500);
-    }
-  }
+  // // animates the opening of blog section
+  // function openBlogSection() {
+  //   if (scrolling != true) {
+  //     var positionScreen = container.offset().top - $(window).scrollTop(); // finds the position of section relative to screen
+  //     container.addClass('magnify');
+  //     $('#fullWidthContainer').addClass('clickedBlogLink');
+  //     $('body').addClass('noScroll');
+  //     $('.magnify').css('transform', 'translateY(-'+ positionScreen + 'px)');
+  //     window.setTimeout(function(){$('.spinner').removeClass('hidden');}, 500);
+  //   }
+  // }
 
 
 
-  // hides the opened blog section (checks if on blog page)
-  $(document).on("page:restore", function() {
-    var currentPage = window.location.pathname;
-    if ((currentPage === '/blog.html') || (currentPage === '/blog/') || (currentPage == '/blog')) {
-      $('.magnify').removeAttr('style');
-      $('.spinner').addClass('hidden');
-      $('body').removeClass('noScroll');
-      $('#fullWidthContainer').removeClass('clickedBlogLink');
-      container.removeClass('magnify');
-    }
+  // // hides the opened blog section (checks if on blog page)
+  // $(document).on("page:restore", function() {
+  //   // var currentPage = window.location.pathname;
+  //   // if ((currentPage === '/blog.html') || (currentPage === '/blog/') || (currentPage == '/blog')) {
+  //     $('.magnify').removeAttr('style');
+  //     $('.spinner').addClass('hidden');
+  //     $('body').removeClass('noScroll');
+  //     $('#fullWidthContainer').removeClass('clickedBlogLink');
+  //     container.removeClass('magnify');
+  //   // }
 
-    $('.animateOnFirstLoad').removeClass('animateOnFirstLoad');
-  })
+  //   $('.animateOnFirstLoad').removeClass('animateOnFirstLoad');
+  // })
 
   // disable right click on photos
   $('#slider img').bind('contextmenu', function(e) {
