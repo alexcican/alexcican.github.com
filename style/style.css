@@ -691,8 +691,8 @@ section ul span {
 /* retina bg image */
 @media (-webkit-min-device-pixel-ratio: 2), (min-resolution: 192dpi) {
   .bg-image {
-    background: url('../images/bg@2x.jpg') 0 18% no-repeat;
-    background-size: 100%;
+    background: url('../images/bg@2x.jpg') center center no-repeat;
+    background-size: contain;
   }
 }
 
