@@ -1,134 +1,8 @@
-
-
-<!doctype html>
-<html lang="en-gb">
-
-<head>
-  <title>How I moved my blog to Dropbox</title>
-  <meta name="p:domain_verify" content="96e0bccd344b210732acfc8bc110354b"/>
-  <meta charset="utf-8" />
-  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-  <meta name="description" content="A few months ago I cancelled my hosting accounts and moved all my websites to Dropbox and GitHub. The only problem I was left with was where I should host the blog. I decided to use Tumblr. Regretting the decision after only two months, the solution was right in front of me the entire time: use Dropbox for the blog as well. In this article I’ll show you how I did it.
-" />
-  <meta name="viewport" content="width=device-width" />
-  <meta name="msapplication-TileImage" content="http://localhost:4000/images/apple-touch-icon-144x144-precomposed.png">
-  <link rel="shortcut icon" href="http://localhost:4000/images/favicon.ico" type="image/x-icon" />
-  <link rel="stylesheet" type="text/css" media="all" href="http://localhost:4000/style/style.min.css" />
-  <link rel="stylesheet" type="text/css" media="print" href="http://localhost:4000/style/print.css" />
-  <!--[if lt IE 10]>
-    <link rel="stylesheet" type="text/css" href="http://localhost:4000/style/ie9.css" />
-  <![endif]-->
-  <link rel="alternate" type="application/rss+xml" title="Alex Cican – Designer" href="http://feeds.feedburner.com/alexcican/" />
-  <link rel="canonical" href="http://localhost:4000/post/blog-dropbox-scriptogram/" />
-  <link rel="apple-touch-icon-precomposed" href="http://localhost:4000/images/apple-touch-icon-57x57-precomposed.png" />
-  <link rel="apple-touch-icon-precomposed" href="http://localhost:4000/images/apple-touch-icon-72x72-precomposed.png" />
-  <link rel="apple-touch-icon-precomposed" href="http://localhost:4000/images/apple-touch-icon-114x114-precomposed.png" />
-  <link rel="apple-touch-icon-precomposed" href="http://localhost:4000/images/apple-touch-icon-144x144-precomposed.png" />
-  <link rel="apple-touch-icon-precomposed" href="http://localhost:4000/images/apple-touch-icon-152x152-precomposed.png" />
-  <meta property="og:image" content="http://localhost:4000/images/cover.jpg" />
-  <meta property="og:title" content="How I moved my blog to Dropbox" />
-  <meta property="og:description" content="A few months ago I cancelled my hosting accounts and moved all my websites to Dropbox and GitHub. The only problem I was left with was where I should host the blog. I decided to use Tumblr. Regretting the decision after only two months, the solution was right in front of me the entire time: use Dropbox for the blog as well. In this article I’ll show you how I did it.
-" />
-  <meta property="og:url" content="http://localhost:4000/post/blog-dropbox-scriptogram/" />
-  <meta property="og:site_name" content="Alex Cican — Designer" />
-  <meta property="og:type" content="blog" />
-  <meta name="twitter:card" content="summary_large_image" />
-  <meta name="twitter:site" content="@alexcican" />
-  <meta name="twitter:creator" content="@alexcican" />
-  <meta name="twitter:creator:id" content="Alex Cican" />
-  <meta name="twitter:url" content="http://alexcican.com" />
-  <meta name="twitter:title" content="How I moved my blog to Dropbox" />
-  <meta name="twitter:description" content="A few months ago I cancelled my hosting accounts and moved all my websites to Dropbox and GitHub. The only problem I was left with was where I should host the blog. I decided to use Tumblr. Regretting the decision after only two months, the solution was right in front of me the entire time: use Dropbox for the blog as well. In this article I’ll show you how I did it.
-" />
-  <meta name="twitter:image:src" content="http://localhost:4000/images/cover.jpg" />
-
-  
-</head>
-<body  >
-  <!--[if lt IE 9]>
-      <p class="chromeframe">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> or <a href="http://www.google.com/chromeframe/?redirect=true">activate Google Chrome Frame</a> to improve your experience.</p>
-  <![endif]-->
-
-  <nav id="mainNav" role="navigation">
-    <span class="menuIcon icon " title="Menu (Esc)" tabindex="0" data-icon="m"><span>Menu</span></span>
-
-    <div id="navigation">
-      <p><span class="heading">alex cican</span><br/><span class="subheading">Designer</span></p>
-      <p class="menu_label">Menu</p>
-
-      <section>
-        <ul class="siteLinks">
-          <li><span>Site dishes</span></li>
-          <li><a href="http://localhost:4000" class="home " title="Learn about me (H)">Home</a></li>
-          <li><a href="http://localhost:4000/work/" class="work " title="Check out my work (W)">Work</a></li>
-          <li><a href="http://lab.alexcican.com" class="lab" title="Visit my lab (L)">Lab</a></li>
-          <li><a href="http://localhost:4000/blog/" class="blog " title="Read my blog (B)">Blog</a></li>
-          <!-- <li><a href="http://localhost:4000/photos/" class="photos " title="View my photos (P)">Photos</a></li> -->
-        </ul>
-
-        <ul>
-          <li><span>Main contact</span></li>
-          <li><a href="mailto:&#097;&#108;&#101;&#120;&#064;&#097;&#108;&#101;&#120;&#099;&#105;&#099;&#097;&#110;&#046;&#099;&#111;&#109;" class="email" title="Email me (E)">Email</a></li>
-        </ul>
-
-        <ul>
-          <li><span>Desserts</span></li>
-          <li><a href="http://twitter.com/alexcican" title="Find me on Twitter" rel="noreferrer" target="_blank">Twitter</a></li>
-          <li><a href="http://dribbble.com/alexcican" title="Find me on Dribbble" rel="noreferrer" target="_blank">Dribbble</a></li>
-          <li><a href="http://github.com/alexcican" title="Find me on GitHub" rel="noreferrer" target="_blank">GitHub</a></li>
-          <li><a href="http://flickr.com/sican" title="Find me on Flickr" rel="noreferrer" target="_blank">Flickr</a></li>
-        </ul>
-
-        <p>Some of our dishes may contain sarcasm and humour. <br/>Please don&rsquo;t inform our staff about any allergies you might have.</p>
-      </section>
-    </div>
-  </nav>
-
-  <div id="container">
-
-  <div id="post">
-    <section class="blue">
-      
-        <img class="cover" src="data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0idXRmLTgiPz4NCjwhLS0gR2VuZXJhdG9yOiBBZG9iZSBJbGx1c3RyYXRvciAxNi4wLjAsIFNWRyBFeHBvcnQgUGx1Zy1JbiAuIFNWRyBWZXJzaW9uOiA2LjAwIEJ1aWxkIDApICAtLT4NCjwhRE9DVFlQRSBzdmcgUFVCTElDICItLy9XM0MvL0RURCBTVkcgMS4xLy9FTiIgImh0dHA6Ly93d3cudzMub3JnL0dyYXBoaWNzL1NWRy8xLjEvRFREL3N2ZzExLmR0ZCI+DQo8c3ZnIHZlcnNpb249IjEuMSIgaWQ9ImRyb3Bib3hfeDJCX3NjcmlwdG9ncmFtXzFfIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIg0KCSB4PSIwcHgiIHk9IjBweCIgd2lkdGg9IjczNnB4IiBoZWlnaHQ9IjQxNnB4IiB2aWV3Qm94PSIwIDAgNzM2IDQxNiIgZW5hYmxlLWJhY2tncm91bmQ9Im5ldyAwIDAgNzM2IDQxNiIgeG1sOnNwYWNlPSJwcmVzZXJ2ZSI+DQo8ZyBpZD0iUmVjdGFuZ2xlXzMiPg0KCTxnPg0KCQk8cGF0aCBmaWxsPSIjRkZGRkZFIiBkPSJNMjc3LjU5NCwyMzYuNzgyYy0wLjUwMSwwLTAuOTUyLTAuMTk5LTEuMzUtMC42bC0xNS4xNS0xMi42MDFsLTE1LjE1LDEyLjc1DQoJCQljLTAuNDAxLDAuMzAxLTAuODUxLDAuNDUtMS4zNSwwLjQ1Yy0wLjUwMSwwLTAuOS0wLjA5OS0xLjItMC4zbC0xMS4yNS03LjV2NC4zNWwyOC45NSwxOC4zMDFsMjguOTUtMTguMzAxdi00LjM1bC0xMS4yNSw3LjUNCgkJCUMyNzguNDk0LDIzNi42ODQsMjc4LjA5MywyMzYuNzgyLDI3Ny41OTQsMjM2Ljc4MnogTTI0Mi4zNDQsMTY0LjMzMmwtMjcuMywxNy4xMDFsMTguNzUsMTUuNzVsMjcuMy0xNy44NTFMMjQyLjM0NCwxNjQuMzMyeg0KCQkJIE0yMTcuMTQ0LDIxMC41MzJsMjcsMTcuN2wxNi45NS0xNC4xbC0yNy4zLTE2Ljk1TDIxNy4xNDQsMjEwLjUzMnogTTI3OC4wNDQsMjI4LjIzMmwyNy0xNy43bC0xNi42NS0xMy4zNWwtMjcuMywxNi45NQ0KCQkJTDI3OC4wNDQsMjI4LjIzMnogTTI3OS44NDQsMTY0LjMzMmwtMTguNzUsMTVsMjcuMywxNy44NTFsMTguNzUtMTUuNzVMMjc5Ljg0NCwxNjQuMzMyeiBNNDg4Ljk2MiwyMDMuODIybDAuMzE1LTAuMzE2DQoJCQlsLTEuODY4LTEuODY4Yy0wLjE0Ni0wLjE2My0wLjI4NC0wLjMzMi0wLjQ0MS0wLjQ4OGMtMC4xNTctMC4xNTctMC4zMjUtMC4yOTUtMC40ODgtMC40NDFsLTE2LjE2My0xNi4xNjNsNC4xNjItNC4xNjINCgkJCWwtMC43ODEsMC4yMTdjMi42OTQtNC40OTQsMi4xMTgtMTAuNDAzLTEuNzU2LTE0LjI3NmMtNC41NjktNC41NjktMTEuOTc3LTQuNTY5LTE2LjU0NiwwYy0wLjE2NywwLjE2Ny0wLjMxNCwwLjM0NS0wLjQ2OSwwLjUxOQ0KCQkJbC0yNS40MDYsMjUuNDA2bDAuMDQxLDAuMDQxYy0wLjUyNywwLjM3NS0xLjAzNSwwLjc4Ni0xLjUwOCwxLjI1OGMtNC4zMzksNC4zMzktNC41NSwxMS4yMzItMC42NDgsMTUuODI4bC0wLjA1OSwwLjA1OQ0KCQkJbDE3LjUzNiwxNy41MzVsLTIuNTgxLDIuNTgxYy0wLjU1MiwwLjM4Ni0xLjA4NywwLjgwNS0xLjU3OSwxLjI5N2MtNC41NjksNC41NjktNC41NjksMTEuOTc4LDAsMTYuNTQ2DQoJCQljNC41NjksNC41NjksMTEuOTc4LDQuNTY5LDE2LjU0NywwYzAuMTYtMC4xNiwwLjMwMS0wLjMzMSwwLjQ0OS0wLjQ5N2wyOC43NjEtMjguNzZjMC4xNjMtMC4xNDYsMC4zMzEtMC4yODQsMC40ODgtMC40NDENCgkJCXMwLjI5NS0wLjMyNCwwLjQ0MS0wLjQ4OGwwLjIwNy0wLjIwN2wtMC4wMS0wLjAxMkM0OTAuNzg3LDIxMy4yNSw0OTEuMjM5LDIwNy45OTMsNDg4Ljk2MiwyMDMuODIyeiBNNDQ3LjY2NCwxODIuNDdsMTAuOTYtMTAuOTYNCgkJCWwwLjA1OSwwLjA1OGMwLjIzOC0wLjM5MSwwLjUxLTAuNzY4LDAuODQ5LTEuMTA2YzIuMjg0LTIuMjg0LDUuOTg4LTIuMjg0LDguMjcyLDBjMi4yODUsMi4yODQsMi4yODUsNS45ODgsMCw4LjI3Mw0KCQkJYy0wLjMzOCwwLjMzOC0wLjcxNCwwLjYxLTEuMTA1LDAuODQ5bDAuMDU4LDAuMDU4bC02LjIyMiw2LjIyMWMwLjAwMSwwLDAuMDAyLDAsMC4wMDMsMC4wMDFsLTEyLjkyLDEyLjkyDQoJCQljLTAuNTE0LTEuOTE3LTEuNTEzLTMuNzMxLTMuMDE3LTUuMjM2Yy0xLjQzNS0xLjQzNC0zLjE0OC0yLjQxNy00Ljk2Ni0yLjk1MWw4LjA3OC04LjA3OEw0NDcuNjY0LDE4Mi40N3ogTTQ1NC4yOTEsMjQxLjYwNQ0KCQkJbC0wLjI2MywwLjI2MmwwLjA1OSwwLjA5NGMtMC4yNTcsMC40NjMtMC41NjIsMC45MDUtMC45NTUsMS4yOThjLTIuMjg1LDIuMjg0LTUuOTg5LDIuMjg0LTguMjczLDANCgkJCWMtMi4yMTItMi4yMTMtMi4yNjItNS43NDUtMC4xODktOC4wNDFsLTAuMDEtMC4wMWwwLjA5NS0wLjA5NWMwLjAzOC0wLjA0MSwwLjA2NC0wLjA4OCwwLjEwNC0wLjEyOA0KCQkJYzAuMDQ2LTAuMDQ2LDAuMS0wLjA3OSwwLjE0Ni0wLjEyM2wzLjkwOC0zLjkwOGwzLjA2NCwzLjA2M2wtMC4wNjMsMC4wNjNjMC4wNTMsMC4wMywwLjExLDAuMDUxLDAuMTYyLDAuMDgzbDEuODc4LDEuODc3DQoJCQlDNDU1LjAwNCwyMzcuNzI5LDQ1NS4xMTgsMjM5LjgzMSw0NTQuMjkxLDI0MS42MDV6IE00ODMuNjY2LDIxMi40NzhsLTAuMTE2LTAuMTMzbC0yMy4zNjQsMjMuMzY0DQoJCQljLTAuNTQtMS43NzgtMS41MS0zLjQ1NS0yLjkxNi00Ljg2MWMtMC4xNTctMC4xNTctMC4zMjUtMC4yOTUtMC40ODgtMC40NDFsLTEyLjE0Ni0xMi4xNDVsLTAuMDM1LDAuMDM1bC0xMS41NS0xMS41NWwwLjA2NS0wLjA2NQ0KCQkJYy0wLjA0Ni0wLjAzMS0wLjA5Ny0wLjA1LTAuMTQzLTAuMDgzbC0xLjM5Ni0xLjM5NmwtMC4wMDMsMC4wMDNjLTEuNjMtMi4yODUtMS40MzYtNS40NzEsMC42MTUtNy41MjENCgkJCWMyLjI4NC0yLjI4NCw1Ljk4OC0yLjI4NCw4LjI3MywwYzEuNzExLDEuNzExLDIuMTQsNC4yMTgsMS4yODcsNi4zMjlsNC41NDksNC41NDlsMTkuNzg3LTE5Ljc4N2w1Ljg0NCw1Ljg0NGwwLjAxMi0wLjAxMg0KCQkJbDkuOTg4LDkuOTg4bC0wLjAxMiwwLjAxMmwxLjczNCwxLjczNEM0ODQuODE4LDIwOC4yMTgsNDg0LjgyMSwyMTAuNTk4LDQ4My42NjYsMjEyLjQ3OHogTTM2OS4wMzQsMTkzLjk4MWgtNS4wNjZ2MTAuOTgzaC0xMC4wMzQNCgkJCXY1LjExN2gxMC4wMzRWMjIxaDUuMDY2di0xMC45MThoOS45NTF2LTUuMTE3aC05Ljk1MVYxOTMuOTgxeiIvPg0KCTwvZz4NCjwvZz4NCjwvc3ZnPg0K" alt="dropbox scriptogram svg" />
-      
-    </section>
-
-    <h1>How I moved my blog to Dropbox</h1>
-
-    <div id="content">
-      <p>A few months ago I cancelled my hosting accounts and moved all my <a href="https://alexcican.com/post/guide-hosting-website-dropbox-github">websites to Dropbox and GitHub</a>. The only problem I was left with was where I should host the blog. I decided to use Tumblr. Regretting the decision after only two months, the solution was right in front of me the entire time: <strong>use Dropbox for the blog</strong> as well. In this article I’ll show you how I did it.
-<!--more--></p>
-
-<h2 id="downside-of-dropbox">Downside of Dropbox</h2>
-<p>On Dropbox you can only host <strong>static files</strong>. This becomes a problem when you want to host a blog. Updating a blog with content regularly becomes tedious when you have a static layout. You have to include all the parts of the layout (header, footer, javascript) on every page. You have to write your blog post using HTML syntax. This method is not future-friendly because in the future, for example if you want to change even one link of the header menu, you’ll have to change every single blog post. Therefore, there’s a gap…</p>
-
-<h2 id="an-awesome-thing-called-scriptogram">An awesome thing called Scriptogr.am</h2>
-<p>A gap that is filled excellently by <a href="http://scriptogr.am/">Scriptogr.am</a>. Scriptogr.am is an app that connects to your Dropbox account and allows you to host a blog or dynamic website. The blog posts, or pages, are simple <a href="http://daringfireball.net/projects/markdown/syntax">Markdown</a> files located inside <code class="highlighter-rouge">Dropbox&gt;Apps&gt;scriptogram&gt;posts</code>.</p>
-
-<p>Some cool features of Scriptogr.am:</p>
-
-<ol>
-  <li><strong>Custom domain name</strong>: Use your own domain name for the blog, like <code class="highlighter-rouge">blog.alexcican.com</code>.</li>
-  <li><strong>Awesome themes</strong>: Build your own themes (very easy to do) or select one from the gallery.</li>
-  <li><strong>Awesome HTML and CSS editor</strong>: Beautifully designed online editor with syntax highlighting.</li>
-  <li><strong>One step sign-up</strong>: One step to sign-up and one click sign-in to Scriptogr.am.</li>
-  <li><strong>Offline and online editing</strong>: Use your favourite text editor (for me: <a href="http://www.sublimetext.com/2">SublimeText 2</a> and <a href="http://bywordapp.com/">Byword app</a> for iPad) or Scriptogr.am’s online editor.</li>
-  <li><strong>Posts or pages</strong>: aside from blog posts, you can also host pages (and style them differently in the theme).</li>
-  <li><strong>Tags, Slugs, Drafts</strong>: For each blog post you can specify your own tags, slug[^3], and its state (whether it’s published or not).</li>
-</ol>
-
-<h2 id="creating-a-post">Creating a post</h2>
-<p>To create a new blog post, simply create a Markdown file inside the <code class="highlighter-rouge">posts</code> directory with this front-block (required) at the top of the file:</p>
-
-<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>---
+<!doctype html> <html lang="en-gb"> <head> <title>How I moved my blog to Dropbox</title> <meta name="p:domain_verify" content="96e0bccd344b210732acfc8bc110354b"/> <meta charset="utf-8"/> <meta http-equiv="X-UA-Compatible" content="IE=edge"/> <meta name="description" content="A few months ago I cancelled my hosting accounts and moved all my websites to Dropbox and GitHub. The only problem I was left with was where I should host the blog. I decided to use Tumblr. Regretting the decision after only two months, the solution was right in front of me the entire time: use Dropbox for the blog as well. In this article I’ll show you how I did it. "/> <meta name="viewport" content="width=device-width"/> <meta name="msapplication-TileImage" content="https://alexcican.com/images/apple-touch-icon-144x144-precomposed.png"> <link rel="shortcut icon" href="https://alexcican.com/images/favicon.ico" type="image/x-icon"/> <link rel="stylesheet" type="text/css" media="all" href="https://alexcican.com/style/style.min.css"/> <link rel="stylesheet" type="text/css" media="print" href="https://alexcican.com/style/print.css"/> <!--[if lt IE 10]><link rel="stylesheet" type="text/css" href="https://alexcican.com/style/ie9.css"/><![endif]--> <link rel="alternate" type="application/rss+xml" title="Alex Cican – Designer" href="http://feeds.feedburner.com/alexcican/"/> <link rel="canonical" href="https://alexcican.com/post/blog-dropbox-scriptogram/"/> <link rel="apple-touch-icon-precomposed" href="https://alexcican.com/images/apple-touch-icon-57x57-precomposed.png"/> <link rel="apple-touch-icon-precomposed" href="https://alexcican.com/images/apple-touch-icon-72x72-precomposed.png"/> <link rel="apple-touch-icon-precomposed" href="https://alexcican.com/images/apple-touch-icon-114x114-precomposed.png"/> <link rel="apple-touch-icon-precomposed" href="https://alexcican.com/images/apple-touch-icon-144x144-precomposed.png"/> <link rel="apple-touch-icon-precomposed" href="https://alexcican.com/images/apple-touch-icon-152x152-precomposed.png"/> <meta property="og:image" content="https://alexcican.com/images/cover.jpg"/> <meta property="og:title" content="How I moved my blog to Dropbox"/> <meta property="og:description" content="A few months ago I cancelled my hosting accounts and moved all my websites to Dropbox and GitHub. The only problem I was left with was where I should host the blog. I decided to use Tumblr. Regretting the decision after only two months, the solution was right in front of me the entire time: use Dropbox for the blog as well. In this article I’ll show you how I did it. "/> <meta property="og:url" content="https://alexcican.com/post/blog-dropbox-scriptogram/"/> <meta property="og:site_name" content="Alex Cican — Designer"/> <meta property="og:type" content="blog"/> <meta name="twitter:card" content="summary_large_image"/> <meta name="twitter:site" content="@alexcican"/> <meta name="twitter:creator" content="@alexcican"/> <meta name="twitter:creator:id" content="Alex Cican"/> <meta name="twitter:url" content="http://alexcican.com"/> <meta name="twitter:title" content="How I moved my blog to Dropbox"/> <meta name="twitter:description" content="A few months ago I cancelled my hosting accounts and moved all my websites to Dropbox and GitHub. The only problem I was left with was where I should host the blog. I decided to use Tumblr. Regretting the decision after only two months, the solution was right in front of me the entire time: use Dropbox for the blog as well. In this article I’ll show you how I did it. "/> <meta name="twitter:image:src" content="https://alexcican.com/images/cover.jpg"/> </head> <body> <!--[if lt IE 9]><p class="chromeframe">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> or <a href="http://www.google.com/chromeframe/?redirect=true">activate Google Chrome Frame</a> to improve your experience.</p><![endif]--> <nav id="mainNav" role="navigation"> <span class="menuIcon icon " title="Menu (Esc)" tabindex="0" data-icon="m"><span>Menu</span></span> <div id="navigation"> <p><span class="heading">alex cican</span><br/><span class="subheading">Designer</span></p> <p class="menu_label">Menu</p> <section> <ul class="siteLinks"> <li><span>Site dishes</span></li> <li><a href="https://alexcican.com" class="home " title="Learn about me (H)">Home</a></li> <li><a href="https://alexcican.com/work/" class="work " title="Check out my work (W)">Work</a></li> <li><a href="http://lab.alexcican.com" class="lab" title="Visit my lab (L)">Lab</a></li> <li><a href="https://alexcican.com/blog/" class="blog " title="Read my blog (B)">Blog</a></li> </ul> <ul> <li><span>Main contact</span></li> <li><a href="mailto:&#097;&#108;&#101;&#120;&#064;&#097;&#108;&#101;&#120;&#099;&#105;&#099;&#097;&#110;&#046;&#099;&#111;&#109;" class="email" title="Email me (E)">Email</a></li> </ul> <ul> <li><span>Desserts</span></li> <li><a href="http://twitter.com/alexcican" title="Find me on Twitter" rel="noreferrer" target="_blank">Twitter</a></li> <li><a href="http://dribbble.com/alexcican" title="Find me on Dribbble" rel="noreferrer" target="_blank">Dribbble</a></li> <li><a href="http://github.com/alexcican" title="Find me on GitHub" rel="noreferrer" target="_blank">GitHub</a></li> <li><a href="http://flickr.com/sican" title="Find me on Flickr" rel="noreferrer" target="_blank">Flickr</a></li> </ul> <p>Some of our dishes may contain sarcasm and humour. <br/>Please don&rsquo;t inform our staff about any allergies you might have.</p> </section> </div> </nav> <div id="container"> <div id="post"> <section class="blue"> <img class="cover" src="data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0idXRmLTgiPz4NCjwhLS0gR2VuZXJhdG9yOiBBZG9iZSBJbGx1c3RyYXRvciAxNi4wLjAsIFNWRyBFeHBvcnQgUGx1Zy1JbiAuIFNWRyBWZXJzaW9uOiA2LjAwIEJ1aWxkIDApICAtLT4NCjwhRE9DVFlQRSBzdmcgUFVCTElDICItLy9XM0MvL0RURCBTVkcgMS4xLy9FTiIgImh0dHA6Ly93d3cudzMub3JnL0dyYXBoaWNzL1NWRy8xLjEvRFREL3N2ZzExLmR0ZCI+DQo8c3ZnIHZlcnNpb249IjEuMSIgaWQ9ImRyb3Bib3hfeDJCX3NjcmlwdG9ncmFtXzFfIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIg0KCSB4PSIwcHgiIHk9IjBweCIgd2lkdGg9IjczNnB4IiBoZWlnaHQ9IjQxNnB4IiB2aWV3Qm94PSIwIDAgNzM2IDQxNiIgZW5hYmxlLWJhY2tncm91bmQ9Im5ldyAwIDAgNzM2IDQxNiIgeG1sOnNwYWNlPSJwcmVzZXJ2ZSI+DQo8ZyBpZD0iUmVjdGFuZ2xlXzMiPg0KCTxnPg0KCQk8cGF0aCBmaWxsPSIjRkZGRkZFIiBkPSJNMjc3LjU5NCwyMzYuNzgyYy0wLjUwMSwwLTAuOTUyLTAuMTk5LTEuMzUtMC42bC0xNS4xNS0xMi42MDFsLTE1LjE1LDEyLjc1DQoJCQljLTAuNDAxLDAuMzAxLTAuODUxLDAuNDUtMS4zNSwwLjQ1Yy0wLjUwMSwwLTAuOS0wLjA5OS0xLjItMC4zbC0xMS4yNS03LjV2NC4zNWwyOC45NSwxOC4zMDFsMjguOTUtMTguMzAxdi00LjM1bC0xMS4yNSw3LjUNCgkJCUMyNzguNDk0LDIzNi42ODQsMjc4LjA5MywyMzYuNzgyLDI3Ny41OTQsMjM2Ljc4MnogTTI0Mi4zNDQsMTY0LjMzMmwtMjcuMywxNy4xMDFsMTguNzUsMTUuNzVsMjcuMy0xNy44NTFMMjQyLjM0NCwxNjQuMzMyeg0KCQkJIE0yMTcuMTQ0LDIxMC41MzJsMjcsMTcuN2wxNi45NS0xNC4xbC0yNy4zLTE2Ljk1TDIxNy4xNDQsMjEwLjUzMnogTTI3OC4wNDQsMjI4LjIzMmwyNy0xNy43bC0xNi42NS0xMy4zNWwtMjcuMywxNi45NQ0KCQkJTDI3OC4wNDQsMjI4LjIzMnogTTI3OS44NDQsMTY0LjMzMmwtMTguNzUsMTVsMjcuMywxNy44NTFsMTguNzUtMTUuNzVMMjc5Ljg0NCwxNjQuMzMyeiBNNDg4Ljk2MiwyMDMuODIybDAuMzE1LTAuMzE2DQoJCQlsLTEuODY4LTEuODY4Yy0wLjE0Ni0wLjE2My0wLjI4NC0wLjMzMi0wLjQ0MS0wLjQ4OGMtMC4xNTctMC4xNTctMC4zMjUtMC4yOTUtMC40ODgtMC40NDFsLTE2LjE2My0xNi4xNjNsNC4xNjItNC4xNjINCgkJCWwtMC43ODEsMC4yMTdjMi42OTQtNC40OTQsMi4xMTgtMTAuNDAzLTEuNzU2LTE0LjI3NmMtNC41NjktNC41NjktMTEuOTc3LTQuNTY5LTE2LjU0NiwwYy0wLjE2NywwLjE2Ny0wLjMxNCwwLjM0NS0wLjQ2OSwwLjUxOQ0KCQkJbC0yNS40MDYsMjUuNDA2bDAuMDQxLDAuMDQxYy0wLjUyNywwLjM3NS0xLjAzNSwwLjc4Ni0xLjUwOCwxLjI1OGMtNC4zMzksNC4zMzktNC41NSwxMS4yMzItMC42NDgsMTUuODI4bC0wLjA1OSwwLjA1OQ0KCQkJbDE3LjUzNiwxNy41MzVsLTIuNTgxLDIuNTgxYy0wLjU1MiwwLjM4Ni0xLjA4NywwLjgwNS0xLjU3OSwxLjI5N2MtNC41NjksNC41NjktNC41NjksMTEuOTc4LDAsMTYuNTQ2DQoJCQljNC41NjksNC41NjksMTEuOTc4LDQuNTY5LDE2LjU0NywwYzAuMTYtMC4xNiwwLjMwMS0wLjMzMSwwLjQ0OS0wLjQ5N2wyOC43NjEtMjguNzZjMC4xNjMtMC4xNDYsMC4zMzEtMC4yODQsMC40ODgtMC40NDENCgkJCXMwLjI5NS0wLjMyNCwwLjQ0MS0wLjQ4OGwwLjIwNy0wLjIwN2wtMC4wMS0wLjAxMkM0OTAuNzg3LDIxMy4yNSw0OTEuMjM5LDIwNy45OTMsNDg4Ljk2MiwyMDMuODIyeiBNNDQ3LjY2NCwxODIuNDdsMTAuOTYtMTAuOTYNCgkJCWwwLjA1OSwwLjA1OGMwLjIzOC0wLjM5MSwwLjUxLTAuNzY4LDAuODQ5LTEuMTA2YzIuMjg0LTIuMjg0LDUuOTg4LTIuMjg0LDguMjcyLDBjMi4yODUsMi4yODQsMi4yODUsNS45ODgsMCw4LjI3Mw0KCQkJYy0wLjMzOCwwLjMzOC0wLjcxNCwwLjYxLTEuMTA1LDAuODQ5bDAuMDU4LDAuMDU4bC02LjIyMiw2LjIyMWMwLjAwMSwwLDAuMDAyLDAsMC4wMDMsMC4wMDFsLTEyLjkyLDEyLjkyDQoJCQljLTAuNTE0LTEuOTE3LTEuNTEzLTMuNzMxLTMuMDE3LTUuMjM2Yy0xLjQzNS0xLjQzNC0zLjE0OC0yLjQxNy00Ljk2Ni0yLjk1MWw4LjA3OC04LjA3OEw0NDcuNjY0LDE4Mi40N3ogTTQ1NC4yOTEsMjQxLjYwNQ0KCQkJbC0wLjI2MywwLjI2MmwwLjA1OSwwLjA5NGMtMC4yNTcsMC40NjMtMC41NjIsMC45MDUtMC45NTUsMS4yOThjLTIuMjg1LDIuMjg0LTUuOTg5LDIuMjg0LTguMjczLDANCgkJCWMtMi4yMTItMi4yMTMtMi4yNjItNS43NDUtMC4xODktOC4wNDFsLTAuMDEtMC4wMWwwLjA5NS0wLjA5NWMwLjAzOC0wLjA0MSwwLjA2NC0wLjA4OCwwLjEwNC0wLjEyOA0KCQkJYzAuMDQ2LTAuMDQ2LDAuMS0wLjA3OSwwLjE0Ni0wLjEyM2wzLjkwOC0zLjkwOGwzLjA2NCwzLjA2M2wtMC4wNjMsMC4wNjNjMC4wNTMsMC4wMywwLjExLDAuMDUxLDAuMTYyLDAuMDgzbDEuODc4LDEuODc3DQoJCQlDNDU1LjAwNCwyMzcuNzI5LDQ1NS4xMTgsMjM5LjgzMSw0NTQuMjkxLDI0MS42MDV6IE00ODMuNjY2LDIxMi40NzhsLTAuMTE2LTAuMTMzbC0yMy4zNjQsMjMuMzY0DQoJCQljLTAuNTQtMS43NzgtMS41MS0zLjQ1NS0yLjkxNi00Ljg2MWMtMC4xNTctMC4xNTctMC4zMjUtMC4yOTUtMC40ODgtMC40NDFsLTEyLjE0Ni0xMi4xNDVsLTAuMDM1LDAuMDM1bC0xMS41NS0xMS41NWwwLjA2NS0wLjA2NQ0KCQkJYy0wLjA0Ni0wLjAzMS0wLjA5Ny0wLjA1LTAuMTQzLTAuMDgzbC0xLjM5Ni0xLjM5NmwtMC4wMDMsMC4wMDNjLTEuNjMtMi4yODUtMS40MzYtNS40NzEsMC42MTUtNy41MjENCgkJCWMyLjI4NC0yLjI4NCw1Ljk4OC0yLjI4NCw4LjI3MywwYzEuNzExLDEuNzExLDIuMTQsNC4yMTgsMS4yODcsNi4zMjlsNC41NDksNC41NDlsMTkuNzg3LTE5Ljc4N2w1Ljg0NCw1Ljg0NGwwLjAxMi0wLjAxMg0KCQkJbDkuOTg4LDkuOTg4bC0wLjAxMiwwLjAxMmwxLjczNCwxLjczNEM0ODQuODE4LDIwOC4yMTgsNDg0LjgyMSwyMTAuNTk4LDQ4My42NjYsMjEyLjQ3OHogTTM2OS4wMzQsMTkzLjk4MWgtNS4wNjZ2MTAuOTgzaC0xMC4wMzQNCgkJCXY1LjExN2gxMC4wMzRWMjIxaDUuMDY2di0xMC45MThoOS45NTF2LTUuMTE3aC05Ljk1MVYxOTMuOTgxeiIvPg0KCTwvZz4NCjwvZz4NCjwvc3ZnPg0K" alt="dropbox scriptogram svg"/> </section> <h1>How I moved my blog to Dropbox</h1> <div id="content"> <p>A few months ago I cancelled my hosting accounts and moved all my <a href="https://alexcican.com/post/guide-hosting-website-dropbox-github">websites to Dropbox and GitHub</a>. The only problem I was left with was where I should host the blog. I decided to use Tumblr. Regretting the decision after only two months, the solution was right in front of me the entire time: <strong>use Dropbox for the blog</strong> as well. In this article I’ll show you how I did it. </p> <h2 id="downside-of-dropbox">Downside of Dropbox</h2> <p>On Dropbox you can only host <strong>static files</strong>. This becomes a problem when you want to host a blog. Updating a blog with content regularly becomes tedious when you have a static layout. You have to include all the parts of the layout (header, footer, javascript) on every page. You have to write your blog post using HTML syntax. This method is not future-friendly because in the future, for example if you want to change even one link of the header menu, you’ll have to change every single blog post. Therefore, there’s a gap…</p> <h2 id="an-awesome-thing-called-scriptogram">An awesome thing called Scriptogr.am</h2> <p>A gap that is filled excellently by <a href="http://scriptogr.am/">Scriptogr.am</a>. Scriptogr.am is an app that connects to your Dropbox account and allows you to host a blog or dynamic website. The blog posts, or pages, are simple <a href="http://daringfireball.net/projects/markdown/syntax">Markdown</a> files located inside <code class="language-plaintext highlighter-rouge">Dropbox&gt;Apps&gt;scriptogram&gt;posts</code>.</p> <p>Some cool features of Scriptogr.am:</p> <ol> <li><strong>Custom domain name</strong>: Use your own domain name for the blog, like <code class="language-plaintext highlighter-rouge">blog.alexcican.com</code>.</li> <li><strong>Awesome themes</strong>: Build your own themes (very easy to do) or select one from the gallery.</li> <li><strong>Awesome HTML and CSS editor</strong>: Beautifully designed online editor with syntax highlighting.</li> <li><strong>One step sign-up</strong>: One step to sign-up and one click sign-in to Scriptogr.am.</li> <li><strong>Offline and online editing</strong>: Use your favourite text editor (for me: <a href="http://www.sublimetext.com/2">SublimeText 2</a> and <a href="http://bywordapp.com/">Byword app</a> for iPad) or Scriptogr.am’s online editor.</li> <li><strong>Posts or pages</strong>: aside from blog posts, you can also host pages (and style them differently in the theme).</li> <li><strong>Tags, Slugs, Drafts</strong>: For each blog post you can specify your own tags, slug[^3], and its state (whether it’s published or not).</li> </ol> <h2 id="creating-a-post">Creating a post</h2> <p>To create a new blog post, simply create a Markdown file inside the <code class="language-plaintext highlighter-rouge">posts</code> directory with this front-block (required) at the top of the file:</p> <div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>---
 Date: 2012-05-19
 Title: How I moved my blog to Dropbox
 ---
-</code></pre></div></div>
-
-<p>You can add some extra attributes to this front-block if you want:</p>
-
-<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>---
+</code></pre></div></div> <p>You can add some extra attributes to this front-block if you want:</p> <div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>---
 Date: 2012-05-19
 Title: How I moved my blog to Dropbox
 Slug: blog-dropbox-scriptogram
@@ -137,32 +11,8 @@ Type: post
 Published: false
 Excerpt: A few months ago I cancelled my hosting accounts and moved all my [websites to Dropbox and GitHub](http://blog.alexcican.com/post/guide-hosting-website-dropbox-github)…
 ---
-</code></pre></div></div>
-
-<p>Once you are done with the front-block, you can start writing your blog post. When you’ve finished, save the file, go to your <a href="http://scriptogr.am/admin/">admin page</a> and click the button <em>Synchronize</em> to update the blog with the new post. I hope this process of having to click the button in order to update the blog will be removed in the future. Simply, have the server update the directory once a new file is added to the <code class="highlighter-rouge">posts</code> folder.</p>
-
-<p><img src="https://alexcican.com/images/blog/assets/scriptogram-publish-button.jpg" alt="scriptogram synchronize button" /></p>
-
-<h2 id="adding-a-custom-domain-name">Adding a custom domain name</h2>
-<p>To add a custom domain name for your Scriptogr.am blog, simply go to your <a href="http://scriptogr.am/admin/">admin panel</a>, find the <em>“custom domain”</em> field and insert your desired custom domain name without the <code class="highlighter-rouge">http://</code>. For me it’s:</p>
-
-<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>blog.alexcican.com
-</code></pre></div></div>
-
-<p>Make sure you click the <em>“Update Settings”</em> button below the input field to apply the changes. Now it’s time to change the <strong>DNS settings</strong>.</p>
-
-<p>If you’re using GoDaddy, login to your account, launch the domains and click on the domain name you want to change. From that page, go down and find the <em>“DNS Manager”</em> section. Click on <em>“Launch”</em>.</p>
-
-<p><img src="https://alexcican.com/images/blog/assets/godaddy-dns-editor.jpg" alt="godaddy dns editor" /></p>
-
-<p>Based on the type of custom domain name you’ve added in the Scriptogr.am’s admin panel, we’ll make different changes to the DNS. For a sub-domain like <code class="highlighter-rouge">http://www.alexcican.com</code> or <code class="highlighter-rouge">http://blog.alexcican.com</code> you would simply create a <code class="highlighter-rouge">CNAME</code> record pointing to <code class="highlighter-rouge">scriptogr.am</code>. If you are using a top-level domain like <code class="highlighter-rouge">https://alexcican.com</code>, you must use an <code class="highlighter-rouge">A (Host)</code> record pointing to <code class="highlighter-rouge">50.116.1.192</code>. There’s no need to add a <code class="highlighter-rouge">CNAME</code> record for top-level domains. Wait up to 48-72 hours for the changes to take effect (usually within an hour or so).</p>
-
-<h2 id="creating-a-theme">Creating a theme</h2>
-<p>I won’t go into theming extensively, but Scriptogr.am themes are pretty easy to edit or create, if you have basic knowledge of HTML. If you have some theming experience from other CMSs (Content Management System) like Wordpress or Drupal, theming for Scriptogr.am will be a <strong>stroll in the park</strong> for you.</p>
-
-<p>For a Scriptogr.am theme, you have only two files to worry about. The first file represents <strong>the content</strong> (HTML) and the other, <strong>the styling</strong> (CSS). For creating a layout, the <em>magic</em> happens inside conditional statements. Each section of the <code class="highlighter-rouge">&lt;body&gt;</code> below represents the <code class="highlighter-rouge">homepage</code>, <code class="highlighter-rouge">post</code>, <code class="highlighter-rouge">page</code> or <code class="highlighter-rouge">archive</code> pages.</p>
-
-<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>&lt;body&gt;
+</code></pre></div></div> <p>Once you are done with the front-block, you can start writing your blog post. When you’ve finished, save the file, go to your <a href="http://scriptogr.am/admin/">admin page</a> and click the button <em>Synchronize</em> to update the blog with the new post. I hope this process of having to click the button in order to update the blog will be removed in the future. Simply, have the server update the directory once a new file is added to the <code class="language-plaintext highlighter-rouge">posts</code> folder.</p> <p><img src="https://alexcican.com/images/blog/assets/scriptogram-publish-button.jpg" alt="scriptogram synchronize button"/></p> <h2 id="adding-a-custom-domain-name">Adding a custom domain name</h2> <p>To add a custom domain name for your Scriptogr.am blog, simply go to your <a href="http://scriptogr.am/admin/">admin panel</a>, find the <em>“custom domain”</em> field and insert your desired custom domain name without the <code class="language-plaintext highlighter-rouge">http://</code>. For me it’s:</p> <div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>blog.alexcican.com
+</code></pre></div></div> <p>Make sure you click the <em>“Update Settings”</em> button below the input field to apply the changes. Now it’s time to change the <strong>DNS settings</strong>.</p> <p>If you’re using GoDaddy, login to your account, launch the domains and click on the domain name you want to change. From that page, go down and find the <em>“DNS Manager”</em> section. Click on <em>“Launch”</em>.</p> <p><img src="https://alexcican.com/images/blog/assets/godaddy-dns-editor.jpg" alt="godaddy dns editor"/></p> <p>Based on the type of custom domain name you’ve added in the Scriptogr.am’s admin panel, we’ll make different changes to the DNS. For a sub-domain like <code class="language-plaintext highlighter-rouge">http://www.alexcican.com</code> or <code class="language-plaintext highlighter-rouge">http://blog.alexcican.com</code> you would simply create a <code class="language-plaintext highlighter-rouge">CNAME</code> record pointing to <code class="language-plaintext highlighter-rouge">scriptogr.am</code>. If you are using a top-level domain like <code class="language-plaintext highlighter-rouge">https://alexcican.com</code>, you must use an <code class="language-plaintext highlighter-rouge">A (Host)</code> record pointing to <code class="language-plaintext highlighter-rouge">50.116.1.192</code>. There’s no need to add a <code class="language-plaintext highlighter-rouge">CNAME</code> record for top-level domains. Wait up to 48-72 hours for the changes to take effect (usually within an hour or so).</p> <h2 id="creating-a-theme">Creating a theme</h2> <p>I won’t go into theming extensively, but Scriptogr.am themes are pretty easy to edit or create, if you have basic knowledge of HTML. If you have some theming experience from other CMSs (Content Management System) like Wordpress or Drupal, theming for Scriptogr.am will be a <strong>stroll in the park</strong> for you.</p> <p>For a Scriptogr.am theme, you have only two files to worry about. The first file represents <strong>the content</strong> (HTML) and the other, <strong>the styling</strong> (CSS). For creating a layout, the <em>magic</em> happens inside conditional statements. Each section of the <code class="language-plaintext highlighter-rouge">&lt;body&gt;</code> below represents the <code class="language-plaintext highlighter-rouge">homepage</code>, <code class="language-plaintext highlighter-rouge">post</code>, <code class="language-plaintext highlighter-rouge">page</code> or <code class="language-plaintext highlighter-rouge">archive</code> pages.</p> <div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>&lt;body&gt;
 	&lt;!-- Get posts --&gt;
 	{{#posts}}
 
@@ -189,11 +39,7 @@ Excerpt: A few months ago I cancelled my hosting accounts and moved all my [webs
 	{{/posts}}
 	&lt;!-- End posts --&gt;
 &lt;/body&gt;
-</code></pre></div></div>
-
-<p>Inside each block you can add whatever HTML you want to show in that particular page. There are a handful of shortcodes available (like for example: <code class="highlighter-rouge">{{content}}</code> will output the content of the blog post/page), that can be found at the bottom of <a href="http://support.scriptogr.am/kb/creating-themes/creating-or-editing-a-theme">this page</a>. Here’s the code I have for the blog post (i.e. this page you’re currently viewing):</p>
-
-<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>{{#is_post}}
+</code></pre></div></div> <p>Inside each block you can add whatever HTML you want to show in that particular page. There are a handful of shortcodes available (like for example: <code class="language-plaintext highlighter-rouge">{{content}}</code> will output the content of the blog post/page), that can be found at the bottom of <a href="http://support.scriptogr.am/kb/creating-themes/creating-or-editing-a-theme">this page</a>. Here’s the code I have for the blog post (i.e. this page you’re currently viewing):</p> <div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>{{#is_post}}
 	&lt;div class="post"&gt;
 		&lt;div class="content"&gt;
 
@@ -219,71 +65,8 @@ Excerpt: A few months ago I cancelled my hosting accounts and moved all my [webs
 	&lt;/div&gt;&lt;!--end post--&gt;
 	&lt;p class="more"&gt;&lt;a href="http://blog.alexcican.com/archive"&gt;More articles in the Archive →&lt;/a&gt;&lt;/p&gt;
 {{/is_post}}
-</code></pre></div></div>
-
-<p>Above and below those conditional statements, the code for the <code class="highlighter-rouge">header</code> and <code class="highlighter-rouge">footer</code> is inserted (because I want that code to be applied to every page). And at the bottom, before closing the <code class="highlighter-rouge">&lt;/body&gt;</code> tag, I add some JavaScript code for smooth font resizing and Google Analytics tracker.</p>
-
-<p>Here’s a tip: It’s best to tinker with the theme a bit. Because, the default theme of Scriptogr.am could be improved in terms of SEO (<code class="highlighter-rouge">&lt;h1&gt;</code> tags, title, descriptions, etc.). I want to show you a better way to display the <code class="highlighter-rouge">&lt;title&gt;</code> of the blog:</p>
-
-<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>&lt;title&gt;{{#posts}}{{#is_post}}{{title}}{{/is_post}}{{/posts}}{{#is_index}}Blog of Alex Cican{{/is_index}}{{#is_archive}}Archive of the Blog of Alex Cican{{/is_archive}}&lt;/title&gt;
-</code></pre></div></div>
-
-<p>We’re saying if the page is a post, display the <code class="highlighter-rouge">{{title}}</code> of the post, if it’s the homepage, display <em>“Blog of Alex Cican</em> and if it’s an archive, display <em>“Archive of the Blog of Alex Cican</em>.</p>
-
-<p>This was a brief overview of the themes in Scriptogr.am. If you’re having any trouble, please visit the <a href="http://support.scriptogr.am/kb">FAQ</a> or the <a href="http://support.scriptogr.am/discussions">forums</a>.</p>
-
-<h2 id="conclusion">Conclusion</h2>
-<p>Scriptogr.am has made it possible for me to host my blog on Dropbox. I now actually <strong>enjoy the process</strong> of writing a blog post. Hence, I’m inclined to writing more. I start writing on my iPad and I continue on my PC. When I’m finished, the post is published with literally one click. But don’t misunderstand me: it’s <strong>not a silver bullet</strong>.</p>
-
-<p>Migrating from your previous CMS can become a <strong>tedious process</strong> if you have many blog posts. There’s no way to import your posts from a blog service like Wordpress. Luckily for me, I also used to store a text based version of my articles, as backup. Finally, some features, that have existed for years on other CMSs, are missing from Scriptogr.am. Here are some improvements that could be made:</p>
-
-<ul>
-  <li>support <strong>multiple blogs</strong></li>
-  <li>allow me to <strong>export/save</strong> the theme</li>
-  <li><strong>update the blog automatically</strong> whenever the <code class="highlighter-rouge">posts</code> folder is updated by Dropbox, without having to click synchronize</li>
-  <li>add a <strong>preview window</strong> to the online text editor for Markdown files</li>
-  <li>allow me to <strong>customise 404</strong> (not found) error pages</li>
-  <li>allow me to <strong>sort archives</strong> by year as well, not only by month</li>
-</ul>
-
-<p>Like with the custom domain name feature that was added recently to Scriptogr.am, hopefully we will see these changes implemented in the near future.</p>
-
-<h2 id="update-march-2013">Update: March 2013</h2>
-<p>I’m no longer using Scriptogr.am for my blog. I switched to <a href="https://github.com/mojombo/jekyll">Jekyll</a>, but I’m still using <a href="http://pages.github.com/">GitHub</a> for hosting all my websites.</p>
-
-
-      <a href="http://twitter.com/share?url=http://localhost:4000/post/blog-dropbox-scriptogram/&text=How I moved my blog to Dropbox:&via=alexcican" data-icon="t" class="icon twitter_button" title="Share this article on Twitter" target="_blank"><b></b></a>
-    </div>
-
-    
-      
-        <a href="/post/guide-hosting-website-dropbox-github/" id="readMore" title="Read next: How I moved my websites to Dropbox and GitHub">
-          <span class="red">Read next</span>
-          <h2>How I moved my websites to Dropbox and GitHub</h2>
-          <link rel="" href="/post/guide-hosting-website-dropbox-github/">
-        </a>
-      </div>
-      
-    
-
-
-
-  </div>
-
-  <!-- Load jQuery script -->
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.0/jquery.slim.js"></script>
-
-  
-
-  <!-- Load main JS file -->
-  <script src="http://localhost:4000/javascript/basic.min.js"></script>
-
-  
-
-  
-
-  <!-- Load Analytics -->
-  <script type="text/javascript">
+</code></pre></div></div> <p>Above and below those conditional statements, the code for the <code class="language-plaintext highlighter-rouge">header</code> and <code class="language-plaintext highlighter-rouge">footer</code> is inserted (because I want that code to be applied to every page). And at the bottom, before closing the <code class="language-plaintext highlighter-rouge">&lt;/body&gt;</code> tag, I add some JavaScript code for smooth font resizing and Google Analytics tracker.</p> <p>Here’s a tip: It’s best to tinker with the theme a bit. Because, the default theme of Scriptogr.am could be improved in terms of SEO (<code class="language-plaintext highlighter-rouge">&lt;h1&gt;</code> tags, title, descriptions, etc.). I want to show you a better way to display the <code class="language-plaintext highlighter-rouge">&lt;title&gt;</code> of the blog:</p> <div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>&lt;title&gt;{{#posts}}{{#is_post}}{{title}}{{/is_post}}{{/posts}}{{#is_index}}Blog of Alex Cican{{/is_index}}{{#is_archive}}Archive of the Blog of Alex Cican{{/is_archive}}&lt;/title&gt;
+</code></pre></div></div> <p>We’re saying if the page is a post, display the <code class="language-plaintext highlighter-rouge">{{title}}</code> of the post, if it’s the homepage, display <em>“Blog of Alex Cican</em> and if it’s an archive, display <em>“Archive of the Blog of Alex Cican</em>.</p> <p>This was a brief overview of the themes in Scriptogr.am. If you’re having any trouble, please visit the <a href="http://support.scriptogr.am/kb">FAQ</a> or the <a href="http://support.scriptogr.am/discussions">forums</a>.</p> <h2 id="conclusion">Conclusion</h2> <p>Scriptogr.am has made it possible for me to host my blog on Dropbox. I now actually <strong>enjoy the process</strong> of writing a blog post. Hence, I’m inclined to writing more. I start writing on my iPad and I continue on my PC. When I’m finished, the post is published with literally one click. But don’t misunderstand me: it’s <strong>not a silver bullet</strong>.</p> <p>Migrating from your previous CMS can become a <strong>tedious process</strong> if you have many blog posts. There’s no way to import your posts from a blog service like Wordpress. Luckily for me, I also used to store a text based version of my articles, as backup. Finally, some features, that have existed for years on other CMSs, are missing from Scriptogr.am. Here are some improvements that could be made:</p> <ul> <li>support <strong>multiple blogs</strong></li> <li>allow me to <strong>export/save</strong> the theme</li> <li><strong>update the blog automatically</strong> whenever the <code class="language-plaintext highlighter-rouge">posts</code> folder is updated by Dropbox, without having to click synchronize</li> <li>add a <strong>preview window</strong> to the online text editor for Markdown files</li> <li>allow me to <strong>customise 404</strong> (not found) error pages</li> <li>allow me to <strong>sort archives</strong> by year as well, not only by month</li> </ul> <p>Like with the custom domain name feature that was added recently to Scriptogr.am, hopefully we will see these changes implemented in the near future.</p> <h2 id="update-march-2013">Update: March 2013</h2> <p>I’m no longer using Scriptogr.am for my blog. I switched to <a href="https://github.com/mojombo/jekyll">Jekyll</a>, but I’m still using <a href="http://pages.github.com/">GitHub</a> for hosting all my websites.</p> <a href="http://twitter.com/share?url=https://alexcican.com/post/blog-dropbox-scriptogram/&text=How I moved my blog to Dropbox:&via=alexcican" data-icon="t" class="icon twitter_button" title="Share this article on Twitter" target="_blank"><b></b></a> </div> <a href="/post/guide-hosting-website-dropbox-github/" id="readMore" title="Read next: How I moved my websites to Dropbox and GitHub"> <span class="red">Read next</span> <h2>How I moved my websites to Dropbox and GitHub</h2> <link rel="" href="/post/guide-hosting-website-dropbox-github/"> </a> </div> </div> <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.0/jquery.slim.js"></script> <script src="https://alexcican.com/javascript/basic.min.js"></script> <script type="text/javascript">
     var _gaq = _gaq || [];
     _gaq.push(['_setAccount', 'UA-6273751-7']);
     _gaq.push(['_trackPageview']);
@@ -293,6 +76,4 @@ Excerpt: A few months ago I cancelled my hosting accounts and moved all my [webs
       ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
       var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
     })();
-  </script>
-</body>
-</html>
+  </script> </body> </html>

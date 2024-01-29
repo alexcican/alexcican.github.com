@@ -11,8 +11,8 @@
         <item>
           <title>How my app got 455K users in the first week</title>
           <pubDate>2014-04-13T00:00:00+03:00</pubDate>
-          <link>http://localhost:4000/post/455k-users/</link>
-          <guid>http://localhost:4000/post/455k-users/</guid>
+          <link>https://alexcican.com/post/455k-users/</link>
+          <guid>https://alexcican.com/post/455k-users/</guid>
           <description>&lt;p&gt;In my free time, I enjoy working on cool small projects that help me, or others, in some way. I came up with the simple idea of a TV show time calculator that ended up being a smashing hit.
 &lt;!--more--&gt;&lt;/p&gt;
 
@@ -139,14 +139,14 @@
         <item>
           <title>Personal websites</title>
           <pubDate>2013-10-24T00:00:00+03:00</pubDate>
-          <link>http://localhost:4000/post/personal-websites/</link>
-          <guid>http://localhost:4000/post/personal-websites/</guid>
+          <link>https://alexcican.com/post/personal-websites/</link>
+          <guid>https://alexcican.com/post/personal-websites/</guid>
           <description>&lt;p&gt;I often browse personal websites of freelance designers &amp;amp; devs. After you visit a few sites, you start seeing patterns. Their “personal” websites become homogenised, stripped of personality, almost identical to the previous or next site. There’s nothing personal about it anymore, besides the URL. And this makes me sad.
 &lt;!--more--&gt;&lt;/p&gt;
 
 &lt;p&gt;I’m not talking only about presentation style. But also about the site’s language, its structure, and its goals. Most of the times, the structure of a freelancer’s site looks like this:&lt;/p&gt;
 
-&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;menu bar
+&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;menu bar
 *avatar* Hi I’m Alex born in, bla, bla
 skills/what I do, bla bla
 experience, bla bla
@@ -226,8 +226,8 @@ contact me
         <item>
           <title>How to code a Teehan+Lax navigation</title>
           <pubDate>2013-09-25T00:00:00+03:00</pubDate>
-          <link>http://localhost:4000/post/teehan-lax-navigation/</link>
-          <guid>http://localhost:4000/post/teehan-lax-navigation/</guid>
+          <link>https://alexcican.com/post/teehan-lax-navigation/</link>
+          <guid>https://alexcican.com/post/teehan-lax-navigation/</guid>
           <description>&lt;p&gt;This type of navigation was first seen on the &lt;a href=&quot;http://www.teehanlax.com&quot;&gt;Teehan+Lax&lt;/a&gt; website, then it became quite popular and got adopted by several other websites (&lt;a href=&quot;http://mailchimp.com&quot;&gt;MailChimp&lt;/a&gt;, &lt;a href=&quot;https://www.wunderlist.com/&quot;&gt;Wunderlist&lt;/a&gt;). The navigation bar works as follows: it’s being hidden once you start scrolling. As soon as you scroll up a few pixels it is shown. After that, when you scroll down again it gets hidden. When you have reached the bottom of the page the navigation bar reappears.
 &lt;!--more--&gt;&lt;/p&gt;
 
@@ -247,9 +247,9 @@ contact me
 
 &lt;h2 id=&quot;step-1---html&quot;&gt;Step 1 - HTML&lt;/h2&gt;
 
-&lt;p&gt;We need some HTML code for the navigation. The navigation bar, &lt;code class=&quot;highlighter-rouge&quot;&gt;.site-width&lt;/code&gt; (what is visible by default) is separated from the dropdown &lt;code class=&quot;highlighter-rouge&quot;&gt;#navigation&lt;/code&gt;:&lt;/p&gt;
+&lt;p&gt;We need some HTML code for the navigation. The navigation bar, &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;.site-width&lt;/code&gt; (what is visible by default) is separated from the dropdown &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;#navigation&lt;/code&gt;:&lt;/p&gt;
 
-&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&amp;lt;nav&amp;gt;
+&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&amp;lt;nav&amp;gt;
   &amp;lt;div class=&quot;site-width&quot;&amp;gt;
     &amp;lt;a href=&quot;http://twitter.com/alexcican&quot; target=&quot;_blank&quot;&amp;gt;Alex Cican&amp;lt;/a&amp;gt;
     &amp;lt;span class=&quot;menu icon&quot; title=&quot;Menu (Esc)&quot; tabindex=&quot;0&quot; data-icon=&quot;m&quot;&amp;gt;&amp;lt;span&amp;gt;Menu&amp;lt;/span&amp;gt;&amp;lt;/span&amp;gt;
@@ -269,63 +269,63 @@ contact me
 
 &lt;h2 id=&quot;step-2---javascript&quot;&gt;Step 2 - JavaScript&lt;/h2&gt;
 
-&lt;p&gt;The logic behind the functionality is simple. Once the user has scrolled past the navigation, if they scroll back up, we show the navigation with a &lt;code class=&quot;highlighter-rouge&quot;&gt;position:fixed&lt;/code&gt; so that it stays fixed on the screen.&lt;/p&gt;
+&lt;p&gt;The logic behind the functionality is simple. Once the user has scrolled past the navigation, if they scroll back up, we show the navigation with a &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;position:fixed&lt;/code&gt; so that it stays fixed on the screen.&lt;/p&gt;
 
-&lt;p&gt;We need three states for the navigation: &lt;em&gt;‘invisible’&lt;/em&gt;, &lt;em&gt;‘detached’&lt;/em&gt;, and &lt;em&gt;‘expanded’&lt;/em&gt;. The navigation becomes ‘invisible’ once you scroll past it. If you scroll back up we show a nice drop animation. If you scroll beyond a certain point, the navigation becomes ‘detached’, i.e. fixed on the screen. If you scroll back up the navigation will show the nice drop animation but because of the &lt;code class=&quot;highlighter-rouge&quot;&gt;.detached&lt;/code&gt; class, only a few pixels above instead of at the beginning of the site. Lastly, if the dropdown is shown, the navigation has an &lt;code class=&quot;highlighter-rouge&quot;&gt;.expanded&lt;/code&gt; class.&lt;/p&gt;
+&lt;p&gt;We need three states for the navigation: &lt;em&gt;‘invisible’&lt;/em&gt;, &lt;em&gt;‘detached’&lt;/em&gt;, and &lt;em&gt;‘expanded’&lt;/em&gt;. The navigation becomes ‘invisible’ once you scroll past it. If you scroll back up we show a nice drop animation. If you scroll beyond a certain point, the navigation becomes ‘detached’, i.e. fixed on the screen. If you scroll back up the navigation will show the nice drop animation but because of the &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;.detached&lt;/code&gt; class, only a few pixels above instead of at the beginning of the site. Lastly, if the dropdown is shown, the navigation has an &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;.expanded&lt;/code&gt; class.&lt;/p&gt;
 
 &lt;p&gt;To achieve that we need four variables:&lt;/p&gt;
 
-&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;var previousScroll = 0, // previous scroll position
+&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;var previousScroll = 0, // previous scroll position
     menuOffset = 54, // height of menu (once scroll passed it, menu is hidden)
     detachPoint = 650, // point of detach (after scroll passed it, menu is fixed)
     hideShowOffset = 6; // scrolling value after which triggers hide/show menu
 &lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
 
-&lt;p&gt;Don’t make the &lt;code class=&quot;highlighter-rouge&quot;&gt;detachPoint&lt;/code&gt; value too small, because if the user scrolls fast, the class &lt;code class=&quot;highlighter-rouge&quot;&gt;.detached&lt;/code&gt; will be added before having the chance to hide the navigation, resulting in a show/hide flicker of the navigation.&lt;/p&gt;
+&lt;p&gt;Don’t make the &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;detachPoint&lt;/code&gt; value too small, because if the user scrolls fast, the class &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;.detached&lt;/code&gt; will be added before having the chance to hide the navigation, resulting in a show/hide flicker of the navigation.&lt;/p&gt;
 
-&lt;p&gt;We’ll write efficient code. On scroll, only if the navigation is not shown we’ll compute its position and whether it will have &lt;code class=&quot;highlighter-rouge&quot;&gt;position:fixed&lt;/code&gt; or not.&lt;/p&gt;
+&lt;p&gt;We’ll write efficient code. On scroll, only if the navigation is not shown we’ll compute its position and whether it will have &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;position:fixed&lt;/code&gt; or not.&lt;/p&gt;
 
-&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;// on scroll hide/show menu
+&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;// on scroll hide/show menu
 $(window).scroll(function() {
-  if (!$('nav').hasClass('expanded')) {
+  if (!$(&apos;nav&apos;).hasClass(&apos;expanded&apos;)) {
 })
 &lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
 
-&lt;p&gt;Inside the &lt;code class=&quot;highlighter-rouge&quot;&gt;else {}&lt;/code&gt; we need to calculate if the user scrolled past the navigation’s height, if they scrolled past the &lt;code class=&quot;highlighter-rouge&quot;&gt;detachPoint&lt;/code&gt;, if they’re scrolling up or down, how fast they’re scrolling, and if they are at the bottom of the site (we’ll show navigation again):&lt;/p&gt;
+&lt;p&gt;Inside the &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;else {}&lt;/code&gt; we need to calculate if the user scrolled past the navigation’s height, if they scrolled past the &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;detachPoint&lt;/code&gt;, if they’re scrolling up or down, how fast they’re scrolling, and if they are at the bottom of the site (we’ll show navigation again):&lt;/p&gt;
 
-&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;var currentScroll = $(this).scrollTop(), // gets current scroll position
+&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;var currentScroll = $(this).scrollTop(), // gets current scroll position
     scrollDifference = Math.abs(currentScroll - previousScroll); // calculates how fast user is scrolling
 
 // if scrolled past menu
 if (currentScroll &amp;gt; menuOffset) {
   // if scrolled past detach point add class to fix menu
   if (currentScroll &amp;gt; detachPoint) {
-    if (!$('nav').hasClass('detached'))
-      $('nav').addClass('detached');
+    if (!$(&apos;nav&apos;).hasClass(&apos;detached&apos;))
+      $(&apos;nav&apos;).addClass(&apos;detached&apos;);
   }
 
   // if scrolling faster than hideShowOffset hide/show menu
   if (scrollDifference &amp;gt;= hideShowOffset) {
     if (currentScroll &amp;gt; previousScroll) {
       // scrolling down; hide menu
-      if (!$('nav').hasClass('invisible'))
-        $('nav').addClass('invisible');
+      if (!$(&apos;nav&apos;).hasClass(&apos;invisible&apos;))
+        $(&apos;nav&apos;).addClass(&apos;invisible&apos;);
     } else {
       // scrolling up; show menu
-      if ($('nav').hasClass('invisible'))
-        $('nav').removeClass('invisible');
+      if ($(&apos;nav&apos;).hasClass(&apos;invisible&apos;))
+        $(&apos;nav&apos;).removeClass(&apos;invisible&apos;);
     }
   }
 } else {
   // only remove “detached” class if user is at the top of document (menu jump fix)
   if (currentScroll &amp;lt;= 0){
-    $('nav').removeClass();
+    $(&apos;nav&apos;).removeClass();
   }
 }
 
 // if user is at the bottom of document show menu
 if ((window.innerHeight + window.scrollY) &amp;gt;= document.body.offsetHeight) {
-  $('nav').removeClass('invisible');
+  $(&apos;nav&apos;).removeClass(&apos;invisible&apos;);
 }
 
 // replace previous scroll position with new one
@@ -334,9 +334,9 @@ previousScroll = currentScroll;
 
 &lt;p&gt;Next we need a function to check if we’re showing or hiding the dropdown of the navigation:&lt;/p&gt;
 
-&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;// checks if navigation’s popover is shown
+&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;// checks if navigation’s popover is shown
 function showHideNav() {
-  if ($('nav').hasClass('expanded')) {
+  if ($(&apos;nav&apos;).hasClass(&apos;expanded&apos;)) {
     hideNav();
   } else {
     showNav();
@@ -348,42 +348,42 @@ function showHideNav() {
 
 &lt;p&gt;Lastly, you should be able to navigate with the TAB key on your keyboard. We don’t want the user to select the links with the TAB key when the navigation is hidden:&lt;/p&gt;
 
-&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;// shows the navigation’s popover
+&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;// shows the navigation’s popover
 function showNav() {
-  $('nav').removeClass('invisible').addClass('expanded');
-  $('#container').addClass('blurred');
-  window.setTimeout(function(){$('body').addClass('no_scroll');}, 200); // Firefox hack. Hides scrollbar as soon as menu animation is done
-  $('#navigation a').attr('tabindex', ''); // links inside navigation should be TAB selectable
+  $(&apos;nav&apos;).removeClass(&apos;invisible&apos;).addClass(&apos;expanded&apos;);
+  $(&apos;#container&apos;).addClass(&apos;blurred&apos;);
+  window.setTimeout(function(){$(&apos;body&apos;).addClass(&apos;no_scroll&apos;);}, 200); // Firefox hack. Hides scrollbar as soon as menu animation is done
+  $(&apos;#navigation a&apos;).attr(&apos;tabindex&apos;, &apos;&apos;); // links inside navigation should be TAB selectable
 }
 
 // hides the navigation’s popover
 function hideNav() {
-  $('#container').removeClass('blurred');
-  window.setTimeout(function(){$('body').removeClass();}, 10); // allow animations to start before removing class (Firefox)
-  $('nav').removeClass('expanded');
-  $('#navigation a').attr('tabindex', '-1'); // links inside hidden navigation should not be TAB selectable
-  $('.icon').blur(); // deselect icon when navigation is hidden
+  $(&apos;#container&apos;).removeClass(&apos;blurred&apos;);
+  window.setTimeout(function(){$(&apos;body&apos;).removeClass();}, 10); // allow animations to start before removing class (Firefox)
+  $(&apos;nav&apos;).removeClass(&apos;expanded&apos;);
+  $(&apos;#navigation a&apos;).attr(&apos;tabindex&apos;, &apos;-1&apos;); // links inside hidden navigation should not be TAB selectable
+  $(&apos;.icon&apos;).blur(); // deselect icon when navigation is hidden
 }
 &lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
 
-&lt;p&gt;Now we just need to define when to show the dropdown and when to hide it (clicking/tapping anywhere outside link area). To disable hiding the navigation when you click/tap inside the link area (say you select some text), we need to &lt;code class=&quot;highlighter-rouge&quot;&gt;stopPropagation()&lt;/code&gt;:&lt;/p&gt;
+&lt;p&gt;Now we just need to define when to show the dropdown and when to hide it (clicking/tapping anywhere outside link area). To disable hiding the navigation when you click/tap inside the link area (say you select some text), we need to &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;stopPropagation()&lt;/code&gt;:&lt;/p&gt;
 
-&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;// shows/hides navigation’s popover if class &quot;expanded&quot;
-$('nav').on('click touchstart', function(event) {
+&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;// shows/hides navigation’s popover if class &quot;expanded&quot;
+$(&apos;nav&apos;).on(&apos;click touchstart&apos;, function(event) {
   showHideNav();
   event.preventDefault();
 })
 
 // clicking anywhere inside navigation or heading won’t close navigation’s popover
-$('#navigation').on('click touchstart', function(event){
+$(&apos;#navigation&apos;).on(&apos;click touchstart&apos;, function(event){
     event.stopPropagation();
 })
 &lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
 
 &lt;p&gt;Lastly, we add the possibility to navigate with the keyboard. If the menu icon is focused and you press Enter/Space then we show the navigation’s dropdown. If you press Esc or M we do the same thing.&lt;/p&gt;
 
-&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;// keyboard shortcuts
-$('body').keydown(function(e) {
+&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;// keyboard shortcuts
+$(&apos;body&apos;).keydown(function(e) {
   // menu accessible via TAB as well
   if ($(&quot;nav .icon&quot;).is(&quot;:focus&quot;)) {
     // if ENTER/SPACE show/hide menu
@@ -404,7 +404,7 @@ $('body').keydown(function(e) {
 &lt;h2 id=&quot;step-3-css&quot;&gt;Step 3 CSS&lt;/h2&gt;
 &lt;p&gt;I won’t go too deep into styling the navigation. You can browse through the &lt;a href=&quot;https://github.com/alexcican/lab/blob/gh-pages/teehan_lax_navigation/style.css&quot;&gt;CSS code on GitHub&lt;/a&gt;. The most important styles you need are for the three states of the navigation: &lt;em&gt;invisible&lt;/em&gt;, &lt;em&gt;detached&lt;/em&gt;, and &lt;em&gt;expanded&lt;/em&gt;.&lt;/p&gt;
 
-&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;nav {
+&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;nav {
   color: #333;
   position: absolute;
   top: 0;
@@ -494,8 +494,8 @@ nav.expanded #navigation {
         <item>
           <title>Design for the future, not the past</title>
           <pubDate>2013-08-15T00:00:00+03:00</pubDate>
-          <link>http://localhost:4000/post/design-future-not-past/</link>
-          <guid>http://localhost:4000/post/design-future-not-past/</guid>
+          <link>https://alexcican.com/post/design-future-not-past/</link>
+          <guid>https://alexcican.com/post/design-future-not-past/</guid>
           <description>&lt;p&gt;In the summer of 2013 I visited my birthplace, Romania. I rented a 2012 Dacia Logan (Dacia cars are made by Romanians), because it was the cheapest car available. I hated it. There were hundreds of usability flaws, mainly with the positioning of the buttons. One that stuck out was the car’s horn which is not on the steering wheel but to the left of the steering wheel as a button, which you have to push in, located on the tip of the light switch barrel.
 &lt;!--more--&gt;&lt;/p&gt;
 
@@ -553,8 +553,8 @@ nav.expanded #navigation {
         <item>
           <title>Designing the experience</title>
           <pubDate>2013-07-02T00:00:00+03:00</pubDate>
-          <link>http://localhost:4000/post/designing-experience/</link>
-          <guid>http://localhost:4000/post/designing-experience/</guid>
+          <link>https://alexcican.com/post/designing-experience/</link>
+          <guid>https://alexcican.com/post/designing-experience/</guid>
           <description>&lt;p&gt;It doesn’t matter if you have a beautifully designed button in the wrong place—it will frustrate the user and curse your decision of placing the button there. It is important to think how the user will experience that button, interface, website, product, and in what context.
 &lt;!--more--&gt;&lt;/p&gt;
 
@@ -614,8 +614,8 @@ nav.expanded #navigation {
         <item>
           <title>Creative freedom</title>
           <pubDate>2013-06-25T00:00:00+03:00</pubDate>
-          <link>http://localhost:4000/post/creative-freedom/</link>
-          <guid>http://localhost:4000/post/creative-freedom/</guid>
+          <link>https://alexcican.com/post/creative-freedom/</link>
+          <guid>https://alexcican.com/post/creative-freedom/</guid>
           <description>&lt;p&gt;Designers are &lt;strong&gt;creative people&lt;/strong&gt;. We are messy. I’m not talking about your design process. You might have a factory-like process, be very organised, note everything in your Moleskine notebook, draw perfect wireframes, keep your layers organised, and stuff like that. This depends on the character of each person. But that’s not how ideas are formed.
 &lt;!--more--&gt;&lt;/p&gt;
 
@@ -640,8 +640,8 @@ nav.expanded #navigation {
         <item>
           <title>Burnout</title>
           <pubDate>2013-06-21T00:00:00+03:00</pubDate>
-          <link>http://localhost:4000/post/burnout/</link>
-          <guid>http://localhost:4000/post/burnout/</guid>
+          <link>https://alexcican.com/post/burnout/</link>
+          <guid>https://alexcican.com/post/burnout/</guid>
           <description>&lt;blockquote&gt;
   &lt;p&gt;All work and no play makes Jack a dull boy.&lt;/p&gt;
 &lt;/blockquote&gt;
@@ -674,8 +674,8 @@ nav.expanded #navigation {
         <item>
           <title>Inspiration</title>
           <pubDate>2013-06-18T00:00:00+03:00</pubDate>
-          <link>http://localhost:4000/post/inspiration/</link>
-          <guid>http://localhost:4000/post/inspiration/</guid>
+          <link>https://alexcican.com/post/inspiration/</link>
+          <guid>https://alexcican.com/post/inspiration/</guid>
           <description>&lt;blockquote&gt;
   &lt;p&gt;“Inspiration is for amateurs—the rest of us just show up and get to work” - Chuck Close&lt;/p&gt;
 &lt;/blockquote&gt;
@@ -705,8 +705,8 @@ nav.expanded #navigation {
         <item>
           <title>Doing the work</title>
           <pubDate>2013-06-13T00:00:00+03:00</pubDate>
-          <link>http://localhost:4000/post/doing-work/</link>
-          <guid>http://localhost:4000/post/doing-work/</guid>
+          <link>https://alexcican.com/post/doing-work/</link>
+          <guid>https://alexcican.com/post/doing-work/</guid>
           <description>&lt;p&gt;Everything you’ve learned so far, won’t matter unless you pick up your pencil, your guitar, your mouse, and start doing the work. Period. You have to do the work because nobody else will do it for you.&lt;/p&gt;
 
 &lt;!--more--&gt;
@@ -720,9 +720,9 @@ nav.expanded #navigation {
 &lt;p&gt;I get stuff done by adding deadlines to things. I put myself on a deadline to finish that blog post by tonight, complete that project by Friday, deliver that website design in three weeks.&lt;/p&gt;
 
 &lt;h2 id=&quot;to-do-list&quot;&gt;To-do list&lt;/h2&gt;
-&lt;p&gt;Keep a list of things that need to be done. By writing them down, you’re setting them “in stone”—they’re not fragile ideas floating inside your head anymore. I’ve discovered that when I have a “to-do” list, I get more done. And I’m not using fancy software. A simple &lt;code class=&quot;highlighter-rouge&quot;&gt;.txt&lt;/code&gt; or &lt;code class=&quot;highlighter-rouge&quot;&gt;.md&lt;/code&gt; file synced to Dropbox (so I can access it from other devices), filled with small actions (verbs). Once I’ve completed something, I add “###” to it. For example:&lt;/p&gt;
+&lt;p&gt;Keep a list of things that need to be done. By writing them down, you’re setting them “in stone”—they’re not fragile ideas floating inside your head anymore. I’ve discovered that when I have a “to-do” list, I get more done. And I’m not using fancy software. A simple &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;.txt&lt;/code&gt; or &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;.md&lt;/code&gt; file synced to Dropbox (so I can access it from other devices), filled with small actions (verbs). Once I’ve completed something, I add “###” to it. For example:&lt;/p&gt;
 
-&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;design checkout pages
+&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;design checkout pages
 ###upload retina tutorial video
 write tutorial blog post
 &lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
@@ -749,8 +749,8 @@ write tutorial blog post
         <item>
           <title>The experience should justify design aesthetics</title>
           <pubDate>2013-06-11T00:00:00+03:00</pubDate>
-          <link>http://localhost:4000/post/experience-justifies-aesthetics/</link>
-          <guid>http://localhost:4000/post/experience-justifies-aesthetics/</guid>
+          <link>https://alexcican.com/post/experience-justifies-aesthetics/</link>
+          <guid>https://alexcican.com/post/experience-justifies-aesthetics/</guid>
           <description>&lt;p&gt;Whether you are an advocate of flat design or skeuomorphic design, you must acknowledge something: these are &lt;strong&gt;aesthetics&lt;/strong&gt;. They depict &lt;em&gt;how&lt;/em&gt; something looks. But design is more fundamental. It goes beyond flat vs skeuomorphic, golden ratios, “clean” UI, Pantone colour palette, 960 grids, and so on. Design is a form of problem solving. You can’t be following trends blindly, and adopting a certain aesthetic just because…&lt;/p&gt;
 
 &lt;!--more--&gt;
@@ -783,8 +783,8 @@ write tutorial blog post
         <item>
           <title>Fuji X100S camera review</title>
           <pubDate>2013-05-23T00:00:00+03:00</pubDate>
-          <link>http://localhost:4000/post/fuji-x100s/</link>
-          <guid>http://localhost:4000/post/fuji-x100s/</guid>
+          <link>https://alexcican.com/post/fuji-x100s/</link>
+          <guid>https://alexcican.com/post/fuji-x100s/</guid>
           <description>&lt;p&gt;I recently bought the Fujifilm X100S camera. I was on the lookout for a smaller camera as my Canon 5D MKII with L lenses setup and all the extra gear was slowing me down.
 &lt;!-- more --&gt;&lt;/p&gt;
 
@@ -1059,8 +1059,8 @@ The noise reduction of the X100S is great. Until you reach ISO 6400. At this poi
         <item>
           <title>Standing out from the digital crowd</title>
           <pubDate>2013-03-29T00:00:00+02:00</pubDate>
-          <link>http://localhost:4000/post/standing-out/</link>
-          <guid>http://localhost:4000/post/standing-out/</guid>
+          <link>https://alexcican.com/post/standing-out/</link>
+          <guid>https://alexcican.com/post/standing-out/</guid>
           <description>&lt;p&gt;Have you noticed? The most popular websites nowadays be it Facebook, Twitter, YouTube, Instagram, revolve around a feed. A feed consisting of status updates, photos, videos, posts, what have you. Alongside that content you also find your name, and your avatar. That small square arrangement of pixels is crucial in identifying your post from the one above or below you. Fail to grab the attention of the reader, with your small avatar, and you’re lost in the background. What benefit does that new follower bring you, if they “can’t see” your post in their feed?&lt;/p&gt;
 
 &lt;!--more--&gt;
@@ -1120,8 +1120,8 @@ The noise reduction of the X100S is great. Until you reach ISO 6400. At this poi
         <item>
           <title>Must-have OS X apps for designers and developers</title>
           <pubDate>2013-03-27T00:00:00+02:00</pubDate>
-          <link>http://localhost:4000/post/osx-apps/</link>
-          <guid>http://localhost:4000/post/osx-apps/</guid>
+          <link>https://alexcican.com/post/osx-apps/</link>
+          <guid>https://alexcican.com/post/osx-apps/</guid>
           <description>&lt;p&gt;Yep, it’s the post every Mac user has to publish at least once in their lifetime. But hear me out now; If you’re a designer or developer, you might this list useful.
 &lt;!--more--&gt;&lt;/p&gt;
 
@@ -1265,8 +1265,8 @@ The noise reduction of the X100S is great. Until you reach ISO 6400. At this poi
         <item>
           <title>Design a pixel-perfect website</title>
           <pubDate>2013-03-26T00:00:00+02:00</pubDate>
-          <link>http://localhost:4000/post/pixel-perfect/</link>
-          <guid>http://localhost:4000/post/pixel-perfect/</guid>
+          <link>https://alexcican.com/post/pixel-perfect/</link>
+          <guid>https://alexcican.com/post/pixel-perfect/</guid>
           <description>&lt;p&gt;Pixel perfection. Every designer worth its salt strives to make its designs pixel perfect. Unless they’re designing for the web. The web is diverse, fluid, overwhelming, even chaotic. You can browse the web from a tablet, a mobile, on Apple iOS 4 or Android Ice Cream Sandwich, a retina device, an old monitor, using Google Chrome, or Internet Explorer, and so on.
 &lt;!--more--&gt;&lt;/p&gt;
 
@@ -1327,7 +1327,7 @@ The noise reduction of the X100S is great. Until you reach ISO 6400. At this poi
 
 &lt;p&gt;In order to develop a pixel perfect website, you need to know your CSS. I mean really know it. Perfect your CSS coding skills with &lt;a href=&quot;http://teamtreehouse.com/&quot;&gt;Treehouse&lt;/a&gt;. Accept the fact that your code might get ugly for the sake of pixel perfection. Because you need that super fine control, it’s not uncommon to find code like:&lt;/p&gt;
 
-&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;.title {
+&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;.title {
   margin: 1px 0 0.55em;
 }
 &lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
@@ -1336,7 +1336,7 @@ The noise reduction of the X100S is great. Until you reach ISO 6400. At this poi
 
 &lt;p&gt;Another important tip is: do not round decimal places. Let the browser do the calculations. If we have a line height of 48px / 36px don’t do this:&lt;/p&gt;
 
-&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;h2 {
+&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;h2 {
   line-height: 1.333; // [48 / 36 = 1.33333333]
 }
 &lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
@@ -1356,8 +1356,8 @@ The noise reduction of the X100S is great. Until you reach ISO 6400. At this poi
         <item>
           <title>Making your website look pretty on retina devices</title>
           <pubDate>2013-02-07T00:00:00+02:00</pubDate>
-          <link>http://localhost:4000/post/retina-website-tutorial/</link>
-          <guid>http://localhost:4000/post/retina-website-tutorial/</guid>
+          <link>https://alexcican.com/post/retina-website-tutorial/</link>
+          <guid>https://alexcican.com/post/retina-website-tutorial/</guid>
           <description>&lt;p&gt;I thought I’d mix it up a bit and instead of writing a tutorial, I decided to make a video screencast. In this video tutorial I’ll show you some modern practices on how to make your website look great on retina devices, such as an iPhone 5 or a retina MacBook Pro.
 &lt;!--more--&gt;&lt;/p&gt;
 
@@ -1369,8 +1369,8 @@ The noise reduction of the X100S is great. Until you reach ISO 6400. At this poi
 &lt;h2 id=&quot;clarifications-from-the-video-spoiler-alert&quot;&gt;Clarifications from the video (Spoiler Alert)&lt;/h2&gt;
 &lt;ol&gt;
   &lt;li&gt;You can also copy the vector shape directly from Photoshop, paste it into Illustrator, and then export is as SVG. No need to save as PSD if you don’t want to.&lt;/li&gt;
-  &lt;li&gt;The scripts that I mention may replace standard quality images with retina @2x images automatically, but only for the HTML side (&lt;code class=&quot;highlighter-rouge&quot;&gt;img&lt;/code&gt; tag). For CSS images (&lt;code class=&quot;highlighter-rouge&quot;&gt;background-image&lt;/code&gt;), the best way to target them is usign a media query. Unless you use LESS or SASS mixins for your CSS.&lt;/li&gt;
-  &lt;li&gt;In the video I say that I want to target other devices with the CSS3 media query, yet use only a &lt;code class=&quot;highlighter-rouge&quot;&gt;-webkit&lt;/code&gt; a vendor prefix. That’s because I didn’t finish the entire script. Grab it here: &lt;a href=&quot;http://gist.github.com/alexcican/4726254&quot;&gt;gist.github.com/alexcican/4726254&lt;/a&gt;.&lt;/li&gt;
+  &lt;li&gt;The scripts that I mention may replace standard quality images with retina @2x images automatically, but only for the HTML side (&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;img&lt;/code&gt; tag). For CSS images (&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;background-image&lt;/code&gt;), the best way to target them is usign a media query. Unless you use LESS or SASS mixins for your CSS.&lt;/li&gt;
+  &lt;li&gt;In the video I say that I want to target other devices with the CSS3 media query, yet use only a &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;-webkit&lt;/code&gt; a vendor prefix. That’s because I didn’t finish the entire script. Grab it here: &lt;a href=&quot;http://gist.github.com/alexcican/4726254&quot;&gt;gist.github.com/alexcican/4726254&lt;/a&gt;.&lt;/li&gt;
 &lt;/ol&gt;
 
 &lt;h2 id=&quot;links-from-the-video&quot;&gt;Links from the video&lt;/h2&gt;
@@ -1388,48 +1388,48 @@ The noise reduction of the X100S is great. Until you reach ISO 6400. At this poi
         <item>
           <title>Displaying recent posts on Scriptogr.am</title>
           <pubDate>2013-01-09T00:00:00+02:00</pubDate>
-          <link>http://localhost:4000/post/recent-posts-scriptogram/</link>
-          <guid>http://localhost:4000/post/recent-posts-scriptogram/</guid>
-          <description>&lt;p&gt;In the previous design of this blog I used to show a list with my latest three articles. There is no option to do that in Scriptogr.am. People kept asking me how I did it and if I could share with them the script that shows the latest articles. When I responded that I do it manually—there’s no script I just go and edit the theme file every time—they were disappointed. But it keeps coming up in my &lt;a href=&quot;https://twitter.com/alexcican&quot;&gt;Twitter feed&lt;/a&gt;. So I spent an hour last night writing a script that reads your blog’s &lt;code class=&quot;highlighter-rouge&quot;&gt;RSS&lt;/code&gt; feed and shows the latest three posts.
+          <link>https://alexcican.com/post/recent-posts-scriptogram/</link>
+          <guid>https://alexcican.com/post/recent-posts-scriptogram/</guid>
+          <description>&lt;p&gt;In the previous design of this blog I used to show a list with my latest three articles. There is no option to do that in Scriptogr.am. People kept asking me how I did it and if I could share with them the script that shows the latest articles. When I responded that I do it manually—there’s no script I just go and edit the theme file every time—they were disappointed. But it keeps coming up in my &lt;a href=&quot;https://twitter.com/alexcican&quot;&gt;Twitter feed&lt;/a&gt;. So I spent an hour last night writing a script that reads your blog’s &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;RSS&lt;/code&gt; feed and shows the latest three posts.
 &lt;!--more--&gt;&lt;/p&gt;
 
 &lt;h2 id=&quot;implications&quot;&gt;Implications&lt;/h2&gt;
-&lt;p&gt;Before we get started you should know that JavaScript has a &lt;a href=&quot;http://en.wikipedia.org/wiki/Same_origin_policy&quot;&gt;same origin policy&lt;/a&gt;. What this means is that with JavaScript, you can’t read an external &lt;code class=&quot;highlighter-rouge&quot;&gt;XML&lt;/code&gt; feed from &lt;a href=&quot;http://digg.com&quot;&gt;Digg.com&lt;/a&gt;, for example, and show it on your website. A workaround is to create a &lt;code class=&quot;highlighter-rouge&quot;&gt;PHP&lt;/code&gt; file that will act as a proxy, pull the external &lt;code class=&quot;highlighter-rouge&quot;&gt;XML&lt;/code&gt; file on your server, and then parse that file in JavaScript. But we can’t run a &lt;code class=&quot;highlighter-rouge&quot;&gt;PHP&lt;/code&gt; file on Scriptogr.am or Dropbox.&lt;/p&gt;
+&lt;p&gt;Before we get started you should know that JavaScript has a &lt;a href=&quot;http://en.wikipedia.org/wiki/Same_origin_policy&quot;&gt;same origin policy&lt;/a&gt;. What this means is that with JavaScript, you can’t read an external &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;XML&lt;/code&gt; feed from &lt;a href=&quot;http://digg.com&quot;&gt;Digg.com&lt;/a&gt;, for example, and show it on your website. A workaround is to create a &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;PHP&lt;/code&gt; file that will act as a proxy, pull the external &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;XML&lt;/code&gt; file on your server, and then parse that file in JavaScript. But we can’t run a &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;PHP&lt;/code&gt; file on Scriptogr.am or Dropbox.&lt;/p&gt;
 
-&lt;p&gt;Thankfully, there’s an awesome thing called Google API. We’ll use the Google Loader to load the external feed’s &lt;code class=&quot;highlighter-rouge&quot;&gt;XML&lt;/code&gt; file and then parse it in JavaScript. You can see the demo of this script at the bottom of this page.&lt;/p&gt;
+&lt;p&gt;Thankfully, there’s an awesome thing called Google API. We’ll use the Google Loader to load the external feed’s &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;XML&lt;/code&gt; file and then parse it in JavaScript. You can see the demo of this script at the bottom of this page.&lt;/p&gt;
 
 &lt;h2 id=&quot;step-1---rss-feed&quot;&gt;Step 1 - RSS Feed&lt;/h2&gt;
-&lt;p&gt;Find your Scriptogr.am &lt;code class=&quot;highlighter-rouge&quot;&gt;RSS&lt;/code&gt; feed. It should be in this format:&lt;/p&gt;
+&lt;p&gt;Find your Scriptogr.am &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;RSS&lt;/code&gt; feed. It should be in this format:&lt;/p&gt;
 
-&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;http://scriptogr.am/USERNAME/feed/
+&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;http://scriptogr.am/USERNAME/feed/
 &lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
 
 &lt;h2 id=&quot;step-2---add-script&quot;&gt;Step 2 - Add script&lt;/h2&gt;
-&lt;p&gt;From the &lt;a href=&quot;http://scriptogr.am/dashboard/&quot;&gt;Scriptogr.am dashboard&lt;/a&gt;, go to the &lt;em&gt;Tools&lt;/em&gt; tab, and edit your &lt;code class=&quot;highlighter-rouge&quot;&gt;HTML&lt;/code&gt; theme file. Go at the bottom of the file, before the end of the &lt;code class=&quot;highlighter-rouge&quot;&gt;&amp;lt;/body&amp;gt;&lt;/code&gt; tag, and add &lt;a href=&quot;https://gist.github.com/alexcican/4753483&quot;&gt;the script&lt;/a&gt; below:
+&lt;p&gt;From the &lt;a href=&quot;http://scriptogr.am/dashboard/&quot;&gt;Scriptogr.am dashboard&lt;/a&gt;, go to the &lt;em&gt;Tools&lt;/em&gt; tab, and edit your &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;HTML&lt;/code&gt; theme file. Go at the bottom of the file, before the end of the &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;&amp;lt;/body&amp;gt;&lt;/code&gt; tag, and add &lt;a href=&quot;https://gist.github.com/alexcican/4753483&quot;&gt;the script&lt;/a&gt; below:
 &lt;script src=&quot;https://gist.github.com/alexcican/4753483.js&quot;&gt;&lt;/script&gt;&lt;/p&gt;
 
 &lt;h2 id=&quot;step-3---personalise-script&quot;&gt;Step 3 - Personalise script&lt;/h2&gt;
 &lt;p&gt;The bits you have to edit are on &lt;strong&gt;line 8&lt;/strong&gt; and &lt;strong&gt;line 59&lt;/strong&gt;. Replace bits of code from this line:&lt;/p&gt;
 
-&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;var feed = new google.feeds.Feed(&quot;http://scriptogr.am/sican/feed/&quot;);
+&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;var feed = new google.feeds.Feed(&quot;http://scriptogr.am/sican/feed/&quot;);
 &lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
 
 &lt;p&gt;with your feed URL from Step 1. Next, replace bits of code from this line:&lt;/p&gt;
 
-&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;link.href = link.href.replace(&quot;scriptogr.am/sican&quot;,&quot;blog.sicanstudios.com&quot;);
+&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;link.href = link.href.replace(&quot;scriptogr.am/sican&quot;,&quot;blog.sicanstudios.com&quot;);
 &lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
 
-&lt;p&gt;with your feed URL’s first name and your custom domain name. Basically this line of code finds the &lt;code class=&quot;highlighter-rouge&quot;&gt;scriptogr.am/sican&lt;/code&gt; links in the feed and replaces them with my custom domain name. If you don’t have a custom domain name for your blog, remove this line.&lt;/p&gt;
+&lt;p&gt;with your feed URL’s first name and your custom domain name. Basically this line of code finds the &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;scriptogr.am/sican&lt;/code&gt; links in the feed and replaces them with my custom domain name. If you don’t have a custom domain name for your blog, remove this line.&lt;/p&gt;
 
 &lt;h2 id=&quot;step-4---link-to-html&quot;&gt;Step 4 - Link to HTML&lt;/h2&gt;
-&lt;p&gt;Last thing you need to do is add this &lt;code class=&quot;highlighter-rouge&quot;&gt;HTML&lt;/code&gt; element:&lt;/p&gt;
+&lt;p&gt;Last thing you need to do is add this &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;HTML&lt;/code&gt; element:&lt;/p&gt;
 
-&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&amp;lt;div id=&quot;recent-articles&quot;&amp;gt;Loading…&amp;lt;/div&amp;gt;
+&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&amp;lt;div id=&quot;recent-articles&quot;&amp;gt;Loading…&amp;lt;/div&amp;gt;
 &lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
 
-&lt;p&gt;at the location(s) where you want the recent posts container to be displayed. For example, I have it at the bottom of the &lt;code class=&quot;highlighter-rouge&quot;&gt;index&lt;/code&gt; and &lt;code class=&quot;highlighter-rouge&quot;&gt;post&lt;/code&gt; page:&lt;/p&gt;
+&lt;p&gt;at the location(s) where you want the recent posts container to be displayed. For example, I have it at the bottom of the &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;index&lt;/code&gt; and &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;post&lt;/code&gt; page:&lt;/p&gt;
 
-&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;   &amp;lt;!-- index --&amp;gt;
+&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;   &amp;lt;!-- index --&amp;gt;
    {{#is_index}}
    {{#first}}
     &amp;lt;div class=&quot;post&quot;&amp;gt;
@@ -1444,9 +1444,9 @@ The noise reduction of the X100S is great. Until you reach ISO 6400. At this poi
 &lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
 
 &lt;h2 id=&quot;further-customisation&quot;&gt;Further customisation&lt;/h2&gt;
-&lt;p&gt;Feel free to customise the script even more. For example, I don’t show the most recent post, because I show it on the homepage. I skip it by stating the loop count at &lt;code class=&quot;highlighter-rouge&quot;&gt;1&lt;/code&gt; instead of &lt;code class=&quot;highlighter-rouge&quot;&gt;0&lt;/code&gt; on &lt;strong&gt;line 20&lt;/strong&gt;:&lt;/p&gt;
+&lt;p&gt;Feel free to customise the script even more. For example, I don’t show the most recent post, because I show it on the homepage. I skip it by stating the loop count at &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;1&lt;/code&gt; instead of &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;0&lt;/code&gt; on &lt;strong&gt;line 20&lt;/strong&gt;:&lt;/p&gt;
 
-&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;for (var i = 1; i &amp;lt; 4; i++) {
+&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;for (var i = 1; i &amp;lt; 4; i++) {
 &lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
 
 &lt;p&gt;Read through the script and make changes to the recent posts display format (starts from &lt;strong&gt;line 44&lt;/strong&gt;) to suit your blog style. If you have any questions or problems, you know where to find me.&lt;/p&gt;
@@ -1458,8 +1458,8 @@ The noise reduction of the X100S is great. Until you reach ISO 6400. At this poi
         <item>
           <title>Landing a job during an economic crisis</title>
           <pubDate>2012-11-16T00:00:00+02:00</pubDate>
-          <link>http://localhost:4000/post/landing-job/</link>
-          <guid>http://localhost:4000/post/landing-job/</guid>
+          <link>https://alexcican.com/post/landing-job/</link>
+          <guid>https://alexcican.com/post/landing-job/</guid>
           <description>&lt;p&gt;It’s depressing to see almost all of my friends being unemployed. Some of them, even with a Master’s degree, they struggle to make ends meet. You could blame your education, your family, people not acknowledging your brilliance, the economic crisis, the country you live in, and so on. But let me be frank with you: you’re the only one responsible for the situation you’re in. Nobody will come up to you and say:
 &lt;!--more--&gt;&lt;/p&gt;
 
@@ -1552,7 +1552,7 @@ The noise reduction of the X100S is great. Until you reach ISO 6400. At this poi
 
 &lt;p&gt;Stop watching those silly videos on acing interviews and focusing on specific questions that could be asked in an interview. You’re just setting yourself to be caught off guard and get nervous when a different question comes up. Rather, focus on these seven traits:&lt;/p&gt;
 
-&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;Leadership, Teamwork, Work Ethic, Integrity, Organisation, Adaptability, Overcoming change/failure.
+&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;Leadership, Teamwork, Work Ethic, Integrity, Organisation, Adaptability, Overcoming change/failure.
 &lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
 
 &lt;p&gt;Pick three major events in your life and focus on them. Tailor the seven traits with the events in your life. It doesn’t matter what the question is, it’s about how you answer the question. Also, acknowledge the things you don’t know and don’t try to hide them.&lt;/p&gt;
@@ -1580,8 +1580,8 @@ The noise reduction of the X100S is great. Until you reach ISO 6400. At this poi
         <item>
           <title>Life Lessons</title>
           <pubDate>2012-10-16T00:00:00+03:00</pubDate>
-          <link>http://localhost:4000/post/life-lessons/</link>
-          <guid>http://localhost:4000/post/life-lessons/</guid>
+          <link>https://alexcican.com/post/life-lessons/</link>
+          <guid>https://alexcican.com/post/life-lessons/</guid>
           <description>&lt;p&gt;&lt;em&gt;Note: The following article contains my own bullet-points and conclusions from the book “&lt;a href=&quot;http://amzn.com/1576754758&quot;&gt;Five Secrets you must discover before you die&lt;/a&gt;”. I recommend you read the book if you enjoyed this article.&lt;/em&gt;
 &lt;!--more--&gt;
 The lessons you must learn in life are:&lt;/p&gt;
@@ -1656,8 +1656,8 @@ The lessons you must learn in life are:&lt;/p&gt;
         <item>
           <title>How I moved my blog to Dropbox</title>
           <pubDate>2012-05-19T00:00:00+03:00</pubDate>
-          <link>http://localhost:4000/post/blog-dropbox-scriptogram/</link>
-          <guid>http://localhost:4000/post/blog-dropbox-scriptogram/</guid>
+          <link>https://alexcican.com/post/blog-dropbox-scriptogram/</link>
+          <guid>https://alexcican.com/post/blog-dropbox-scriptogram/</guid>
           <description>&lt;p&gt;A few months ago I cancelled my hosting accounts and moved all my &lt;a href=&quot;https://alexcican.com/post/guide-hosting-website-dropbox-github&quot;&gt;websites to Dropbox and GitHub&lt;/a&gt;. The only problem I was left with was where I should host the blog. I decided to use Tumblr. Regretting the decision after only two months, the solution was right in front of me the entire time: &lt;strong&gt;use Dropbox for the blog&lt;/strong&gt; as well. In this article I’ll show you how I did it.
 &lt;!--more--&gt;&lt;/p&gt;
 
@@ -1665,12 +1665,12 @@ The lessons you must learn in life are:&lt;/p&gt;
 &lt;p&gt;On Dropbox you can only host &lt;strong&gt;static files&lt;/strong&gt;. This becomes a problem when you want to host a blog. Updating a blog with content regularly becomes tedious when you have a static layout. You have to include all the parts of the layout (header, footer, javascript) on every page. You have to write your blog post using HTML syntax. This method is not future-friendly because in the future, for example if you want to change even one link of the header menu, you’ll have to change every single blog post. Therefore, there’s a gap…&lt;/p&gt;
 
 &lt;h2 id=&quot;an-awesome-thing-called-scriptogram&quot;&gt;An awesome thing called Scriptogr.am&lt;/h2&gt;
-&lt;p&gt;A gap that is filled excellently by &lt;a href=&quot;http://scriptogr.am/&quot;&gt;Scriptogr.am&lt;/a&gt;. Scriptogr.am is an app that connects to your Dropbox account and allows you to host a blog or dynamic website. The blog posts, or pages, are simple &lt;a href=&quot;http://daringfireball.net/projects/markdown/syntax&quot;&gt;Markdown&lt;/a&gt; files located inside &lt;code class=&quot;highlighter-rouge&quot;&gt;Dropbox&amp;gt;Apps&amp;gt;scriptogram&amp;gt;posts&lt;/code&gt;.&lt;/p&gt;
+&lt;p&gt;A gap that is filled excellently by &lt;a href=&quot;http://scriptogr.am/&quot;&gt;Scriptogr.am&lt;/a&gt;. Scriptogr.am is an app that connects to your Dropbox account and allows you to host a blog or dynamic website. The blog posts, or pages, are simple &lt;a href=&quot;http://daringfireball.net/projects/markdown/syntax&quot;&gt;Markdown&lt;/a&gt; files located inside &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;Dropbox&amp;gt;Apps&amp;gt;scriptogram&amp;gt;posts&lt;/code&gt;.&lt;/p&gt;
 
 &lt;p&gt;Some cool features of Scriptogr.am:&lt;/p&gt;
 
 &lt;ol&gt;
-  &lt;li&gt;&lt;strong&gt;Custom domain name&lt;/strong&gt;: Use your own domain name for the blog, like &lt;code class=&quot;highlighter-rouge&quot;&gt;blog.alexcican.com&lt;/code&gt;.&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Custom domain name&lt;/strong&gt;: Use your own domain name for the blog, like &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;blog.alexcican.com&lt;/code&gt;.&lt;/li&gt;
   &lt;li&gt;&lt;strong&gt;Awesome themes&lt;/strong&gt;: Build your own themes (very easy to do) or select one from the gallery.&lt;/li&gt;
   &lt;li&gt;&lt;strong&gt;Awesome HTML and CSS editor&lt;/strong&gt;: Beautifully designed online editor with syntax highlighting.&lt;/li&gt;
   &lt;li&gt;&lt;strong&gt;One step sign-up&lt;/strong&gt;: One step to sign-up and one click sign-in to Scriptogr.am.&lt;/li&gt;
@@ -1680,9 +1680,9 @@ The lessons you must learn in life are:&lt;/p&gt;
 &lt;/ol&gt;
 
 &lt;h2 id=&quot;creating-a-post&quot;&gt;Creating a post&lt;/h2&gt;
-&lt;p&gt;To create a new blog post, simply create a Markdown file inside the &lt;code class=&quot;highlighter-rouge&quot;&gt;posts&lt;/code&gt; directory with this front-block (required) at the top of the file:&lt;/p&gt;
+&lt;p&gt;To create a new blog post, simply create a Markdown file inside the &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;posts&lt;/code&gt; directory with this front-block (required) at the top of the file:&lt;/p&gt;
 
-&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;---
+&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;---
 Date: 2012-05-19
 Title: How I moved my blog to Dropbox
 ---
@@ -1690,7 +1690,7 @@ Title: How I moved my blog to Dropbox
 
 &lt;p&gt;You can add some extra attributes to this front-block if you want:&lt;/p&gt;
 
-&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;---
+&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;---
 Date: 2012-05-19
 Title: How I moved my blog to Dropbox
 Slug: blog-dropbox-scriptogram
@@ -1701,14 +1701,14 @@ Excerpt: A few months ago I cancelled my hosting accounts and moved all my [webs
 ---
 &lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
 
-&lt;p&gt;Once you are done with the front-block, you can start writing your blog post. When you’ve finished, save the file, go to your &lt;a href=&quot;http://scriptogr.am/admin/&quot;&gt;admin page&lt;/a&gt; and click the button &lt;em&gt;Synchronize&lt;/em&gt; to update the blog with the new post. I hope this process of having to click the button in order to update the blog will be removed in the future. Simply, have the server update the directory once a new file is added to the &lt;code class=&quot;highlighter-rouge&quot;&gt;posts&lt;/code&gt; folder.&lt;/p&gt;
+&lt;p&gt;Once you are done with the front-block, you can start writing your blog post. When you’ve finished, save the file, go to your &lt;a href=&quot;http://scriptogr.am/admin/&quot;&gt;admin page&lt;/a&gt; and click the button &lt;em&gt;Synchronize&lt;/em&gt; to update the blog with the new post. I hope this process of having to click the button in order to update the blog will be removed in the future. Simply, have the server update the directory once a new file is added to the &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;posts&lt;/code&gt; folder.&lt;/p&gt;
 
 &lt;p&gt;&lt;img src=&quot;https://alexcican.com/images/blog/assets/scriptogram-publish-button.jpg&quot; alt=&quot;scriptogram synchronize button&quot; /&gt;&lt;/p&gt;
 
 &lt;h2 id=&quot;adding-a-custom-domain-name&quot;&gt;Adding a custom domain name&lt;/h2&gt;
-&lt;p&gt;To add a custom domain name for your Scriptogr.am blog, simply go to your &lt;a href=&quot;http://scriptogr.am/admin/&quot;&gt;admin panel&lt;/a&gt;, find the &lt;em&gt;“custom domain”&lt;/em&gt; field and insert your desired custom domain name without the &lt;code class=&quot;highlighter-rouge&quot;&gt;http://&lt;/code&gt;. For me it’s:&lt;/p&gt;
+&lt;p&gt;To add a custom domain name for your Scriptogr.am blog, simply go to your &lt;a href=&quot;http://scriptogr.am/admin/&quot;&gt;admin panel&lt;/a&gt;, find the &lt;em&gt;“custom domain”&lt;/em&gt; field and insert your desired custom domain name without the &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;http://&lt;/code&gt;. For me it’s:&lt;/p&gt;
 
-&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;blog.alexcican.com
+&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;blog.alexcican.com
 &lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
 
 &lt;p&gt;Make sure you click the &lt;em&gt;“Update Settings”&lt;/em&gt; button below the input field to apply the changes. Now it’s time to change the &lt;strong&gt;DNS settings&lt;/strong&gt;.&lt;/p&gt;
@@ -1717,14 +1717,14 @@ Excerpt: A few months ago I cancelled my hosting accounts and moved all my [webs
 
 &lt;p&gt;&lt;img src=&quot;https://alexcican.com/images/blog/assets/godaddy-dns-editor.jpg&quot; alt=&quot;godaddy dns editor&quot; /&gt;&lt;/p&gt;
 
-&lt;p&gt;Based on the type of custom domain name you’ve added in the Scriptogr.am’s admin panel, we’ll make different changes to the DNS. For a sub-domain like &lt;code class=&quot;highlighter-rouge&quot;&gt;http://www.alexcican.com&lt;/code&gt; or &lt;code class=&quot;highlighter-rouge&quot;&gt;http://blog.alexcican.com&lt;/code&gt; you would simply create a &lt;code class=&quot;highlighter-rouge&quot;&gt;CNAME&lt;/code&gt; record pointing to &lt;code class=&quot;highlighter-rouge&quot;&gt;scriptogr.am&lt;/code&gt;. If you are using a top-level domain like &lt;code class=&quot;highlighter-rouge&quot;&gt;https://alexcican.com&lt;/code&gt;, you must use an &lt;code class=&quot;highlighter-rouge&quot;&gt;A (Host)&lt;/code&gt; record pointing to &lt;code class=&quot;highlighter-rouge&quot;&gt;50.116.1.192&lt;/code&gt;. There’s no need to add a &lt;code class=&quot;highlighter-rouge&quot;&gt;CNAME&lt;/code&gt; record for top-level domains. Wait up to 48-72 hours for the changes to take effect (usually within an hour or so).&lt;/p&gt;
+&lt;p&gt;Based on the type of custom domain name you’ve added in the Scriptogr.am’s admin panel, we’ll make different changes to the DNS. For a sub-domain like &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;http://www.alexcican.com&lt;/code&gt; or &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;http://blog.alexcican.com&lt;/code&gt; you would simply create a &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;CNAME&lt;/code&gt; record pointing to &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;scriptogr.am&lt;/code&gt;. If you are using a top-level domain like &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;https://alexcican.com&lt;/code&gt;, you must use an &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;A (Host)&lt;/code&gt; record pointing to &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;50.116.1.192&lt;/code&gt;. There’s no need to add a &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;CNAME&lt;/code&gt; record for top-level domains. Wait up to 48-72 hours for the changes to take effect (usually within an hour or so).&lt;/p&gt;
 
 &lt;h2 id=&quot;creating-a-theme&quot;&gt;Creating a theme&lt;/h2&gt;
 &lt;p&gt;I won’t go into theming extensively, but Scriptogr.am themes are pretty easy to edit or create, if you have basic knowledge of HTML. If you have some theming experience from other CMSs (Content Management System) like Wordpress or Drupal, theming for Scriptogr.am will be a &lt;strong&gt;stroll in the park&lt;/strong&gt; for you.&lt;/p&gt;
 
-&lt;p&gt;For a Scriptogr.am theme, you have only two files to worry about. The first file represents &lt;strong&gt;the content&lt;/strong&gt; (HTML) and the other, &lt;strong&gt;the styling&lt;/strong&gt; (CSS). For creating a layout, the &lt;em&gt;magic&lt;/em&gt; happens inside conditional statements. Each section of the &lt;code class=&quot;highlighter-rouge&quot;&gt;&amp;lt;body&amp;gt;&lt;/code&gt; below represents the &lt;code class=&quot;highlighter-rouge&quot;&gt;homepage&lt;/code&gt;, &lt;code class=&quot;highlighter-rouge&quot;&gt;post&lt;/code&gt;, &lt;code class=&quot;highlighter-rouge&quot;&gt;page&lt;/code&gt; or &lt;code class=&quot;highlighter-rouge&quot;&gt;archive&lt;/code&gt; pages.&lt;/p&gt;
+&lt;p&gt;For a Scriptogr.am theme, you have only two files to worry about. The first file represents &lt;strong&gt;the content&lt;/strong&gt; (HTML) and the other, &lt;strong&gt;the styling&lt;/strong&gt; (CSS). For creating a layout, the &lt;em&gt;magic&lt;/em&gt; happens inside conditional statements. Each section of the &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;&amp;lt;body&amp;gt;&lt;/code&gt; below represents the &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;homepage&lt;/code&gt;, &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;post&lt;/code&gt;, &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;page&lt;/code&gt; or &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;archive&lt;/code&gt; pages.&lt;/p&gt;
 
-&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&amp;lt;body&amp;gt;
+&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&amp;lt;body&amp;gt;
 	&amp;lt;!-- Get posts --&amp;gt;
 	{{#posts}}
 
@@ -1753,9 +1753,9 @@ Excerpt: A few months ago I cancelled my hosting accounts and moved all my [webs
 &amp;lt;/body&amp;gt;
 &lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
 
-&lt;p&gt;Inside each block you can add whatever HTML you want to show in that particular page. There are a handful of shortcodes available (like for example: &lt;code class=&quot;highlighter-rouge&quot;&gt;{{content}}&lt;/code&gt; will output the content of the blog post/page), that can be found at the bottom of &lt;a href=&quot;http://support.scriptogr.am/kb/creating-themes/creating-or-editing-a-theme&quot;&gt;this page&lt;/a&gt;. Here’s the code I have for the blog post (i.e. this page you’re currently viewing):&lt;/p&gt;
+&lt;p&gt;Inside each block you can add whatever HTML you want to show in that particular page. There are a handful of shortcodes available (like for example: &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;{{content}}&lt;/code&gt; will output the content of the blog post/page), that can be found at the bottom of &lt;a href=&quot;http://support.scriptogr.am/kb/creating-themes/creating-or-editing-a-theme&quot;&gt;this page&lt;/a&gt;. Here’s the code I have for the blog post (i.e. this page you’re currently viewing):&lt;/p&gt;
 
-&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;{{#is_post}}
+&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;{{#is_post}}
 	&amp;lt;div class=&quot;post&quot;&amp;gt;
 		&amp;lt;div class=&quot;content&quot;&amp;gt;
 
@@ -1783,14 +1783,14 @@ Excerpt: A few months ago I cancelled my hosting accounts and moved all my [webs
 {{/is_post}}
 &lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
 
-&lt;p&gt;Above and below those conditional statements, the code for the &lt;code class=&quot;highlighter-rouge&quot;&gt;header&lt;/code&gt; and &lt;code class=&quot;highlighter-rouge&quot;&gt;footer&lt;/code&gt; is inserted (because I want that code to be applied to every page). And at the bottom, before closing the &lt;code class=&quot;highlighter-rouge&quot;&gt;&amp;lt;/body&amp;gt;&lt;/code&gt; tag, I add some JavaScript code for smooth font resizing and Google Analytics tracker.&lt;/p&gt;
+&lt;p&gt;Above and below those conditional statements, the code for the &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;header&lt;/code&gt; and &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;footer&lt;/code&gt; is inserted (because I want that code to be applied to every page). And at the bottom, before closing the &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;&amp;lt;/body&amp;gt;&lt;/code&gt; tag, I add some JavaScript code for smooth font resizing and Google Analytics tracker.&lt;/p&gt;
 
-&lt;p&gt;Here’s a tip: It’s best to tinker with the theme a bit. Because, the default theme of Scriptogr.am could be improved in terms of SEO (&lt;code class=&quot;highlighter-rouge&quot;&gt;&amp;lt;h1&amp;gt;&lt;/code&gt; tags, title, descriptions, etc.). I want to show you a better way to display the &lt;code class=&quot;highlighter-rouge&quot;&gt;&amp;lt;title&amp;gt;&lt;/code&gt; of the blog:&lt;/p&gt;
+&lt;p&gt;Here’s a tip: It’s best to tinker with the theme a bit. Because, the default theme of Scriptogr.am could be improved in terms of SEO (&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;&amp;lt;h1&amp;gt;&lt;/code&gt; tags, title, descriptions, etc.). I want to show you a better way to display the &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;&amp;lt;title&amp;gt;&lt;/code&gt; of the blog:&lt;/p&gt;
 
-&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&amp;lt;title&amp;gt;{{#posts}}{{#is_post}}{{title}}{{/is_post}}{{/posts}}{{#is_index}}Blog of Alex Cican{{/is_index}}{{#is_archive}}Archive of the Blog of Alex Cican{{/is_archive}}&amp;lt;/title&amp;gt;
+&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&amp;lt;title&amp;gt;{{#posts}}{{#is_post}}{{title}}{{/is_post}}{{/posts}}{{#is_index}}Blog of Alex Cican{{/is_index}}{{#is_archive}}Archive of the Blog of Alex Cican{{/is_archive}}&amp;lt;/title&amp;gt;
 &lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
 
-&lt;p&gt;We’re saying if the page is a post, display the &lt;code class=&quot;highlighter-rouge&quot;&gt;{{title}}&lt;/code&gt; of the post, if it’s the homepage, display &lt;em&gt;“Blog of Alex Cican&lt;/em&gt; and if it’s an archive, display &lt;em&gt;“Archive of the Blog of Alex Cican&lt;/em&gt;.&lt;/p&gt;
+&lt;p&gt;We’re saying if the page is a post, display the &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;{{title}}&lt;/code&gt; of the post, if it’s the homepage, display &lt;em&gt;“Blog of Alex Cican&lt;/em&gt; and if it’s an archive, display &lt;em&gt;“Archive of the Blog of Alex Cican&lt;/em&gt;.&lt;/p&gt;
 
 &lt;p&gt;This was a brief overview of the themes in Scriptogr.am. If you’re having any trouble, please visit the &lt;a href=&quot;http://support.scriptogr.am/kb&quot;&gt;FAQ&lt;/a&gt; or the &lt;a href=&quot;http://support.scriptogr.am/discussions&quot;&gt;forums&lt;/a&gt;.&lt;/p&gt;
 
@@ -1802,7 +1802,7 @@ Excerpt: A few months ago I cancelled my hosting accounts and moved all my [webs
 &lt;ul&gt;
   &lt;li&gt;support &lt;strong&gt;multiple blogs&lt;/strong&gt;&lt;/li&gt;
   &lt;li&gt;allow me to &lt;strong&gt;export/save&lt;/strong&gt; the theme&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;update the blog automatically&lt;/strong&gt; whenever the &lt;code class=&quot;highlighter-rouge&quot;&gt;posts&lt;/code&gt; folder is updated by Dropbox, without having to click synchronize&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;update the blog automatically&lt;/strong&gt; whenever the &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;posts&lt;/code&gt; folder is updated by Dropbox, without having to click synchronize&lt;/li&gt;
   &lt;li&gt;add a &lt;strong&gt;preview window&lt;/strong&gt; to the online text editor for Markdown files&lt;/li&gt;
   &lt;li&gt;allow me to &lt;strong&gt;customise 404&lt;/strong&gt; (not found) error pages&lt;/li&gt;
   &lt;li&gt;allow me to &lt;strong&gt;sort archives&lt;/strong&gt; by year as well, not only by month&lt;/li&gt;
@@ -1820,8 +1820,8 @@ Excerpt: A few months ago I cancelled my hosting accounts and moved all my [webs
         <item>
           <title>How I moved my websites to Dropbox and GitHub</title>
           <pubDate>2012-05-15T00:00:00+03:00</pubDate>
-          <link>http://localhost:4000/post/guide-hosting-website-dropbox-github/</link>
-          <guid>http://localhost:4000/post/guide-hosting-website-dropbox-github/</guid>
+          <link>https://alexcican.com/post/guide-hosting-website-dropbox-github/</link>
+          <guid>https://alexcican.com/post/guide-hosting-website-dropbox-github/</guid>
           <description>&lt;p&gt;A few months ago I cancelled my hosting and server accounts and moved all my websites to the cloud. I tried it &lt;strong&gt;as an experiment&lt;/strong&gt;; never for a second I thought it would work this well. I did the switch out of impulse: I was pissed. I was pissed at the hosting companies charging so much, having such crappy support, and much downtime. I’m very glad I switched.
 &lt;!--more--&gt;&lt;/p&gt;
 
@@ -1841,7 +1841,7 @@ Excerpt: A few months ago I cancelled my hosting accounts and moved all my [webs
     &lt;p&gt;&lt;strong&gt;Free&lt;/strong&gt;. It’s free and your account is created immediately. Free 2GB space for Dropbox and unlimited public repos for GitHub.&lt;/p&gt;
   &lt;/li&gt;
   &lt;li&gt;
-    &lt;p&gt;&lt;strong&gt;Easy to use&lt;/strong&gt;. Just drag-n-drop the file inside your Dropbox folder. The file is accessible anytime from anywhere (Dropbox website, desktop, laptop, mobile, tablet). Uploading to GitHub (known as &lt;em&gt;pushing&lt;/em&gt;), is very simple: &lt;code class=&quot;highlighter-rouge&quot;&gt;commit&lt;/code&gt;, add your message and &lt;code class=&quot;highlighter-rouge&quot;&gt;push&lt;/code&gt; the changes.&lt;/p&gt;
+    &lt;p&gt;&lt;strong&gt;Easy to use&lt;/strong&gt;. Just drag-n-drop the file inside your Dropbox folder. The file is accessible anytime from anywhere (Dropbox website, desktop, laptop, mobile, tablet). Uploading to GitHub (known as &lt;em&gt;pushing&lt;/em&gt;), is very simple: &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;commit&lt;/code&gt;, add your message and &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;push&lt;/code&gt; the changes.&lt;/p&gt;
   &lt;/li&gt;
   &lt;li&gt;
     &lt;p&gt;&lt;strong&gt;Plenty of space&lt;/strong&gt;. I didn’t need 20GB for my websites. The free 2GB of space offered by Dropbox was more than enough.&lt;/p&gt;
@@ -1869,19 +1869,19 @@ Excerpt: A few months ago I cancelled my hosting accounts and moved all my [webs
 
 &lt;p&gt;If you want your files to be accessible by anyone, you have to move them into your “Public” folder. If you’re using absolute paths for your website, I suggest you change it to relative paths. So from this:&lt;/p&gt;
 
-&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&amp;lt;a href=&quot;https://alexcican.com/web/file.html&quot;&amp;gt;&amp;lt;/a&amp;gt;
+&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&amp;lt;a href=&quot;https://alexcican.com/web/file.html&quot;&amp;gt;&amp;lt;/a&amp;gt;
 &lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
 
 &lt;p&gt;change them to this:&lt;/p&gt;
 
-&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&amp;lt;a href=&quot;./web/file.html&quot;&amp;gt;&amp;lt;/a&amp;gt;
+&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&amp;lt;a href=&quot;./web/file.html&quot;&amp;gt;&amp;lt;/a&amp;gt;
 &lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
 
 &lt;p&gt;Doing it this way, you can still access the website without having the domain name of the website pointing to the correct folder.&lt;/p&gt;
 
 &lt;p&gt;Next step is to &lt;strong&gt;change the DNS&lt;/strong&gt; to point to the Dropbox folder (skip this if you’re gonna use GitHub to host your online version of the site).&lt;/p&gt;
 
-&lt;p&gt;If you’re using GoDaddy, login to &lt;em&gt;“Your account”&lt;/em&gt; and launch the &lt;em&gt;“Domains”&lt;/em&gt;. Then, click on the domain name you want to edit and from the toolbar, select the &lt;em&gt;forward&lt;/em&gt; icon. Click &lt;em&gt;“Forward Domain”&lt;/em&gt; and insert in the popup input, the complete URL of the &lt;code class=&quot;highlighter-rouge&quot;&gt;index.html&lt;/code&gt; from inside the Dropbox folder (to get the link: &lt;em&gt;right click on the file&amp;gt;Dropbox&amp;gt;Copy public link&lt;/em&gt;).&lt;/p&gt;
+&lt;p&gt;If you’re using GoDaddy, login to &lt;em&gt;“Your account”&lt;/em&gt; and launch the &lt;em&gt;“Domains”&lt;/em&gt;. Then, click on the domain name you want to edit and from the toolbar, select the &lt;em&gt;forward&lt;/em&gt; icon. Click &lt;em&gt;“Forward Domain”&lt;/em&gt; and insert in the popup input, the complete URL of the &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;index.html&lt;/code&gt; from inside the Dropbox folder (to get the link: &lt;em&gt;right click on the file&amp;gt;Dropbox&amp;gt;Copy public link&lt;/em&gt;).&lt;/p&gt;
 
 &lt;p&gt;&lt;img src=&quot;https://alexcican.com/images/blog/assets/godaddy-forward-domain.jpg&quot; alt=&quot;godaddy forward domain&quot; /&gt;&lt;/p&gt;
 
@@ -1893,44 +1893,44 @@ Excerpt: A few months ago I cancelled my hosting accounts and moved all my [webs
 
 &lt;p&gt;The other downside I found was the &lt;strong&gt;URL system&lt;/strong&gt;. On Dropbox, the URL of a file is something like:&lt;/p&gt;
 
-&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;https://dl.dropbox.com/u/212143/public/website/file.html
+&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;https://dl.dropbox.com/u/212143/public/website/file.html
 &lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
 
 &lt;p&gt;This means that the Dropbox URL would be visible when navigating the website. I couldn’t have something like:&lt;/p&gt;
 
-&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;https://alexcican.com/file.html
+&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;https://alexcican.com/file.html
 &lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
 
 &lt;p&gt;unless I did a URL forwarding with masking from my DNS settings. This was not optimal because whichever page of the website I’d browse, it would show up only as:&lt;/p&gt;
 
-&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;alexcican.com
+&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;alexcican.com
 &lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
 
 &lt;p&gt;To do this URL masking on GoDaddy, repeat the steps above for pointing the DNS record to Dropbox, but in the popup click on &lt;em&gt;“Advanced Options”&lt;/em&gt; and select the second option: &lt;em&gt;“Forward with Masking”&lt;/em&gt;.&lt;/p&gt;
 
-&lt;p&gt;Lastly, if you have a large website, with many pages, you will find it difficult when you want to update the copyright of the page, for example. Because of the website being static, you would have to edit every single page of your website. Whereas with a dynamic website, you edit once (the &lt;code class=&quot;highlighter-rouge&quot;&gt;header.php&lt;/code&gt; for example) and you’re done.&lt;/p&gt;
+&lt;p&gt;Lastly, if you have a large website, with many pages, you will find it difficult when you want to update the copyright of the page, for example. Because of the website being static, you would have to edit every single page of your website. Whereas with a dynamic website, you edit once (the &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;header.php&lt;/code&gt; for example) and you’re done.&lt;/p&gt;
 
 &lt;h2 id=&quot;specifics-of-github&quot;&gt;Specifics of GitHub&lt;/h2&gt;
 
 &lt;p&gt;Searching for solutions to this issue I came across GitHub. On GitHub, you can host static websites with the option of adding your custom domain name (hence custom URLs) as well. There are two ways to do this:&lt;/p&gt;
 
-&lt;p&gt;1) You &lt;a href=&quot;http://help.github.com/create-a-repo/&quot;&gt;create a repository&lt;/a&gt; with your username and add &lt;code class=&quot;highlighter-rouge&quot;&gt;.github.com&lt;/code&gt; at the end of the name. For example, if your username is &lt;em&gt;“sican”&lt;/em&gt; you create a repo:&lt;/p&gt;
+&lt;p&gt;1) You &lt;a href=&quot;http://help.github.com/create-a-repo/&quot;&gt;create a repository&lt;/a&gt; with your username and add &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;.github.com&lt;/code&gt; at the end of the name. For example, if your username is &lt;em&gt;“sican”&lt;/em&gt; you create a repo:&lt;/p&gt;
 
-&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;sican.github.com
+&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;sican.github.com
 &lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
 
-&lt;p&gt;2) or within an existing repo, you &lt;a href=&quot;http://learn.github.com/p/branching.html&quot;&gt;create a new branch&lt;/a&gt; called &lt;code class=&quot;highlighter-rouge&quot;&gt;gh-pages&lt;/code&gt; and push the HTML files of your website in there.&lt;/p&gt;
+&lt;p&gt;2) or within an existing repo, you &lt;a href=&quot;http://learn.github.com/p/branching.html&quot;&gt;create a new branch&lt;/a&gt; called &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;gh-pages&lt;/code&gt; and push the HTML files of your website in there.&lt;/p&gt;
 
-&lt;p&gt;To enable &lt;strong&gt;custom domain names&lt;/strong&gt;, you just have to create a file named &lt;code class=&quot;highlighter-rouge&quot;&gt;CNAME&lt;/code&gt;, in the root of the repo or branch, open the file with a text editor and add your domain name inside:&lt;/p&gt;
+&lt;p&gt;To enable &lt;strong&gt;custom domain names&lt;/strong&gt;, you just have to create a file named &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;CNAME&lt;/code&gt;, in the root of the repo or branch, open the file with a text editor and add your domain name inside:&lt;/p&gt;
 
-&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;alexcican.com
+&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;alexcican.com
 &lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
 
-&lt;p&gt;GitHub pages also supports &lt;strong&gt;custom error pages&lt;/strong&gt;. Simply push a &lt;code class=&quot;highlighter-rouge&quot;&gt;404.html&lt;/code&gt; file with your message in the root of the repo or branch.&lt;/p&gt;
+&lt;p&gt;GitHub pages also supports &lt;strong&gt;custom error pages&lt;/strong&gt;. Simply push a &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;404.html&lt;/code&gt; file with your message in the root of the repo or branch.&lt;/p&gt;
 
 &lt;p&gt;Now it’s time to change the &lt;strong&gt;DNS settings&lt;/strong&gt; from GoDaddy to point to our GitHub page. Login to your account, launch the domains and click on the domain name you want to change. From that page (see screenshot above), go down and find the &lt;em&gt;“DNS Manager”&lt;/em&gt; section. Click on &lt;em&gt;“Launch”&lt;/em&gt;.&lt;/p&gt;
 
-&lt;p&gt;You have to decide what domain name you’ll be using. For a sub-domain like &lt;code class=&quot;highlighter-rouge&quot;&gt;http://www.alexcican.com&lt;/code&gt; or &lt;code class=&quot;highlighter-rouge&quot;&gt;http://blog.alexcican.com&lt;/code&gt; you would simply create a &lt;code class=&quot;highlighter-rouge&quot;&gt;CNAME&lt;/code&gt; record pointing to &lt;code class=&quot;highlighter-rouge&quot;&gt;charlie.github.com&lt;/code&gt;. If you are using a top-level domain like &lt;code class=&quot;highlighter-rouge&quot;&gt;https://alexcican.com&lt;/code&gt;, you must use an &lt;code class=&quot;highlighter-rouge&quot;&gt;A (Host)&lt;/code&gt; record pointing to &lt;code class=&quot;highlighter-rouge&quot;&gt;192.30.252.153&lt;/code&gt; and another one to &lt;code class=&quot;highlighter-rouge&quot;&gt;192.30.252.154&lt;/code&gt;. There’s no need to add a &lt;code class=&quot;highlighter-rouge&quot;&gt;CNAME&lt;/code&gt; record for top-level domains. &lt;a href=&quot;https://help.github.com/articles/tips-for-configuring-an-a-record-with-your-dns-provider/&quot;&gt;Read more in the documentation&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;You have to decide what domain name you’ll be using. For a sub-domain like &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;http://www.alexcican.com&lt;/code&gt; or &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;http://blog.alexcican.com&lt;/code&gt; you would simply create a &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;CNAME&lt;/code&gt; record pointing to &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;charlie.github.com&lt;/code&gt;. If you are using a top-level domain like &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;https://alexcican.com&lt;/code&gt;, you must use an &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;A (Host)&lt;/code&gt; record pointing to &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;192.30.252.153&lt;/code&gt; and another one to &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;192.30.252.154&lt;/code&gt;. There’s no need to add a &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;CNAME&lt;/code&gt; record for top-level domains. &lt;a href=&quot;https://help.github.com/articles/tips-for-configuring-an-a-record-with-your-dns-provider/&quot;&gt;Read more in the documentation&lt;/a&gt;.&lt;/p&gt;
 
 &lt;h2 id=&quot;downsides-of-github&quot;&gt;Downsides of GitHub&lt;/h2&gt;
 
@@ -1946,7 +1946,7 @@ Excerpt: A few months ago I cancelled my hosting accounts and moved all my [webs
   &lt;p&gt;&lt;em&gt;“FTP-ing is so 1999”&lt;/em&gt; – everyone&lt;/p&gt;
 &lt;/blockquote&gt;
 
-&lt;p&gt;Found an error on the website but you’re on the move without your laptop? Edit the page that’s hosted on Dropbox from your iPhone/iPad, save it and you’re done. If you’re on GitHub, &lt;code class=&quot;highlighter-rouge&quot;&gt;commit&lt;/code&gt; the changes and &lt;code class=&quot;highlighter-rouge&quot;&gt;push&lt;/code&gt; them to the repository. Job done!&lt;/p&gt;
+&lt;p&gt;Found an error on the website but you’re on the move without your laptop? Edit the page that’s hosted on Dropbox from your iPhone/iPad, save it and you’re done. If you’re on GitHub, &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;commit&lt;/code&gt; the changes and &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;push&lt;/code&gt; them to the repository. Job done!&lt;/p&gt;
 
 &lt;p&gt;&lt;em&gt;“Hold your horses, Johnny”&lt;/em&gt;. There’s a catch: a Git version control app for the iPhone/iPad &lt;strong&gt;doesn’t exist yet&lt;/strong&gt;, so you can’t update your repository on those devices. &lt;a href=&quot;http://www.textasticapp.com/&quot;&gt;Textastic&lt;/a&gt; has it planned but I don’t see it being completed any time soon.&lt;/p&gt;
 
@@ -1976,8 +1976,8 @@ Excerpt: A few months ago I cancelled my hosting accounts and moved all my [webs
         <item>
           <title>The lost art of Pricing and Negotiating</title>
           <pubDate>2012-04-15T00:00:00+03:00</pubDate>
-          <link>http://localhost:4000/post/pricing-negotiating/</link>
-          <guid>http://localhost:4000/post/pricing-negotiating/</guid>
+          <link>https://alexcican.com/post/pricing-negotiating/</link>
+          <guid>https://alexcican.com/post/pricing-negotiating/</guid>
           <description>&lt;p&gt;&lt;em&gt;&lt;strong&gt;Disclaimer:&lt;/strong&gt; I am in no position to offer you financial advice. I am not a financial advisor. What I want to do, is share my personal experiences on freelancing for a living. This blog is tailored to suit freelancers, so if you’re in a different situation—applying for a full time job, for example—the techniques implemented should be different. That being said, it doesn’t mean that you can’t take away something from this article: useful techniques to tip the scale in your favour.&lt;/em&gt;
 &lt;!--more--&gt;&lt;/p&gt;
 
@@ -2176,8 +2176,8 @@ What usually goes through the mind of the designer/developer: “Oh oh, Here com
         <item>
           <title>iPad battery saving tips</title>
           <pubDate>2012-04-03T00:00:00+03:00</pubDate>
-          <link>http://localhost:4000/post/ipad-battery-tips/</link>
-          <guid>http://localhost:4000/post/ipad-battery-tips/</guid>
+          <link>https://alexcican.com/post/ipad-battery-tips/</link>
+          <guid>https://alexcican.com/post/ipad-battery-tips/</guid>
           <description>&lt;p&gt;In December 2011, I purchased the iPad 2 and integrated it deeply into my workflow. Since then I’ve saved energy by not turning on my main PC for most of my tasks, improved my posture—not sitting on the same chair for hours—thus reducing my chronic back pain, made my experience (browsing, reading, writing, watching) more interactive and fun, and I’ve spent less time on the Internet. A thing that I’ve been obsessing over is battery life. I want to discuss about the battery more.
 &lt;!--more--&gt;&lt;/p&gt;
 
@@ -2257,8 +2257,8 @@ What usually goes through the mind of the designer/developer: “Oh oh, Here com
         <item>
           <title>Different content or CSS depending on iOS version</title>
           <pubDate>2012-03-20T00:00:00+02:00</pubDate>
-          <link>http://localhost:4000/post/different-content-css-ios-version/</link>
-          <guid>http://localhost:4000/post/different-content-css-ios-version/</guid>
+          <link>https://alexcican.com/post/different-content-css-ios-version/</link>
+          <guid>https://alexcican.com/post/different-content-css-ios-version/</guid>
           <description>&lt;p&gt;&lt;del&gt;I’m currently caught in the process of developing my first web application&lt;/del&gt; It’s finished: &lt;a href=&quot;http://timewasted.co.uk&quot;&gt;TimeWasted&lt;/a&gt;. I’m optimising it to work and look great on the iPhone and iPad. Testing the app was done on my iPhone 3G running iOS 4.2 — the last supported iOS for this device.
 &lt;!--more--&gt;&lt;/p&gt;
 
@@ -2268,9 +2268,9 @@ What usually goes through the mind of the designer/developer: “Oh oh, Here com
 
 &lt;p&gt;How a website is displayed depends largely on the browser—Firefox, Chrome, Safari, Opera, IE8, IE9. Although inconsistencies in the way a website is rendered is being reduced with every new version of a browser that comes out—for example IE8 vs IE9—it’s far from insignificant. So, every once-in-a-while during the development stage I check the website in other browsers and fix the inconsistencies—if possible.&lt;/p&gt;
 
-&lt;p&gt;Now, I have to add iOS (iOS 4 vs iOS 5) to that check. I won’t go into all the differences, but one of the biggest is that in iOS 4 you could not have fixed elements on the page and a scrolling div—you had to use JavaScript alternatives, like &lt;a href=&quot;http://cubiq.org/iscroll-4&quot;&gt;iScroll&lt;/a&gt;, to mimic the effect. This has been fixed with iOS 5: just add the following code and mobile rendering of that &lt;code class=&quot;highlighter-rouge&quot;&gt;div&lt;/code&gt; will be similar to a desktop browser:&lt;/p&gt;
+&lt;p&gt;Now, I have to add iOS (iOS 4 vs iOS 5) to that check. I won’t go into all the differences, but one of the biggest is that in iOS 4 you could not have fixed elements on the page and a scrolling div—you had to use JavaScript alternatives, like &lt;a href=&quot;http://cubiq.org/iscroll-4&quot;&gt;iScroll&lt;/a&gt;, to mimic the effect. This has been fixed with iOS 5: just add the following code and mobile rendering of that &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;div&lt;/code&gt; will be similar to a desktop browser:&lt;/p&gt;
 
-&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;-webkit-overflow-scrolling: touch;
+&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;-webkit-overflow-scrolling: touch;
 &lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
 
 &lt;h2 id=&quot;older-versions-of-ios&quot;&gt;Older versions of iOS&lt;/h2&gt;
@@ -2281,11 +2281,11 @@ What usually goes through the mind of the designer/developer: “Oh oh, Here com
 
 &lt;p&gt;Nonetheless, in order to check for what iOS a user has, use the code below. I have setup my HTML/CSS to cater for iOS 4 and I make any required changes for iOS 5, using JavaScript. The code below will check if the user is using iOS 5 and will change the CSS property bottom to a value of 0 for the footer of the page. Note that the value is in pixels. Moreover, it will append to the body of the page some text or HTML element.&lt;/p&gt;
 
-&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;var iOS5 = navigator.userAgent.match(/OS 5_/i) != null;
+&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;var iOS5 = navigator.userAgent.match(/OS 5_/i) != null;
 
 if (iOS5) {
-	$(&quot;footer&quot;).css('bottom','0');
-	$(&quot;body&quot;).append('&amp;lt;h3&amp;gt;This is for iOS5&amp;lt;/h3&amp;gt;');
+	$(&quot;footer&quot;).css(&apos;bottom&apos;,&apos;0&apos;);
+	$(&quot;body&quot;).append(&apos;&amp;lt;h3&amp;gt;This is for iOS5&amp;lt;/h3&amp;gt;&apos;);
 }
 &lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
 
@@ -2293,10 +2293,10 @@ if (iOS5) {
 
 &lt;p&gt;That’s it basically! There are many uses for this script. One idea would be to only load certain scripts—for example iScroll—in order for the website to work great in older versions of iOS, if the user is on iOS 4 or below. That will save the user that’s browsing using iOS 5 some precious bandwidth. Other uses not related to iOS would be to cater for different browsers. For example if in Firefox the web font looks great, but in Chrome it needs some extra letter-spacing. Use the code below:&lt;/p&gt;
 
-&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;var chrome = navigator.userAgent.match(/Chrome/i) != null;
+&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;var chrome = navigator.userAgent.match(/Chrome/i) != null;
 
 if (chrome) {
-	$(&quot;body&quot;).css('letter-spacing','0.5');
+	$(&quot;body&quot;).css(&apos;letter-spacing&apos;,&apos;0.5&apos;);
 }
 &lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
 
@@ -2309,8 +2309,8 @@ if (chrome) {
         <item>
           <title>Ignore Details Early On</title>
           <pubDate>2012-03-15T00:00:00+02:00</pubDate>
-          <link>http://localhost:4000/post/ignore-details-early/</link>
-          <guid>http://localhost:4000/post/ignore-details-early/</guid>
+          <link>https://alexcican.com/post/ignore-details-early/</link>
+          <guid>https://alexcican.com/post/ignore-details-early/</guid>
           <description>&lt;p&gt;I was re-reading &lt;a href=&quot;http://gettingreal.37signals.com/&quot;&gt;“Getting Real”&lt;/a&gt; from 37 Signals and stumbled across a very important chapter, that resonated with me. Now that I think of it, that’s also one of the reasons why I &lt;a href=&quot;https://twitter.com/#!/sican/status/170287755891449856&quot;&gt;fired my first client&lt;/a&gt; (yes, I do that as well!). I share a small excerpt below, check it out.&lt;/p&gt;
 
 &lt;!--more--&gt;
@@ -2348,8 +2348,8 @@ $39/month vs. $49/month&lt;/p&gt;
         <item>
           <title>How to set cookies with JavaScript</title>
           <pubDate>2012-03-03T00:00:00+02:00</pubDate>
-          <link>http://localhost:4000/post/set-cookies-javascript/</link>
-          <guid>http://localhost:4000/post/set-cookies-javascript/</guid>
+          <link>https://alexcican.com/post/set-cookies-javascript/</link>
+          <guid>https://alexcican.com/post/set-cookies-javascript/</guid>
           <description>&lt;p&gt;Cookies are an important part of modern browsers. Without them, we couldn’t browse websites that require authentication, such as social networks since we’d be asked for our password on every page we’d browse. We wouldn’t be able to write a simple e-mail, or purchase stuff online. Website usage would be limited to browsing only static websites. In this tutorial we’ll focus only on creating and editing cookies using jQuery.&lt;/p&gt;
 
 &lt;!--more--&gt;
@@ -2360,9 +2360,9 @@ $39/month vs. $49/month&lt;/p&gt;
 
 &lt;h2 id=&quot;step-1---html-first&quot;&gt;Step 1 - HTML first&lt;/h2&gt;
 
-&lt;p&gt;Based on the example above, we create a &lt;code class=&quot;highlighter-rouge&quot;&gt;DIV&lt;/code&gt; and inside it we add two messages. One that will be displayed only once, when the page is loaded, and the other will be displayed after the first one was shown. Whether to show the first or second message is the job of CSS:&lt;/p&gt;
+&lt;p&gt;Based on the example above, we create a &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;DIV&lt;/code&gt; and inside it we add two messages. One that will be displayed only once, when the page is loaded, and the other will be displayed after the first one was shown. Whether to show the first or second message is the job of CSS:&lt;/p&gt;
 
-&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&amp;lt;div class=&quot;message  change-message--on-load  hide--second&quot;&amp;gt;
+&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&amp;lt;div class=&quot;message  change-message--on-load  hide--second&quot;&amp;gt;
   &amp;lt;p&amp;gt;This message is displayed only the first time you visit this page. Refresh your page to hide it!&amp;lt;/p&amp;gt;
   &amp;lt;p&amp;gt;This is shown only after the previous message was shown in the last visit. Even when you refresh the page, the browser remembers your option.&amp;lt;/p&amp;gt;
 &amp;lt;/div&amp;gt;
@@ -2370,9 +2370,9 @@ $39/month vs. $49/month&lt;/p&gt;
 
 &lt;h2 id=&quot;step-2---css&quot;&gt;Step 2 - CSS&lt;/h2&gt;
 
-&lt;p&gt;With CSS we tell the browser to hide the first message if the div’s class is &lt;code class=&quot;highlighter-rouge&quot;&gt;.hide--first&lt;/code&gt; or hide the second message if the div’s class is &lt;code class=&quot;highlighter-rouge&quot;&gt;.hide--second&lt;/code&gt;:&lt;/p&gt;
+&lt;p&gt;With CSS we tell the browser to hide the first message if the div’s class is &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;.hide--first&lt;/code&gt; or hide the second message if the div’s class is &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;.hide--second&lt;/code&gt;:&lt;/p&gt;
 
-&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;.hide--first &amp;gt; *:first-child {
+&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;.hide--first &amp;gt; *:first-child {
   display: none;
 }
 .hide--second &amp;gt; *:last-child {
@@ -2382,61 +2382,61 @@ $39/month vs. $49/month&lt;/p&gt;
 
 &lt;h2 id=&quot;step-3---initialising&quot;&gt;Step 3 - Initialising&lt;/h2&gt;
 
-&lt;p&gt;For faster loading times, add your JavaScript to the bottom of the page, before closing the &lt;code class=&quot;highlighter-rouge&quot;&gt;&amp;lt;/body&amp;gt;&lt;/code&gt; tag. First, we need to call jQuery.&lt;/p&gt;
+&lt;p&gt;For faster loading times, add your JavaScript to the bottom of the page, before closing the &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;&amp;lt;/body&amp;gt;&lt;/code&gt; tag. First, we need to call jQuery.&lt;/p&gt;
 
-&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&amp;lt;script type=&quot;text/javascript&quot; src=&quot;http://ajax.googleapis.com/ajax/libs/jquery/1.6.4/jquery.min.js&quot;&amp;gt;&amp;lt;/script&amp;gt;
+&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&amp;lt;script type=&quot;text/javascript&quot; src=&quot;http://ajax.googleapis.com/ajax/libs/jquery/1.6.4/jquery.min.js&quot;&amp;gt;&amp;lt;/script&amp;gt;
 &lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
 
 &lt;p&gt;Next we call the cookie script. Make sure you add the correct URL pointing to the script.&lt;/p&gt;
 
-&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&amp;lt;script type=&quot;text/javascript&quot; src=&quot;cookie.js&quot;&amp;gt;&amp;lt;/script&amp;gt;
+&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&amp;lt;script type=&quot;text/javascript&quot; src=&quot;cookie.js&quot;&amp;gt;&amp;lt;/script&amp;gt;
 &lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
 
 &lt;p&gt;Below it, we add an empty script tag and we can start coding:&lt;/p&gt;
 
-&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&amp;lt;script type=&quot;text/JavaScript&quot;&amp;gt;
+&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&amp;lt;script type=&quot;text/JavaScript&quot;&amp;gt;
 &amp;lt;/script&amp;gt;
 &lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
 
 &lt;h2 id=&quot;step-4---javascript&quot;&gt;Step 4 - JavaScript&lt;/h2&gt;
 
-&lt;p&gt;First we add the cookie code. There are two parts to this: one that checks if cookie exists, and the other part is the one that adds the cookie. First, we will check for the cookie (I’ll explain why later). If the cookie is true, hide the initial message and show the other one (with CSS) by changing the class of the &lt;code class=&quot;highlighter-rouge&quot;&gt;&amp;lt;div&amp;gt;&lt;/code&gt;:&lt;/p&gt;
+&lt;p&gt;First we add the cookie code. There are two parts to this: one that checks if cookie exists, and the other part is the one that adds the cookie. First, we will check for the cookie (I’ll explain why later). If the cookie is true, hide the initial message and show the other one (with CSS) by changing the class of the &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;&amp;lt;div&amp;gt;&lt;/code&gt;:&lt;/p&gt;
 
-&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;	if ($.cookie('hide-after-load') == 'yes') {
-	  $('.change-message--on-load').removeClass('hide--second');
-	  $('.change-message--on-load').addClass('hide--first');
+&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;	if ($.cookie(&apos;hide-after-load&apos;) == &apos;yes&apos;) {
+	  $(&apos;.change-message--on-load&apos;).removeClass(&apos;hide--second&apos;);
+	  $(&apos;.change-message--on-load&apos;).addClass(&apos;hide--first&apos;);
 	}
 &lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
 
 &lt;p&gt;Before we close the script tag, we have to add the cookie that will hide the first message. We add it to the end, because if we were to add it before the code that checks (see above) the cookie, it would hide the first message from the start. Adding it at the end ensures that the message will be hidden the next time the page is loaded. It’s set to expire in 7 days.&lt;/p&gt;
 
-&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;	$.cookie('hide-after-load', 'yes', {expires: 7 });
+&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;	$.cookie(&apos;hide-after-load&apos;, &apos;yes&apos;, {expires: 7 });
 &lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
 
 &lt;p&gt;The complete code for the first example:&lt;/p&gt;
 
-&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&amp;lt;script type=&quot;text/JavaScript&quot;&amp;gt;
+&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&amp;lt;script type=&quot;text/JavaScript&quot;&amp;gt;
 	$(document).ready(function() {
-		if ($.cookie('hide-after-load') == 'yes') {
-		  $('.change-message--on-load').removeClass('hide--second');
-		  $('.change-message--on-load').addClass('hide--first');
+		if ($.cookie(&apos;hide-after-load&apos;) == &apos;yes&apos;) {
+		  $(&apos;.change-message--on-load&apos;).removeClass(&apos;hide--second&apos;);
+		  $(&apos;.change-message--on-load&apos;).addClass(&apos;hide--first&apos;);
 		}
 
-		$.cookie('hide-after-load', 'yes', {expires: 7 });
+		$.cookie(&apos;hide-after-load&apos;, &apos;yes&apos;, {expires: 7 });
 	});
 &amp;lt;/script&amp;gt;
 &lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
 
 &lt;h2 id=&quot;step-5---add-cookie-on-click&quot;&gt;Step 5 - Add cookie on click&lt;/h2&gt;
 
-&lt;p&gt;In the demo page, you saw that the second container would hide the first message and show the other one, only after you clicked on the “×” icon. First we need to add an empty &lt;code class=&quot;highlighter-rouge&quot;&gt;href&lt;/code&gt; tag for the icon to our HTML:&lt;/p&gt;
+&lt;p&gt;In the demo page, you saw that the second container would hide the first message and show the other one, only after you clicked on the “×” icon. First we need to add an empty &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;href&lt;/code&gt; tag for the icon to our HTML:&lt;/p&gt;
 
-&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&amp;lt;p&amp;gt;You can only hide this message, by clicking the &amp;amp;times; on the right of this box &amp;lt;a href=&quot;#&quot; class=&quot;close&quot; title=&quot;Hide This Message&quot;&amp;gt;&amp;amp;times;&amp;lt;/a&amp;gt;&amp;lt;/p&amp;gt;
+&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&amp;lt;p&amp;gt;You can only hide this message, by clicking the &amp;amp;times; on the right of this box &amp;lt;a href=&quot;#&quot; class=&quot;close&quot; title=&quot;Hide This Message&quot;&amp;gt;&amp;amp;times;&amp;lt;/a&amp;gt;&amp;lt;/p&amp;gt;
 &lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
 
 &lt;p&gt;To position the “×” icon to the top-right of the container, we use the absolute inside relative container trick in the CSS:&lt;/p&gt;
 
-&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;.message {
+&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;.message {
 	position: relative
 }
 
@@ -2452,67 +2452,67 @@ $39/month vs. $49/month&lt;/p&gt;
 }
 &lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
 
-&lt;p&gt;Inside the JavaScript tag, we add the code to do something once the icon is clicked. In this case, return nothing so that the URL is not populated with the empty &lt;code class=&quot;highlighter-rouge&quot;&gt;href&lt;/code&gt; hash (#) symbol:&lt;/p&gt;
+&lt;p&gt;Inside the JavaScript tag, we add the code to do something once the icon is clicked. In this case, return nothing so that the URL is not populated with the empty &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;href&lt;/code&gt; hash (#) symbol:&lt;/p&gt;
 
-&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;$('.close').click(function() {
+&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;$(&apos;.close&apos;).click(function() {
   return false;
 })
 &lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
 
-&lt;p&gt;Once the user has clicked on the icon, we need to check whether the parent container of the icon is displaying the first message or the second. If it displays the first message, hide it by changing its class. Finally, we also add a cookie with the variable &lt;code class=&quot;highlighter-rouge&quot;&gt;yes&lt;/code&gt; so that this option is remembered next time.&lt;/p&gt;
+&lt;p&gt;Once the user has clicked on the icon, we need to check whether the parent container of the icon is displaying the first message or the second. If it displays the first message, hide it by changing its class. Finally, we also add a cookie with the variable &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;yes&lt;/code&gt; so that this option is remembered next time.&lt;/p&gt;
 
-&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;if (!$('.change-message--on-click').is('hide--first')) {
-  $('.change-message--on-click').removeClass('hide--second');
-  $('.change-message--on-click').addClass('hide--first');
+&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;if (!$(&apos;.change-message--on-click&apos;).is(&apos;hide--first&apos;)) {
+  $(&apos;.change-message--on-click&apos;).removeClass(&apos;hide--second&apos;);
+  $(&apos;.change-message--on-click&apos;).addClass(&apos;hide--first&apos;);
 
   // add cookie setting that user has clicked
-  $.cookie('hide-after-click', 'yes', {expires: 7 });
+  $.cookie(&apos;hide-after-click&apos;, &apos;yes&apos;, {expires: 7 });
 }
 &lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
 
 &lt;p&gt;The complete script when clicking the icon looks like this:&lt;/p&gt;
 
-&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;  $('.close').click(function() {
-    if (!$('.change-message--on-click').is('hide--first')) {
-      $('.change-message--on-click').removeClass('hide--second');
-      $('.change-message--on-click').addClass('hide--first');
+&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;  $(&apos;.close&apos;).click(function() {
+    if (!$(&apos;.change-message--on-click&apos;).is(&apos;hide--first&apos;)) {
+      $(&apos;.change-message--on-click&apos;).removeClass(&apos;hide--second&apos;);
+      $(&apos;.change-message--on-click&apos;).addClass(&apos;hide--first&apos;);
 
-      $.cookie('hide-after-click', 'yes', {expires: 7 });
+      $.cookie(&apos;hide-after-click&apos;, &apos;yes&apos;, {expires: 7 });
     }
     return false;
   })
 &lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
 
-&lt;p&gt;But wait, we are not done! We also need to check if the clicked cookie has the &lt;code class=&quot;highlighter-rouge&quot;&gt;yes&lt;/code&gt; variable attached to it. If it does, show the second message, and hide the first:&lt;/p&gt;
+&lt;p&gt;But wait, we are not done! We also need to check if the clicked cookie has the &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;yes&lt;/code&gt; variable attached to it. If it does, show the second message, and hide the first:&lt;/p&gt;
 
-&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;if ($.cookie('hide-after-click') == 'yes') {
-  $('.change-message--on-click').removeClass('hide--second');
-  $('.change-message--on-click').addClass('hide--first');
+&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;if ($.cookie(&apos;hide-after-click&apos;) == &apos;yes&apos;) {
+  $(&apos;.change-message--on-click&apos;).removeClass(&apos;hide--second&apos;);
+  $(&apos;.change-message--on-click&apos;).addClass(&apos;hide--first&apos;);
 }
 &lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
 
 &lt;p&gt;The complete code for the second example:&lt;/p&gt;
 
-&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&amp;lt;script type=&quot;text/JavaScript&quot;&amp;gt;
+&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&amp;lt;script type=&quot;text/JavaScript&quot;&amp;gt;
   $(document).ready(function() {
     // COOKIES
     // if the cookie is true, hide the initial message and show the other one
-    if ($.cookie('hide-after-click') == 'yes') {
-      $('.change-message--on-click').removeClass('hide--second');
-      $('.change-message--on-click').addClass('hide--first');
+    if ($.cookie(&apos;hide-after-click&apos;) == &apos;yes&apos;) {
+      $(&apos;.change-message--on-click&apos;).removeClass(&apos;hide--second&apos;);
+      $(&apos;.change-message--on-click&apos;).addClass(&apos;hide--first&apos;);
     }
 
 
 
     // when clicked on “X” icon do something
-    $('.close').click(function() {
+    $(&apos;.close&apos;).click(function() {
       // check that “X” icon was not cliked before (hidden)
-      if (!$('.change-message--on-click').is('hide--first')) {
-        $('.change-message--on-click').removeClass('hide--second');
-        $('.change-message--on-click').addClass('hide--first');
+      if (!$(&apos;.change-message--on-click&apos;).is(&apos;hide--first&apos;)) {
+        $(&apos;.change-message--on-click&apos;).removeClass(&apos;hide--second&apos;);
+        $(&apos;.change-message--on-click&apos;).addClass(&apos;hide--first&apos;);
 
         // add cookie setting that user has clicked
-        $.cookie('hide-after-click', 'yes', {expires: 7 });
+        $.cookie(&apos;hide-after-click&apos;, &apos;yes&apos;, {expires: 7 });
       }
       return false;
     })
@@ -2533,24 +2533,24 @@ $39/month vs. $49/month&lt;/p&gt;
         <item>
           <title>Hide and show a div</title>
           <pubDate>2012-02-28T00:00:00+02:00</pubDate>
-          <link>http://localhost:4000/post/hide-and-show-div/</link>
-          <guid>http://localhost:4000/post/hide-and-show-div/</guid>
+          <link>https://alexcican.com/post/hide-and-show-div/</link>
+          <guid>https://alexcican.com/post/hide-and-show-div/</guid>
           <description>&lt;p&gt;Hiding and showing a div in HTML is really simple. In this tutorial I will show you how to do that using only CSS. I will also show you another version of hiding and showing divs using jQuery. Furthermore, we will take the necessary precautions if Javascript is disabled. Let’s dive in!
 &lt;!--more--&gt;&lt;/p&gt;
 
 &lt;h2 id=&quot;hide-and-show-a-div-with-css&quot;&gt;Hide and show a div with CSS&lt;/h2&gt;
 
-&lt;p&gt;The first method, involves using only CSS. We will use the CSS pseudo-class &lt;code class=&quot;highlighter-rouge&quot;&gt;:hover&lt;/code&gt;. The idea is that we want to hide the div once the user has moved their mouse over it, and display something else instead. This effect is commonly used when you have a subscribe button. It saves space, without compromising the necessary information for the user.&lt;/p&gt;
+&lt;p&gt;The first method, involves using only CSS. We will use the CSS pseudo-class &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;:hover&lt;/code&gt;. The idea is that we want to hide the div once the user has moved their mouse over it, and display something else instead. This effect is commonly used when you have a subscribe button. It saves space, without compromising the necessary information for the user.&lt;/p&gt;
 
 &lt;p&gt;&lt;a href=&quot;http://lab.alexcican.com/hide_show_div/&quot; class=&quot;button&quot; target=&quot;_blank&quot;&gt;View the Demo →&lt;/a&gt;&lt;/p&gt;
 
 &lt;h2 id=&quot;html-code&quot;&gt;HTML Code&lt;/h2&gt;
 
-&lt;p&gt;First we need to add the HTML. We create a div, &lt;code class=&quot;highlighter-rouge&quot;&gt;.subscribe&lt;/code&gt;; inside it we add another div and a form, which is hidden at first. Once the user moves their mouse over the &lt;code class=&quot;highlighter-rouge&quot;&gt;.subscribe&lt;/code&gt; div, the inside div is hidden and the form is displayed. The form was made to work with &lt;a href=&quot;http://feedburner.google.com/&quot;&gt;FeedBurner&lt;/a&gt;. You can replace the form with whatever you want. If you want the form to work for your account, replace &lt;code class=&quot;highlighter-rouge&quot;&gt;alexcican&lt;/code&gt; from the &lt;code class=&quot;highlighter-rouge&quot;&gt;…a/mailverify?uri='xxxxx'&lt;/code&gt; and &lt;code class=&quot;highlighter-rouge&quot;&gt;value='xxxxx'&lt;/code&gt; with your FeedBurner URI.&lt;/p&gt;
+&lt;p&gt;First we need to add the HTML. We create a div, &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;.subscribe&lt;/code&gt;; inside it we add another div and a form, which is hidden at first. Once the user moves their mouse over the &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;.subscribe&lt;/code&gt; div, the inside div is hidden and the form is displayed. The form was made to work with &lt;a href=&quot;http://feedburner.google.com/&quot;&gt;FeedBurner&lt;/a&gt;. You can replace the form with whatever you want. If you want the form to work for your account, replace &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;alexcican&lt;/code&gt; from the &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;…a/mailverify?uri=&apos;xxxxx&apos;&lt;/code&gt; and &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;value=&apos;xxxxx&apos;&lt;/code&gt; with your FeedBurner URI.&lt;/p&gt;
 
-&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&amp;lt;div class=&quot;subscribe&quot;&amp;gt;
+&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&amp;lt;div class=&quot;subscribe&quot;&amp;gt;
 	&amp;lt;div&amp;gt;Subscribe to this website&amp;lt;/div&amp;gt;
-	&amp;lt;form action=&quot;http://feedburner.google.com/fb/a/mailverify&quot; method=&quot;post&quot; target=&quot;popupwindow&quot; onsubmit=&quot;window.open('http://feedburner.google.com/fb/a/mailverify?uri=alexcican', 'popupwindow', 'scrollbars=yes,width=550,height=520');return true&quot; &amp;gt;
+	&amp;lt;form action=&quot;http://feedburner.google.com/fb/a/mailverify&quot; method=&quot;post&quot; target=&quot;popupwindow&quot; onsubmit=&quot;window.open(&apos;http://feedburner.google.com/fb/a/mailverify?uri=alexcican&apos;, &apos;popupwindow&apos;, &apos;scrollbars=yes,width=550,height=520&apos;);return true&quot; &amp;gt;
 		&amp;lt;p&amp;gt;
 			&amp;lt;input type=&quot;text&quot; class=&quot;email_field&quot; name=&quot;email&quot; size=&quot;18&quot; value=&quot;E-mail address&quot; /&amp;gt;
 			&amp;lt;input type=&quot;hidden&quot; value=&quot;alexcican&quot; name=&quot;uri&quot; /&amp;gt;
@@ -2563,9 +2563,9 @@ $39/month vs. $49/month&lt;/p&gt;
 
 &lt;h2 id=&quot;css-code&quot;&gt;CSS Code&lt;/h2&gt;
 
-&lt;p&gt;Next we have to add some CSS. By default, the elements that will be hidden are: a) the form and b) the inside div (once the .subscribe div is hovered). To affect something with CSS you add “ &amp;gt; ” at the end of the class, meaning you target the descendants of that class. For example: &lt;code class=&quot;highlighter-rouge&quot;&gt;.this_class&amp;gt;affects_this&lt;/code&gt;. The one class you are changing must be a child of the parent class (in the previous example &lt;code class=&quot;highlighter-rouge&quot;&gt;affects_this&lt;/code&gt; is the child of &lt;code class=&quot;highlighter-rouge&quot;&gt;.this_class&lt;/code&gt;). The second CSS statement, tells the browser to show the form once the &lt;code class=&quot;highlighter-rouge&quot;&gt;.subscribe&lt;/code&gt; div is hovered.&lt;/p&gt;
+&lt;p&gt;Next we have to add some CSS. By default, the elements that will be hidden are: a) the form and b) the inside div (once the .subscribe div is hovered). To affect something with CSS you add “ &amp;gt; ” at the end of the class, meaning you target the descendants of that class. For example: &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;.this_class&amp;gt;affects_this&lt;/code&gt;. The one class you are changing must be a child of the parent class (in the previous example &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;affects_this&lt;/code&gt; is the child of &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;.this_class&lt;/code&gt;). The second CSS statement, tells the browser to show the form once the &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;.subscribe&lt;/code&gt; div is hovered.&lt;/p&gt;
 
-&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;form, .subscribe:hover&amp;gt;div {
+&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;form, .subscribe:hover&amp;gt;div {
 	display: none;
 }
 
@@ -2586,7 +2586,7 @@ $39/month vs. $49/month&lt;/p&gt;
 
 &lt;p&gt;To get this to work, we will add two divs, one inside the other. The outer div will always be displayed, along with a title wrapped inside an h3 heading. The inner div will be hidden by default and once the outer div is clicked, the inner div will be shown. Feel free to alter the code to your needs. For example you can hide the divs completely once they are clicked, or you can add a button to hide them.&lt;/p&gt;
 
-&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&amp;lt;div class=&quot;text_container&quot;&amp;gt;
+&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&amp;lt;div class=&quot;text_container&quot;&amp;gt;
 	&amp;lt;h3&amp;gt;This is a third title...&amp;lt;/h3&amp;gt;
 	&amp;lt;div&amp;gt;&amp;lt;!--div that we want to hide--&amp;gt;
 		&amp;lt;p&amp;gt;Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam blandit, eros id adipiscing congue, lorem ante sagittis elit, id malesuada nibh est sed orci&amp;lt;/p&amp;gt;
@@ -2596,9 +2596,9 @@ $39/month vs. $49/month&lt;/p&gt;
 
 &lt;h2 id=&quot;css-code-1&quot;&gt;CSS Code&lt;/h2&gt;
 
-&lt;p&gt;In the CSS we will add two classes. One class, named &lt;code class=&quot;highlighter-rouge&quot;&gt;.hidden&lt;/code&gt;, will hide the element and the other named &lt;code class=&quot;highlighter-rouge&quot;&gt;.visible&lt;/code&gt; will display the element. Since we want to affect the div inside, we will be adding &lt;code class=&quot;highlighter-rouge&quot;&gt;&amp;gt;div&lt;/code&gt; to the class. You can change it to whatever you want, for example &lt;code class=&quot;highlighter-rouge&quot;&gt;&amp;gt;span&lt;/code&gt;. This will affect the span element inside the outer div.&lt;/p&gt;
+&lt;p&gt;In the CSS we will add two classes. One class, named &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;.hidden&lt;/code&gt;, will hide the element and the other named &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;.visible&lt;/code&gt; will display the element. Since we want to affect the div inside, we will be adding &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;&amp;gt;div&lt;/code&gt; to the class. You can change it to whatever you want, for example &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;&amp;gt;span&lt;/code&gt;. This will affect the span element inside the outer div.&lt;/p&gt;
 
-&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;.hidden&amp;gt;div {
+&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;.hidden&amp;gt;div {
 	display:none;
 }
 
@@ -2611,15 +2611,15 @@ $39/month vs. $49/month&lt;/p&gt;
 
 &lt;p&gt;Up until now, nothing happens. The divs are still visible and when you click on them, nothing happens. For a good reason; if the user has JavaScript disabled on their browser, they should still be able see and read the content of the divs. You should always use JavaScript as an enhancement and improve the browsing experience not degrade it.&lt;/p&gt;
 
-&lt;p&gt;Now, inside JavaScript we will hide the divs once the document has finished loading. This will be our default state. We hide the divs by adding a CSS class called hidden to the outer div called &lt;code class=&quot;highlighter-rouge&quot;&gt;.text_container&lt;/code&gt;. This will trigger CSS to hide the inner div.&lt;/p&gt;
+&lt;p&gt;Now, inside JavaScript we will hide the divs once the document has finished loading. This will be our default state. We hide the divs by adding a CSS class called hidden to the outer div called &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;.text_container&lt;/code&gt;. This will trigger CSS to hide the inner div.&lt;/p&gt;
 
 &lt;p&gt;Once the user has clicked the div we will check to see if the div has a class hidden then we remove it and add the class visible which will show the inner div. If it doesn’t have the hidden class then it means that the inner div is visible; add a class hidden to the outer div to hide the inner div. Don’t forget to call jQuery before adding the following script:&lt;/p&gt;
 
-&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&amp;lt;script type=&quot;text/javascript&quot;&amp;gt;
+&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&amp;lt;script type=&quot;text/javascript&quot;&amp;gt;
 	$(document).ready(function(){
-		$('.text_container').addClass(&quot;hidden&quot;);
+		$(&apos;.text_container&apos;).addClass(&quot;hidden&quot;);
 
-		$('.text_container').click(function() {
+		$(&apos;.text_container&apos;).click(function() {
 			var $this = $(this);
 
 			if ($this.hasClass(&quot;hidden&quot;)) {
@@ -2637,14 +2637,14 @@ $39/month vs. $49/month&lt;/p&gt;
 
 &lt;p&gt;See how simple it is to hide and show a div? As a farewell gift from me to you, I will share with you another JS code. Following the same pattern of this code you can manipulate CSS values from within JavaScript directly, without having the need to add a class.&lt;/p&gt;
 
-&lt;p&gt;You can alter many CSS values, for example the JS code below will hide the &lt;code class=&quot;highlighter-rouge&quot;&gt;.text_container&lt;/code&gt; element and change the font colour to red.&lt;/p&gt;
+&lt;p&gt;You can alter many CSS values, for example the JS code below will hide the &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;.text_container&lt;/code&gt; element and change the font colour to red.&lt;/p&gt;
 
-&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&amp;lt;script type=&quot;text/javascript&quot;&amp;gt;
+&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&amp;lt;script type=&quot;text/javascript&quot;&amp;gt;
 	$(document).ready(function(){
-		$('.text_container').click(function() {
-			$('.text_container').css(&quot;display&quot;, &quot;none&quot;);
+		$(&apos;.text_container&apos;).click(function() {
+			$(&apos;.text_container&apos;).css(&quot;display&quot;, &quot;none&quot;);
 
-			$('.text_container').css(&quot;color&quot;, &quot;red&quot;);
+			$(&apos;.text_container&apos;).css(&quot;color&quot;, &quot;red&quot;);
 		});
 	});
 &amp;lt;/script&amp;gt;
@@ -2659,8 +2659,8 @@ $39/month vs. $49/month&lt;/p&gt;
         <item>
           <title>Top 5 reasons why you shouldn’t start creating websites</title>
           <pubDate>2012-02-24T00:00:00+02:00</pubDate>
-          <link>http://localhost:4000/post/creating-websites/</link>
-          <guid>http://localhost:4000/post/creating-websites/</guid>
+          <link>https://alexcican.com/post/creating-websites/</link>
+          <guid>https://alexcican.com/post/creating-websites/</guid>
           <description>&lt;p&gt;The Internet is becoming mainstream, and business opportunities are growing fast. More than ever, I see ads claiming to show you how to make shitloads of money by working from home, via the Internet. One way is by working as a &lt;strong&gt;freelance website designer/developer&lt;/strong&gt;. I wrote this post in order to expose the risks of this industry and what I’ve learned from working in the field.
 &lt;!--more--&gt;&lt;/p&gt;
 
@@ -2735,26 +2735,26 @@ $39/month vs. $49/month&lt;/p&gt;
         <item>
           <title>How to remove .php, .html, .htm extensions with .htaccess</title>
           <pubDate>2012-02-19T00:00:00+02:00</pubDate>
-          <link>http://localhost:4000/post/how-to-remove-php-html-htm-extensions-with-htaccess/</link>
-          <guid>http://localhost:4000/post/how-to-remove-php-html-htm-extensions-with-htaccess/</guid>
-          <description>&lt;p&gt;I recently wanted to remove the extensions from my website, in order to make the URLs more user and search engine friendly. I stumbled across tutorials on how to remove the &lt;code class=&quot;highlighter-rouge&quot;&gt;.php&lt;/code&gt; extension from a PHP page. What about the &lt;code class=&quot;highlighter-rouge&quot;&gt;.html&lt;/code&gt;? I wanted to remove those as well! In this tutorial I’ll show you how to do that easily, by editing the &lt;code class=&quot;highlighter-rouge&quot;&gt;.htaccess&lt;/code&gt; file.
+          <link>https://alexcican.com/post/how-to-remove-php-html-htm-extensions-with-htaccess/</link>
+          <guid>https://alexcican.com/post/how-to-remove-php-html-htm-extensions-with-htaccess/</guid>
+          <description>&lt;p&gt;I recently wanted to remove the extensions from my website, in order to make the URLs more user and search engine friendly. I stumbled across tutorials on how to remove the &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;.php&lt;/code&gt; extension from a PHP page. What about the &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;.html&lt;/code&gt;? I wanted to remove those as well! In this tutorial I’ll show you how to do that easily, by editing the &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;.htaccess&lt;/code&gt; file.
 &lt;!--more--&gt;&lt;/p&gt;
 
 &lt;h2 id=&quot;what-is-an-htaccess-file&quot;&gt;What is an .htaccess file&lt;/h2&gt;
 
-&lt;p&gt;An &lt;code class=&quot;highlighter-rouge&quot;&gt;.htaccess&lt;/code&gt; file is a simple ASCII file that you create with a text editor like &lt;em&gt;Notepad&lt;/em&gt; or &lt;em&gt;TextEdit&lt;/em&gt;. The file lets the server know what configuration changes to make on a per-directory basis.&lt;/p&gt;
+&lt;p&gt;An &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;.htaccess&lt;/code&gt; file is a simple ASCII file that you create with a text editor like &lt;em&gt;Notepad&lt;/em&gt; or &lt;em&gt;TextEdit&lt;/em&gt;. The file lets the server know what configuration changes to make on a per-directory basis.&lt;/p&gt;
 
 &lt;blockquote&gt;
-  &lt;p&gt;Please note that &lt;code class=&quot;highlighter-rouge&quot;&gt;.htaccess&lt;/code&gt; is the full name of the file. It isn’t &lt;code class=&quot;highlighter-rouge&quot;&gt;file.htaccess&lt;/code&gt;, it’s simply &lt;code class=&quot;highlighter-rouge&quot;&gt;.htaccess&lt;/code&gt;.&lt;/p&gt;
+  &lt;p&gt;Please note that &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;.htaccess&lt;/code&gt; is the full name of the file. It isn’t &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;file.htaccess&lt;/code&gt;, it’s simply &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;.htaccess&lt;/code&gt;.&lt;/p&gt;
 &lt;/blockquote&gt;
 
-&lt;p&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;.htaccess&lt;/code&gt; files affect the directory in which they are placed in and all children (sub-directories). For example if there is one &lt;code class=&quot;highlighter-rouge&quot;&gt;.htaccess&lt;/code&gt; file located in your root directory of &lt;code class=&quot;highlighter-rouge&quot;&gt;yoursite.com&lt;/code&gt;, it would affect &lt;code class=&quot;highlighter-rouge&quot;&gt;yoursite.com/content/&lt;/code&gt;, &lt;code class=&quot;highlighter-rouge&quot;&gt;yoursite.com/content/images/&lt;/code&gt;, and so on…&lt;/p&gt;
+&lt;p&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;.htaccess&lt;/code&gt; files affect the directory in which they are placed in and all children (sub-directories). For example if there is one &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;.htaccess&lt;/code&gt; file located in your root directory of &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;yoursite.com&lt;/code&gt;, it would affect &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;yoursite.com/content/&lt;/code&gt;, &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;yoursite.com/content/images/&lt;/code&gt;, and so on…&lt;/p&gt;
 
-&lt;p&gt;It is important to remember that this can be bypassed. If you don’t want certain &lt;code class=&quot;highlighter-rouge&quot;&gt;.htaccess&lt;/code&gt; commands to affect a specific directory, place a new &lt;code class=&quot;highlighter-rouge&quot;&gt;.htaccess&lt;/code&gt; file within the directory you don’t want to be affected with the changes, and remove the specific command(s) from the new file.&lt;/p&gt;
+&lt;p&gt;It is important to remember that this can be bypassed. If you don’t want certain &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;.htaccess&lt;/code&gt; commands to affect a specific directory, place a new &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;.htaccess&lt;/code&gt; file within the directory you don’t want to be affected with the changes, and remove the specific command(s) from the new file.&lt;/p&gt;
 
 &lt;h2 id=&quot;features&quot;&gt;Features&lt;/h2&gt;
 
-&lt;p&gt;With an &lt;code class=&quot;highlighter-rouge&quot;&gt;.htaccess&lt;/code&gt; file you can:&lt;/p&gt;
+&lt;p&gt;With an &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;.htaccess&lt;/code&gt; file you can:&lt;/p&gt;
 
 &lt;ul&gt;
   &lt;li&gt;Redirect the user to different page&lt;/li&gt;
@@ -2769,32 +2769,32 @@ $39/month vs. $49/month&lt;/p&gt;
 
 &lt;h2 id=&quot;removing-extensions&quot;&gt;Removing Extensions&lt;/h2&gt;
 
-&lt;p&gt;To remove the &lt;code class=&quot;highlighter-rouge&quot;&gt;.php&lt;/code&gt; extension from a PHP file for example &lt;code class=&quot;highlighter-rouge&quot;&gt;yoursite.com/wallpaper.php&lt;/code&gt; to &lt;code class=&quot;highlighter-rouge&quot;&gt;yoursite.com/wallpaper&lt;/code&gt;
-you have to add the following code inside the &lt;code class=&quot;highlighter-rouge&quot;&gt;.htaccess&lt;/code&gt; file:&lt;/p&gt;
+&lt;p&gt;To remove the &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;.php&lt;/code&gt; extension from a PHP file for example &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;yoursite.com/wallpaper.php&lt;/code&gt; to &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;yoursite.com/wallpaper&lt;/code&gt;
+you have to add the following code inside the &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;.htaccess&lt;/code&gt; file:&lt;/p&gt;
 
-&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;RewriteEngine On
+&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;RewriteEngine On
 RewriteCond %{REQUEST_FILENAME} !-f
 RewriteRule ^([^\.]+)$ $1.php [NC,L]
 &lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
 
-&lt;p&gt;If you want to remove the &lt;code class=&quot;highlighter-rouge&quot;&gt;.html&lt;/code&gt; extension from a html file for example &lt;code class=&quot;highlighter-rouge&quot;&gt;yoursite.com/wallpaper.html&lt;/code&gt; to &lt;code class=&quot;highlighter-rouge&quot;&gt;yoursite.com/wallpaper&lt;/code&gt; you simply have to change the last line from the code above, to match the filename:&lt;/p&gt;
+&lt;p&gt;If you want to remove the &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;.html&lt;/code&gt; extension from a html file for example &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;yoursite.com/wallpaper.html&lt;/code&gt; to &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;yoursite.com/wallpaper&lt;/code&gt; you simply have to change the last line from the code above, to match the filename:&lt;/p&gt;
 
-&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;RewriteRule ^([^\.]+)$ $1.html [NC,L]
+&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;RewriteRule ^([^\.]+)$ $1.html [NC,L]
 &lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
 
 &lt;p&gt;That’s it! You can now link pages inside the HTML document without needing to add the extension of the page. For example:&lt;/p&gt;
 
-&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&amp;lt;a href=&quot;http://whatever.com/wallpaper&quot; title=&quot;wallpaper&quot;&amp;gt;wallpaper&amp;lt;/a&amp;gt;
+&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&amp;lt;a href=&quot;http://whatever.com/wallpaper&quot; title=&quot;wallpaper&quot;&amp;gt;wallpaper&amp;lt;/a&amp;gt;
 &lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
 
 &lt;h2 id=&quot;adding-a-trailing-slash-at-the-end&quot;&gt;Adding a trailing slash at the end&lt;/h2&gt;
 
 &lt;p&gt;I received many requests asking how to add a trailing slash at the end, for example:
-&lt;code class=&quot;highlighter-rouge&quot;&gt;yoursite.com/page/&lt;/code&gt;&lt;/p&gt;
+&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;yoursite.com/page/&lt;/code&gt;&lt;/p&gt;
 
 &lt;p&gt;Ignore the first snippet and insert the code below. The first four lines deal with the removal of the extension and the following, with the addition of the trailing slash and redirecting.&lt;/p&gt;
 
-&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;RewriteEngine On
+&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;RewriteEngine On
 RewriteCond %{REQUEST_FILENAME} !-f
 RewriteRule ^([^/]+)/$ $1.php
 RewriteRule ^([^/]+)/([^/]+)/$ /$1/$2.php
@@ -2806,25 +2806,25 @@ RewriteRule (.*)$ /$1/ [R=301,L]
 
 &lt;p&gt;Link to the HTML or PHP file the same way as shown above. Don’t forget to change the code if you want it applied to an HTML file instead of PHP.&lt;/p&gt;
 
-&lt;p&gt;Some people asked how you can remove the extension from both HTML and PHP files. I don’t have a solution for that. But, you could just change the extension of your HTML file from &lt;code class=&quot;highlighter-rouge&quot;&gt;.html&lt;/code&gt; or &lt;code class=&quot;highlighter-rouge&quot;&gt;.htm&lt;/code&gt; to &lt;code class=&quot;highlighter-rouge&quot;&gt;.php&lt;/code&gt; and add the code for removing the &lt;code class=&quot;highlighter-rouge&quot;&gt;.php&lt;/code&gt; extension.&lt;/p&gt;
+&lt;p&gt;Some people asked how you can remove the extension from both HTML and PHP files. I don’t have a solution for that. But, you could just change the extension of your HTML file from &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;.html&lt;/code&gt; or &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;.htm&lt;/code&gt; to &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;.php&lt;/code&gt; and add the code for removing the &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;.php&lt;/code&gt; extension.&lt;/p&gt;
 
 &lt;h2 id=&quot;conclusion&quot;&gt;Conclusion&lt;/h2&gt;
-&lt;p&gt;For those who are not so experienced with &lt;code class=&quot;highlighter-rouge&quot;&gt;.htaccess&lt;/code&gt; files there is an &lt;a href=&quot;http://www.htaccesseditor.com/&quot; rel=&quot;nofollow&quot;&gt;online tool&lt;/a&gt; for creating them. It’s useful for novice users to get started, and easy to use.&lt;/p&gt;
+&lt;p&gt;For those who are not so experienced with &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;.htaccess&lt;/code&gt; files there is an &lt;a href=&quot;http://www.htaccesseditor.com/&quot; rel=&quot;nofollow&quot;&gt;online tool&lt;/a&gt; for creating them. It’s useful for novice users to get started, and easy to use.&lt;/p&gt;
 
 &lt;h2 id=&quot;updates&quot;&gt;Updates&lt;/h2&gt;
 
-&lt;p&gt;Attention GoDaddy users: In order to remove the extensions you need to enable &lt;code class=&quot;highlighter-rouge&quot;&gt;MultiViews&lt;/code&gt; before. The code should look like this:&lt;/p&gt;
+&lt;p&gt;Attention GoDaddy users: In order to remove the extensions you need to enable &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;MultiViews&lt;/code&gt; before. The code should look like this:&lt;/p&gt;
 
-&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;Options +MultiViews
+&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;Options +MultiViews
 RewriteEngine On
 RewriteCond %{REQUEST_FILENAME} !-d
 RewriteCond %{REQUEST_FILENAME} !-f
 RewriteRule ^([^\.]+)$ $1.php [NC,L]
 &lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
 
-&lt;p&gt;If you’re worried that search engines might index these pages as duplicate content, add a &lt;code class=&quot;highlighter-rouge&quot;&gt;&amp;lt;canonical&amp;gt;&lt;/code&gt; meta tag in the &lt;code class=&quot;highlighter-rouge&quot;&gt;&amp;lt;head&amp;gt;&lt;/code&gt; of your HTML file:&lt;/p&gt;
+&lt;p&gt;If you’re worried that search engines might index these pages as duplicate content, add a &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;&amp;lt;canonical&amp;gt;&lt;/code&gt; meta tag in the &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;&amp;lt;head&amp;gt;&lt;/code&gt; of your HTML file:&lt;/p&gt;
 
-&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&amp;lt;link rel=&quot;canonical&quot; href=&quot;https://alexcican.com/post/single-post&quot; /&amp;gt;
+&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&amp;lt;link rel=&quot;canonical&quot; href=&quot;https://alexcican.com/post/single-post&quot; /&amp;gt;
 &lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
 </description>
         </item>
